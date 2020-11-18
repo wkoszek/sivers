@@ -1,0 +1,17 @@
+<h1>Wood Egg editor test</h1>
+
+<p>Hello <%= @person.firstname %>. Thank you for doing this. Here is an actual essay from the upcoming book. Click the question to see the essay and make any corrections. Click HELP, up top, for more info.</p>
+
+<% if @questions.count > 1 %>
+	<p><strong>NOTE:</strong> Since you expressed interest in more than one country, there's a question for each country.  Please do all, for this test.</p>
+<% end %>
+
+<% @questions.each do |q| %>
+	<hr>
+	<% if q[:finished] %>
+		<p><a href="/et/question/<%= q.id %>" class="btn-small btn-success">DONE:</a></p>
+	<% else %>
+		<p><a href="/et/question/<%= q.id %>" class="btn-small btn-danger">TO-DO:</a></p>
+	<% end %>
+	<h3><a href="/et/question/<%= q.id %>"><%=h q.question %></a></h3>
+<% end %>

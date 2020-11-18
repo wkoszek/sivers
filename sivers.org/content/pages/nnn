@@ -1,0 +1,139 @@
+<!-- Now Now Now -->
+
+<h1>Now Now Now</h1>
+
+<p>Tiny Android app (for me only) to track what I’m doing right now.</p>
+<p>Only one feature: Add timestamped statuses into the database.</p>
+<p>Example statuses: sleeping, eating, talking, working, emailing, watching, commuting, chores, exercising, studying</p>
+
+<h2>STATUS: Done and live on my phone. Maybe I'll publish it some day.</h2>
+
+<h3>Database schema</h3>
+
+<pre><code>
+CREATE TABLE statuses (
+  status varchar(24) primary key);
+
+CREATE TABLE actions (
+ started_at timestamp with time zone primary key,
+ status varchar(24),
+ details text);
+</code></pre>
+
+<h3>Main screen looks like this:</h3>
+
+<pre><code>
+-------------------------
+since 9:31am: WORKING
+(programming WoodEgg)
+NOW WHAT?
+chores
+commuting
+eating
+emailing
+exercising
+sleeping
+studying
+talking
+watching
+working
+-------------------------
+</code></pre>
+
+<p>Tap the one you are switching to, and it pops up a dialog box:</p>
+
+<pre><code>
+-------------------------
+ |12:15pm now EATING?|
+ |optional details:  |
+ [                   ]
+ [                   ]
+ [save]       [cancel]
+-------------------------
+</code></pre>
+
+<p>Saving goes back to main screen, now with new status.</p>
+
+<h3>List of actions, for editing:</h3>
+
+<pre><code>
+-------------------------
+2011-11-25 11:35:11 working
+(Interviewing Wood Egg prez)
+
+2011-11-25 10:22:51 working
+(Sequel modeling of Cyrano)
+		   73 minutes
+
+2011-11-25 09:55:01 emailing
+		   27 minutes
+
+2011-11-25 09:31:14 commuting
+		   24 minutes
+-------------------------
+</code></pre>
+
+<p>Can scroll back infinitely.</p>
+
+<p>Click the date/time/status to edit.</p>
+
+<p>Menu option to add new action</p>
+
+<h3>Edit action:</h3>
+
+<pre><code>
+-------------------------
+STARTED AT:
+2011-11-25 10:22:51
+
+STATUS:
+working
+
+DETAILS:
+Sequel modeling of Cyrano
+
+TIME SPENT:
+73 minutes
+-------------------------
+</code></pre>
+
+<p>All of those except “time spent” can be edited in-place, saving immediately.</p>
+
+<p>Menu option to “Delete This Action”</p>
+
+<h3>Menu option to add new action:</h3>
+
+<pre><code>
+-------------------------
+STARTED AT:
+2011-11-25 10:22:51
+
+STATUS:
+[select menu]
+
+DETAILS:
+[                       ]
+
+[save]           [cancel]
+-------------------------
+</code></pre>
+
+<p>Clicking [save] goes back to list of actions, maybe highlighting new one.</p>
+
+<h3>Settings:</h3>
+
+<pre><code>
+-------------------------
+Backup Preference:
+external SD, internal SD
+
+[Backup to other one now]
+-------------------------
+</code></pre>
+
+<p>Menu option to add new status.</p>
+
+<p>Menu option to list statuses, to edit.</p>
+
+<p>Edit status lets you change name, but can’t delete it if it’s been used already.</p>
+

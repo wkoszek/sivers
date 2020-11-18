@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to hire a programmer to make your ideas happen | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Do you have an idea for a website, online business, or application, but need a programmer to turn that idea into reality?">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/15-years">
+<link rel="next" href="https://sivers.org/gethired">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="How to hire a programmer to make your ideas happen | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/how2hire">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Do you have an idea for a website, online business, or application, but need a programmer to turn that idea into reality?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="How to hire a programmer to make your ideas happen | Derek Sivers">
+<meta name="twitter:description" content="Do you have an idea for a website, online business, or application, but need a programmer to turn that idea into reality?">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>How to hire a programmer to make your ideas happen</h1>
+<p class="postdate">2010-06-19</p>
+</header>
+
+<p>
+	Do you have an idea for a website, online business, or application, but need a programmer to turn that idea into reality?
+</p><p>
+	Many of my friends have been in the same position, so here’s my best advice, below.
+</p>
+<hr />
+<h2>
+	1. Reduce your big idea to “Version 1.0”.
+</h2>
+<p>
+	First read my short “<a href="/infinity">Version Infinity</a>” article.
+</p><p>
+	Dream the big dream of everything your site/service/company might be some day, and write it all down.
+</p><p>
+	But then think of the bare minimum that would make you happy, and people would find useful.
+	What are the three most essential features?
+	What is the most essential feature?
+</p><p>
+	Call this Version 1.0.
+	Save the rest for later.
+	No need to even tell people about the rest unless they’re really really interested.
+</p><p>
+	A programmer is much more likely to say, “I can do that!” to this simple version.
+</p><p>
+	Your goal here is just to get Version 1.0 built.
+	That, alone, will be a huge accomplishment.
+	Everything below is describing only Version 1.0.
+</p>
+<h2>
+	2. Write a simple overview of what it does.
+</h2>
+<p>
+	Again, remember: only describe Version 1.0.
+	Stop there.
+	The big version is written down somewhere else.
+</p><p>
+	Leave off all details that the programmer doesn’t need to know.
+</p><p>
+	For example: If you want to sell videos, you don’t need to say what’s in the videos.
+	Just “sell downloadable and streamable video files.”
+	If you want the site to translate ancient Arabic poetry to Spanish to increase global tolerance, just say, “Translate paragraphs from Arabic to Spanish.”
+</p><p>
+	Be succinct.
+	Programmers love that.
+</p><p>
+	Include people in a story, using the terms you use.
+</p><p>
+	For example: “A company creates an account, then creates a new project with a title and description. In the project, they upload multiple documents to be translated.  Each document has a from-language, to-language, and a name.  The system counts how many words are in each document.  When the company marks the project as ready, it is announced to the translators. The announcement shows how many documents, how many words, and a price.  The translator rejects or approves.  They log in to translate the documents, one at a time, marking each finished when done, which sends the file back to the company for review.”
+</p><p>
+	From this, the programmer will look for nouns and verbs, so start to think in those terms to help you communicate better.
+	A programmer would see: Company, Project, Document, Translation, Translator, etc.
+</p>
+<h2>
+	3. Write a detailed walk-through of every click.
+</h2>
+<p>
+	Close your eyes and imagine yourself using the site.
+</p><p>
+	Describe every thing you can click on the first page.
+</p><p>
+	What happens when you click it?
+	Exactly what did the system do?
+	What happens next?
+</p><p>
+	Start to think in IF-THEN branches.
+	For example:
+	“If it’s a new user, it takes them to this welcome page.”
+	“If they’ve been here before, it takes them to their account page.”
+	“If it asks for a number, but they type a word, send them back to the same page but with a message.”
+</p><p>
+	In a text file, write down every thing you know this Version 1.0 needs to do.
+	Every click.
+	Every action.
+	A long list of small simple things.
+</p><p>
+	Start to think of the exact wording of what you want it to say, but save that somewhere else.
+	Don’t clutter this list with wording.
+</p><p>
+	The goal is to keep this long list of actions very clear and simple, so that a programmer can see it, and see that each step is easy.
+	For them it should be like eating chips, not an elephant.
+</p>
+<h2>
+	4. Break it up into milestones.
+</h2>
+<p>
+	We tend to think of other people’s work as easier than it is.
+</p><p>
+	So break Version 1.0 up into many “milestone” steps.
+	Think of it as a day’s work.
+	(It might take more or less than a day.)
+</p><p>
+	Don’t expect it to look pretty at this stage.
+	Expect it incredibly ugly but functionally working.
+	Like building a house, the paint and decor goes last.
+</p><p>
+	For example:
+	In my translation site story, above, the first milestone might be just a plain ugly web page where a company can create an account, create a new project, then upload named documents into that project.
+	That’s it!
+	If that works, that’s a good start.
+</p><p>
+	Thinking of your project in milestones makes all the difference.
+	You’ll stop and communicate at each, making sure you’re happy before continuing.
+	Misunderstandings can’t run on too long.
+	You’ll estimate time and cost better.
+	And you’ll both feel a good sense of momentum.
+</p>
+<h2>
+	5. Make your first milestone a stand-alone project.
+</h2>
+<p>
+	To find a programmer you like, you need to take just the first milestone, and treat it as a complete project.
+</p><p>
+	Open a new text file, and copy just the parts of the story and walk-through that are included in the first milestone.
+</p><p>
+	If a feature doesn’t come until after the first milestone, remove it from this copy of the story.
+	Remove it from this copy of the walk-through.
+</p><p>
+	This text file should contain a start-to-finish project that sounds like a day’s work, and mentions nothing else.
+</p><p>
+	Now start to prepare it like a help-wanted ad.
+	Say, “We are hiring a developer to create only the beginning of an application.  If this milestone is completed well, there will be more work immediately.  The requirements are as follows....” 
+	Then paste just the story and walk-through for your first milestone.
+</p><p>
+	Because you don’t want them to just say, “I finished. Here’s the source code,” make sure you finish with something like, “For completion of this project, please have this up and running on a development webserver I can access to test its functionality as described.”
+</p><p>
+	Because posting this help-wanted ad will bombard you with dozens of offers that sound legitimate but have never read your ad, you should really do this step:
+	At the end of your post, write something like, “VERY IMPORTANT: To separate you from the spammers, please write I AM REAL as the first line of your bid.  We will delete all bids that do not start with this phrase, since most bidders never read the requirements.  Thank you for being one who does.”
+</p><p>
+	Get this all in a plain-text file, ready to paste.
+</p>
+<h2>
+	6. Post it online
+</h2>
+<p>
+	Go to the following sites to open an account at each:
+<a href="https://www.upwork.com/">upwork.com</a>, 
+<a href="http://www.guru.com/">guru.com</a>, 
+<a href="https://www.freelancer.com/">freelancer.com</a>
+</p><p>
+	Post this short project at each site.
+	Location of provider doesn’t matter - they can work from anywhere.
+	Don’t pay for a highlighted listing.
+	Pay by the hour.
+	Set the bidding time limit to 7 days.
+	Most bids will come in the first 3 days.
+</p><p>
+	You’ll get many offers, but if they don’t have your magic phrase at the top (“I AM REAL” or whatever), delete them.
+	This is very hard to do, since you’ll feel thrilled that so many people are offering to help, saying things like, “We have looked at your project and would be glad to complete it immediately,” but trust me and delete those.
+	If they didn’t read something marked as VERY IMPORTANT already, you don’t want to work with them.
+</p><p>
+	Only go for providers who have great reviews from many past customers.
+	This shows they are used to working this way through this site.
+	Decline bids from providers without many great reviews.
+</p><p>
+	Don’t aim for the lowest bid.
+	Use these sites to find someone that seems great and capable, even if they are twice as much as the lowest bid, they might work 10 times faster and better.
+</p><p>
+	Each of these sites has its quirks, so sorry I can’t recommend specifics for everyone.
+	But be considerate and nice, once they’ve mentioned your VERY IMPORTANT phrase to prove they really read your requirements.
+	That’s cold enough.
+	Once they’ve passed that test, be very responsive and friendly.
+</p>
+<h2>
+	7. Hire one from each.
+</h2>
+<p>
+	Here’s the real reason why you’re stopping at a simple milestone:
+	You’re going to hire at least two different people to do this first step, expecting that one will go bad, one will be so-so, and one will be great.
+</p><p>
+	Yes it means you’re paying multiple times for this first milestone, but it’s worth it to find a good one.
+</p><p>
+	I’ve found it easier to choose one provider from each site, so you can “award this project” to just one, and track their work there.
+	They don’t need to know there are others.
+</p><p>
+	Some will definitely go bad.
+	Just expect it and don’t let it upset you.
+	They’ll say something has come up, that they can’t start until next month, that it’s harder than they thought, or just disappear and never reply.
+	When this happens, just mark that person’s project as cancelled or complete, and say goodbye nicely.
+	Then carry on with the rest.
+</p><p>
+	Lastly, ask each one to send you a zip file of the entire source code after each completed milestone.
+	Even if you don’t know what to do with it yet, save it.
+	Unzip it and look through it in any text editor.
+	You might actually understand some of it.
+</p>
+<h2>
+	8. Continue with the one you like best.
+</h2>
+<p>
+	The goal of this project is to find just one programmer (or team) you really like.
+</p><p>
+	If you don’t, then just go back to re-post that first milestone again, but changing it based on any feedback you got.
+	Perhaps set a higher price or describe it better.
+</p><p>
+	Once you do, you can let them in on the whole project.
+	Send them your full “Version 1.0” story and walk-through.
+	Get them involved in the whole thing.
+	Hire them to make the next milestone happen, and the next and the next.
+</p><p>
+	They may ask you to continue working and paying through the website, to boost their reputation there, or they may want to just go direct.
+	Either way is fine.
+</p>
+
+<footer>
+© 2010 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/15-years" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/gethired" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

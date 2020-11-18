@@ -1,0 +1,22 @@
+<h1><%= @pagetitle %></h1>
+
+<% @essays.each do |e| %>
+	<div class="row">
+	<% q = @question_for_essays[e.id] %>
+	<div class="small-12 columns">
+	<h2><%= q.question %> <span class="small">(<a href="/question/<%= q.id %>">see q</a>)</span></h2>
+	<p>Edited at: <%= e.edited_at %> (<a href="/essay/<%= e.id %>">edit essay</a>)</p>
+	</div>
+
+	<div class="small-6 columns">
+	<h5>(Writer version:)</h5>
+	<%= Kramdown::Document.new(e.content).to_html %>
+	</div>
+	<div class="small-6 columns">
+	<h5>(Editor version:)</h5>
+	<%= Kramdown::Document.new(e.edited).to_html %>
+	</div>
+
+	</div>
+	<hr>
+<% end %>

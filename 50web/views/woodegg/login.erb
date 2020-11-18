@@ -1,0 +1,29 @@
+<section id="login">
+
+<h1>log in</h1>
+<p>(If you already registered and have logged in before.)</p>
+<form action="/login" method="post" name="login">
+	<input type="email" name="email" placeholder="email">
+	<input type="password" name="password" placeholder="password">
+	<input type="submit" value="log in">
+</form>
+<script>
+document.login.email.focus();
+</script>
+
+<h1>register</h1>
+<p>(If you bought a Wood Egg book, but have never logged in.)</p>
+<form action="/register" method="post" id="registerform">
+	<label for="r_name">Your Name:</label>
+	<input type="text" name="name" id="r_name" placeholder="name">
+	<label for="r_email">Your Email:</label>
+	<input type="email" name="email" id="r_email" placeholder="email">
+	<label for="r_password">Create a new password:</label>
+	<input type="password" name="password" id="r_password" placeholder="password">
+	<label for="r_proof">Proof of Wood Egg book purchase: (order number, receipt, anything)</label>
+	<input type="text" name="proof" id="r_proof" placeholder="proof">
+	<br>
+	<input type="submit" value="register">
+</form>
+
+</section>

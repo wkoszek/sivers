@@ -1,0 +1,12 @@
+<h1>Interviewee: <%=h @p.name %></h1>
+
+<form action="/interviewee/<%= @p.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="bio">interviewee bio:</label>
+	<textarea id="bio" name="bio"><%=h @bio %></textarea>
+	<input type="submit" name="submit" value="update">
+</form>
+
+<h4>Go to the person page for <%=h @p.name %> (<a href="<%= @person_url_ds %>">as derek</a>, <a href="<%= @person_url_we %>">as woodegg</a>)</h4>
+
+<p>If it doesn’t look like they should be a current (2013/2014) interviewee, please delete their <strong>woodegg-CC: interview</strong> userstat on their person page, then <a href="/interviewees">go back to the list of interviewees</a>.</p>
+

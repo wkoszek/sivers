@@ -1,0 +1,101 @@
+<h1>About this writing project</h1>
+<p>
+Please know that <strong>this is not a formal or corporate research project!</strong>
+</p><p>
+The audience for this research is just <strong>one person</strong> : the reader of <a href="http://woodegg.com/">a casual guide book</a>.
+</p><p>
+No board room.  No PowerPoint presentation.  No suits and no ties.
+</p><p>
+Just <strong>one person who is thinking of moving to a new country to start a new business.</strong>
+</p><p>
+So <strong>please write with that one person in mind.</strong>  Don't use very formal language.  <strong>Write like you would talk to a friend or colleague.</strong>
+</p>
+
+<h1>About this website</h1>
+<p>
+This is the system I made for you to write your essays to each of the research questions.
+</p><p>
+It stores your work in our database as you go, so I can see your progress and give feedback, instead of waiting until the end.
+</p>
+
+<h2>How to start</h2>
+<p>
+When you log in, you will first <a href="/write/">see the list of unanswered questions.</a>
+</p><p>
+<strong>Click on the question you want to answer.</strong>
+It will show you the question, its list of researcher answers, and ask if you’re ready to write it.
+</p><p>
+<strong>When you’re ready to answer, click [ready]</strong>, and it will go to your writing page.
+</p>
+
+<h2>Your Writing Page</h2>
+<p>
+The reason for this “READY?” step is <strong>once you click [ready] to start writing an essay, it will leave it open for you as an “unfinished” essay, until you write it and click [FINISH].</strong>
+</p><p>
+Below your writing box are the researchers’ answers and sometimes <strong>“tidbits” - bits of relevant information that you should consider as if research.</strong>
+</p><p>
+If you choose to write in a text editor, outside the web page, just paste your text into this form box, but please note that <strong>all text is just saved as plain text</strong>, using <a href="http://daringfireball.net/projects/markdown/basics">Markdown</a>.  The Markdown syntax will make the formatting, as seen on the right-hand side of the page.
+</p>
+
+<h2>SAVE while writing. FINISH when done.</h2>
+<p>
+While you are typing into the box, <strong>click [SAVE] at any time to save your work.</strong> Like saving a Word document, it won’t change the screen, it just makes sure that your answer is saved, so you don’t lose your work if you get interrupted.
+</p><p>
+Once you [SAVE], <strong>you can come back to it any time</strong> to continue it or change it.
+</p><p>
+But <strong>you need to click [FINISH] when done with each answer.  Please don’t wait until the end of the project!  Click [FINISH] each time you think you are finished with that one answer.</strong>
+</p><p>
+That will help me see your progress, and let me know I can look at your work, and give feedback.
+</p>
+
+<h2>Status : Unfinished / Finished</h2>
+<p>
+Notice at the top of the screen is a count of how many “UNFINISHED” (started, but not finished) essays you have - and how many finished essays you have.
+You can click those at any time to see your list of unfinished or finished questions.
+</p><p>
+<strong>You can always add more information to a finished question!</strong>  Just find it in the “Finished” list, click the question, and it will bring you back to the answer screen. But now it will have an [UPDATE] button instead of a [SAVE] button, to let you know you are updating something that is still considered finished.
+</p><p>
+<strong>You can keep updating finished answers any time</strong> until the project is all complete and paid.
+</p><p>
+I will go through your essays every day or two, and give feedback or suggestions.
+</p><p>
+Notice that once you answer a question, it’s not in the original list of questions anymore.  So you can use your <a href="/write/">login page</a> as a “TO-DO” list of questions you still need to answer.
+</p>
+
+<h2>Email us</h2>
+<p>
+If you have any questions at all, please email Karol at we@woodegg.com or Derek at derek@sivers.org
+</p><p>
+Thank you!
+</p><p>
+- Derek Sivers
+</p>
+
+<hr>
+<h1>Formatting:</h1>
+<div class="row">
+
+<div class="span6">
+<textarea id="mdraw" rows="120">
+<%=h @markdowntut %>
+</textarea>
+</div>
+
+<div id="mdprev" class="span6">
+</div>
+
+</div>
+
+<script>
+var converter = new Showdown.converter();
+function showPreview(text) {
+	document.getElementById('mdprev').innerHTML = converter.makeHtml(text);
+}
+document.getElementById('mdraw').addEventListener('keyup', function(e) {
+	showPreview(this.value);
+}, false);
+window.onload = function() {
+	showPreview(document.getElementById('mdraw').value);
+};
+</script>
+

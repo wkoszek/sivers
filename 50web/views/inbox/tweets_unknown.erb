@@ -1,0 +1,27 @@
+<section id="home">
+
+<% %w(new top).each do |type| %>
+	<h2><%= type %></h2>
+	<table>
+	<% @tweets[type].each do |t| %>
+	<tr>
+		<td><a href="https://twitter.com/<%= t[:handle] %>"><%= t[:handle] %></a></td>
+		<td>
+		<a href="/search?q=<%=h t[:name].gsub(' ', '+') %>">?</a>
+		<% t[:name].split(' ').each do |werd| %>
+			<a href="/search?q=<%=h werd %>"><%=h werd %></a>
+		<% end %>
+		</td>
+		<td>
+			<form action="/tweets_unknown" method="post">
+				<input type="hidden" name="handle" value="<%= t[:handle] %>">
+				<input type="text" name="person_id" size="5">
+				<input type="submit" value="set person id">
+			</form>
+		</td>
+	</tr>
+	<% end %>
+	</table>
+<% end %>
+
+</section>

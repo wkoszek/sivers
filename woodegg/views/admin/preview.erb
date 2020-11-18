@@ -1,0 +1,19 @@
+<h1><%= @pagetitle %></h1>
+
+<% @topicnest.each do |t| %>
+	<h1><%= t[0] %></h1>
+	<% t[1].each do |subtopic, questions| %>
+		<h1><%= subtopic %></h1>
+		<% questions.each do |q| %>
+			<h2><%= q.question %></h2>
+			<% e = q.essays[0] %>
+			<%= '<div><a href="/book/%d/preview#%d">#</a> | <a href="/essay/%d">edit</a> | <a href="/book/%d/essay/%d">tweak</a></div>' % [@book.id, e.id, e.id, @book.id, e.id] %>
+			<div class="essay" id="<%= e.id %>">
+				<%= Kramdown::Document.new(e.edited).to_html %>
+			</div>
+			<hr>
+		<% end %>
+		<hr>
+	<% end %>
+	<hr>
+<% end %>

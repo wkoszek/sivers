@@ -1,0 +1,9 @@
+<h1><%= @pagetitle %></h1>
+<dl>
+<% @essays.each do |e| %>
+	<% q = @question_for_essay[e.id] %>
+	<dt><a href="/question/<%= q.id %>"><%= q.question %></a></dt>
+	<dd><a href="/essay/<%= e.id %>"><%= e.content %></a></dd>
+<% end %>
+</dl>
+

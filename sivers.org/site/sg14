@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Understanding Singapore | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: This is the first chapter of my new Singapore 2014 book.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/id14">
+<link rel="next" href="https://sivers.org/vn14">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Understanding Singapore | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/sg14">
+<meta property="og:image" content="https://woodegg.com/images/we14/we14cover-SG-200.jpg">
+<meta property="og:description" content="This is the first chapter of my new Singapore 2014 book.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Understanding Singapore | Derek Sivers">
+<meta name="twitter:description" content="This is the first chapter of my new Singapore 2014 book.">
+<meta name="twitter:image" content="https://woodegg.com/images/we14/we14cover-SG-200.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Understanding Singapore</h1>
+<p class="postdate">2014-01-21</p>
+</header>
+
+<p><em>
+	This is the first chapter of my new <a href="https://woodegg.com/sg">Singapore 2014 book</a>.
+</em>
+</p>
+<hr>
+<p>
+	When I tell people I live in Singapore, the most common misunderstandings I hear are:
+</p>
+<ul>
+<li>
+	“How can you live in that sterile squeaky-clean police state?”
+</li>
+<li>
+	“Isn’t that where they cane people for chewing gum?”
+</li>
+<li>
+	“Disneyland with a death penalty! Haha!”
+</li>
+<li>
+	“What part of China is that in?”
+</li>
+</ul>
+<p>
+	I’m not surprised when people misunderstand Singapore, because it requires a little explanation.
+</p>
+<h3>
+	First - some important context:
+</h3>
+<p>
+	Singapore is an island so small you can drive around the whole country in two hours.
+</p>
+<p>
+	In 1819, it was set up by the British as a tax-free trading port, instantly attracting business from the entire region.
+	So it’s always had a mix of Malay, Indian, and Chinese people, though the majority are Chinese.
+</p>
+<p>
+	It quickly became an anything-goes town, with opium, prostitution and gambling, run by secret societies.
+	Its nickname was “Sin-Galore”.
+</p>
+<p>
+	In 1963, Singapore became a part of Malaysia.
+	But racial tensions between the Malay and Chinese populations led to ongoing race riots.
+	So in 1965, Singapore was kicked out of Malaysia, making it suddenly (and reluctantly) an independent country.
+</p>
+<p>
+	Since Singapore had no natural resources, no local industry, and was geographically vulnerable, few people believed it would survive.
+</p>
+<p>
+	But being a do-or-die survival situation, the government and people of Singapore got extremely focused, pragmatic, and competitive to do whatever it takes to make this tiny island thrive against the odds.
+</p>
+<p>
+	Their main survival strategy was to focus on making Singapore an ideal place for big business — attracting multinational corporations to set up their Asian headquarters here.
+</p>
+<p>
+	All these historical ingredients are important for the rest of this explanation to make sense.
+</p>
+<h3>
+	Why so clean?
+</h3>
+<p>
+	Because Singapore is so small, keeping it clean is a manageable job.
+	(You can’t easily clean India or China.)
+</p>
+<p>
+	But really the cleanliness is marketing.
+	What better way to prove to multinational corporations that Singapore is a stable, trustable, and efficient place to set up your headquarters?
+	It’s no coincidence that the highway leading from the airport to downtown has the most perfectly manicured landscape.
+	First impressions matter to visiting CEOs.
+</p>
+<p>
+	It’s why the country’s leaders all wear white.
+	It’s a show of incorruptibility — a metaphor for being orderly and transparent with attention to detail.
+	Getting to know Singapore’s government is like looking under the hood of a Ferrari.
+	It’s incredibly well-designed and well-run.
+</p>
+<p>
+	Singapore is always selling itself to the world.
+	The chairman of the government’s Economic Development Board told his colleagues, “We are in the hospitality business.”
+	The government works hard to stay competitive on every international measure.
+	Any time there are international rankings comparing countries, you’ll find Singapore near the top of the list.
+	Except for free speech, but I’ll cover that next.
+</p>
+<p>
+	Lastly: why no chewing gum?
+	Purely pragmatic.
+	It was gumming up the subway system, causing delays, and was too hard to clean off surfaces, so the sale of it was banned.
+	Keeping the country clean and running smoothly was more important.
+</p>
+<p>
+	So that’s why Singapore has an international reputation for being so clean.
+	It’s brilliant marketing — visual proof of the order and cleanliness you can expect if you set up your business or banking here.
+</p>
+<h3>
+	Why so strict?
+</h3>
+<p>
+	Three reasons: transformation, size, and marketing.
+</p>
+<p>
+	First: transformation.
+	To quickly turn Singapore from “Sin-Galore” to being the Switzerland of Asia would require great strategy and strict, uncompromising execution of that strategy.
+	We’re used to seeing this in corporations, like Jack Welch at GE or Steve Jobs returning to Apple, but it’s surprising to see it carried out successfully in a government.
+	(Many say Singapore is more like a corporation than a country.)
+</p>
+<p>
+	And it worked!
+	In one generation, Singapore went through the most dramatic increase in the standard of living that the world has ever seen.
+	In one generation, this tiny dot went from being broke to being one of the richest countries in the world, without any natural resources, purely by strict execution of a great strategy.
+</p>
+<p>
+	Its lack of corruption was an important ingredient in its success.
+	In a region where political corruption is rampant, Singapore is the only country that severely punishes corruption.
+	It regularly ranks in the top 5 least corrupt countries in the world.
+</p>
+<p>
+	Next: size.
+	Singapore’s UN representative once said, “America is like an aircraft carrier.
+	If you jump up and down, it’s not going to shake.
+	Singapore is like a canoe.
+	If you jump up and down, it will sink.
+	If you lose stability in Singapore, you lose everything.”
+</p>
+<p>
+	Lastly: marketing.
+	When an American teenager vandalized 18 cars in Singapore, he was sentenced to jail and caning.
+	This turned into an international incident, with Bill Clinton asking Singapore not to prosecute him.
+	But as a government official said, “It was a way of demonstrating that Singapore was prepared to stand up against the mighty America.”
+</p>
+<p>
+	To me, that’s brilliant marketing.
+	A memorable way for a country to prove to the world that they obey the rule of law, without exception, and don’t waive the laws for special requests from powerful people.
+	I think this kind of approach makes corporate leaders more likely to do their business and banking in Singapore.
+</p>
+<p>
+	All that said, you could argue that Singapore is not so strict — less strict than Switzerland or California — because it’s a <em>laissez-faire</em> “do what you want” approach where life and business are not regulated for most of us in the middle.
+	Only the behavior that clearly hurts others or society is punished.
+	Everyone else gets to live in an incredibly safe, crime-and-corruption-free place.
+</p>
+<h3>
+	So very pragmatic
+</h3>
+<p>
+	The common thread behind everything here is pragmatism.
+	The country’s leadership consistently makes rational choices to improve the strength and profitability of Singapore.
+	It’s pragmatic, not dogmatic.
+	It’s not that the leaders of Singapore hate chewing gum or are neat freaks.
+	These were just rational decisions to do what was best for the country at that time.
+	The prime minister has a degree in Computer Science, as does the deputy prime minister.
+	This is a country run by engineers and economists.
+</p>
+<p>
+	So it’s important to know that these things are changing fast.
+	The government is constantly but conservatively re-assessing its stance on everything, to keep up with the times.
+	The last few years have seen a huge move towards more democracy and free speech, with the theater and arts scene blossoming because of it.
+</p>
+<p>
+	Singapore’s #1 enemy is complacency.
+	Now that Singapore is one of the most successful countries in the world, the top priority is to keep that competitive edge.
+	This “keep on your toes” message is constantly communicated at all levels — a reminder to never assume that things will stay this good.
+	Keep pushing.
+	Stay on top.
+	Don’t let your guard down.
+	Always be competitive.
+</p>
+<p>
+	Singapore was founded on the ideals of the Age of Enlightenment — the age of reason and rationality — and its founder built those lofty ideals into its blueprint.
+	So to understand Singapore, you need to understand that it’s always been designed top-down, from the beginning, to realize these rational ideals.
+</p>
+<a href="https://woodegg.com/sg"><img src="https://woodegg.com/images/we14/we14cover-SG-200.jpg"></a>
+
+<footer>
+© 2014 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/id14" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/vn14" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

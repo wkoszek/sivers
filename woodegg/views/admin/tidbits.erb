@@ -1,0 +1,24 @@
+<div class="small-3 columns">
+<ul>
+<% @all_tags.each do |tag| %>
+	<li><a href="/tidbits?tag_id=<%= tag.id %>"><%=h tag.name %></a></li>
+<% end %>
+</ul>
+</div>
+<div class="small-9 columns">
+<form action="/tidbits" method="post">
+	<input type="submit" name="submit" value="add new">
+</form>
+<% if defined?(@tag) %>
+	<h2><%=h @tag.name %></h2>
+<% end %>
+<ul>
+<% @tidbits.each do |tidbit| %>
+	<li>
+	<%= tidbit.created_at %>: <a href="/tidbit/<%= tidbit.id %>"><%= tidbit.headline %></a>
+	</li>
+<% end %>
+</ul>
+</div>
+
+

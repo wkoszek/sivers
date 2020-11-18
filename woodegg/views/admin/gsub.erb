@@ -1,0 +1,35 @@
+<h2><%= @pagetitle %></h2>
+
+<form action="/book/<%= @book.id %>/gsub" method="get">
+	<label for="q">Search for:</label>
+	<input type="text" id="q" name="q" value="<%= @q %>">
+	<% if @q %>
+		<label for="nu">Replace with:</label>
+		<input type="text" id="nu" name="nu" value="<%= @nu %>">
+	<% end %>
+	<input type="submit" name="submit" value="search">
+</form>
+
+<% if @essays.count > 0 %>
+	<table><tr><th>old</th><th>new</th></tr>
+	<% @essays.each_with_index do |e, i| %>
+		<% nu = (@new_essays[i]) ? Kramdown::Document.new(@new_essays[i]).to_html : '' %>
+		<tr><td>
+		<p><a href="/essay/<%= e.id %>">edit essay <%= e.id %></a></p>
+		<%= Kramdown::Document.new(e.edited).to_html %>
+		</td><td>
+		<p><a href="/essay/<%= e.id %>">edit essay <%= e.id %></a></p>
+		<%= nu %>
+		</td></tr>
+	<% end %>
+	</table>
+<% end %>
+
+<% if @q && @nu %>
+	<h3>Make this change from “<%= @q %>” to “<%= @nu %>”?  (WARNING: changes <%= @new_essays.count %> essays in database!)</h3>
+	<form action="/book/<%= @book.id %>/gsub" method="post">
+		<input type="hidden" name="q" value="<%= @q %>">
+		<input type="hidden" name="nu" value="<%= @nu %>">
+		<input type="submit" name="submit" value="MAKE THIS CHANGE">
+	</form>
+<% end %>

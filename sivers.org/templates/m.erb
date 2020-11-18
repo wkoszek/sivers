@@ -1,0 +1,11 @@
+<h1>Marketing Your Music</h1>
+<img src="/images/MarketingYourMusic-200x252.png">
+
+<% @mtoc.each do |section| %>
+	<h2><%= section[:title] %></h2>
+	<ul>
+<% section[:pages].each do |page| %>
+		<li><a href="/<%= page[:url] %>"><%=h page[:title] %></a></li>
+<% end %>
+	</ul>
+<% end %>

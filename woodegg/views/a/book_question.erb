@@ -1,0 +1,13 @@
+<h3><a href="/a/book/<%= @book.code %>"><%= @book.short_title %></a></h3>
+
+<h2><%=h @question.question %></h2>
+
+<dl>
+<% @question.answers.each do |a| %>
+	<dt><%=h a.researcher.name %></dt>
+	<dd><%= a.answer.to_html %></dd>
+<% end %>
+</dl>
+
+<h3>Final Answer:</h3>
+<%= @essay %>

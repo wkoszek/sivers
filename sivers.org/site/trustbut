@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trust, but verify | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: In 2005, CD Baby’s main business was doing digital delivery of music to all the digital music retailers: iTunes, Amazon, Napster, Rhapsody, MSN, Yahoo!, and fifty more.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/walkways">
+<link rel="next" href="https://sivers.org/futuretense">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Trust, but verify | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/trustbut">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-AnythingYouWant-318x450.jpg">
+<meta property="og:description" content="In 2005, CD Baby’s main business was doing digital delivery of music to all the digital music retailers: iTunes, Amazon, Napster, Rhapsody, MSN, Yahoo!, and fifty more.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Trust, but verify | Derek Sivers">
+<meta name="twitter:description" content="In 2005, CD Baby’s main business was doing digital delivery of music to all the digital music retailers: iTunes, Amazon, Napster, Rhapsody, MSN, Yahoo!, and fifty more.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-AnythingYouWant-318x450.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent">“<a href="/a" rel="tag">Anything You Want</a>”:</div>
+<h1>Trust, but verify</h1>
+<p class="postdate">2009-11-24</p>
+</header>
+
+<p>
+	In 2005, CD Baby’s main business was doing digital delivery of music to all the digital music retailers: iTunes, Amazon, Napster, Rhapsody, MSN, Yahoo!, and fifty more.
+</p><p>
+	This role was life-or-death important to the company because it was the main reason most of our new clients signed up.
+	And there were lots of competitors in this field, so it was crucial that we did everything well.
+</p><p>
+	I built a system that did most of the work, but it still required someone to run the outputs, connect hard drives, and ship them to the retailers.
+</p><p>
+	I hired a guy who seemed good.
+	I sat side by side with him for a week, showing him the system, running it myself, and explaining how it all works.
+	He got it.
+</p><p>
+	The key point was that we had to get every album delivered to every company, every week, no matter what.
+	The guy I hired signed a contract with me that said, in huge letters, “EVERY ALBUM, TO EVERY COMPANY, EVERY WEEK, NO MATTER WHAT.”
+	We talked a lot about how absolutely crucial that was — that it was really his only job requirement because it was that important.
+	He signed and agreed.  
+</p><p>
+	His first few weeks, I watched closely to make sure everything was going well.
+	It was.
+	So I turned my attention back to other things.
+</p><p>
+	A few months later, I started hearing a lot of complaints from musicians, saying that their music hadn’t been sent to these companies.
+</p><p>
+	I logged into the system to see what was wrong.
+	It turns out that we hadn’t sent any music to Napster, Amazon, or some other companies in months.
+	Months!
+</p><p>
+	I called the guy in charge of it and asked what was going on.
+	He said, “Yeah, I’ve been really backed up. It’s been really busy.”
+</p><p>
+	I said, “What’s rule number one? The sole mission of your job?“
+</p><p>
+	He said, “I know. Every album to every company every week no matter what. But I’ve been swamped. I just couldn’t.”
+</p><p>
+	I flew up to Portland and let him go.
+	I’ve never fired someone so fast, but this was extreme.
+	Our company’s reputation was permanently hurt.
+	This job was so crucial to the company’s survival that I decided to do it myself for a while.
+	Not just do it, but build a system that wouldn’t let mistakes go unnoticed again.
+	So for the next six months, I lived at the warehouse in Portland, and my sole job was digital deliveries.
+	It took fifteen-hour days to catch up on months of backlog, but eventually we had a smooth system again.  
+</p><p>
+	I learned a hard lesson in hindsight:
+</p><p>
+	Trust, but verify.
+</p><p>
+	Remember it when delegating.
+	You have to do both.
+</p>
+<a href="/a" title="Anything You Want - by Derek Sivers"><img src="/images/DerekSivers-AnythingYouWant-318x450.jpg" alt="Anything You Want - book cover" title="Anything You Want - by Derek Sivers" /></a>
+
+<footer>
+© 2009 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/walkways" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/futuretense" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

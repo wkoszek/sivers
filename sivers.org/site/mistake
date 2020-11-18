@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My $3.3M mistake | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Ever since I was a teenager, my dad would occasionally send me things to sign — things for the family business.I didn’t understand the complexities of it, and didn’t need to, so I’d just sign without question.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/chickens">
+<link rel="next" href="https://sivers.org/sustainable">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="My $3.3M mistake | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/mistake">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-AnythingYouWant-318x450.jpg">
+<meta property="og:description" content="Ever since I was a teenager, my dad would occasionally send me things to sign — things for the family business.I didn’t understand the complexities of it, and didn’t need to, so I’d just sign without question.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="My $3.3M mistake | Derek Sivers">
+<meta name="twitter:description" content="Ever since I was a teenager, my dad would occasionally send me things to sign — things for the family business.I didn’t understand the complexities of it, and didn’t need to, so I’d just sign without question.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-AnythingYouWant-318x450.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent">“<a href="/a" rel="tag">Anything You Want</a>”:</div>
+<h1>My $3.3M mistake</h1>
+<p class="postdate">2009-05-27</p>
+</header>
+
+<p>
+	Ever since I was a teenager, my dad would occasionally send me things to sign — things for the family business.
+	I didn’t understand the complexities of it, and didn’t need to, so I’d just sign without question.
+</p><p>
+	Four years before starting CD Baby, as I was recording my first album, I needed to borrow $20,000 to buy studio equipment.
+	My dad said, “Instead of lending you money, start a corporation. Then the family business can buy shares in your corporation.”
+</p><p>
+	So I did.
+	Because my band was called <a href="/music">Hit Me</a>, I called the company <a href="http://hitmedia.com/">Hit Media Inc</a>.
+</p><p>
+	My dad’s company bought some shares, and that helped me finish my album, and continued to run my record studio at a profit.
+</p>
+<hr /><p>
+	Four years later, I was living in Woodstock, New York, and started this little hobby called <a href="http://www.jpfolks.com/ECRoadTrip00/ECpages/cdbaby.html">CD Baby</a>.
+</p><p>
+	The first time I got a check addressed to “CD Baby”, I brought it down to the bank and told the bank teller, “I need to set this up as a new business, so let’s open a new business account.”
+</p><p>
+	She said, “Oh you don’t need to do that. You can just make it an alias on your Hit Media account.”
+	At that time, Hit Media was a recording studio and booking agency.
+</p><p>
+	It seeemed a little strange since CD Baby was definitely a new business, but it saved 10 minutes and $100, so I said OK.
+</p>
+<hr /><p>
+	Four years later, CD Baby was doing really well.
+	A few million dollars in sales.
+	Probably half a million dollars in net profits.
+	I paid my dad back the $20,000 I borrowed.
+</p><p>
+	I called up my accountant in January to say, “OK. I got all the accounting books balanced. Should we file early this year?”
+</p><p>
+	He said, “Oh, you don’t need to file. CD Baby is just a line item on your dad’s company’s tax return.”
+</p><p>
+	I said, “Uh... what?”
+</p><p>
+	“You didn’t know that your dad’s company owns 90% of CD Baby?”
+</p><p>
+	“Uh... what?”
+</p><p>
+	“You should talk to your dad.”
+</p><p>
+	Yes, it turns out that one of those pieces of paper I signed without question had sold 90% of the shares of Hit Media Inc to his company.
+</p><p>
+	Then because the bank teller advised me to make CD Baby an alias of Hit Media, that meant my dad’s company owned 90% of CD Baby as well.
+</p><p>
+	Oh, what a sinking feeling.
+	What I thought was my company all these years was not actually my company.
+	I owned only 10%.
+</p><p>
+	I couldn’t be mad at my dad.
+	He was doing me a favor back then, and thought I knew the deal.
+	Nobody thought my little hobby was going to turn into a multi-million-dollar business.
+</p><p>
+	It was my fault for not reading what I signed.
+	My fault for letting a bank teller’s quick advice make that major decision for my business structure.
+</p><p>
+	What made it even worse is that I couldn’t just buy it back for the original $20,000.
+	The <a href="http://www.irs.gov/">IRS</a> won’t allow that.
+	The only way was to pay full market value, as determined by an outside valuation company.
+</p><p>
+	In the end, I had to pay $3.3 million dollars to buy back that 90%.
+</p>
+<a href="/a" title="Anything You Want - by Derek Sivers"><img src="/images/DerekSivers-AnythingYouWant-318x450.jpg" alt="Anything You Want - book cover" title="Anything You Want - by Derek Sivers" /></a>
+
+<footer>
+© 2009 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/chickens" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/sustainable" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<h1><%= @question.question.h %></h1>
+
+<div class="row">
+<div id="contentform" class="span6">
+<form class="well" action="/write/essay/<%= @essay.id %>" method="post">
+<% if @essay.finished? %>
+	<input type="submit" class="pull-right btn btn-primary" name="submit" value="UPDATE" />
+<% else %>
+	<input type="submit" class="pull-right btn btn-primary" name="submit" value="SAVE" />
+<% end %>
+	<label for="essaycontent">Your answer for the book: (written in <a href="http://en.wikipedia.org/wiki/Markdown#Syntax_examples">Markdown</a>)</label>
+	<textarea name="content" id="essaycontent" cols="100" rows="20"><%=h @essay.content %></textarea>
+	<br />
+<% unless @essay.finished? %>
+	<input type="submit" class="btn btn-primary" name="submit" value="FINISH" />
+<% end %>
+</form>
+</div>
+
+<div id="markup" class="span6">
+</div>
+</div>
+
+<%= erb :_answers %>
+<%= erb :_tidbits %>
+
+
+<script>
+var converter = new Showdown.converter();
+function showPreview(text) {
+	document.getElementById('markup').innerHTML = converter.makeHtml(text);
+}
+document.getElementById('essaycontent').addEventListener('keyup', function(e) {
+	showPreview(this.value);
+}, false);
+window.onload = function() {
+	showPreview(document.getElementById('essaycontent').value);
+};
+</script>

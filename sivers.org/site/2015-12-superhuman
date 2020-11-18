@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: Becoming a Superhuman</title>
+<meta name="description" content="Derek Sivers: Great dense talk with Jonathan Levi about… many things. See his site for a table of contents.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: Becoming a Superhuman">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2015-12-superhuman">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Great dense talk with Jonathan Levi about… many things. See his site for a table of contents.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: Becoming a Superhuman">
+<meta name="twitter:description" content="Great dense talk with Jonathan Levi about… many things. See his site for a table of contents.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → Becoming a Superhuman</h1>
+	<h4>Great dense talk with Jonathan Levi about… many things. See his site for a table of contents.</h4>
+	<p class="postdate">Date: 2015-12</p>
+	<h2>Download: <a href="https://sivers.org/file/2015-12-DerekSivers-Superhuman.mp3">audio (mp3)</a></h2>
+	<p>Link: <a href="http://www.becomingasuperhuman.com/how-to-create-a-life-of-purpose-fulfillment-and-joy-with-derek-sivers/">http://www.becomingasuperhuman.com/how-to-create-a-life-of-purpose-fulfillment-and-joy-with-derek-sivers/</a></p>
+</header>
+<hr>
+
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I'd love to have you chase us through a little bit about your bio, and since I also pivoted my career after selling my first company, I'd love to hear how you've handled that and how you've kind of moved on from that success to try new things and bigger and better things. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure. Okay, big question, but so first, let me just kind of set the stage for your listeners because some of the things that I have to say at the beginning here will set the context for the rest to help them make sense. So I think the first thing to understand is that I was just a musician, that I never aspired to be anything but a musician. Like I didn't want to be an entrepreneur. All I did is I just started this little music company as a hobby. I was just helping out a few friends. I didn't even mean to start a company. It was just a thing that I was helping my friends do. 
+</p><p>
+But then friends of friends started calling saying, "Hey man, my friend said you could sell my CD?" I'd say, "Sure, no problem." So it was really just a favor I was doing for people. But then the favors were taking up like five hours a day of my time, and that's when I started charging money for it. It was really just a favor I was doing for my community, but then it became huge beyond anything I had predicted or even wanted. I had 200,000 musician clients and 100 million dollars in sales, and I had 85 employees.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Woah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+And it was all on me. Like I was the sole owner. There were no investors; it was just me. I was the sole boss. I was the sole face of the company; it was a lot of pressure. Like there wasn't even a nice hierarchy where people would report to other people. No, it was kind of like 85 people would vent their unhappiness to me [laughs]. So it was also a lot of fame like National Public Radio did a profile on me, and Esquire Magazine had me in their Best and Brightest Issue. And the fame was wonderful. It was a lot of praise, and it was really nice. But it also came with a lot of pressure and expectations. You know? People see you in a magazine, and they want things from you. Or everybody wants to pick your brain, which is a very unappealing sounding thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So at the end- when I say the end, I mean like the last year or so that I was running CD Baby. It also got really nasty where the employees wanted to take the company in a different direction, and I didn't want to. So there was a lot of bad blood. And eventually, I just sold it and walked away. And I gave all the money from the sale into a charitable trust. Okay, with that as like the stage that's set, I think there's this feeling that every listener here either already knows or you will know someday. It's that feeling that your biggest success is already behind you, that you've peaked. And I think CD Baby was such a success, that when I sold it, I felt like my gravestone would say, "He made CD Baby, and that's about it." Like I was 38 years old, and I was really just coming to terms with that feeling. Like wow, I will never do anything that successful again. I had to wrap my head around that. 
+</p><p>
+So I think it was kind of close to the feeling that I hear a lot of people have where you have just like no motivation, no inspiration to do anything, just kind of want to get through life and get it over with. I guess you could probably say I was depressed, but not really depressed. You know what I mean? Like I'm avoiding using that word because it wasn't really depressed but just kind of [sigh] and feeling like alright, well-
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+That's done.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, that's done. My big achievements are done, so I guess I'll just hang out now. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh, I can relate [laughs]. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So it was also magnified by the fact that the last couple years of CD Baby were so bad, and there were so much personal attacks on me that I just wanted to change my name and legally disappear just to avoid all responsibility. I actually read a few books on how to do this, like how to get rid off the grid, how to disappear, how to legally change your name. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Woah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+And I seriously looked into it. I was seriously pursuing it, and I think this is also where having a lot of money can really mess with you because it can lead to absolute lethargy because there's no more extrinsic motivation anymore. Everything has to be 100% intrinsic motivation when money just isn't an issue anymore. There's nothing you want to buy anymore. There's nowhere you haven't been that you want to go. Or if there's anything on your wish list, you just do it. You know? It's like, "Oh, I've never been to Mongolia. There's a plane that leaves tonight. I guess I'll go." You know? [laughs] So you run out of bucket list stuff pretty fast. Okay, so that's where I was at. You asked about like how did I make this transition after selling my company. So that's where I was at about the year after I sold my company. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+But then two epiphanies happened in just a few hours. I was sitting on a plane, and I think I was actually reading the book called the 48 Laws of Power, or maybe it was his other one, Robert Greene Art of Seduction or something like that. I was reading one of Robert Greene's books because I remember it was one of his historical tales about stepping up into your power and fame and stuff like that. And I realized that I kind of decided in that moment to just man up and step up to the responsibilities of fame because the benefits are worth it, that there are so many great things about being a little bit famous that I can man up and just deal with the occasional downsides. Because I have this belief that being at least famous is one of the useful things you can do for the world because the opposite of doing that is hiding where you just like lay low and don't do anything very public. I think it's extremely useful to others when you're out there and doing things publically. So I just decided I'm more useful to the world when I'm not hiding. So this whole like change my name and disappear thing, like no, I'm just going to man up. I'm a little bit famous. I'm just going to step into it and own it. And in fact, that led immediately to my second epiphany, that almost immediately after deciding this, I had a bigger vision of who I could be if I decided to step into this. This is back before TEDx was invented, right?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Right. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So TED was just like this once a year, big, giant conference. And being a TED speaker felt like winning a Pulitzer Prize or something. So I decided that I wanted to do that. I wanted to speak at TED, and I wanted to be surrounded with and accepted by this new community of intellectuals. I wanted to be known as a writer, and a speaker, and a thinker kind of guy, which for me, at the time, I was only in music at that time. Right? So this was a big aspirational dream of mine to do something that was beyond music. And suddenly, this was inspiring. This was kind of like the depression buster. This was like the first thing in a year that made me kind of jump out of my seat and get excited and want to do something.
+</p><p>
+And so that's when I learned that goals should only be judged by their ability to change your actions in the present. Like if a goal doesn't improve your present actions, it's not a good goal. And so here I was kind of witnessing that just this idea of being a TED speaker was getting me so charged up. So I started spending like four to six hours a day just exploring thoughts and finding ways to present them in really short, succinct ways on my blog. And I would spend like six hours a day just like editing one little six paragraph post like chopping down every word to make sure it couldn't be misunderstood, and trying to make every sentence piercing and powerful. 
+</p><p>
+And then I applied to TED, and I got accepted to speak not just one, but at three big main stage TED conferences in a row.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Incredible.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So finally, to answer your question, I think the sweetest reward came when my TED talks got really popular, and the most common question I would get from all these new people I was meeting was like, "So what did you before TED?" [laughs] And then I realized like wow, people don't know me from CD Baby anymore. Like I actually did it, that career pivot thing that you hear about, it was so reassuring to know it can be done. And it's so much more exciting.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh, wow. Your journey so resonated with me because I felt the same way. And I went about it with the business school route, and then the, "Oh my God, what am I going to do now?" route. But I'm so glad that I'm not the only one who felt this after kind of a windfall success of like, "Okay, well peaked at this age."
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Incredible. So I have to admit I actually learned about your TED talks on how to start a movement in business school, and you should know that a lot of professors in organizational behavior actually play this in one of the first lectures. So I think that's absolutely incredible, and it was a huge pivot- speaking of pivots- for me and my leadership skills. So I have to ask since you're a self-described introvert, where did you gain such spot-on insights about leadership? I mean, the TED talk is absolutely brilliant.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+ [laughs] Thanks. Well, I hate to break it to you, but I don't know how much about leadership. I really only know about three minutes worth of stuff. And I really compressed everything I know into this three minute talk called Leadership Lessons Learned from a Dancing Guy: The First Follower. And honestly man, that's about all I have to say about it, that I was really just echoing what I had learned from Seth Godin's book called Tribes, and Malcolm Gladwell's book called the Tipping Point. And I read those two books, and shortly after, I saw this video of a guy dancing at a music festival and how everybody started joining in. And the first time I watched it, I just laughed. And the second time, you know, that was actually kind of a good metaphor about leadership and everything I've learned about how to make a movement. So I just shared some of my insights on my blog. It was just one of those things like where I said that once I decided I had this goal, I was spending six hours a day just sitting there thinking and trying to communicate ideas in short punchy ways. And yeah, that's about all I have to say on the subject, but because I did that TED talk, it makes it look like I'm an expert on something. But I'm really not an expert on the subject, but I've been invited to dozens of big corporations to speak about leadership, and I got a lot of book offers from publishers to develop this first follower's leadership idea. But I just politely declined them all. I said, "No, thank you. I'm sorry. That's just not really an interest of mine." 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Fair enough. I do want to point out though your incredible humility because on the one hand, you don't know a lot about leadership and building a tribe besides what you've read. On the other hand, your bio story was, "Yeah, I had a couple friends. And then before I knew it, there were 200,000 artists." I just want to point out to our audience how incredibly humble you are about all of this.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+ [laughs] Well, you know, we never have any perspective on ourselves. Do we?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+That is so true. So changing gears then from the leadership, your book's subtitle is 40 Lessons for a New Kind of Entrepreneur. And I joke with my friends that I'm the anti-start up entrepreneur, and that I'm completely over traditional entrepreneurial culture- well, traditional, the culture of the last 15 years. So I'm interested what your take is on what this new kind of entrepreneur is and what's new about him or her.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Hmm, well to be fair, Seth Godin chose that title. [laughs] So like I just said, I don't think any of us really have much perspective on our own story. Right? I mean, the book is called Anything You Want, and again, Seth Godin chose that title too. It's just a tiny book that you can read in about an hour that has 40 little tiny stories about the lessons learned from starting, building, and selling my company. So it's meant to just a short, little, punchy thing with- it's not telling my story. It's more just like in the arc of doing what I did, here are the most important 40 things I learned that I think you should know. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Sure.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So that said, so I can't see my own story without much perspective. But what I've heard from other people that they like about it is mostly this idea that by being generous, by forgetting yourself and your own needs, by doing what's really best for your customers in like a really shockingly generous and friendly way, you can actually succeed in business better than those who are taking this MBA, analytical, maximum profit approach.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Sure. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So to me, it all feels like common sense. Right? Just be nice, be generous, be considerate. Make people really happy, and they'll be happy to open up their wallets and pay you. Right? It's kind of like that old 1930's book How to Win Friends and Influence People. Have you read that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+That's my favorite book of all time actually.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Are you serious?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Alright. Well, I think for anybody listening who hasn't read it yet, you should. Kicking it old school in 1930's, I think the title is really unfortunate because it makes it sound like it's a slimy book about how to trick people into liking you. But actually, I think it should be called How to Be Considerate because I think it's the most amazing book about looking at everything from the other person's point of view. And the punchline of the book is that the way to win friends and influence people is to be sincerely interested in others and always connect with them around their own interests, not yours.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Exactly.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So my little book is about that approach to business. So it sounds simple, but people tell me that it's very counter-intuitive, especially if you've been immersed in shitty business practices your whole life. We get acclimated to the sad state of affairs at most places, then people tell me my little book is a breath of fresh air. But to me, it just seems like common sense. You know?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love that. It also reminds me a little bit of Tony Hsieh's book- the guy from Zappos- Delivering Happiness. And the way that you said overwhelm your customers with- and I think that's also a metaphor for life- overwhelm anyone who you're providing to, whether it's friendship or business, with just kindness and over deliver. And you get such incredible benefits from it, as do they of course.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, I like it. Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+So what are the other 30 plus books about? [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, I mean, I published 33 books about 16 countries in Asia for two years in a row, 2013-14. I published 16 books a year about 16 book in Asia. And then at the end, I did one big wrap-up book called Asia 2014. So I just did that when I moved to Singapore because it my way of getting to know my new neighborhood. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it. Where did you live in Singapore?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right in Marina Bay. Do you know it?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I lived right by the INSEAD campus-
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh! 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+-in the cheaper part of town, if you will. But, yeah-
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh, but no, a nicer part of town. I lived right next to Marina Bay Sands on the 51st floor. Out of my window, I could see Indonesia and Malaysia and Singapore, of course. But yeah, it was a nice idea. Like when I was apartment hunting, you look at a bunch of places. Then suddenly, they show me this apartment on the 51st floor. I'm like, "Oh my God, I'll take it!" But of course, my first night living there, I realized that Singapore does all of its big, noisy, celebratory activities right there in the Marina outside my window. So every night at 7:00, 9:00, and 11:00 was a big, giant laser light and sound show that I listened to three times a night for two years. So the three times three- almost 2,000 times, I had to listen to that piece of music.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh my God. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So yeah, I wished I could have lived by INSEAD.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Anyway, let me ask you this Derek. We talked about the new kind of entrepreneur. Would you consider yourself to be a lifestyle entrepreneur?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Maybe, but I think that a focus on lifestyle can be dangerous. I think it's kind of a recipe for misery. Lifestyle is such a me, me, me, me, me focus. Right? It's like focusing on making all of your dreams come true, making your immediate gratification the most important thing. But it seems to assume that if you just make yourself very happy by being in the perfect climate with the perfect laptop and the perfect phone and the perfect camera and the perfect schedule surrounded by perfect people doing perfect hobbies, you make yourself exactly what you want, then you'll be happy. But I think that ultimately it's not very useful to others. And the way to be rewarded in this world and have a wonderful rewarding life is to be very useful to others. Right? 
+So you can go ahead and pursue a lifestyle that you love, but you have to understand that it's a shallow comfort, that it doesn't pay [laughs], and the deeper rewards really come from the things that you do for others. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Totally, I give a lecture on failure in entrepreneurship, and one of the things that I always say is that the greatest failure someone shouldn't accept is the failure to build a life full of things and full of work that you really love. I think the term lifestyle entrepreneur gets wrapped up with kind of, "I run this company that I hate. We sell products that I don't use. And I make a ton of money, and that's it. And I don't have to work." But I think there's a route to take it where you have this need in your life and in your lifestyle for serving others, and how are you going to kind of fill that role and fill that need? 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know what I might be confusing it with too? Just a month or so ago, I went to a conference in Berlin that was called the Digital Nomad Conference. And it felt that everybody there was just trying to do this Tim Ferriss style, lifestyle design, like "I just want to get my lifestyle. I want to live in Bali. I want to be in a hammock. I want to have a muse business that runs without me." And I just feel that everybody is pursuing this dream lifestyle that ultimately, when I listen to them describing this, they're just talking about themselves the whole time. It's not about how they can be valuable to others; it's just like, "I want this, and I want that. And I want a hammock in Bali. And I want this, and I want that." And I'm thinking okay, your biggest rewards in life come from when you're being most valuable to others.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Pursue the lifestyle you want, of course. I'm not saying be a martyr. Yeah, if you know that there's something that makes you really happy, go for it. But don't over-value it and think that this is what it's all about.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Absolutely. I couldn't agree more. I'm glad you segued into lifestyle design, because I know you are a major inspiration for a ton of people in that you've moved all over the world. You've lived in three countries. As you said, you've ticked off almost everything on your bucket list. So I am interested to hear a little bit about your life philosophy and how you pick the different elements that you integrate into your life.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I think that most of the unusual things I do come from some core fundamental idea. Like I tend to read a lot of books, and I find one little core idea in there, and I extrapolate that into like how I can apply it to my life. Right? Okay, so one example is this idea that our minds only grow when they're surprised. So when something is not exactly as you expected, that's when you learn new patterns or new logic or learn a new approach to things. It's if you're not surprised, you're not learning. 
+</p><p>
+So when I heard that idea, I was 37, and I was newly free. I think I was about to sell CD Baby, and so I decided that a way to accelerate that process of constant surprise and keeping an open mind on a daily basis or at least to try to be in an environment where surprise could happen often, is to live in a new country. I'm not saying that's the answer, that is the way that everybody must do. But that's one way, and it's a way that fit my life at that time where I wasn't tied down to anything. So I thought that maybe doing this would help me avoid some habitual approaches to life and avoid getting stuck into a rut that you often see people do. 
+</p><p>
+This is kind of an age thing. People have this shared cultural agreement that when you were a child, and when you were a teen, and maybe even when you were in your 20's, you're constantly learning and growing and reinventing yourself. And then people get into their 30's, and they kind of just do this thing where they say, "This is who I am. This is where I live. This is my favorite sports team. This is my favorite breakfast. This is the kind of music I like." And they kind of have this feeling of being done, and so I wanted to avoid that. In fact, man that's why I left Santa Monica. I was living in Santa Monica at the time, and I was so [bleep] happy. I loved Santa Monica. I loved living there so much that I made myself leave because I had the feeling that if I didn't leave, I would just kind of get stuck there. It was almost a retirement mindset to just be like, "Yeah, this is my favorite place. This is where I am. I'm done, end of the rainbow." 
+</p><p>
+So yeah, I made myself move to a place that was uncomfortable. I mean, this is not like Singapore is so uncomfortable, but it was out of my comfort zone. And yeah, I want to keep forcing myself to do that for life, avoiding my comfort zones.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it. I really love it, although yeah, you're right. Singapore is often called Disneyland with the death penalty [laughs].
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Eh, that's- Singapore is a deeper place than it appears to be.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Totally.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+In fact, if you want to get on a long rant about Singapore, I mean in a good way, like I'm rah-rah Singapore man. I love Singapore with all my head. It's one of my favorite places in the world, and I think that when people visit, on the surface, they just see that it's squeaky clean. But if they don't understand the reason why it's squeaky clean, that actually being squeaky clean was like a survival strategy for a country in the 60's that thought they wouldn't survive, that they were just going to get invaded by their many neighbors that would love to invade them. That being a corporate headquarters for Asia was their survival strategy, exactly they have a lot in common with Israel.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I was just going to say that. Being an Israeli and arriving there on a flight from Israel, I heard the whole story from every taxi driver, every uncle as they say. So really, really interesting there as well.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So you mentioned like how do I choose what I'm doing? So I guess I started to say that I really like to read books about Psychology or even philosophy, which I think is just kind of like Psychology turned into directives or suggestions. Right? But then when an idea resonates with me, I really try to apply it to my life. Like the example I gave of trying to- living around the world, it's just one little idea. But I think that I've always been extremely long-term future focused. Like doing things that don't necessarily make me happy short-term, but that I think are ultimately better for me long-term. 
+</p><p>
+Like the Singapore example, I could have just stayed in Santa Monica, and just been happy right now and in the present moment, the ultimate comfort. But I felt that I would have paid a longer-term price by being more of a narrow person, like having more narrow experiences in life. So pushing yourself out of your comfort zone is short-term discomfort, but with a reward- the longer-term reward of having a greater range of things that you understand and can accept and work with, or feel comfortable in like multiple places that feel like home. Right? 
+</p><p>
+So yeah, when I sold CD Baby, I felt like the obvious trajectory I could have taken was just move to Silicon Valley and be a tech investor or a serial entrepreneur. And I think that those things might have led to more immediate happiness, more money or more praise or more fame, but I wanted that deeper challenge of succeeding at something that was more difficult with those longer-term rewards.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I see. I like that approach a lot. Another thing I really loved on your website Derek is you said that your main act of public service is answering emails from strangers. So people should feel free to email you. I love that for a lot of reasons. One, because you put it out there as a public declaration, but also I think of the idea that I'd rather contribute to something unique to me in terms of public service, as opposed to say cleaning up trash on the side of the road that anyone can do. And you want to give your unique value, so I'm dying to know what kind of emails you're getting and what's the unique way in which you're able to address those emails. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh, I'm like a free shrink, life coach, or business mentor. I think I spend like 10-15 hours a week just answering people's questions. I enjoy it for the most part. And whenever I'm not in the mood for it, I don't do it. I don't answer my email every single day. I do it every two or three days. But I don't get deeply involved, like I don't become somebody's official mentor and get deeply involved with their company. I'm not on any board of directors or anything. I generally just answer questions. I think a lot of people have career questions, or lifestyle questions, or sometimes even like out of the blue, I'll just get an email from somebody in India saying that he's very frustrated with his sister right now, and what should he do about it. I'm like, "Umm, alright." And I try to just conjure up what wisdom I've learned from life and books and such. So maybe I'm just in training to be a wise old man.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love that. Okay, well I'll segue into that. I'm sure you don't want to give too much about people's kind of private problems on a podcast. So we'll segue from that, but let me talk about another one of your TED talks, which is where you said something that actually really surprised me, which is that we should keep our goals to ourselves. And generally, I actually try and share my goals a lot, whether it's with friends or on social media. Even on the podcast, I'll talk about projects that I'm hoping to release by December. I'm doing this, and I use it as accountability, and I use it to apply a little bit of social pressure. Why is that you feel this doesn't work, out of curiosity?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so again, I'm not an expert on this. In fact, just to give a little context, so when TED is about to have a conference and they do a little bit of open call for speakers for the short talks, for all of those 20 minute talks, but for those little three minute talks, it's kind of open call. So I was putting in my bid to do another three minute talk, and I pitched three ideas at that. One was a talk that I really wanted to do that I felt was going to be great. The second one was like an idea that was kind of the backup plan; I felt it would be good. And then I thought, "Well, I really want to do a talk no matter what. So let me give them a third option, which is this Newsweek article I just read today that says that announcing your plans makes them less likely to happen." Like I'd literally just read it like an hour before and thought, "Huh, that's kind of interesting." 
+</p><p>
+So I just wrote that down as like a third option. I could talk about that. And then that's the one they chose [laughs]. So suddenly, I'm giving a TED talk about something I'd learned about that day. So I contacted the guy that did all this original research, and I guess you have to understand that TED is just a bit of entertainment. There's not really university courses. It's just like a little bit of intellectual snacking, so I was actually given two and a half minutes to do my talk, so I had to leave our some nuance. But if you go to my original webpage for it, which is sivers.org/zipit Z-I-P-I-T, that's where you'll find the original article that has links to the original research. 
+</p><p>
+So the deal is this: that when you announce some identity goal and the guy that did the original research asked me to emphasize the fact that it's for identity goals, that something where just by announcing it, you're now seen as more noble or daring or brave or athletic or admirable, that when people give you social praise for this announcement, well then you've already felt a lot of the pleasure. So now you're less motivated to do the hard work necessary to make the goal happen. So if you say like, "I'm going to run a marathon" or "I'm going to do an Iron Man competition" or "I'm going to bike around the world" well now your friends say, "Wow! Johnathan, man, you are- I could never do that. Woah, an Iron Man. You must be really dedicated. Oh man, you are hardworking man. I really admire you." So now you've already felt this social praise, so you're less motivated to do the hard work.
+</p><p>
+But here's the point that was lost in the two and a half TED talk is that this doesn't apply to other goals. So if you're talking about say like starting a new company, well then it helps to tell as many people as possible to expand your resources and your input and get lots of feedback and lots of new ideas. Then yeah, of course you should tell those kind of goals to as many people as possible. So this discouragement or premature satisfaction only comes from announcing identity goals.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it. Okay, so it's about that kind of hit of dopamine or serotonin that kind of say, "I've already made it half the way there?"
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, you're already envisioning achieving it. Kind of like- I mean, I was a musician for 20 years or you could say I still am. But in music and athletics, I think we talk about how you could close your eyes and picture a perfect performance of something, and it's actually kind of like you were practicing it. Right? Like just imagining it sends those little tiny signals into your neurons and whatnot that has almost the same effect as actually physically practicing something. So I think it's the same thing. Like when you vividly imagine yourself achieving this goal or doing the Iron Man or a marathon or speaking fluent Mandarin or whatever it may be, you're already getting the pleasure in advance of actually achieving it. And therefore, it's like, "Eh, I've already felt the pleasure, so eh." You're not quite as motivated to do the hard work necessary. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Right. So I suppose I should avoid the temptation to ask you what some of your goals are.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+ [laughs] Oh, do I have any?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Maybe I can ask what are the values that are driving your goals? You talked about service to others. I mean, I guess unless you want to share a couple broader goals, what are the values that help you drive what goals you'll set for yourself?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Actually you just named it. I do often find that when I get a little paralyzed over wondering what to do next, if I just ask myself this question, "Well, what's most useful to other people?" or "How can I be of the most value to others?" that usually answers it. Of course, there are things that I'm interested in doing that aren't directly useful to others. I do want to learn Mandarin. I think it's fascinating. I love the Chinese writing system, and I just think the language is so interesting. So I want to learn that, but ultimately, is it the most valuable use of my time? No, but it's a bit of a compromise. It's something I want to do, whereas for example, spending the 10 or 15 hours a week answering every single email that comes in, that's being very directly useful to the world. And spending some time building some of the new web app ideas I have, some of the new company ideas that I think might be useful to others, yeah sometimes it's not always the most fun thing I could be doing to spend my time on that. But I do it because it's ultimately most useful to others. So yeah, it's a good way of unparalyzing yourself by using that standard.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Definitely. I'm a big advocate of as in your company, you have core values that help employees make decisions. I, in my personal life, have 10 core values that I put above all. So when I'm faced with a difficult decision in my personal or professional life, it's very easy to look on those values and say, "Well, my top value is to be authentic, trustworthy, and genuine with people, so I'm not going to take the easy route. And I'm going to tell this person exactly how I feel." 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I love it. Those little rules of thumb man, those little heuristics, whether it's a list of 10 values or even a simple- those little morals whether it's Ten Commandments or whatever people may have that guide them- Aesop's Fables. They make these little things that are so easy to remember. I don't know. For me, the one I got when I was a teenager- I don't know if I heard it from someone or if I just came up with it myself- but it was whatever scares you, go do it. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh, yeah. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+And I've just been living with that almost daily since I was a teenager that just when in doubt, when faced with any situation, whatever scares you, go do it. Kind of like the Santa Monica idea I said earlier where staying in Santa Monica was the comfort choice, and I think Abraham Maslow, psychologist, said something about every day, we're presented 100 times a day with a choice between safety and risk. And he said, "Make the growth choice 100 times a day" something like that. And I just love that. Even those tiny little choices that you make in the day, like what would be the choice that would help me grow as a person and what would be the choice that would be me kind of staying in my safety zone?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh, I love that. I'm just now kind of coping with this and dealing with it. I have a friend, actually Dr. Anthony Metivier, who's a colleague of mine, tell me that same thing where I'd say, "I really want to try this, but I'm terrified of it." I won't say what, but he goes, "That's the exact reason why you have to do it." So I'm in the process of figuring out how I'm going to do this.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+And it can be tiny things man. There would just be sometimes I'd see some like gorgeous girl, and I'd be like, "Oh my God. She's so out of my league. I'm terrified." I'm like, "Ah, whatever scares you, go do it. Here I go."
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Exactly. I love that! So I realized Derek, I keep asking about everything I found on your site almost verbatim, but I think that's a testament to how well you write and how concisely you make points. So I really, really want to ask you: you describe yourself as anti-drama, and that really resonates with me. So tell me a bit about that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, sure. I think I say that on the homepage of my site because it's a link to my favorite fable. Should I tell it? I guess it only takes a minute.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah, sure!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+All right. It's pretty widely known. So I think it's been in some movies and some other people have quoted it in their books, but it goes like this. It's that a man and his son have a horse, and they only have one horse. And one day, their only horse runs away. And all of their neighbors come by and say, "Oh, I'm so sorry for your loss. You must be so upset." And the man just shrugged and said, "Well, we'll see." And about a week later, that only horse came back and it had 20 other horses in tow. And the man and his son gathered all of these horses into the corral and suddenly they had like 21 horses, and they were like the richest people in their village. And all the neighbors came by and said, "Oh my gosh. You must be so happy. What wonderful news! You must be ecstatic." And the man just shrugged and said, "Well, we'll see." And then because of these 21 wild horses, one day one of the wild horses kicked his son in the legs breaking both of his legs and suddenly, the old man's only son was laid up in bed. The old man had to do everything himself. And the neighbors came by and said, "Oh, you must be so upset. I'm so sorry." The man just said, "We'll see." And then shortly after, the country went to war and every able-bodied young man was sent off to war, and they were all killed in a horrible battle. But the man's son was spared because his legs were broken. And the neighbors came by and said, "Oh, you must be so thankful." The man just said, "We'll see." That's it. I love that story.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Because something I think is a core thing about myself is that I've always had a very long-term focus. Like even when I was- I don't know- like 17 years old, some of my friends were starting to get tattoos like, "Man, you got to get a tattoo." And I said, "You know, I think when I'm 90, I won't want that tattoo." And they just looked at me weird like, "When you're 90? [bleep] dude, who cares about when you're 90 man? I want this tattoo now. I think it's cool. Yin Yang man." And I'm like, "No, I think when I'm old, it's not going to look good." So for some reason, I've just- I've always been in service of my future self. 
+</p><p>
+So I think that if you looked back at whatever you were worried about five years ago, like if you were to go read your old diaries from five years ago talking about everything that was upsetting you then, I bet you'd find out that those problems have probably just sorted themselves out by now and everything is fine. Right? So things smooth themselves out with time. So I feel like, why get so upset about these short-term things? If your eyes are on the horizon, it's like those little rocks in the road don't bother you. So I think it's also just that I really love tranquility and silence. I find my own thoughts very entertaining. I don't need to spice up my life with drama for entertainment. You know?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love that. And I have to admit that's one of my favorite stories of all time, although I hadn't heard that version. But I got the version that I know from Eckhart Tolle's work, which is also one of the most impactful books I've ever read. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Cool.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah, so how then if you're focused on the horizon and on the long-term, how are you structuring your days?
+[Derek:
+laughs] I don't. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+ [laughs] I really don't. I just tend to just dive into one thing at a time, and get really into one thing at a time until I'm feeling done with it. Then I'll just dive into the next thing, and I guess these cycles go sometimes for weeks. Sometimes it's a short-term thing. Something I'm programming will just take a few weeks to finish, and then I'll go work on my book for a while. Or sometimes it takes months or even a couple years to just dive into one thing until I feel that it's done. And then I'll just go do the next thing. 
+</p><p>
+So my friend Tynan wrote this book. I was about to say it's called Becoming Superhuman, but no, that's something else. What is it called? I think it's called Superhuman by Habit. Does that sound right? Tynan.com is his site, and yeah, I think it might be Superhuman by Habit. Anyway, yeah it's a great book about how to design a life by making habits and living by your habits, deciding what your values are, what's important to you, and making habits for yourself to make sure that you do everything that's important to you. And I read the book, and it's a wonderful argument in favor of this, but I just- I don't know. I just tend to just dive into one thing at a time. So no, I have no routine. Sometimes I bounce out of bed at like 3:30 in the morning excited to dive back into whatever I was doing at midnight when I fell asleep. And other mornings, I sleep until 7:00, hang out with my kids all day. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Awesome man. And then you just work on whatever you feel inspired to work on in that day?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, it's nice not having a boss [laughs].
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah, no kidding. No kidding. So let me ask this then. Why don't we transition into a bit of a lightning round? Because I have a ton of short-form questions that I would love to ask you.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure. Alright.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+So the first one is when you think of the word successful, who's the first person who comes to mind?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It's not a person. I think discipline. For some reason, the word discipline comes to mind first. Like I think I really admire discipline. I really admire those that don't lose control. So yeah, I don't have a single person that personifies that. I think it's a whole collection of people I really admire are the ones that live with discipline.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Love it. That's an awesome approach. We talked about a couple books, Dale Carnegie's How to Win Friends and Influence People. But what other books have most impacted your life?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, instead of naming one or two, I actually started this thing on my site about eight years ago where I started taking detailed notes on every book I've read while reading it. I would underline my favorite sentences or circle my favorite paragraphs. Then I would type them all in to a text file, so that I could review it and really internalize it. Like I wanted to remember, really internalize, ingest everything I had learned and make it a part of myself.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I do the same thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So I started sharing those notes a few years ago, and putting them just out for free on my site. So if you go to Sivers.org/book S-I-V-E-R-S.org slash B-O-O-K. You'll see over 220 books I've read with detailed notes on each one, and I've sorted them with my top recommendations on the top. So that was kind of the answer to your question. Which books had the biggest impact on me? I think the reason I don't think it would be fair to just name one or two is because I've noticed that it's a bit of a timing thing. Right? One of the biggest influences on me was Tony Robin's book Awaken the Giant Within. And I think it's just because I read it at the right time when I was 19 years old and that's what I needed to hear then. But when I re-read it again now, I kind of go, "Yeah, yeah, yeah. Same old, same old." 
+</p><p>
+And say for example, I asked Tim Ferriss that question once. And he said that, I think it was the book that he said was kind of that life changer for him, I think it was Maximum Achievement by Brian Tracy or something like that. So I went, "Oh, wow. So Tim said that was the biggest impact on him. I have to go read this book." And I read it, and it was just like, "Eh, same old, same old self-help crap." You know? [laughs].
+</p><p>
+But on the other hand, I realized yeah, if I would have read that book first before Awaken the Giant Within, then yeah, that probably would have had a big impact on me. So instead of me telling your listeners just one or two books that impacted me long ago, I think- yeah, go to sivers.org/book and look at a list of the ones that I think are the best of the best with my favorite ones up top, and see which one resonates with you right now.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+There are a lot of really, really good ones on here. I'm actually checking them out, but I have to admit a lot of them I've actually never heard of. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Cool!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+So I'm going to dig through this myself actually. Awesome. Alright, so next lightning round question, what's the most impactful 100 dollars you've spent recently?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It's got to be books. I'm sorry to sound like a broken record, but yeah, I think books are such a great value. One of my best friends is just a real extrovert. She just loves to be around lots of people all the time, and she spends like 15,000 dollars to go to these master class seminars, and she'll fly off to Vegas, and there'll be 1,000 other attendees in this big room. And they're all standing on chairs and pumping their fists in the air and yelling affirmations, and the person on the stage, they're sharing even less than they put into their 15 dollar book. But now they're charging 15,000 dollars to attend and hear them say it on stage. Right?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So I'm so thankful that I learn best from books because God, 15 bucks to buy a book, and think of like how much that 15 little books did for you. So yeah, I think my books.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it. People often ask me what the most important turning point in my life was, and I have to say it was when I learned how to hack my memory and speed read, which is the reason I teach it now. It was probably the most impactful thing I've ever learned. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Awesome.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah, alright. So what's one practical piece of homework- we love to assign homework on the show- so what's one practical piece of homework that you'd like our audience to do this week, whether it's read a book, practice a thought exercise or something like that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, sorry. I'm just going to be boring. I'd say yeah, read a book from my list and then email me afterwards.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Oh, that is a really, really good one. I love it. Alright, and can we put your email on the show notes?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, let's do it right now. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Alright!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Derek@sivers.org
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Awesome, so read one book. Once you've done that, email Derek. Tell him what you've thought. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Derek, if people take away one message from this podcast, what would you like it to be?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Email me, and introduce yourself because I think that anyone that listens to your show is my kind of person. That's why I was psyched to be on it. I don't need the fame, and I'm not doing this to sell books or anything obviously. I wasn't here pitching anything. So I just love what you're doing, and people that are a fan of your show are my kind of people. So yeah, if you made it all the way to the end of this, send me an email.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Thank you. So let me ask then because we didn't get a chance to talk too much about what you're working on, what's next for you?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Dinner!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+No, no. I mean career-wise [laughs].
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No, dinner. I'm going to have dinner after this.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Rock on. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Let's see. Actually I just posted something on my site that I think is- it's a vague idea now, but I think- I had a kid a few years ago.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Congrats.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I was thinking about that I'm always a bit of a pessimist in that stoic kind of way, stoicism kind of way of preparing for the worst. And so I often think of the fact that it's likely that I'll do before he's very old. So I think I really need to try to share everything I've learned. And so I look at all these 220 books that I've read in the last few years and all of my detailed notes on them, and I've noticed that a lot of books talk around a subject, or they share a lot of findings. But very few or almost never do they just tell you what to do, say do this. But yet, I've noticed that when I tell a lot of my friends about these amazing books I've read, a lot of my friends are not book readers. Even if they're smart people, I'll say, "Oh my God, you've got to read this book." And they'll say, "Nah dude, come on. You know me. I'm never going to read that book. Why don't you just tell me what it says I should do?" And I noticed that that was my friends' most common question. It's like "So what should I do? Tell me what to do. What does the book say I should do? Because we're not going to really sit around and talk around the issues. Just tell me how this will change my life." 
+</p><p>
+And it made me think about something like the Ten Commandments. I guess I brought that up earlier because it wasn't like they were stone tablets discussing issues, like talk around these issues. It was like no, we're just going to tell you what to do. Do these ten things, or don't do these six things and do these four things. And it can be a really succinct way to communicate a philosophy, kind of like- it made me think of the metaphor of seeds. When you have little dandelion seeds that blow in the wind, it's because they have their little seed inside of them. So I think that the philosophy of something can be a little seed inside a simple directive. Like if you just tell somebody, let's say whatever scares you, go do it. That's just a tiny commandment, but inside that is a bigger philosophy. But if you just do the action, you're living the philosophy. 
+</p><p>
+So yeah, I've been thinking about ways to turn this into something. I don't know if it's- I'm not saying that this will be a product or even a book, but just something I'm interested in. So if you go to my site and you look at my blog, one of the newest blog posts right now is at sivers.org/2do so it's to do but spelled out as 2-D-O, that's where you'll see the new post where I'm kind of talking around this issue. And anybody that's interested in doing this, or if you also have some ideas on this like how to turn all of this wisdom into specific directives telling people what to do, yeah that's something I'm thinking of doing now.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I really, really love that. And it's something I actually encourage my students to do. I'm in the process of reworking my course on accelerated learning. And like you said, even if you have all these mnemonic techniques, I saw that you've also read- I've been perusing your book list- so I saw you've also read Moonwalking with Einsteins.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yes!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+And you know a lot about how you can store memories long-term. But even with that said, even if you have these incredible techniques, you need to review. You need spaced repetitions. So I encourage my students to summarize books, and then go over them once a month, go over the last few books you've read. And man, it would be really, really, really interesting.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I'm so glad you brought this up. I just realized yeah, your listeners are the people that know this the best. So my very first idea with these 220 book notes, and each one as you'll see is pages and pages of notes on that book. My very first thought was like how do I put this into spaced repetition. Like how can I memorize what I've learned from these books with spaced repetition? And honestly, I haven't figured out the answer yet. I actually played with some things. I did the- I think you call it the closure technique where you omit certain words. But even then, I was like, "Well, it's not this sentence that I want to memorize. I'm not memorizing poetry. I want to memorize this concept, this idea so that it just becomes as internalized as one of those ones I said earlier, "whatever scares you, go do it" or your list of the 10 principles. Was it 10 or 20 you said you had?
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I have 10 core values. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+10 core values. I would love for a lot of the things I've learned in these books to be that tip of my tongue, tip of my mind kind of thing so they are just called up really frequently just whenever a life situation hits. But I'm not sure how to use spaced repetition for something like that. I'm such a fan of Anki for so many other things, and I've used it even for learning programming languages. If you go to sivers.org/srs, you'll see my story about how to use spaced repetition to learn a programming language. And it's how I kind of crash-coursed myself in JavaScript really fast-
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+That's really awesome.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+-and memorized it instead of having to look up everything I was doing. Yeah, so I'm a huge fan of spaced repetition, but how to do that for these book notes, I'm not sure yet.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I'll tell you what I would do, and then I'm going to send you a copy of my book as well. What I would do is I would have the title of the book- I'd probably sketch out because it's hard to find images for it. But I'm all about visual memory. I saw that you also read my buddy Anthony Metivier's book, so you know his whole visualization thing that he and I both teach. And what I would do is I would have a book, and then I'd have a sketch for each core concept. And I would force myself to remember what that sketch essentially is invoking. 
+</p><p>
+So one of your books was the China Study, which studies not just China but also other countries. So I might picture a Chinese emperor, sketch out a Chinese emperor. He might have 10 different arms if there were ten different countries. Each arm would be holding either a flag if the flag is readily recognizable or some other- a guy named Stan Lee packing a suitcase for example. And then I would remember that one of the core concepts is that he compared the diets of ten different countries against China, and I mean, I don't know- that's probably not a core concept. I haven't read the book to be honest with you, but it's one of the examples, one of the visualizations that I'm giving in my upcoming TEDx Talk. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Cool. As soon as you started describing this "I picture an emperor" I just noticed my eyes closed as soon as you started saying this. I was like vividly picturing everything you were saying. I love it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Yeah, exactly. So Derek, I know we're running long. I really do appreciate your time. I know it's your MO, but you did not have to accept our interview. So I appreciate that you did, and I've certainly learned a lot.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks man. I love what you're doing. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Awesome, so I'd love to pick your brain at some point. Maybe I'll be one of the people to send you an email to pick your brain about giving a TED talk, TED talk tips, and transitioning from the TEDx to the TED TED which is going to be my next goal hopefully.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Cool. I can just tell you in a sentence or two my main advice for anybody listening that's going to be giving a TED talk is just focus on what's surprising. Write out everything you want to say, and then scribble out everything you think will not be a surprise, and just focus on what's surprising. And they give you 18 minutes to do the talk, practice doing a 12 minute talk. Always err on the side of too short. The ones- I can tell you from attending many TED conferences, the talks that people often walk away going, "Damn, that was powerful" are often the ones that were shorter than what they needed to be because they just told you surprising stuff. Like people go to TED to learn something. Right? So back to that idea, you're not learning unless you're surprised. So just focus on what's surprising and just chop out the rest.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+I love it. Awesome, so I'm going to go hack out about 20% of my TED talk. Derek, I really appreciate it again. Thank you so much, and we will link up in the show notes. But if anyone wants to check out what you're working on, it sounds like sivers.org is the place to go. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yep. That's it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jonathan:</cite>
+<p>
+Awesome. Thanks again my friend. It's been a pleasure.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thank you. See ya.
+</p>
+</blockquote>
+
+<footer>
+© 2015 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

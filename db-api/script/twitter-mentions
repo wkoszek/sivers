@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+# PURPOSE: save mentions of @sivers in the database
+require 'pg'
+require 'json'
+require 'twitter'
+
+# only run this on the live server
+exit unless 'sivers.org' == %x{hostname}.strip
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+# configs to connect to Twitter client
+ck = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.ck'")[0]['v']
+cs = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.cs'")[0]['v']
+at = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.at'")[0]['v']
+as = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.as'")[0]['v']
+tw = Twitter::REST::Client.new do |config|
+	config.consumer_key = ck
+	config.consumer_secret = cs
+	config.access_token = at
+	config.access_token_secret = as
+end
+
+# PostgreSQL does the hard work of not adding a tweet if it already exists
+# So just get most recent 500 mentions and toss it all at the database.
+tw.mentions_timeline(count: 500).each do |t|
+	# Twitter client has it as an object, so convert to hash, then to JSON, minus newlines
+	db.exec_params('SELECT js FROM peeps.add_tweet($1)', [t.to_hash.to_json.gsub("\n", ' ')])
+end

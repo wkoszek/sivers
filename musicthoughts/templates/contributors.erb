@@ -1,0 +1,7 @@
+<h1><%= @t.top_s % @t.contributors %></h1>
+<ul class="linklist">
+<% @contributors.each do |contributor| %>
+	<li><a href="/contributor/<%= contributor[:id] %>"><%=h contributor[:name] %></a> <small>(<%= contributor[:howmany] %>)</small></li>
+<% end %>
+</ul>
+

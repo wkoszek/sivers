@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Don't Make Me Think - by Steve Krug | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: The classic book of web usability. Required reading for anyone who makes websites.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Don't Make Me Think - by Steve Krug | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/book/DontMakeMeThink">
+<meta property="og:image" content="https://sivers.org/images/DontMakeMeThink.gif">
+<meta property="og:description" content="The classic book of web usability. Required reading for anyone who makes websites.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Don't Make Me Think - by Steve Krug | Derek Sivers">
+<meta name="twitter:description" content="The classic book of web usability. Required reading for anyone who makes websites.">
+<meta name="twitter:image" content="https://sivers.org/images/DontMakeMeThink.gif">
+</head>
+<body id="onebook">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<header>
+<figure><a href="http://www.amazon.com/dp/0321344758?tag=sivers-20"><img src="/images/DontMakeMeThink.gif" alt="Don't Make Me Think - by Steve Krug"></a></figure>
+<h1>Don't Make Me Think - by Steve Krug</h1>
+<p class="postdate">
+ISBN: 0321344758, 
+READ: 2007-08-08, 
+RATING: 7/10
+<br>(See <a href="/book">my list of 200+ books</a>, for more.)
+</p>
+<p><strong>Go to the <a href="http://www.amazon.com/dp/0321344758?tag=sivers-20">Amazon page</a></strong> for details and reviews.</p>
+</header>
+
+<p id="booksummary">The classic book of web usability. Required reading for anyone who makes websites.</p>
+<h2>my notes</h2>
+<p id="booknotes">
+Use conventions so people don't have to think for even a millisecond.<br>
+<br>
+Aim for self-evident first.<br>
+If that fails, self-explanatory should be 2nd best.<br>
+Try to not need to explain at all.<br>
+<br>
+Remember people quickly glance / scan a page, quickly looking for what they need.  They don't read all options.<br>
+They guess fast instead of consider all.<br>
+<br>
+1. Create clear visual hierarchy<br>
+2. Use conventions<br>
+3. Page is in clearly defined areas<br>
+4. Make obvious what's clickable<br>
+5. Minimize noise<br>
+<br>
+Omit needless words.  Avoid happy-talk and instructions.<br>
+<br>
+Tabs must be real if you do them : where front-color is connected to content, and non-selected tabs are darkened with line beneath.<br>
+<br>
+Navigation is crucial but so is secondary and even third-ary!  Don't ignore importance of it.<br>
+Breadcrumbs help, should be  Top > Sub > Sub-Sub > Here (in bold) <br>
+But don't make breadcrums only navigation, and don't make last category double as page header.<br>
+Show "you are here" clearly.<br>
+Navigation helps show the context of your offerings.<br>
+<br>
+Logo everywhere links to home.<br>
+<br>
+The word they click should be the title of the destination page they hit!<br>
+<br>
+EVERY PAGE SHOULD ANSWER THESE IMMEDIATELY  (assume someone just woke up & saw any page in your site)<br>
+- what site is this?<br>
+- what page am I on?<br>
+- what are the major site sections?<br>
+- what are my options at this level?<br>
+- where am I in the scheme of things?<br>
+- how can I search?<br>
+<br>
+HOME PAGE NEEDS:<br>
+- identify site & mission<br>
+- answer: where do I start?<br>
+- show heirarchy<br>
+- search<br>
+- teases (like magazine cover, enticing to see content inside)<br>
+- timely content<br>
+- deals<br>
+- short cuts to most popular things<br>
+- registration / sign-in / show if signed-in ("welcome back Dave!")<br>
+- easy to find "what I'm lookign for"<br>
+- but also "not looking for" : enticing things they didn't know about<br>
+<br>
+HOW TO GET THESE ACROSS:<br>
+Tagline next to site ID (logo).  6-8 words.  Specific.  Meaningful and clear.<br>
+Welcome blurb in top part.  1-2 sentences.  Important words bolded.<br>
+Test it.<br>
+<br>
+TESTING TIPS:<br>
+Just 3-4 people is plenty.  Pay $50/hr.  Camcorder pointing at screen.<br>
+Ask them to think out loud.  Let them know they can do nothing wrong.<br>
+When they say something generic, ask details.  If they say, "I like it", ask what they like, and same with negative.<br>
+Hide site until time to start.  The second they see the home page, ask "What is this?  What would you click on?"<br>
+Ignore "kayak" problems : the ones they turn around immediately.<br>
+Resist adding things to solve problems.  That's rarely the answer.<br>
+</p>
+
+
+</div>
+</body>
+</html>

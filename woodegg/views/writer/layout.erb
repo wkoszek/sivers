@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wood Egg EDITOR: <%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/login.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/showdown.js"></script>
+</head>
+<body id="<%= @bodyid || 'writer' %>">
+
+<div class="navbar"><div class="navbar-inner"><div class="container">
+<a class="brand" href="/write/">Wood Egg login</a>
+<ul class="nav">
+	<li><a href="/write/"><%= @writer.name %></a></li>
+<% if defined?(@book) %>
+<% cc = @book.country.downcase %>
+	<li><a href="/write/<%= cc %>-list">TO-DO: (<%= @book.questions_missing_essays_count %>)</a></li>
+	<li><a href="/write/essays/<%= cc %>/unfinished">UNFINISHED: <%= @book.essays_unfinished.count %></a></li>
+	<li><a href="/write/essays/<%= cc %>/finished">Finished: <%= @book.essays_finished.count %></a></li>
+<% end %>
+	<li><a href="/write/writer-help">HELP</a></li>
+</ul>   
+</div></div></div>
+
+<div class="container">
+
+<%= yield %>
+
+</div>
+</body>
+</html>

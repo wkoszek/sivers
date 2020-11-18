@@ -1,0 +1,85 @@
+@import "settings";
+@import "normalize";
+@import "foundation/components/global";
+@import "foundation/components/grid";
+@import "foundation/components/type";
+@import "foundation/components/buttons";
+@import "foundation/components/forms";
+@import "foundation/components/labels";
+@import "foundation/components/inline-lists";
+@import "foundation/components/top-bar";
+@import "foundation/components/tables";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+
+body#fullscreen div#wholepage {
+	min-width:100% !important;
+}
+#wholepage {
+	@extend .row;
+	#bookinfo {
+		@extend .columns;
+		@extend .small-3;
+	}
+	#bookedit {
+		@extend .columns;
+		@extend .small-9;
+	}
+	.bookhalf {
+		@extend .columns;
+		@extend .small-6;
+	}
+}
+input[type=submit], button {
+	@extend .button;
+	@extend .success;
+	@extend .small;
+}
+textarea {
+	height: 8em;
+}
+body#fullscreen textarea {
+	height: 60em;
+}
+
+.small {
+	font-size: 75%;
+}
+div.essay, #essaycontent {
+	font-family: Georgia;
+	ul, ol {
+		padding-left: 2em;
+	}
+}
+#essaycontent {
+	background-color: #ffa;
+	h3 {
+		font-size: 1.25em;
+	}
+}
+

@@ -1,0 +1,11 @@
+<h1>Interviewees</h1>
+
+<% @country_people.each do |cc, people| %>
+	<h2><%= Countries.hsh[cc] %></h2>
+	<dl>
+	<% people.each do |p| %>
+		<dt><a href="/interviewee/<%= p.id %>" id="<%= p.id %>"><%=h p.name %></a></dt>
+		<dd><%=h p[:interviewee_bio] %></dd>
+	<% end %>
+	</dl>
+<% end %>

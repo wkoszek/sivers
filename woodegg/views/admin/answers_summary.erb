@@ -1,0 +1,6 @@
+<h1>Researchers’ Answers</h1>
+<p><a href="/answers/unfinished">unfinished: <%= @unfinished_count %></a></p>
+<p><a href="/answers/unjudged">unjudged: <%= @unjudged_count %></a></p>
+<% if @unjudged_count > 0 %>
+	<h2><a href="/answer/unjudged">go approve unjudged answers</a></h2>
+<% end %>

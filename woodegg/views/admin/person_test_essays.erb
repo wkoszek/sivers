@@ -1,0 +1,9 @@
+<h1><a href="<%= @person_url %>"><%=h @p.name %></a></h1>
+<% @tes.each do |te| %>
+	<h3><%= te.question.question %></h3>
+	<p><%= te.content.to_html %></p>
+	<hr>
+	<h4>Our notes: (<a href="/test_essay/<%= te.id %>">edit</a>)</h4>
+	<p><%=h te.notes %></p>
+	<hr>
+<% end %>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenBSD 6.0 : why and how | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: The only operating system I use on my computers is not Mac, not Windows, and not even Linux.It's OpenBSD, and I love it so much.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/slow">
+<link rel="next" href="https://sivers.org/why">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="OpenBSD 6.0 : why and how | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/openbsd">
+<meta property="og:image" content="https://sivers.org/images/openbsd.gif">
+<meta property="og:description" content="The only operating system I use on my computers is not Mac, not Windows, and not even Linux.It's OpenBSD, and I love it so much.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="OpenBSD 6.0 : why and how | Derek Sivers">
+<meta name="twitter:description" content="The only operating system I use on my computers is not Mac, not Windows, and not even Linux.It's OpenBSD, and I love it so much.">
+<meta name="twitter:image" content="https://sivers.org/images/openbsd.gif">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>OpenBSD 6.0 : why and how</h1>
+<p class="postdate">2016-09-01</p>
+</header>
+
+<p>
+	The only operating system I use on my computers is <a href="/itunes">not Mac</a>, not Windows, and not even Linux.
+	It's <a href="http://www.openbsd.org/">OpenBSD</a>, and I love it so much.
+</p><p>
+	Since <a href="http://www.openbsd.org/60.html">OpenBSD 6.0</a> was released today, I figured I should say a little something about why I love it, and how you can try it.
+</p>
+<h2>
+	It's probably not for you.
+</h2>
+<p>
+	It's not for beginners.
+	Beginners should use <a href="http://www.ubuntu.com/desktop">Ubuntu</a>.
+</p><p>
+	It's not for people who want to click a button and have the computer hide the details from you.
+</p><p>
+	If software bloat doesn't bother you — if every new Mac/Windows/Linux release you say, “Bring on the features! The more the better!” — it's not for you.
+</p><p>
+	But if you're experienced, like to “look under the hood”, and prefer software that does the minimum necessary, OpenBSD is for you.
+</p>
+<h2>
+	What is it?
+</h2>
+<p>
+	It's like Linux, but has <a href="http://www.openbsd.org/goals.html">different goals</a>.
+</p><p>
+	It's known for its focus on security.
+	But, like a well-engineered house will also be earthquake-proof, you don't have to be paranoid about earthquakes to appreciate great construction.
+	To me, the security features are just a side-effect of <a href="http://www.openbsd.org/security.html">great coding</a>.
+</p><p>
+	OpenBSD comes with a secure minimal <a href="https://www.nostarch.com/pf3">firewall</a>, <a href="https://www.openbsd.org/papers/httpd-asiabsdcon2015.pdf">webserver</a>, <a href="https://www.opensmtpd.org/">mailserver</a>, and an optional graphical <a href="http://www.xenocara.org/">desktop</a>.
+	So if all you want is a few of those things, you do the default install, tweak one config file, and you're done.
+</p>
+<h2>
+	Why OpenBSD instead of Linux?
+</h2>
+<p>
+	It's <strong>uncompromising</strong>.
+	It's not a people-pleaser or vendor-pleaser.
+	Linux is in everything from Android phones to massive supercomputers, so has to include features for all of them.
+	The OpenBSD developers say no to most things.
+	Instead of trying to make it do more, they keep it focused on doing what it does with more security and reliability.
+</p><p>
+	They <strong>review and remove</strong> code as often as they add.
+	If something is unused, unmaintained, or unnecessary, they'll axe it.
+	If it's unwieldy, they'll make a <strong>small simple replacement</strong>.
+	For examples, see <a href="http://www.tedunangst.com/flak/post/doas">doas</a>, <a href="https://www.opensmtpd.org/">OpenSMTPD</a>, <a href="http://man.openbsd.org/OpenBSD-current/man8/httpd.8">httpd</a>, and <a href="http://www.libressl.org/">LibreSSL</a>.
+	This is great for security, too.
+	The more code, the more chance of a bug that could compromise your entire computer.
+	The less code, the better.
+	Each new release seems to be getting <strong>leaner</strong> by removing old cruft.
+	No other operating system does that.
+</p><p>
+	Great <strong>documentation</strong> is a top priority.
+	The built-in <a href="https://en.wikipedia.org/wiki/Man_page">man pages</a> are amazing.
+	So if you're stuck on anything, <a href="http://man.openbsd.org/apropos.1">searching</a> the man pages on your own computer is going to give you a better answer than searching Google.
+	(This makes it nicer to work offline, too.)
+</p><p>
+	The <strong>installers</strong> are amazing.
+	The <a href="http://www.openbsd.org/faq/faq4.html">initial installation</a> takes like five minutes.
+	Hit [Enter] to the defaults, make your username and password, and it's ready to go.
+	Then the <a href="http://www.openbsd.org/faq/faq15.html">software installer</a> is ideal, too.
+	Just <a href="http://man.openbsd.org/pkg_info">pkg_info</a> to search for something and <a href="http://man.openbsd.org/pkg_add">pkg_add</a> to install it in seconds.
+	(Which also installs all of its documentation, too.)
+</p><p>
+	Everything is rock-solid and <strong>just works</strong>.
+	Hardware I couldn't get working in Linux just works on a first try with OpenBSD.
+	And because they don't stay cutting-edge, keeping a cautious pace, it keeps working and doesn't break.
+	The whole system is carefully planned and consistent, instead of a hodge-podge of bits and pieces.
+</p><p>
+	It's all free and run by helpful volunteers.
+	If you <a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/">searched ports</a>, but some application you need is missing or out of date, just contact the maintainer and offer some assistance or money to help get it updated or added.
+	I've sponsored the OpenBSD port of <a href="http://elixir-lang.org/">Elixir</a>, <a href="http://www.erlang.org/">Erlang</a>, <a href="http://www.ledger-cli.org/">Ledger</a>, and <a href="http://www.qutebrowser.org/">Qutebrowser</a> (a <a href="https://www.youtube.com/watch?v=eJuOYQxa2_o">great web browser</a> you should <a href="https://www.shortcutfoo.com/app/dojos/qutebrowser">try</a>.)
+	I also donated $1000 to the <a href="http://www.openbsdfoundation.org/">OpenBSD foundation</a> to support their ongoing work.
+</p>
+<h2>
+	Now, how?
+</h2>
+<p>
+	This is where I could say, “So go to openbsd.org and <a href="http://www.openbsd.org/60.html">give it a try</a>! Bye!”
+</p><p>
+	But since I've tweaked a great setup over the years, I wrapped up some of my instructions and config files for you here:
+</p><ul><li>
+	If you want to play with OpenBSD on a public-facing server, I recommend <a href="https://www.vultr.com/">Vultr</a>.
+	See “<a href="/file/OpenBSD-v.html">Installing OpenBSD 6.0 on Vultr</a>.”
+</li><li>
+	Or if you prefer <a href="https://www.digitalocean.com/">Digital Ocean</a> instead, that's harder, but possible.
+	See “<a href="/file/OpenBSD-d.html">Installing OpenBSD 6.0 on Digital Ocean</a>.”
+</li><li>
+	And once you've got it installed, type this command …
+<br><strong>ftp <a href="/file/60.tgz">https://sivers.org/file/60.tgz</a> ; tar xfz 60.tgz</strong><br>
+	… and you'll have my personal shortcuts I use for setting up my OpenBSD 6.0 desktop.
+</ul>
+<img src="/images/openbsd.gif">
+
+<footer>
+© 2016 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/slow" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/why" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

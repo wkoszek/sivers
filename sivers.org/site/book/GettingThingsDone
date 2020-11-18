@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting Things Done - by David Allen | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Classic book with near-cult following. How to manage every last itty bitty tiny thing in your life. Keep your inbox empty.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Getting Things Done - by David Allen | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/book/GettingThingsDone">
+<meta property="og:image" content="https://sivers.org/images/GettingThingsDone.gif">
+<meta property="og:description" content="Classic book with near-cult following. How to manage every last itty bitty tiny thing in your life. Keep your inbox empty.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Getting Things Done - by David Allen | Derek Sivers">
+<meta name="twitter:description" content="Classic book with near-cult following. How to manage every last itty bitty tiny thing in your life. Keep your inbox empty.">
+<meta name="twitter:image" content="https://sivers.org/images/GettingThingsDone.gif">
+</head>
+<body id="onebook">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<header>
+<figure><a href="http://www.amazon.com/dp/0142000280?tag=sivers-20"><img src="/images/GettingThingsDone.gif" alt="Getting Things Done - by David Allen"></a></figure>
+<h1>Getting Things Done - by David Allen</h1>
+<p class="postdate">
+ISBN: 0142000280, 
+READ: 2005-04-30, 
+RATING: 8/10
+<br>(See <a href="/book">my list of 200+ books</a>, for more.)
+</p>
+<p><strong>Go to the <a href="http://www.amazon.com/dp/0142000280?tag=sivers-20">Amazon page</a></strong> for details and reviews.</p>
+</header>
+
+<p id="booksummary">Classic book with near-cult following. How to manage every last itty bitty tiny thing in your life. Keep your inbox empty.</p>
+<h2>my notes</h2>
+<p id="booknotes">
+TWO KEY OBJECTIVES:<br>
+1 - Capturing all things into a logical and trusted system<br>
+2 - Make decisons about all the inputs you let into your life, so that you will always have a plan for next actions<br>
+<br>
+Everyone feels they have too much to handle, and not enough time to get it all done. Taking on more than they have resources to handle.<br>
+<br>
+Work : anything you want to be different than it currently is.<br>
+<br>
+How much available data could be relevant to doing these projects "better"?  The answer is, an infinite amount, easily accessible through the web.<br>
+<br>
+We're allowing in huge amounts of information and communication from the outer world and generating an equally large volume of ideas and agreements with ourselves and others from our inner world.  A huge number of internal and external commitments.<br>
+<br>
+The ability to be successful, relaxed, and in control during these fertile but terbulent times demands new ways of thinking and working.  There is a great need for new methods, technologies, and work habits to help us get on top of our world.<br>
+<br>
+Your ability to generate power is directly proportional to your ability to relax.<br>
+<br>
+Clearing the mind and being flexible are key.<br>
+<br>
+Anything that causes you to overreact or underreact can control you, and often does.<br>
+<br>
+Most of the stress people experience comes from inappropriately managed commitments they make or accept.<br>
+<br>
+Learn to control the "open loops".<br>
+<br>
+MANAGING COMMITMENTS:<br>
+1. If it's on your mind, your mind isn't clear.  Anything unfinished must be captured.<br>
+2. Clarify exactly what your commitment is.<br>
+3. Keep reminders of actions organized in a system you review regularly.<br>
+<br>
+Write down the project or situation that is most on your mind at this moment.<br>
+Describe, in a single sentence, your intended succesful outcome for this problem or situation.<br>
+Write down the very next physical action required to move the situation forward.<br>
+<br>
+WHY THINGS ARE ON YOUR MIND:<br>
+You want it to be differently than it currently is, and yet:<br>
+- you haven't clarified exactly what the intended outcome is<br>
+- you haven't decided what the very next physical action step is<br>
+- you haven't put reminders of the outcome and the action required into a system you trust<br>
+<br>
+It's a waste of time and energy to keep thinking about something that you make no progress on.<br>
+<br>
+There is no reason to ever have the same thought twice, unless you like having that thought.<br>
+<br>
+We need to transform all the "stuff" we're trying to organize into actionable stuff we need to do.<br>
+<br>
+Get in the habit of keeping nothing on your mind.<br>
+<br>
+You can't DO a project. You can only do an action related to it. Many actions require only a minute or two, in the appropriate context, to move a project forward.<br>
+<br>
+Lack of time is not the major issue, though you may think it is. The real problem is a lack of clarity and definition about what a project really is, and what the associated next-action steps required are.  Clarifying things on the front end, when they first appear on the radar, rather than on the back end, after trouble has developed, allows people to reap the benefits of managing action.<br>
+<br>
+I capture and organize 100% of my stuff in and with objective tools at hand, not in my mind. That applies to everything - little or big - personal or professional - urgent or not.  Everything.<br>
+<br>
+Your mind will keep working on anything that's still in that undecided state.<br>
+<br>
+STAGES WE GO THROUGH AS WE DEAL WITH OUR WORK:<br>
+- collect things<br>
+- process what they mean and what to do about them<br>
+- organize the results<br>
+- review as options for what we choose to...<br>
+- ... do<br>
+<br>
+Collect and gather together placeholders for all the things you consider incomplete in your world. Anything you think ought to be different than it currently is and that you have any level of internal commitment to changing.<br>
+<br>
+Stuff --> In Basket --> What is it?<br>
+Is it actionable?<br>
+	YES:<br>
+		What's the next action?<br>
+		Will it take less than 2 minutes?<br>
+			YES: Do it now.<br>
+			NO: Am I the right person to do this?<br>
+				YES: Defer it (Keep track in Calendar or Next Actions)<br>
+				NO: Delegate it. (Keep track in "Waiting")<br>
+	NO:<br>
+		Reference  (retrievable when required)<br>
+		Someday/Maybe<br>
+		Trash it<br>
+<br>
+A project is any desired result that requires more than one action step.<br>
+<br>
+The next-action decision is central. That action needs to be the next physical visible behavior, without exception, on every open loop.<br>
+<br>
+CALENDAR: every action that has to happen at a specific time or date.<br>
+NEXT ACTIONS LIST: those that need to be done as soon as they can<br>
+WAITING FOR: all you're waiting for others to do<br>
+<br>
+Subdivide your Next Actions into categories, like Business Hours or With Assistant - so that next time you're at a phone or with your assistant you can do them all at once.<br>
+<br>
+Scan all the defined actions and options before you, radically increasing the efficacy of the choices you make about what you're doing at any point in time.<br>
+<br>
+How will you decide what to do and what not to do?  By trusting your intuition.<br>
+<br>
+WEEKLY REVIEW:<br>
+- gather and process all your stuff<br>
+- review your system<br>
+- update your lists<br>
+- get clean, clear, current, and complete<br>
+<br>
+BIG REVIEW:<br>
+- life<br>
+- 3-5 year vision<br>
+- 1-2 year goals<br>
+- areas of responsibility<br>
+- current projects<br>
+- current actions<br>
+<br>
+Thing of your purpose. Think of what a successful outcome would look like.  Where would you be physically, financially, reputation-wise, or whatever?  Brainstorm potential steps. Organize your ideas. Decide on the next actions. Are you any clearer about where you want to go and how to get there?<br>
+<br>
+People love to win. If you're not totally clear about the purpose of what you're doing, you have no chance of winning.<br>
+<br>
+VALUE OF ANSWERING "WHY":<br>
+- creates decision-making criteria<br>
+- aligns resources<br>
+- motivates<br>
+- clarifies focus<br>
+- expands options, opens up creative thinking<br>
+<br>
+A great way to think about what your principles are, is to complete this sentence:<br>
+"I would give others totally free rein to do this, as long as they... "<br>
+<br>
+You won't see how to do it until you see yourself doing it.<br>
+<br>
+1. View the project from beyond the completion date<br>
+2. Envision wild success!  (Suspend "yeah but...")<br>
+3. Capture features, aspects, qualities you imagine in place<br>
+<br>
+Asking what specific physical action you'd take next, if you had nothing else to do, will test the maturity of your thinking about the project.<br>
+<br>
+A project is sufficiently planned for implementation when every next-action step has been decided on every front that can actually be moved on without some other components having to be completed first.  If the project has multiple components, each of them should be assessed by asking, "Is there something that anyone could be doing on this right now?"<br>
+<br>
+In some cases, there will be only one aspect that can be activated, and everything else will depend on the results of that.<br>
+<br>
+The highest-performing people I know are those who have installed the best tricks in their lives.<br>
+<br>
+Everything gets processed equally.  "Process" means decide what the thing is, what action is required, then dispatch it accordingly.<br>
+<br>
+Emergency scanning - looking for the most urgent, fun, or interesting stuff in your in box - is not processing.<br>
+<br>
+Emails are more efficient to process last-first because of all the discussion threads that accumulate on top of one another.<br>
+<br>
+Your CPA can provide record-retention timetables that will tell you how long you should keep what kinds of documentation.<br>
+<br>
+SOMEDAY/MAYBE : "there's nothing to do on this now, but there might be later".  An event in the future you're not sure if you'll be around for.  Something you'd rather sleep on it for a week.<br>
+<br>
+Until you know what the next physical action is, there's still more thinking required before anything can happen.<br>
+<br>
+Deciding isn't really an action.  You just need more information before you can make a decision.  Is that information external sources or internal thinking?<br>
+<br>
+Even if the item is not high-priority, do it now if you're ever going to do it at all.<br>
+<br>
+Record the date on everything you hand-off to others.<br>
+<br>
+If you put reference materials in the same pile as things you still want to read, you'll go numb to the stack!<br>
+<br>
+You'll get a great feeling when you know that your "Waiting For" list is the complete inventory of everything you care about that other people are supposed to be doing.<br>
+<br>
+Don't use support material for reminding!  You'll go numb because they don't prompt you to do anything.<br>
+<br>
+If you have a project that you don't really need to think about now, but deserves a flag at some point in the future, put it on your calendar.<br>
+<br>
+If you have a list of calls you must make, the minute that list is not totally current with *all* the calls you need to make, your brain will not trust the system, and it won't get relief from its lower-level mental tasks. It will have to take back the job of remembering and reminding, which as you know it doesn't do very efficiently.<br>
+<br>
+Review the lists of all the actions you could possible do in your current context.<br>
+<br>
+Evaluate them against the flow of other work coming at you, to ensure that you make the best choices about what to deal with.<br>
+<br>
+The weekly review is whatever you need to do to get your head empty again.  Until you can honestly say, "I absolutely know right now everything I'm not doing but could be doing if I decided to."<br>
+<br>
+Always keep an inventory of things that need to be done that require very little mental or creative horsepower.<br>
+<br>
+One of the best ways to increase your energy is to close some of your loops.  So always be sure to have some easy loops to close, right at hand.<br>
+<br>
+Do ad-hoc work as it shows up, not because it is the path of least resistance, but because it is the thing you need to do, vis-á-vis all the rest.<br>
+<br>
+All of us could be doing more planning, more informally, and more often, about our projects and our lives.  If we did, it would relieve a lot of pressure on our psyches and produce an enormous amount of creative output with minimal effort.<br>
+<br>
+The real need is to capture and utilize more of the creative, proactive thinking we do - or could do.<br>
+<br>
+I'm on a mission to make "What's the next action?" part of the global thought process.<br>
+<br>
+It would only require about 10 seconds of thinking to figure out what the next action would be for almost everything on your list.  But most people haven't.<br>
+<br>
+Because we procrastinate what we can imagine as being tedious, creative, sensitive, and intelligent people procrastinate the most because their sensitivity gives them the capability of producing lurid nightmare scenarios about all the negative consequences that might occur if it weren't done perfectly!<br>
+<br>
+Who doesn't procrastinate?  The insensitive oafs who just take something and start plodding forward, unaware of all the things that could go wrong.  Everyone else tends to get hung up about all kinds of things.<br>
+<br>
+To many meetings end wiht a vague feeling that something ought to happen, and the hope that it's not their personal job to make it so.<br>
+<br>
+Getting things going builds a more positive self-image than repeating affirmations in a mirror.<br>
+<br>
+If it can be changed, there's some action that will change it.  If it can't, it must be considered part of the landscape to be incorporated in strategy and tactics.<br>
+<br>
+Complaining is a sign that someone isn't willing to risk moving on a changeable situation, or won't consider the immutable circumstance in his or her plans.  This is a temporary and hollow form of self-validation.<br>
+<br>
+When you start to make things happen, you really begin to believe you can make things happen.  And that makes things happen.<br>
+<br>
+There are only two problems in life:<br>
+(1) - you know what you want but don't know how to get it<br>
+... and / or ...<br>
+(2) - you don't know what you want<br>
+<br>
+"Life affords no higher pleasure than that of surmounting difficulties, passing from one step of success to another, forming new wishes, and seeing them gratified." - Dr. Samuel Johnson<br>
+</p>
+
+
+</div>
+</body>
+</html>

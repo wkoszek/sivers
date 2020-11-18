@@ -1,0 +1,7 @@
+<h1>Template Questions</h1>
+
+<ul>
+<% @tqs.each do |tq| %>
+	<li><a href="/template_question/<%= tq.id %>"><%=h tq.question %></a></li>
+<% end %>
+</ul>

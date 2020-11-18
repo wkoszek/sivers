@@ -1,0 +1,16 @@
+<h1><%= @pagetitle %></h1>
+
+<p>Remaining questions: <strong><%= @remaining %></strong>.
+   Remaining days: <strong><%= @days_remaining %></strong>.</p>
+<p>That means finishing <strong><%= (@remaining / @days_remaining).ceil %> per day for the next <%= @days_remaining %> days</strong> to finish on time.</p>
+<p>Ideally today you should have <strong><%= @ideal_today %></strong> done. You have <strong><%= @book.essays_finished.count %></strong> done.</p>
+
+<p><a href="/write/<%= @country.downcase %>-list" class="btn btn-primary btn-large">GO TO LIST OF QUESTIONS</a></p>
+
+<h2>Essays Finished Per Day:</h2>
+<table border="1">
+<tr><th>date</th><th>#</th></tr>
+<% @stats.each do |day,howmany| %>
+	<tr><td><%= day %></td><td>&nbsp; <%= howmany %></td></tr>
+<% end %>
+</table>

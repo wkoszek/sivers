@@ -1,0 +1,31 @@
+<!-- Code -->
+
+<h2><a href="/projects">Projects</a> » Technology Preferences:</h2>
+
+<dl>
+
+<dt>PostgreSQL database</dt>
+<dd>Projects only use <a href="http://www.postgresql.org/">PostgreSQL</a>.</dd>
+<dd>I recently (2015) doubled-down on PostgreSQL, putting ALL business logic and functionality into the database functions directly, so the Ruby/JavaScript/whatever code around it can be quite dumb and replaceable.</dd>
+<dd><a href="https://github.com/sivers/pg">Read this</a> for an idea of what I'm doing and where it's headed.</dd>
+
+<dt>Central database with schemas</dt>
+<dd>Instead of duplicating someone’s info for each project, people are kept in <a href="https://code.sivers.org/db-api/">one central database</a>, and all other projects (customers, clients, workers, etc) just refer to the person_id.  To keep strict foreign keys, now all projects are in <a href="https://code.sivers.org/db-api/">one database</a>, just separated into different schemas.</dd>
+
+<dt>REST Server + dumb client</dt>
+<dd>I’m much more interested in being the back-end than front-end.  Each project is meant to be used by other sites/apps/interfaces. So each project should have a fully-featured <a href="http://en.wikipedia.org/wiki/REST">REST</a> server, and the website is just a client using its REST API, <a href="http://pragdave.me/blog/2007/03/28/the-radar-architecture-restful-application-dumbass-recipient/">as described here</a>. Ensures that all outside clients can do everything our website can do, and separates UI from back-end functionality.</dd>
+<dd>Twitter is a role model for this.  Just like most people don’t use twitter.com, but use another tool that uses the Twitter API, I’m not expecting any of my sites to be big destination websites, but rather good strong back-ends that other people can write great front-ends for.</dd>
+<dd>REST server should have very strict authentication and validations for every action, so client can be dumb.  Anyone should be able to write their own fully-functional front-end in Rails, Node, Android, iPhone, etc.</dd>
+
+<dt>Multi-lingual</dt>
+<dd>Most sites are fully multi-lingual. See <a href="http://musicthoughts.com/">musicthoughts.com</a> for a live example. Nothing should be hard-coded in English. The techniques for language setting/switching are common throughout these sites. (Professional translators are hired to do the translations.)</dd>
+
+<dt>Multi-currency</dt>
+<dd>All sites that deal with money are multi-currency. Money is always saved with a currency code.</dd>
+
+<dt>What framework?</dt>
+<dd>For now, I’m using plain old <a href="http://www.sinatrarb.com/">Sinatra</a>.</dd>
+<dd>For web site sections that don’t absolutely require database interaction, I’m a fan of plain old static sites.   See <a href="https://code.sivers.org/sivers.org/">sivers.org code</a> for an example of this.</dd>
+<dd>For CSS, I like <a href="http://purecss.io/">Pure</a>, or just plain old hand-coded CSS.</dd>
+
+</dl>

@@ -1,0 +1,15 @@
+<% unless @tidbits.empty? %>
+<h3>Tidbits:</h3>
+<ul>
+<% @tidbits.each do |t| %>
+	<li>
+	<h4><%=h t.headline %></h4>
+	<strong><%= '%s %d: %s' % [Date::MONTHNAMES[t.created_at.month], t.created_at.year, t.intro] %></strong><br>
+	<% unless t.url.empty? %>
+		<a href="<%= t.url %>"><%=h t.url %></a><br>
+	<% end %>
+	<%= t.content.to_html %>
+	</li>
+<% end %>
+</ul>
+<% end %>

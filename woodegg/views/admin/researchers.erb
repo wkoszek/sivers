@@ -1,0 +1,42 @@
+<h2><%= @pagetitle %></h2>
+
+<h2>Stats:</h2>
+<table>
+	<tr><td>country</td><td>researcher</td><td>finished</td><td>open</td><td>limbo</td></tr>
+<% @books_researchers.each do |book_id, researchers| %>
+	<% book = @books_not_done.find {|b| b.id == book_id } %>
+	<tr><td><strong><a href="/book/<%= book.id %>"><%= Countries.hsh[book.country] %></a></strong></td><td></td>
+	<td><strong><%= book[:answers_done] %></strong></td>
+	<td><strong><%= book[:answers_open] %></strong></td>
+	<td><strong><%= book[:answers_limbo] %></strong></td>
+	</tr>
+	<% researchers.each do |r| %>
+		<tr><td></td><td><a href="/researcher/<%= r.id %>"><img src="/images/200/researcher-<%= r.id %>.jpg" width="200" height="200"> <%=h r.name %></a></td>
+		<td><%= r[:answers_done] %></td>
+		<td><%= r[:answers_open] %></td>
+		<td><%= r[:answers_limbo] %></td>
+		</tr>
+	<% end %>
+<% end %>
+</table>
+
+<h2>Active:</h2>
+<ul>
+<% @active.each do |r| %>
+	<li><a href="/researcher/<%= r.id %>"><%=h r.name %></a></li>
+<% end %>
+</ul>
+
+<form action="/researchers" method="post">
+	<label for="person_id">type person_id to add new researcher:</label>
+	<input type="text" name="person_id" id="person_id" value="">
+	<input type="submit" name="submit" value="add">
+</form>
+
+<h2>Inactive:</h2>
+<ul>
+<% @inactive.each do |r| %>
+	<li><a href="/researcher/<%= r.id %>"><%=h r.name %></a></li>
+<% end %>
+</ul>
+

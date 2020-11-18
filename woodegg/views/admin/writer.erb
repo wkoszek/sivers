@@ -1,0 +1,63 @@
+<h2><%= @pagetitle %></h2>
+
+<div class="row">
+<div class="small-4 columns">
+<img src="/images/200/writer-<%= @writer.id %>.jpg" width="200" height="200" alt="<%= @writer.name %>">
+</div>
+<div class="small-8 columns">
+<a href="<%= @person_url %>">Person page for <%= @writer.name %></a>
+<form action="/writer/<%= @writer.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="bio">bio:</label>
+	<textarea name="bio" id="bio"><%= @writer.bio %></textarea><br>
+<input type="submit" name="submit" value="update">
+</form>
+</div>
+</div>
+
+<div class="row">
+<div class="small-4 columns">
+<h2>Essays:</h2>
+<table>
+<tr>
+	<td>Finished:</td>
+	<td><a href="/writer/<%= @writer.id %>/essays/finished"><%= @writer.essays_finished_count %></a></td>
+</tr>
+<tr>
+	<td>Unfinished:</td>
+	<td><a href="/writer/<%= @writer.id %>/essays/unfinished"><%= @writer.essays_unfinished_count %></a></td>
+</tr>
+<tr>
+	<td>Unpaid:</td>
+	<td><a href="/writer/<%= @writer.id %>/essays/unpaid"><%= @writer.essays_unpaid_count %></a></td>
+</tr>
+<tr>
+	<td>Unjudged:</td>
+	<td><a href="/writer/<%= @writer.id %>/essays/unjudged"><%= @writer.essays_unjudged_count %></a>
+<% if @writer.essays_unjudged_count > 0 %>
+<form action="/writer/<%= @writer.id %>/approval" method="post">
+<input type="submit" name="submit" value="approve all finished essays">
+</form>
+<% end %>	
+	</td>
+</tr>
+</table>
+</div>
+<div class="small-8 columns">
+<h2>Books:</h2>
+<ul>
+<% @writer.books.each do |b| %>
+	<li><a href="/book/<%= b.id %>"><%= b.short_title %></a></li>
+<% end %>
+</ul>
+<h4>Assign this writer a book:</h4>
+<form action="/writer/<%= @writer.id %>/books" method="post">
+<select name="book_id">
+	<option value="0">... choose book ...</option>
+<% @books2add.each do |b| %>
+	<option value="<%= b.id %>"><%= b.short_title %></option>
+<% end %>
+</select>
+<input type="submit" name="submit" value="assign book">
+</form>
+</div>
+</div>

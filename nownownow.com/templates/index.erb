@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>sites with a /now page</title>
+<meta name="description" content="sites with a /now page">
+<meta name="author" content="Derek Sivers">
+<link rel="alternate" type="application/rss+xml" title="sites with a /now page" href="http://nownownow.com/rss.xml" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:100,400,600,800" rel="stylesheet" type="text/css">
+<style type="text/css">
+body { font-family: "Open Sans", sans-serif; font-size: 20px; padding: 0 5px; line-height: 1.5em; }
+a {color: #5337DC;}
+li a:visited {color: #633;}
+h1 { color: rgba(0, 0, 0, 0.75); margin-bottom: 15px; font-size: 40px; font-weight: 600 !important; }
+h2, small { font-family: sans-serif; color: #900; }
+small { display: block; line-height: 2em; font-size: 16px; }
+ul { margin: 1em 0 0 0; padding: 0; }
+li { width: 320px; display: inline-block; vertical-align: top; list-style-type: none; margin: 0 10px 40px 0; }
+.name, .url, .subtitle { max-width: 300px; }
+.name { font-size: 1.1em; font-weight: bold; }
+.subtitle { font-family: sans-serif; font-size: 0.7em; line-height: 1.3em; }
+</style>
+<meta property="og:title" content="Now Now Now">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://nownownow.com/">
+<meta property="og:description" content="sites with a /now page">
+<meta property="og:image" content="http://nownownow.com/images/nowclock.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nownownow">
+<meta name="twitter:creator" content="@nownownow">
+<meta name="twitter:title" content="Now Now Now">
+<meta name="twitter:description" content="sites with a /now page">
+<meta name="twitter:image" content="http://nownownow.com/images/nowclock.jpg">
+</head>
+<body>
+<section id="content">
+<h1>sites with a <a href="/about">/now page</a>:</h1>
+<small>Re-load page to shuffle order.</small>
+<small>Follow <a href="https://twitter.com/NowNowNow">@NowNowNow</a> for updates.</small>
+<small>To add one, <a href="/about">see the /about page</a>.</small>
+
+<ul id="shuffle1">
+<% @profiles_with_image.each do |url| %>
+<li>
+<a href="p/<%= url[:public_id] %>"><img src="/images/300x300.gif" data-echo="http://www.gravatar.com/avatar/<%= url[:gravatar] %>?s=300" width="300" height="300"></a>
+<div class="name"><a href="p/<%= url[:public_id] %>"><%=h url[:name] %></a></div>
+<div class="url"><a href="<%= url[:long] %>"><%= url[:short] %></a></div>
+<div class="subtitle"><%=h url[:subtitle] %></div>
+</li>
+<% end %>
+</ul>
+<%= @js1 %>
+<hr>
+
+<ul id="shuffle2">
+<% @urls_with_image.each do |url| %>
+<li>
+<a href="<%= url[:long] %>"><img src="/images/300x300.gif" data-echo="http://www.gravatar.com/avatar/<%= url[:gravatar] %>?s=300" width="300" height="300"></a>
+<div class="name"><%=h url[:name] %></div>
+<div class="url"><a href="<%= url[:long] %>"><%= url[:short] %></a></div>
+</li>
+<% end %>
+</ul>
+<%= @js2 %>
+<hr>
+
+<ul id="shuffle3">
+<% @profiles_without_image.each do |url| %>
+<li>
+<div class="name"><a href="p/<%= url[:public_id] %>"><%=h url[:name] %></a></div>
+<div class="url"><a href="<%= url[:long] %>"><%= url[:short] %></a></div>
+<div class="subtitle"><%=h url[:subtitle] %></div>
+</li>
+<% end %>
+</ul>
+<%= @js3 %>
+<hr>
+
+<ul id="shuffle4">
+<% @urls_without_image.each do |url| %>
+<li>
+<div class="name"><%=h url[:name] %></div>
+<div class="url"><a href="<%= url[:long] %>"><%= url[:short] %></a></div>
+</li>
+<% end %>
+</ul>
+<%= @js4 %>
+
+<h3>Total count: <%= @total %></h3>
+<small>Last update: <%= Time.now %></small>
+<small><a href="https://code.sivers.org/nownownow.com/">See the code</a> that makes this site.</small>
+</section>
+<script>
+/*! echo.js v1.7.0 | (c) 2015 @toddmotto | https://github.com/toddmotto/echo */
+!function(t,e){"function"==typeof define&&define.amd?define(function(){return e(t)}):"object"==typeof exports?module.exports=e:t.echo=e(t)}(this,function(t){"use strict";var e,n,o,r,c,a={},u=function(){},d=function(t){return null===t.offsetParent},i=function(t,e){if(d(t))return!1;var n=t.getBoundingClientRect();return n.right>=e.l&&n.bottom>=e.t&&n.left<=e.r&&n.top<=e.b},l=function(){(r||!n)&&(clearTimeout(n),n=setTimeout(function(){a.render(),n=null},o))};return a.init=function(n){n=n||{};var d=n.offset||0,i=n.offsetVertical||d,f=n.offsetHorizontal||d,s=function(t,e){return parseInt(t||e,10)};e={t:s(n.offsetTop,i),b:s(n.offsetBottom,i),l:s(n.offsetLeft,f),r:s(n.offsetRight,f)},o=s(n.throttle,250),r=n.debounce!==!1,c=!!n.unload,u=n.callback||u,a.render(),document.addEventListener?(t.addEventListener("scroll",l,!1),t.addEventListener("load",l,!1)):(t.attachEvent("onscroll",l),t.attachEvent("onload",l))},a.render=function(){for(var n,o,r=document.querySelectorAll("img[data-echo], [data-echo-background]"),d=r.length,l={l:0-e.l,t:0-e.t,b:(t.innerHeight||document.documentElement.clientHeight)+e.b,r:(t.innerWidth||document.documentElement.clientWidth)+e.r},f=0;d>f;f++)o=r[f],i(o,l)?(c&&o.setAttribute("data-echo-placeholder",o.src),null!==o.getAttribute("data-echo-background")?o.style.backgroundImage="url("+o.getAttribute("data-echo-background")+")":o.src=o.getAttribute("data-echo"),c||(o.removeAttribute("data-echo"),o.removeAttribute("data-echo-background")),u(o,"load")):c&&(n=o.getAttribute("data-echo-placeholder"))&&(null!==o.getAttribute("data-echo-background")?o.style.backgroundImage="url("+n+")":o.src=n,o.removeAttribute("data-echo-placeholder"),u(o,"unload"));d||a.detach()},a.detach=function(){document.removeEventListener?t.removeEventListener("scroll",l):t.detachEvent("onscroll",l),clearTimeout(n)},a});
+echo.init({offset: 1000});
+</script>
+</body>
+</html>

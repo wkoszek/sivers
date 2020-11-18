@@ -1,0 +1,19 @@
+<div class="comment">
+<time><%= note[:created_at] %></time>
+<cite> —
+<% if note[:manager] %>
+	manager: <%=h note[:manager][:name] %>
+<% elsif note[:client] %>
+	client: <%=h note[:client][:name] %>
+<% elsif note[:worker] %>
+	(you!)
+	<!-- TODO: DELETE/EDIT -->
+<% end %>
+</cite> — about
+<% if note[:task_id] %>
+	task
+<% else %>
+	project
+<% end %>
+<p><%=h note[:note] %></p>
+</div>

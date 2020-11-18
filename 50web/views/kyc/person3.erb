@@ -1,0 +1,208 @@
+<section id="showemail">
+<h1>#3 = attributes and interests</h1>
+
+<div id="inbutts" data-personId="<%= @person[:id] %>">
+<% if @foundkeys.size > 0 %>
+	<h2>found:</h2>
+	<% @foundkeys.each do |x| %>
+		<button data-val="<%= x %>"><%= x %></button>
+	<% end %>
+	<h2>all:</h2>
+<% end %>
+<% @inkeys.each do |x| %>
+	<button data-val="<%= x %>"><%= x %></button>
+<% end %>
+</div>
+
+<hr>
+
+<% @person[:emails].each do |e| %>
+	<%= h(e[:body]).gsub("\n", '<br>') %>
+	<hr>
+<% end %>
+</section>
+<section id="showperson">
+<h3><%=h @person[:email] %></h3>
+
+<div id="showai"> <!-- for styling only -->
+<table id="attributes">
+	<tr><th>attribute</th><th>N</th><th>?</th><th>Y</th></tr>
+<% @person[:attributes].each do |x|
+minus = (x[:plusminus] == false) ? ' checked="checked"' : ''
+unknown = (x[:plusminus] == nil) ? ' checked="checked"' : ''
+plus = (x[:plusminus] == true) ? ' checked="checked"' : ''
+%>
+	<tr><td><%= x[:atkey] %></td><td>
+		<input type="radio" name="<%= x[:atkey] %>" data-post="/attribute/<%= @person[:id] %>/<%= x[:atkey] %>/minus.json"<%= minus %>>
+	</td><td>
+		<input type="radio" name="<%= x[:atkey] %>" data-post="/attribute/<%= @person[:id] %>/<%= x[:atkey] %>/delete.json"<%= unknown %>>
+	</td><td>
+		<input type="radio" name="<%= x[:atkey] %>" data-post="/attribute/<%= @person[:id] %>/<%= x[:atkey] %>/plus.json"<%= plus %>>
+	</td></tr>
+<% end %>
+</table>
+</div>
+
+<script>
+document.getElementById('attributes').addEventListener('click', function(e) {
+	var url = e.target.getAttribute('data-post');
+	if (url === null) { return; }
+	var xhr = new XMLHttpRequest();
+	xhr.open('post', url, true);
+	xhr.send();
+}, false);
+</script>
+
+<h4>interests:</h4>
+<form action="/interest" method="post">
+	<input type="hidden" name="person_id" value="<%= @person[:id] %>">
+	<input type="text" name="interest" value="" placeholder="create new?" size="10">
+	<input type="submit" value="create">
+</form>
+<select name="interest" id="inkeyselect">
+	<option value="">. . .</option>
+<% @inkeys.each do |x| %>
+	<option value="<%= x %>"><%= x %></option>
+<% end %>
+</select>
+<input type="submit" value="add" id="interestadd" data-personId="<%= @person[:id] %>" />
+<div id="interests"></div>
+<script>
+function interestButtonsHTML(interest, expert) {
+	var html = '<button class="deleteInterest">x</button>';
+	html += '<span class="showInterest">' + interest + '</span>';
+	switch(expert) {
+		case 'true':
+			html += '<button class="minusInterest">-</button>';
+			html += '<button class="nullInterest">?</button>';
+			html += '<span class="chosenInterest">+++</span>';
+			break;
+		case 'false':
+			html += '<span class="chosenInterest">---</span>';
+			html += '<button class="nullInterest">?</button>';
+			html += '<button class="plusInterest">+</button>';
+			break;
+		default:
+			html += '<button class="minusInterest">-</button>';
+			html += '<span class="chosenInterest">???</span>';
+			html += '<button class="plusInterest">+</button>';
+			break;
+	}
+	return html;
+}
+
+function newInterestItem(personId, interest, expert) {
+	var div = document.createElement('div');
+	div.id = personId + '-' + interest;
+	div.innerHTML = interestButtonsHTML(interest, expert);
+	return div;
+}
+
+function addInterestItem(personId, interest, expert) {
+	var div = newInterestItem(personId, interest, expert);
+	document.getElementById('interests').appendChild(div);
+}
+
+function killInterestItem(personId, interest) {
+	var div = document.getElementById(personId + '-' + interest);
+	document.getElementById('interests').removeChild(div);
+}
+
+function deleteInterest(personId, interest) {
+	var url = '/interest/' + personId + '/' + interest + '/delete.json';
+	var xhr = new XMLHttpRequest();
+	xhr.open('post', url, true);
+	xhr.send();
+	killInterestItem(personId, interest);
+}
+
+function updateInterest(personId, interest, expert) {
+	var url = '/interest/' + personId + '/' + interest + '/update.json';
+	var params = 'expert=' + expert[0];
+	var xhr = new XMLHttpRequest();
+	xhr.open('post', url, true);
+	xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+	xhr.send(params);
+	killInterestItem(personId, interest);
+	addInterestItem(personId, interest, expert);
+}
+
+function addInterest(e, inkey) {
+	var personId = e.currentTarget.getAttribute('data-personId');
+	addInterestItem(personId, inkey);
+	var url = '/interest/' + personId + '/' + inkey + '/add.json';
+	var xhr = new XMLHttpRequest();
+	xhr.open('post', url, true);
+	xhr.send();
+}
+
+function getSelectedInterest(e) {
+	e.preventDefault();
+	var inkey = document.getElementById('inkeyselect').value;
+	if(inkey) {
+		addInterest(e, inkey);
+	}
+}
+
+function getButtonInterest(e) {
+	var inkey = e.target.getAttribute('data-val');
+	if(inkey) {
+		addInterest(e, inkey);
+	}
+}
+
+function editInterest(e) {
+	var reg = /^([0-9]+)-([a-z-]+)$/;  // the id of the containing div
+	var m = reg.exec(e.target.parentNode.id);
+	if (m == null) { return; }
+	var personId = m[1];
+	var interest = m[2];
+	switch(e.target.className) {
+		case 'deleteInterest':
+			deleteInterest(personId, interest);
+			break;
+		case 'minusInterest':
+			updateInterest(personId, interest, 'false');
+			break;
+		case 'nullInterest':
+			updateInterest(personId, interest, '_');
+			break;
+		case 'plusInterest':
+			updateInterest(personId, interest, 'true');
+			break;
+	}
+}
+
+document.getElementById('interestadd').addEventListener('click', getSelectedInterest, false);
+document.getElementById('inbutts').addEventListener('click', getButtonInterest, false);
+document.getElementById('interests').addEventListener('click', editInterest, false);
+
+<% Array(@person[:interests]).each do |x| %>
+	addInterestItem(<%= @person[:id] %>, '<%= x[:interest] %>', '<%= x[:expert] %>');
+<% end %>
+</script>
+
+<br>
+<hr>
+<br>
+<form action="/update3/<%= @person[:id] %>" method="post">
+	<input type="submit" value="ALL FINISHED">
+</form>
+<br>
+<hr>
+<br>
+<% if @person[:stats] %>
+<div id="stats">
+<h4>stats:</h4>
+<ul id="statlist">
+<% @person[:stats].each do |stat| %>
+	<li><strong><%= stat[:name] %></strong><br>
+	<%=h stat[:value] %></li>
+<% end %>
+</ul>
+<% end %>
+
+</div>
+
+</section>
+

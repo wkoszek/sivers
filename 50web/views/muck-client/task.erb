@@ -1,0 +1,43 @@
+<section id="task">
+
+<h1>Task from project: <a href="/project/<%= @task[:project][:id] %>"><%=h @task[:project][:title] %></a></h1>
+
+<h2>Task facts:</h2>
+<dl>
+	<dt>order</dt>
+	<dd><%= @task[:sortid] %></dd>
+	<dt>title</dt>
+	<dd><%=h @task[:title] %></dd>
+	<dt>description</dt>
+	<dd><%=h @task[:description] %></dd>
+	<dt>status</dt>
+	<dd><%= @task[:progress] %></dd>
+	<dt>created at</dt>
+	<dd><%= @task[:created_at] %></dd>
+	<dt>claimed at</dt>
+	<dd><%= @task[:claimed_at] %></dd>
+	<dt>started at</dt>
+	<dd><%= @task[:started_at] %></dd>
+	<dt>finished at</dt>
+	<dd><%= @task[:finished_at] %></dd>
+<% if @task[:worker] %>
+	<dt>worker</dt>
+	<dd><%=h @task[:worker][:name] %></dd>
+<% end %>
+</dl>
+
+<% if @task[:notes] %>
+	<h3>Comments:</h3>
+	<ul>
+	<% @task[:notes].each do |note| %><li>
+<%= erb(:_note, {locals: {note: note}, layout: false}) %>
+	</li><% end %>
+	</ul>
+<% end %>
+
+<h3>Comment on the task?</h3>
+<form action="/project/<%= @task[:project][:id] %>/task/<%= @task[:id] %>/notes" method="post">
+	<textarea name="note"></textarea>
+	<input type="submit" value="add comment">
+</form>
+</section>

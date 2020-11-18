@@ -1,0 +1,17 @@
+<p>Template question#: <%= @question.template_question_id %> for country: <%= @question.country %></p>
+<h3><%= @question.question %></h3>
+<h2>Answers:</h2>
+<ul>
+<% @question.answers.each do |a| %>
+	<li><a href="/answer/<%= a.id %>">Answer #<%= a.id %></a>:<br>
+	<%= a.answer %></li>
+<% end %>
+</ul>
+
+<h2>Essays:</h2>
+<ul>
+<% @question.essays.each do |e| %>
+	<li><a href="/essay/<%= e.id %>">Essay #<%= e.id %></a>:<br>
+	<%= e.content %></li>
+<% end %>
+</ul>

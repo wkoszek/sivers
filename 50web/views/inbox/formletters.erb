@@ -1,0 +1,20 @@
+<section id="formletters">
+<h1>Form letters:</h1>
+
+<form action="/formletters" method="post">
+	<input name="title" placeholder="title (must be unique)">
+	<input type="submit" value="add new">
+</form>
+
+<dl>
+<% @formletters.each do |f| %>
+	<dt>
+<% if String(f[:accesskey]).length > 0 %>
+	<strong><%= f[:accesskey] %></strong> &nbsp;
+<% end %>
+	<a href="/formletter/<%= f[:id] %>"><%= f[:title] %></a>
+	</dt>
+	<dd><%=h f[:explanation] %></dd>
+<% end %>
+</dl>
+</section>

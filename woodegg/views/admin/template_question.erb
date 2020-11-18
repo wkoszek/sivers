@@ -1,0 +1,10 @@
+<p><%=h @tq.question %></p>
+<% @questions.each do |q| %>
+	<h2><%= q.country %>: <%=h q.question %></h2>
+	<ul>
+	<% q.answers.each do |a| %>
+		<li><%= a.answer.to_html %></li>
+	<% end %>
+        </ul>
+	<hr>
+<% end %>

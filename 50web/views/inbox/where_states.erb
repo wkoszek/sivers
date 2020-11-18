@@ -1,0 +1,10 @@
+<section id="where">
+<h1><%=h @pagetitle %></h1>
+
+<table>
+<% @states.each do |state| %>
+	<tr><td><%=h state[:state] %></td><td> → <a href="/cities/<%= @country %>/<%=h state[:state] %>"><%= state[:count] %></a></td></tr>
+<% end %>
+</table>
+
+</section>

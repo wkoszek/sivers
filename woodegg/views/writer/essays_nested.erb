@@ -1,0 +1,14 @@
+<h1>Finished Essays:</h1>
+
+<% @topicnest.each do |topic, subtopics| %>
+  <h2><%= topic %></h2>
+  <% subtopics.each do |subtopic, questions| %>
+    <h3><%= subtopic %></h3>
+    <ul>
+    <% questions.each do |q| %>
+      <li><a href="/write/essay/<%= @question_to_essay_map[q.id] %>"><%= q.question %></a></li>
+    <% end %>
+    </ul>
+  <% end %>
+<% end %>
+

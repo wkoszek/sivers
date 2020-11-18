@@ -1,0 +1,21 @@
+<h4>emails:</h4>
+<% if @person[:emails] %>
+	<ul id="emailhistory">
+	<% @person[:emails].reverse.each do |email| %>
+		<li><a href="/email/<%= email[:id] %>"><%= email[:created_at][0,10] %></a><br>
+		<%=h email[:subject] %></li>
+	<% end %>
+	</ul>
+<% end %>
+<form action="/person/<%= @person[:id] %>/email" method="post" id="newemail">
+<% if @profiles.count == 1 %>
+	<input type="hidden" name="profile" value="<%= @profiles[0] %>">
+<% else %>
+	<select name="profile">
+		<%= @profiles.inject('') {|html, val| html + '<option value="%s">%s</a>' % [val, val]} %>
+	</select>
+<% end %>
+	<input name="subject" placeholder="subject">
+	<textarea name="body"></textarea>
+	<input type="submit" value="send new email">
+</form>

@@ -1,0 +1,77 @@
+<!-- Contact -->
+
+<h1>Contact derek@sivers.org</h1>
+
+<section>
+<p>
+	I love hearing from people, so <strong>please email me</strong> at <a href="mailto:derek@sivers.org">derek@sivers.org</a> and <strong>introduce yourself</strong>.
+</p><p>
+	Why?
+	For two reasons:
+</p><ol><li>
+	I <strong>love</strong> getting to know people around the world.
+	(Many of my best friends and even great loves are people who I met when they emailed to introduce themselves.)
+</li><li>
+	Because I know a lot of people, I can help <strong>connect</strong> you with someone you should meet.
+</li></ol><p>
+	Yes it’s really me, not an assistant, and <strong>I reply to all</strong>.
+</p>
+</section>
+
+<section>
+<h2>Caveat (read first)</h2>
+<p>
+	Please read why <strong><a href="/na">I can’t answer questions</a></strong>.
+</p><p>
+	If you are wondering my thoughts on a subject, please search my site first:
+<form action="https://www.google.com/search" method="get" class="inlineform">
+<input type="text" name="q" value="">
+<input type="hidden" name="sitesearch" value="sivers.org">
+<input type="submit" value="search">
+</form>
+<p>
+	I’m not doing any public speaking or interviews now, but might soon, so introduce yourself.
+</p><p>
+<a href="/nopr">
+	I don’t promote.
+</a>
+	I don’t invest.
+	And
+<a href="/no2">
+	I’m not taking on any new projects.
+</a>
+	But I love to be aware of what you’re doing, even though I can’t get involved or answer questions about it.
+</p><p>
+	So really the main reason to contact me is to <strong>introduce yourself</strong>, which I hope you do.
+</p>
+</section>
+
+<section>
+<h2>My private email list</h2>
+<p>
+	If you want the announcements and opportunities that I never post publicly, get on my private email list, here:
+</p>
+<form action="/list" method="post">
+<label for="name">Your Name</label>
+<input type="text" name="name" id="name" value="">
+<label for="email">Your Email (kept private! never shared.)</label>
+<input type="email" name="email" id="email" value="">
+<input type="hidden" name="listype" value="all">
+<br>
+<input type="submit" name="submit" value="sign up">
+</form>
+</section>
+
+<section>
+<h2>… or just follow</h2>
+<p>
+	You can follow me using
+	<a rel="me" href="https://twitter.com/sivers" title="Derek Sivers Twitter">Twitter</a>,
+	<a rel="me" href="https://www.facebook.com/sivers" title="Derek Sivers Facebook">Facebook</a>,
+	or <a href="/en.atom" title="Derek Sivers RSS">RSS</a>.
+</p><p><strong>
+	I don’t check my social media inboxes.
+</strong>
+	So please just email me instead.
+</p>
+</section>

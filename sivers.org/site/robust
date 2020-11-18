@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fragile Plan vs Robust Plan | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: When I first had the idea for Wood Egg - publishing 16 books about 16 countries every year - I thought I would write them all myself.Visit 16 countries for 3 weeks each, doing intensive research the whole time.That’s 48 weeks, so I could do it again each year.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/eg">
+<link rel="next" href="https://sivers.org/milt">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Fragile Plan vs Robust Plan | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/robust">
+<meta property="og:image" content="https://sivers.org/images/table-many-legs.jpg">
+<meta property="og:description" content="When I first had the idea for Wood Egg - publishing 16 books about 16 countries every year - I thought I would write them all myself.Visit 16 countries for 3 weeks each, doing intensive research the whole time.That’s 48 weeks, so I could do it again each year.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Fragile Plan vs Robust Plan | Derek Sivers">
+<meta name="twitter:description" content="When I first had the idea for Wood Egg - publishing 16 books about 16 countries every year - I thought I would write them all myself.Visit 16 countries for 3 weeks each, doing intensive research the whole time.That’s 48 weeks, so I could do it again each year.">
+<meta name="twitter:image" content="https://sivers.org/images/table-many-legs.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Fragile Plan vs Robust Plan</h1>
+<p class="postdate">2013-06-15</p>
+</header>
+
+<p>
+	When I <a href="/eg">first had the idea for Wood Egg</a> - publishing 16 books about 16 countries every year - I thought I would write them all <strong>myself</strong>.
+	Visit 16 countries for 3 weeks each, doing intensive research the whole time.
+	That’s 48 weeks, so I could do it again each year.
+</p><p>
+	… But I had a baby on the way, so that idea lasted about a minute.
+</p><p>
+	Then I thought of <strong>a journalist</strong> I know who would love that kind of life.
+	I asked, she said yes, she flew to Singapore, and started working.
+</p><p>
+	… But it was a really bad fit, so after five weeks, we called it quits.
+</p><p>
+	Then I decided to hire <strong>one writer per-country</strong>.
+	16 authors to write 16 books.
+	This went OK at first.
+	<a href="http://mohitpawar.com/about/">Mohit Pawar</a> did a great job with India, and <a href="http://www.cameronkeng.com/about/">Cameron Keng</a> did a great job with Taiwan.
+</p><p>
+	… But the people I hired for the other countries flaked out, so I realized this plan was still too fragile.
+</p>
+
+<h3>
+	Making a Robust Plan
+</h3>
+<p>
+	I really wanted this to work.
+	I had to be smart.
+	I had to make a better plan.
+</p><p>
+	I re-read my notes on <a href="/book/EMythRevisited">E-Myth</a>, <a href="/book/WisdomOfCrowds">The Wisdom of Crowds</a>, <a href="/book/Crowdsourcing">Crowdsourcing</a>, and <a href="/book/HereComesEverybody">Here Comes Everybody</a>.
+	(In fact, I re-read <a href="/book">my notes on 130 books</a>. It was an enlightening week.)
+</p><p>
+	I learned a few things:
+</p><ol>
+<li><strong>
+	If you want help, it helps to get specific.
+</strong></li>
+<li><strong>
+	A plan that’s too dependent on any one person is too fragile.
+</strong></li>
+</ol>
+
+<h3>
+	Getting Specific:
+</h3>
+<p>
+	Before, I had a very vague outline of what I wanted the book to cover.
+	I asked the authors to include sections on culture, government, business setup, hiring, banking, and marketing.
+	That was it.
+	The details were up to them.
+	Go!
+</p><p>
+	In hindsight, I can see how daunting it was.
+	Too wide open.
+	I’ve written about the need to get specific before - (see “<a href="/get-specific">Get specific</a>” and “<a href="/restrictions-will-set-you-free">Restrictions will set you free</a>”) - but I had forgotten to apply it to this.
+</p><p>
+	So I spent a couple weeks and <strong>came up with <a href="http://woodegg.com/in#toc">200 specific questions</a></strong>.
+	Now, to write the book, we just had to answer those 200 questions.
+</p><p>
+	It’s infinitely easier to find someone to answer a specific question than to find someone to impart wisdom on a vague topic.
+	It <strong>puts the burden on the asker</strong>, to come up with a good question, and <strong>lifts the burden from the answerer.</strong>
+</p>
+
+<h3>
+	Multiple People:
+</h3>
+<p>
+	So that the book was not dependent on any one person, and the book was not one person’s opinion, I made a system where each of those 200 questions had to be <strong>answered by three different people</strong>.
+	Ideally, one local, one foreigner, and one other.
+</p><p>
+	16 countries × 3 researchers = 48 people.
+	I used <a href="https://www.upwork.com/">Upwork.com</a> to find people in each country.
+</p><p>
+	Of course, some disappeared, some never finished, and a few gave bad answers, but that was OK.
+	Life happens.
+	People’s circumstances change.
+	I understand.
+	But it won’t hurt my plan.
+	If any one person is gone, I can still carry on.
+</p><p>
+	When all 200 questions had 3 answers each, (16 × 200 × 3 = 9600 answers), I hired a few writer/editors to combine the answers into one essay per question.
+	Again, one person disappeared, but it was easy for another to step in.
+</p><p>
+	And that was the robust plan that got it <a href="http://woodegg.com/">done</a>.
+</p><p>
+<em>
+	(Note: I was also visiting every country myself, and contributing my own research to the books. But it was important that the plan didn’t require me, either.)
+</em>
+</p>
+
+<h3>
+	Lessons learned?
+</h3>
+<p>
+	If you’re starting a project or company:
+</p>
+<ol>
+<li>
+	Don’t expect anyone to care as much as you.
+</li>
+<li>
+	Don’t require them to think as hard about this as you have.
+</li>
+<li>
+	Do expect them to change their mind and disappear.
+</li>
+<li>
+	Make a robust plan that includes #1-3.
+</li>
+</ol>
+<p>
+<strong>
+	As the founder, the burden is on you to come up with a great plan, to lift the burden from the people helping you.
+</strong>
+</p><p>
+	Then, when you find some <a href="/book/Linchpin">brilliant people</a>, it’s a great bonus, instead of an absolute necessity.
+</p>
+<img src="/images/table-many-legs.jpg">
+
+<footer>
+© 2013 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/eg" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/milt" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

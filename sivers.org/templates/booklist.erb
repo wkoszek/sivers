@@ -1,0 +1,233 @@
+<header>
+	<h1>Books I’ve read</h1>
+	<p>Tiny summary but <strong>detailed notes for each</strong>. Use the ISBN number to find it from your local library or anywhere else. <strong>This page will constantly update as I read more</strong>, so bookmark it if you want to check back in a few months.</p>
+</header>
+<p id="sorters">Sorted with <strong>my top recommendations up top</strong>. Sort by
+	<a href="/book?sort=title" id="sort-title">title</a>,
+	<a href="/book?sort=date" id="sort-date">newest</a>, or
+	<a href="/book?sort=rating" id="sort-rating">best</a>.
+</p>
+<hr>
+
+<section id="allbooks">
+<% @books.each do |b| %>
+	<figure class="abook" data-rating="<%= b[:rating] %>" data-title="<%= b[:title] %>" data-date="<%= b[:date] %>">
+		<a href="/book/<%= b[:uri] %>"><img src="/images/124x187.gif" data-echo="/images/<%= b[:uri] %>.gif" alt="<%= b[:title] %>" /></a>
+		<figcaption>
+			<h2><a href="/book/<%= b[:uri] %>"><%= b[:title] %></a></h2>
+			<p>ISBN: <%= b[:isbn] %> READ: <%= b[:date] %> RATING: <%= b[:rating] %>/10</p>
+			<p><%= b[:summary] %></p>
+		</figcaption>
+	</figure>
+<% end %>
+</section>
+
+<script>
+function getBooks() {
+	var books = [];
+	var nl = document.querySelectorAll('figure.abook');
+	var len = nl.length;
+	for (var i = 0; i < len; i++) {
+		books[i] = nl[i];
+	}
+	return books;
+}
+
+function by(propName) {
+	return function(obj1, obj2) {
+		var v1 = obj1.getAttribute('data-' + propName);
+		var v2 = obj2.getAttribute('data-' + propName);
+		if (propName === 'rating') {
+			v1 = parseInt(v1);
+			v2 = parseInt(v2);
+		} else if (propName === 'title') {
+			/* because sorted high-to-low by default, flip for title */
+			var tmp = v2;
+			v2 = v1;
+			v1 = tmp;
+		}
+		if (v1 > v2) { return -1; }
+		else if (v1 < v2) { return 1; }
+		else { return 0; }
+	}
+}
+
+function showBooks(books) {
+	var len = books.length, nu = document.createElement('section');
+	nu.id = 'allbooks';
+	for(var i = 0; i < len; i++) {
+		nu.appendChild(books[i]);
+	}
+	document.getElementById('content').replaceChild(nu, document.getElementById('allbooks'));
+}
+
+function changeIfMatch(reg, str) {
+	var matches = reg.exec(str);
+	if(matches) {
+		var books = getBooks();
+		books.sort(by(matches[1]));
+		showBooks(books);
+	}
+}
+
+function sortBooks(event) {
+	if(event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+	var target = event.target || window.event.srcElement;
+	changeIfMatch(/^sort-(rating|title|date)$/, target.id);
+}
+
+if(location.search) {
+	changeIfMatch(/\?sort=(rating|title|date)$/, location.search);
+}
+
+var sorters = document.getElementById('sorters');
+if(sorters.addEventListener) {
+	sorters.addEventListener('click', sortBooks, false);
+} else {
+	sorters.attachEvent('onclick', sortBooks);
+}
+
+
+
+/*! echo.js v1.7.0 | (c) 2015 @toddmotto | https://github.com/toddmotto/echo */
+(function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		define(function() {
+			return factory(root);
+		});
+	} else if (typeof exports === 'object') {
+		module.exports = factory;
+	} else {
+		root.echo = factory(root);
+	}
+})(this, function (root) {
+	'use strict';
+	var echo = {};
+	var callback = function () {};
+	var offset, poll, delay, useDebounce, unload;
+
+	var isHidden = function (element) {
+		return (element.offsetParent === null);
+	};
+	
+	var inView = function (element, view) {
+		if (isHidden(element)) {
+			return false;
+		}
+
+		var box = element.getBoundingClientRect();
+		return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+	};
+
+	var debounceOrThrottle = function () {
+		if(!useDebounce && !!poll) {
+			return;
+		}
+		clearTimeout(poll);
+		poll = setTimeout(function(){
+			echo.render();
+			poll = null;
+		}, delay);
+	};
+
+	echo.init = function (opts) {
+		opts = opts || {};
+		var offsetAll = opts.offset || 0;
+		var offsetVertical = opts.offsetVertical || offsetAll;
+		var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+		var optionToInt = function (opt, fallback) {
+			return parseInt(opt || fallback, 10);
+		};
+		offset = {
+			t: optionToInt(opts.offsetTop, offsetVertical),
+			b: optionToInt(opts.offsetBottom, offsetVertical),
+			l: optionToInt(opts.offsetLeft, offsetHorizontal),
+			r: optionToInt(opts.offsetRight, offsetHorizontal)
+		};
+		delay = optionToInt(opts.throttle, 250);
+		useDebounce = opts.debounce !== false;
+		unload = !!opts.unload;
+		callback = opts.callback || callback;
+		echo.render();
+		if (document.addEventListener) {
+			root.addEventListener('scroll', debounceOrThrottle, false);
+			root.addEventListener('load', debounceOrThrottle, false);
+		} else {
+			root.attachEvent('onscroll', debounceOrThrottle);
+			root.attachEvent('onload', debounceOrThrottle);
+		}
+	};
+
+	echo.render = function () {
+		var nodes = document.querySelectorAll('img[data-echo], [data-echo-background]');
+		var length = nodes.length;
+		var src, elem;
+		var view = {
+			l: 0 - offset.l,
+			t: 0 - offset.t,
+			b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+			r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+		};
+		for (var i = 0; i < length; i++) {
+			elem = nodes[i];
+			if (inView(elem, view)) {
+
+				if (unload) {
+					elem.setAttribute('data-echo-placeholder', elem.src);
+				}
+
+				if (elem.getAttribute('data-echo-background') !== null) {
+					elem.style.backgroundImage = "url(" + elem.getAttribute('data-echo-background') + ")";
+				}
+				else {
+					elem.src = elem.getAttribute('data-echo');
+				}
+
+				if (!unload) {
+					elem.removeAttribute('data-echo');
+					elem.removeAttribute('data-echo-background');
+				}
+
+				callback(elem, 'load');
+			}
+			else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+
+				if (elem.getAttribute('data-echo-background') !== null) {
+					elem.style.backgroundImage = "url(" + src + ")";
+				}
+				else {
+					elem.src = src;
+				}
+
+				elem.removeAttribute('data-echo-placeholder');
+				callback(elem, 'unload');
+			}
+		}
+		if (!length) {
+			echo.detach();
+		}
+	};
+
+	echo.detach = function () {
+		if (document.removeEventListener) {
+			root.removeEventListener('scroll', debounceOrThrottle);
+		} else {
+			root.detachEvent('onscroll', debounceOrThrottle);
+		}
+		clearTimeout(poll);
+	};
+
+	return echo;
+
+});
+
+echo.init({
+	offset: 100,
+	throttle: 250,
+	unload: false
+});
+</script>

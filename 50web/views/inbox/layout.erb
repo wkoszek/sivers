@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title><%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/inbox.css">
+</head>
+<body>
+<% if @eid %>
+<nav id="navigation">
+	<ul>
+		<li><a href="/">inbox</a></li>
+		<li><a href="/search">search</a></li>
+		<li><a href="/comments">comments</a></li>
+		<li><a href="/sent">sent</a></li>
+		<li><a href="/unemailed">unemailed</a></li>
+		<li><a href="/tweets_unknown">tweets?</a></li>
+		<li><a href="/formletters">formletters</a></li>
+		<li><a href="/countries">where</a></li>
+		<li><a href="/stats">stats</a></li>
+		<li><a href="/merge">merge</a></li>
+		<li><a href="/now">now</a></li>
+		<li><a href="/aikeys">aikeys</a></li>
+		<li><a href="/kykyc">kykyc</a></li>
+		<li><a href="/logout">log out</a></li>
+	</ul>
+</nav>
+<% end %>
+<div id="content">
+
+<%= yield %>
+
+</div>
+</body>
+</html>
+

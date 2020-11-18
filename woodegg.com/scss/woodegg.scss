@@ -1,0 +1,113 @@
+@import 'pure/base.scss';
+@import 'pure/menus-core.scss';
+@import 'pure/menus-horizontal.scss';
+
+@font-face {
+	font-family: "Essays 1743";
+	src: url("f/Essays1743.eot?") format("eot"), url("f/Essays1743.woff") format("woff"), url("f/Essays1743.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Libertine";
+	src: url("f/Libertine.eot?") format("eot"), url("f/Libertine.woff") format("woff"), url("f/Libertine.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Libertine";
+	font-weight: bold;
+	src: url("f/Libertine-bold.eot?") format("eot"), url("f/Libertine-bold.woff") format("woff"), url("f/Libertine-bold.ttf") format("truetype");
+}
+
+section {
+	font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+	word-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Essays 1743", "Marker Felt", "Kristen ITC", "Viner Hand ITC", "Lucida Handwriting", Amienne, Boopee, "Segoe Print", "Times New Roman", serif;
+	font-weight: normal;
+}
+h1, h2 {
+	margin-top: 0;
+}
+h1, h2, h3, h4 {
+	margin-bottom: 0;
+}
+h1 {
+	font-size: 4em;
+	line-height: 90px;
+}
+h2 {
+	font-size: 2.5em;
+	line-height: 60px;
+}
+h3 {
+	font-size: 2em;
+	line-height: 50px;
+}
+
+nav {
+	background-color: #700;
+	padding: 5px 0;
+	@extend .pure-menu;
+	@extend .pure-menu-horizontal;
+	a {
+		@extend .pure-menu-heading;
+		@extend .pure-menu-link;
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 2em;
+		font-weight: bold;
+	}
+	ul {
+		@extend .pure-menu-list;
+		li {
+			@extend .pure-menu-item;
+			a {
+				@extend .pure-menu-link;
+			}
+		}
+	}
+}
+
+section {
+	margin-left: 10px;
+}
+
+body#homepage {
+	section {
+		margin-bottom: 4em;
+	}
+	li {
+		list-style-type: none;
+	}
+	ul#woodeggbooks, ul#gotolaunchbooks {
+		padding: 0;
+		li {
+			display: inline;
+		}
+	}
+
+}
+
+body#contact section#content, body#aboutpage section#content {
+	font-size: 1.3em;
+	max-width: 30em;
+}
+
+body#contact section#content {
+	div#address, div.vcard {
+		margin-top: 2em;
+	}
+}
+
+body#gotolaunch {
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+		h2, h3 {
+			margin-top: -0.25em;
+			margin-bottom: 2em;
+		}
+	}
+}

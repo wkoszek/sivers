@@ -1,0 +1,6 @@
+<h1>Writers’ Essays</h1>
+<p>unfinished: <%= @unfinished_count %></p>
+<p>unjudged: <%= @unjudged_count %></p>
+<% if @unjudged_count > 0 %>
+	<h2><a href="/essay/unjudged">go approve unjudged essays</a></h2>
+<% end %>

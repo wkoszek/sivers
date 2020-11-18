@@ -1,0 +1,12 @@
+<h1><%= @cname %> Question:</h1>
+<p>Topic: <%= @q.template_question.subtopic.subtopic %></p>
+<h2><%= @q.question %></h2>
+
+<%= erb :_answers %>
+<%= erb :_tidbits %>
+
+<h1>Ready to write this essay?</h1>
+<form class="well" action="/write/essay" method="post">
+	<input type="hidden" name="question_id" value="<%= @q.id %>" />
+	<input type="submit" class="btn btn-primary" name="submit" value="READY" />
+</form>

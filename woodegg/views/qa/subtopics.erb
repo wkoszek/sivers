@@ -1,0 +1,11 @@
+<h1><%= @country_name + ': ' + @topic.topic %></h1>
+<% @subtopics.each do |st| %>
+	<h2><%= st.subtopic %></h2>
+	<% questions = @questions_for_subtopic[st.id] %>
+	<ul>
+	<% questions.each do |q| %>
+		<li><a href="/qa/question/<%= q.id %>"><%= q.question %></a></li>
+	<% end %>
+	</ul>
+<% end %>
+

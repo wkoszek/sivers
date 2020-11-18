@@ -1,0 +1,19 @@
+<div class="comment">
+<time><%= note[:created_at] %></time>
+<cite> —
+<% if note[:manager] %>
+	manager: <a href="/manager/<%= note[:manager][:id] %>"><%=h note[:manager][:name] %></a>
+<% elsif note[:worker] %>
+	worker: <a href="/worker/<%= note[:worker][:id] %>"><%=h note[:worker][:name] %></a>
+<% elsif note[:client] %>
+	(you!)
+	<!-- TODO: DELETE/EDIT -->
+<% end %>
+</cite> — about
+<% if note[:task_id] %>
+	<a href="/project/<%= note[:project_id] %>/task/<%= note[:task_id] %>">task</a>
+<% else %>
+	<a href="/project/<%= note[:project_id] %>">project</a>
+<% end %>
+<p><%=h note[:note] %></p>
+</div>

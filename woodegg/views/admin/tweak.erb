@@ -1,0 +1,86 @@
+<div class="columns span-12">
+<div class="small">
+<% if @prev %>
+	<a href="/book/<%= @book.id %>/essay/<%= @prev.id %>">« <%= @prev.id %></a>
+	|
+<% end %>
+<% if @next %>
+	<a href="/book/<%= @book.id %>/essay/<%= @next.id %>">» <%= @next.id %></a>
+<% end %>
+</div>
+
+<h4><%= @pagetitle %></h4>
+</div>
+
+<div class="bookhalf">
+	<div class="small" id="actions">
+		<button>noHeaders</button>
+		<button>noSpaces</button>
+		<button>j</button>
+		<button>squish</button>
+		<button>spread</button>
+	</div>
+	<form action="/book/<%= @book.id %>/essay/<%= @essay.id %>" method="post"><input type="hidden" name="_method" value="put">
+		<textarea name="edited" id="ed1"><%= @essay.edited %></textarea>
+		<input type="submit" name="submit" value="UPDATE">
+	</form>
+</div>
+<div class="bookhalf" id="ed2">
+</div>
+
+<script type="text/javascript" src="/js/showdown.js"></script>
+<script>
+var converter = new Showdown.converter();
+function showPreview(text) {
+	document.getElementById('ed2').innerHTML = converter.makeHtml(text);
+}
+document.getElementById('ed1').addEventListener('keyup', function(e) {
+	showPreview(this.value);
+}, false);
+window.onload = function() {
+	showPreview(document.getElementById('ed1').value);
+};
+
+// ACTIONS
+function Tweaks(someNode, startAt, endAt) {
+	var allText = someNode.value;
+	var selection = (startAt === 0 && endAt === 0) ? allText : allText.substring(startAt, endAt);
+	this.update = function(newText) {
+		if (startAt === 0 && endAt === 0) {
+			someNode.innerHTML = newText;
+		} else {
+			someNode.innerHTML = allText.substring(0, startAt) + newText + allText.substring(endAt);
+		}
+		showPreview(someNode.value);
+	};
+	this.noHeaders = function() {
+		var nu = selection.split("\n").map(function(line) {
+			return line.replace(/^[#*-]+/g, '').replace(/^\s+/g, '');
+		}).join("\n");
+		this.update(nu);
+	};
+	this.noSpaces = function() {
+		this.update(selection.replace(/^\s+|\s+$/g, ''));
+	};
+	this.j = function() {
+		this.update(selection.replace(/\n/g, ' ').replace(/\ +/g, ' '));
+	};
+	this.squish = function() {
+		var nu = selection.split("\n").filter(function(line) {
+			return line.replace(/\s/g, '');
+		}).join("\n");
+		this.update(nu);
+	};
+	this.spread = function() {
+		this.update(selection.replace(/\n/g, '\n\n'));
+	};
+};
+document.getElementById('actions').addEventListener('click', function(e) {
+	var actionName = e.target.firstChild.nodeValue;
+	var ed1 = document.getElementById('ed1');
+	var startAt = ed1.selectionStart;
+	var endAt = ed1.selectionEnd;
+	var t = new Tweaks(ed1, startAt, endAt);
+	t[actionName]();
+}, false);
+</script>

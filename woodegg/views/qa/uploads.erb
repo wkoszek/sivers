@@ -1,0 +1,13 @@
+<% if @researcher.uploads.count > 0 %>
+<h2>Your Uploads <span class="small">(click to edit)</span></h2>
+<dl>
+<% @researcher.uploads.each do |x| %>
+	<dt><a href="/qa/upload/<%= x.id %>"><%=h x.their_filename %></a></dt>
+	<% if x.missing_info? %>
+		<dd><a href="/qa/upload/<%= x.id %>">MISSING INFORMATION! Click here to update.</a></dd>
+	<% else %>
+		<dd><%=h x.notes %></dd>
+	<% end %>
+<% end %>
+</dl>
+<% end %>

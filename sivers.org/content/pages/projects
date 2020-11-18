@@ -1,0 +1,64 @@
+<!-- PROJECTS -->
+
+<h2>Currently making (in order)</h2>
+<dl>
+	<dt>Musician book</dt>
+	<dd>Re-write and re-release of <a href="/pdf">this</a> evergreen advice for musicians.</dd>
+
+	<dt>“Unlearning” book</dt>
+	<dd>Really just a compilation of my <a href="/blog">blog posts</a> since selling my company.  Unlearning has been the common thread throughout my articles since then.</dd>
+
+	<dt>Audio, illustrations, and animation</dt>
+	<dd>After editing past posts, I'll record audio for all of them.  Hiring an illustrator to make a custom illustration for each, instead of the current stock photo approach I've used.  Then for all the posts in the books, make a little animated video, combining my audio with illustrations.</dd>
+
+	<dt>Translation site</dt>
+	<dd>A simple login area for translators to translate my books. I was using <a href="https://gengo.com/">Gengo</a>, and recommend them highly, but I wanted to work with my own translators.</dd>
+
+	<dt>Book thoughts</dt>
+	<dd>The next stage of my <a href="/book">book notes</a>: breaking them down into individual ideas, just a sentence or paragraph, stored in the database with tags for easy searching and browsing. To do this, first I need to clean up all my past book notes with this in mind, so that each idea stands on its own. 220+ books and I can only get through 5-10 per day.  This will be inside my site for connections only, not public, since there will be a little database load for using it, and I want to make it a reward for those who have introduced themselves.</dd>
+
+	<dt><a href="/kl">Karmalist</a></dt>
+	<dd>Instead of calling them “friends”, let's say “connections”.  People who have emailed me and introduced themselves.  People I've communicated with.  I've got everyone in a private back-end database, so I can make an online invitation-only site for my connections to meet my other connections.  Browse/search by location, talents, help-wanted, help-offered, etc.  This will stay private and non-commercial. Just a free service for my connections.</dd>
+</dl>
+
+<h2>Already done</h2>
+<dl>
+	<dt><a href="https://code.sivers.org/sivers.org/">sivers.org</a></dt>
+	<dd>the hand-crafted Ruby code that runs this site</dd>
+
+	<dt><a href="http://nownownow.com/">Now Now Now</a></dt>
+	<dd>list and profiles of people who have <a href="/nowff">a /now page</a></dd>
+
+	<dt><a href="http://musicthoughts.com/">MusicThoughts</a></dt>
+	<dd>inspiring quotes about music, translated into Español, Français, Deutsch, Italiano, Português, Русский, العربية, 日本語, and 中文</dd>
+
+	<dt><a href="/book">Book Notes</a></dt>
+	<dd>detailed notes from the last 200+ books I’ve read</dd>
+
+	<dt><a href="http://woodegg.com/">Wood Egg</a></dt>
+	<dd>my book publishing company</dd>
+</dl>
+
+<h2>Maybe some day</h2>
+<dl>
+	<dt><a href="/muckwork">Muckwork</a></dt>
+	<dd>remote assistants do your dirty work</dd>
+
+	<dt><a href="/songtest">Songtest</a></dt>
+	<dd>open-source non-commercial song contest</dd>
+
+	<dt><a href="/cyrano">Cyrano</a></dt>
+	<dd>someone witty tweets for you, as you</dd>
+</dl>
+
+<h2>Just code</h2>
+<dl>
+	<dt><a href="https://code.sivers.org/db-api/">db-api</a></dt>
+	<dd>My PostgreSQL database is getting smarter.</dd>
+	<dt><a href="https://code.sivers.org/50web/">50web</a></dt>
+	<dd>All the code for my database-driven sites.</dd>
+	<dt><a href="https://github.com/sivers/pg">PostgreSQL experiments</a></dt>
+	<dd>The README describes my approach.</dd>
+</dl>
+<p>Programmers and techies, see <a href="/code">/code page</a>.</p>
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: The Start Zone</title>
+<meta name="description" content="Derek Sivers: Very tiny Q&A with Pedro Mendes">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: The Start Zone">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2015-06-start">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Very tiny Q&A with Pedro Mendes">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: The Start Zone">
+<meta name="twitter:description" content="Very tiny Q&A with Pedro Mendes">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → The Start Zone</h1>
+	<h4>Very tiny Q&amp;A with Pedro Mendes</h4>
+	<p class="postdate">Date: 2015-06</p>
+	<p>Link: <a href="http://thestartzone.com/derek-sivers-interview/">http://thestartzone.com/derek-sivers-interview/</a></p>
+</header>
+<hr>
+
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+I consider Derek Sivers an inspiration. He’s an entrepreneur, writer, traveler, publisher, and speaker among other things. I reached out to him to find out a bit more about his adventures and life.
+</p><p>
+Derek, you have had very diverse business endeavors, but for now you are “retired”. How did you set up your life so you can do that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I live cheap.  I always have.  But a few years ago I sold my company, so that is paying me a good amount every year for the rest of my life.  See http://sivers.org/trust for details.
+
+</p>
+</blockquote>
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+How does one get to a point to be able to treat work as play?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Learn some basic business skills!  If you read a few good books on marketing and sales, and do what they say, then no matter what you are interested in, you can find a way to make money doing it.
+
+</p>
+</blockquote>
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+According to your site, you live between New Zealand, Singapore, and Belgium. Where would you consider settling in, if at all?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I don’t own a house.  I own very little.  (Two pairs of pants, two pairs of shoes, five shirts, a laptop, and not much else.)  So really there’s no reason to settle.
+</p><p>
+I love the idea of never settling.  To me, it represents feeling finished, no more change.  I hope to always keep changing, growing, and redefining myself.  You don’t have to move countries to keep growing, but since we can, why not?  This whole world is our world, not just one neighborhood or country.  To stay in just one country is like living in a huge house but never leaving the bedroom.
+
+</p>
+</blockquote>
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+What’s the value you get out of helping people?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It makes me feel useful.  It is too easy to feel I am of no use to anyone except my immediate family and friends.  So I try to do things that are useful to many people.  It makes me feel important and valuable.
+
+</p>
+</blockquote>
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+How would you describe the role Art can have in someone’s life?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It changes the way you think, ideally for the better.
+
+</p>
+</blockquote>
+<blockquote>
+<cite>Pedro:</cite>
+<p>
+What can we expect from the new book you’re writing?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Please expect nothing at all.  It is a funny thing about being successful.  When nobody knows who you are, you have a big inspiration to become well-known.  But once you are well-known, it is hard to ignore everyone’s expectations for your future work.
+</p>
+</blockquote>
+
+
+<footer>
+© 2015 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

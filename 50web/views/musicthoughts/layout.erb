@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="<%= @lang %>" dir="<%= @dir %>">
+<head>
+<meta charset="utf-8">
+<title><%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201506.css" />
+<% @rel_alternate.each do |l, u| %>
+<link rel="alternate" hreflang="<%= l %>" href="<%= u %>" />
+<% end %>
+</head>
+<body id="<%= @bodyid %>">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/"><%= t.musicthoughts %></a></h1>
+<h2><%= t.musicthoughts_slogan %></h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new"><%= t.new %></a></li>
+	<li><a href="/author"><%= t.authors %></a></li>
+	<li><a href="/contributor"><%= t.contributors %></a></li>
+	<li><a href="/t"><%= t.random_thought %></a></li>
+	<li><a href="/search"><%= t.search %></a></li>
+	<li><a href="/add"><%= t.add_thought %></a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<%= yield %>
+
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+<% @languages.each do |lang_code, lang_show| %><% if @rel_alternate[lang_code] %>
+	<li><a href="<%= @rel_alternate[lang_code] %>"><%= lang_show %></a></li>
+<% end %><% end %>
+</ul>
+</nav>
+
+<blockquote cite="http://musicthoughts.com/t/<%= @rand1[:id] %>">
+	<q><%= @rand1[:thought] %></q>
+	<cite><a href="/t/<%= @rand1[:id] %>"><%= @rand1[:author][:name] %></a></cite>
+</blockquote>
+</footer>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uncommon Sense - live @ WDS | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: The 2015 World Domination Summit was the biggest and best audience I’ve ever had. So instead of something untested, I did this talk from 2011, which goes with my 2011 book, just re-released that month.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Uncommon Sense - live @ WDS | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/wds">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="The 2015 World Domination Summit was the biggest and best audience I’ve ever had. So instead of something untested, I did this talk from 2011, which goes with my 2011 book, just re-released that month.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Uncommon Sense - live @ WDS | Derek Sivers">
+<meta name="twitter:description" content="The 2015 World Domination Summit was the biggest and best audience I’ve ever had. So instead of something untested, I did this talk from 2011, which goes with my 2011 book, just re-released that month.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="prez">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<h1><a href="/presentations">Presentations</a> → Uncommon Sense - live @ WDS</h1>
+<p class="postdate">Length: <strong>40 minutes.</strong> Date recorded: 2015-07</p>
+</header>
+<p><strong>Probably the best talk I’ve ever done.</strong></p>
+
+<p>
+The 2015 <a href="http://worlddominationsummit.com/">World Domination Summit</a> was the biggest and best audience I’ve ever had. So instead of something untested, I did <a href="/uncommon">this talk from 2011</a>, which goes with <a href="/a">my 2011 book</a>, just re-released that month.
+</p><p>
+See the transcript, below. If the video doesn’t play, or if you prefer to watch fullscreen or offline later, you can <a href="/file/DerekSivers-WorldDominationSummit-2015.mp4">download it here</a>.
+</p>
+<hr>
+<iframe src="https://player.vimeo.com/video/134968996" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<hr>
+<h2>Transcript:</h2>
+<p>
+I can’t believe I’m finally here!  For five years, I’ve been wanting to come here.  For five years, it just didn’t work out and I’m finally here.  This is so awesome!  And I get to go last, which is great because I get to stress out for the whole conference, and freak out, and you know...relax afterwards.  Then I can have fun.
+</p><p>
+(Is my slide up?  Oh, I control that.  Here we go.)
+</p><p>
+So my name is Derek Sivers, and the reason I’m giving you my email address is because I’m going to tell you a bunch of things, and I’m going to go kind of fast.  Intentionally.  So if you have any questions, please send me an email and ask me anything, or if you just want to tell me that I have something in my teeth.
+</p><p>
+(Oh, I’m not up on the circle yet.  Well, if you see something in my teeth, email me and let me know, or just email to say hello.)
+</p><p>
+My background is I started out as a professional musician.  When I was 14 years old, I decided that I wanted to be a professional musician.  And deciding this is like deciding that you want to be an entrepreneur.
+</p><p>
+Meaning, knowing ever since I was 14 that I’m never going to have any job security, I’m never going to have a steady paycheck, in fact I’ll probably never have a job.  I’m never going to have insurance or health insurance.  I never have, still don’t.
+</p><p>
+In fact, I think it goes even one step beyond being an entrepreneur, because there is no illusion that you’re going to get some kind of Series A round of financing.  You just know that every dollar you make as a musician is going to be something that you hustled for yourself.  So, I’ve been in this mindset ever since then.
+</p><p>
+Occasionally, when somebody asks me things like, “How did you get the courage to quit your job?”  I say, “I never had a job.”  In fact, I did quit my last job in 1992.  ((Thank you!))
+</p><p>
+In 1997, I was a hustling musician in New York city, doing whatever it takes to make a buck.  And the way you do that is by saying yes to everything, and doing everything all at once.
+</p><p>
+Around this time I recorded my own CD.  I wanted to get it up and selling online, but in 1997 there was nowhere on the internet that would sell your CD for you.  So I just thought, “How hard could it be to make a little website?”  And it was kind of hard at the time.  It took three months of work, and there was no Paypal or Amazon back then.  In order to accept credit cards on a website, you had to pay $1000 in set-up fees, and it was like three months of work.  I had to copy cgi-bin Perl scripts out of a book, but after three months of hard work, I had a “Buy Now” button on my website.  It was awesome!
+</p><p>
+Right after doing this, I told a couple of my musician friends in New York that I had done this and they’re like, “Dude, could you sell my CD through that thing?”
+</p><p>
+I was like, “Yeah sure, why not?  I could do that.”
+</p><p>
+So on my band’s website it said, “Click here to buy my CD, or some of my friend’s.”  And there were three of my friends down there.
+</p><p>
+And then I started getting these calls like, “Hey man, my friend Dave said you could sell my CD?”
+</p><p>
+And I was like, “Hey, a friend of Dave’s is a friend of mine, c’mon in!”
+</p><p>
+I was just doing this as a favour to friends, but then it grew.
+</p><p>
+In 1997, it was still just me in my bedroom, but there were about 20 musicians that I took off of my band’s website and I got a little domain that said, CD Baby.com and I put them there.  It was just a little hobby I was still doing for free, for friends.  It was part of my giving back to the internet thing, you know.  ((Why is that funny?))
+</p><p>
+By 1999, I had to hire somebody.  There was this guy that was painting my house.  I said, “Dude, do you need a little extra work?”
+</p><p>
+He said, “Sure.”
+</p><p>
+I said, “Do you want to be the VP of my company?”
+</p><p>
+He said, “Sure.”
+</p><p>
+He actually remained VP.  There is even <a href="https://en.wikipedia.org/wiki/John_Steup">a Wikipedia page about him</a> you can find.  So, John Steup was the first guy I hired in Woodstock, and by that time we had 2000 musicians.  This is two years into doing this thing.
+</p><p>
+By 2002, it was big.  I had 8 employees and 20,000 musicians.  I mention this date, because this is when it started to feel that it was really turning into something.
+</p><p>
+Every now and then, I meet entrepreneurs that are telling me, “Hey, I started this business and it’s just not really getting off the ground.”
+</p><p>
+And I say, “Well how long ago did you start it?”
+</p><p>
+And they say, “It’s been five or six weeks man, something’s just not really...”
+</p><p>
+I’m like, “C’mon.  It takes a while for these things to get momentum.”
+</p><p>
+So, by 2007, it was way too big.  I had 85 employees, 200,000 musicians and two-million customers.  And I hated it.  It was just too much for me.  It just felt like too much responsibility.  I always tend to veer towards freedom.
+</p><p>
+So, in 2008 I felt done, and really for more creative reasons. it felt like I had put the final brush stroke on the painting and I had nothing more to say, nothing more to do to it, so it felt done.  And somebody wanted to buy it, so I said, “Alright fine.”  And I sold it for $22 million, which was kind of weird, because I thought I would have to be an insane person to spend 22 million dollars in my lifetime.
+</p><p>
+So, instead I gave it all away.  I started a charitable trust for musicians because to me that just felt like the full circle of life.  All this money came from musicians, and now it will go to the next generation of musicians when I die.  So that felt good.
+</p><p>
+So, why are you listening to me?  I really feel like I’m not very good at business, so I kind of feel a little guilty that I’m going to be telling you to do things that might be insane.  Actually, I’ve really been more like Forrest Gump, where I’ve just lucked into some lucky things that happened to me, and I just said, “Ok” at the right time.  But I did learn some things along the way, so here they are.
+</p><p>
+The number one most important thing is knowing why you are doing what you are doing.
+</p><p>
+I have found that most people don’t know.  They tend to just go with the flow, and social norms are a really, really powerful thing.  You’re at this conference and you’re talking to other people and even if I think why you’re at this conference, you might be at this conference because you think you should be at this conference, and maybe I should get out there and I should be meeting people.
+</p><p>
+But I’ll bet you there’s probably 5% of you here that are like, “I hate conferences, I hate people.  I don’t like being around people, I just want to stay home and be comfy with my tea and make money.  Why do I have to go out?”  You need to admit this to yourself instead of just imitating what other people are doing and going with the flow.
+</p><p>
+I think this also happens with popular books.  There will be a huge book like “The 4 Hour Workweek” and you’ll read the 4 Hour Workweek and you’ll go, “Yeah, I really should be learning tango in Argentina.”  A really well written book can convince you that this is something you want.
+</p><p>
+But what you need to avoid is this deathbed regret that you’ve pursued something that someone said you should want instead of what you really want.
+</p><p>
+I’m mentioning this first, because it’s been one of the most surprising, hardest lessons to learn that I still today have to get over.  There are these things that you think you should be doing, and it’s powerful, and it’s really hard to admit that you don’t like them.  So, you need to know what you do like.
+</p><p>
+For example, here’s some options.  If you’re really into making lots of money, you need to admit that.  Or if you really like prestige or fame, or you want to leave a legacy.  Or if you really just like freedom and having no responsibility, you need to admit that.
+</p><p>
+But the point is, when you choose the thing that you are most into, that means that you need to optimize for that, and be willing to let go of the others.
+</p><p>
+And, it also means knowing it so well that you’re focused on it, and you’re willing to not diffuse your energy in trying to do a little bit of this, “Well I kind of want to be a little famous and make a little money, and leave a little bit of a legacy, and get a little bit of freedom.”  No.  You have to know what matters to you the most.
+</p><p>
+For example, if you really want to make a lot of money, one way to do it is by letting go of those others and just letting other people take the spotlight for example.  I lived in LA for six or seven years, and some of my friends were Hollywood actors that were actually kind of famous.  What surprised me, is that they’re not rich.  We always assume that anybody you’ve watched on the big screen has got to be rich.  But no.  A few of them are, but most of them aren’t.  It blew my mind until I found out that the richest people in Hollywood are the ones you’ve never heard of, because they’ve optimized their career for money.  They’ve got the huge house on the hill and nobody knows their name.  They’re behind the scenes, they let others take the spotlight in return for a little less money.  They take no spotlight in return for more money.
+</p><p>
+On the other hand, I lived in New York City for ten years, and as you go around NYC, you see Trump this, Trump this, Trump Plaza, Trump Tower.  One time I was even driving way into upstate New York, I was two hours outside of the city in the middle of nothing, and there was Trump Park.  “C’mon ... Really?”  Why does he have this need to put his name on everything?  And then I realized, ok this is actually his measure. He’s not trying to make as much money as possible.  Because if he wanted to make more money, he would let other companies put their name on his buildings.  It would be the Panasonic Plaza, or the Sony Tower.  But instead, he’s decided to optimize for maximum legacy or recognition or fame and chosen to make less money instead.
+</p><p>
+Maybe you want to optimize your life for freedom.  This is the one that I liked.  It means refusing responsibility and learning to delegate everything.  And it means don’t let that DIY acronym -- don’t take it as Do It Yourself, it’s more like Decide It Yourself and Delegate It Yourself -- but don’t do everything yourself.  You learn that you just want more freedom.
+</p><p>
+Remember, the point is, no matter which one you choose, people are always going to tell you you’re wrong.
+</p><p>
+I had this all the time with CD Baby.  I started this little thing as a fun hobby, and I didn’t want it to take up too much of my life.  It did anyway, but I was doing it for my reasons.  People would always be saying, “You know, you could be making a lot more money if you would do da-da-dat and you could do this and you could raise financing and you could do that.”  I said, “No, no, that’s not why I’m doing it.”
+</p><p>
+It really helped to know that in advance.
+</p><p>
+So, use this as your compass and optimize your life around it.  You just have to do a little soul searching in advance, and know that this is what you want.  There may be side effects, meaning you may optimize for fame, you may decide that you really want to be famous, and you can make some money in the meantime, or vice versa, but you need to know ultimately which one is more important to you.  So, when those decision moments come, you can give one up and choose the one that you already know in advance matters to you.
+</p><p>
+((Look at my fancy slide technique.  When it turns red, I’m changing the subject.  Powerpoint!))
+</p><p>
+Ok, nobody knows the future.
+</p><p>
+This is another really hard lesson learned.  Everybody is trying to know the future and I’ve been at those other seminars -- have you been to those educational panels like South by Southwest where they get six experts up on the table and everybody claims to know the future, and they’ll tell you what the future is, but nobody actually knows the future.
+</p><p>
+Once you realize this, you can admit that your business plan is moot.  I think there is this emphasis for entrepreneurs that you have to have a business plan, and make this five-year plan, and know where it’s going.
+</p><p>
+But here’s proof that all business plans are moot, because I’ll bet you every business plan you’ve ever seen has that little chart of projected earnings, and it always goes up and to the right.  Every single one of them does that, but most businesses don’t actually.  So, that’s how you know they’re fiction.  It’s moot.  Everybody says it.
+</p><p>
+Instead, what I think is really important is to not commit to one idea of the future that you have, but instead, commit to a problem that you want to solve.  Then you can stay committed to the problem, and continually try to find the ongoing and ever-changing answer to that problem.  But stay committed to the problem and don’t attach yourself too much to any given answer that you’ve come up with at any point.
+</p><p>
+Because no plan survives first contact with the customer.  No matter what you’ve planned in your bedroom or here at the conference, when you go out and try it, and you get the first person and you say, “Hey, do you want to sign up for my new thing?”
+</p><p>
+They’ll say, “No, but actually what I’d like to pay you for instead is doing this.”
+</p><p>
+And you say, “Oh, alright, never mind I could do that.”
+</p><p>
+My little example is, when I first started CD Baby it was meant to be a payment processor.  Again, Paypal didn’t exist yet so there was literally nowhere you could use to charge somebody’s credit card  That’s really what my musician friends were asking me to do.  They were like, “Can you charge people’s credit cards for me and then I’ll ship the CD to them.”
+</p><p>
+So that’s what I was doing.  I was just charging people’s credit cards.  But then a guy from the Netherlands bought one of my friend’s CDs and I shipped it off to the Netherlands, and a week later he came back and emailed me saying, “Hey, where are your new arrivals?”
+</p><p>
+I said, “What do you mean?  What friends am I now processing credit cards for?”
+</p><p>
+And he said, “Oh I’m sorry I thought you were a record store.”
+</p><p>
+And I went, “Aaaah, a record store.  Oooh, that’s a nice idea. I could be a record store.”
+</p><p>
+And so just like that my plan completely changed.
+</p><p>
+I’m like, “Yes, I’m going to be a record store!”
+</p><p>
+Month number two, everything changed.
+</p><p>
+And so for the next six years, CD Baby was a great online record store, and it became the largest seller of independent music on the web.  Everything was going really well until one day, six years into it -- Apple had just opened the iTunes music store a few weeks before and I got an email from Apple’s office saying, “Could you please come to our office at 1 Infinite Loop in Cupertino for a private meeting.  Do not tell anybody about this, please come next Thursday.”
+</p><p>
+So I showed up, and it was a little tiny room the size of this stage.  There were a few dozen of us there and Steve Jobs walks out in full presentation mode.  I was like, “Whoa!”  And he gave this whole pitch about how he wanted to get every piece of music ever recorded up and selling in the iTunes music store, including these independent artists that nobody had heard of.
+</p><p>
+Like Forest Gump right?  I was like, “Ok.”
+</p><p>
+And just like that I was now a distributer.  Everything changed, and now I’m a digital distributer, and then CD Baby became the largest digital distributer of music.  And when you would hear things -- remember things like Rhapsody or Napster and they would say we have a catalogue of 4 million songs --  Well, guess what?  2 million of those came from me.  That was when CD Baby became a digital distributer.
+</p><p>
+Point is, once you’ve realized this a few times and you’ve had it happen to you, you can just admit in advance that nobody knows!  And when people ask you, “Tell me about this business you’re working on, how does it work?”
+</p><p>
+You say, “I don’t know, we’ll find out.  We’ll see.  I’ve got a plan, but so what, nobody cares.”
+</p><p>
+And I think this puts you into a better mindset, because when you admit that nobody knows, you start to ask more questions instead of being such a know it all.  You learn more instead of constantly preaching at people.
+</p><p>
+You see those people, they’re often Silicon Valley types, and they’ve decided exactly what the future is going to be, and they will tell anyone that will listen as if saying it enough is going to make it true.  But instead, if you just admit, “I don’t know, I’m committed to the problem, I’d love to keep hearing different solutions.”
+</p><p>
+((Look, I’m changing the subject.))
+</p><p>
+Revolution.
+</p><p>
+When I first started CD Baby, around the second month where the guy from the Netherlands told me I was a record store, and I said, “Oh, I’m a record store,” I didn’t know what to charge for this service.  So, like all of us, you never know what to charge.  So what I did is, I walked down to my local record store, it was a tiny little record store, and I knew that they had some consignment CDs up on the counter from some local musicians from town.
+</p><p>
+And I said, “so how does it work if I want to sell my CD through you?”
+</p><p>
+And she said, “Oh it’s easy.  You set your selling price at whatever you want, we just keep a flat four dollars per CD sold, and then just come in no more often than once a week and I’ll be happy to pay you.”
+</p><p>
+So I went home to my new website.  I was like, “You set your selling price at whatever you want, we keep a flat four dollars per CD sold and we’ll pay you once a week.”  It works for her, it will work for me.  It doesn’t really need to be more complicated than that.
+</p><p>
+The only thing I had to add was that because -- she would just plop something into the bin, but for everybody that mailed me a CD, I actually had to photoshop it, and fix the spelling mistakes in their bio, and rip the Mp3s from their CD.
+</p><p>
+It took about 45 minutes to do the work, so I thought I would want 25 bucks for my own personal fee, and that’ll compensate me for 45 minutes.  And at the last minute I changed it to $35, so that I could afford to give discounts.  And so those two numbers: 35 bucks to add a CD, and 4 dollars per CD sold, that was it, that was my entire business model for six years.  That took me from zero to 10 million in revenue.  Just that.  There was no more to it than that.  No fancy business plans, no nothing, that was it.
+</p><p>
+And the musicians would get paid every week.  But in the music business this was kind of unusual.  To me it seemed to make common sense.  I’ve already charged the customer’s credit card, I’ve already shipped it out, the money’s here, why not pay the musician every week?
+</p><p>
+But in the music business that was unusual because the way it worked before was, you would ship your CDs off to a distributer and maybe a year later you might get paid, if ever.  So, the funny thing is, I kept doing this for years and years and years, and five years after I began, we started to get a lot of press.  People were saying, “It’s revolutionizing the music industry!  It is changing the way music is bought and sold!”
+</p><p>
+They used words like revolution, which I learned they only use once you’re successful.  Before that, you’re just some nut.
+</p><p>
+But here’s the real point:  I think a lot of us are surrounded by businesses and startups -- if you read things like TechCrunch and HackerNews, you’re surrounded by businesses that are all proclaiming to be revolutionary, and everybody is saying, “We’re going to revolutionize this!  We’re going to disrupt this industry!  We’re going to destroy this!”  It’s all destroy and disrupt, and so you get this impression for you to start some kind of business, “Oh my God, you’re going to have to revolutionize everything, otherwise it’s not worth it.”
+</p><p>
+But, if you think that love needs to look like Romeo and Juliet, with stabbings and poisons and balconies, then you might overlook a great relationship that grows slowly and just isn’t quite as drama addicted.
+</p><p>
+If you think that revolution needs to have war and blood and innovation and disruption, then you might overlook the idea that is just simply serving people better.  And often, that’s all there is to it.
+</p><p>
+So, I found that the ideas that turned out to be revolutionary years later, after they’re successful, at first they just seem like uncommon sense.  It’s like you’re doing something in a way that to you, feels stupidly obvious, like, “This is a better way of doing it.  I’m able to avoid all of this other bureaucracy in doing it nice and simple.”
+</p><p>
+And if you just keep doing this and you’re successful, they say you’ve started a revolution.
+</p><p>
+If it’s not a hit, switch.
+</p><p>
+This was a hard lesson learned.  For 12 years, as a professional musician, I tried everything.  I started a recording studio, I was a session musician, for a year I was the guitarist for a Japanese pop-star named Ryuichi Sakamoto, and for ten years I was the ringleader/MC in a circus.
+</p><p>
+I had a duo called the <a href="http://professionalpests.com/">Professional Pests</a>, where I would run around inside a black shadow bag and bother people for money.  I started a record label and put out a couple friend’s records on my record label called, <a href="http://artificialrecords.com/">Artificial Records</a>.  I started a booking agency where I would book other friends into the college market.  I would book myself as a solo artist into the college market.  I had a five-piece funk band called, “<a href="/music">Hit Me</a>” that would play the college market.  I did all of this stuff, and then one silly little hobby I started was called CD Baby.  It was like one of many, many things I did.
+</p><p>
+But the difference is, all of those other things I had been doing for 12 years felt like an uphill battle.  Everything was hard, and it was always uphill, and it was like every door was locked and nothing was going right for me.  But when I started CD Baby, it felt like I had written a hit song.
+</p><p>
+Suddenly, everything was easy.  It was just like rolling down hill, and all of the doors were unlocked and everything was going my way.
+</p><p>
+Every now and then, people would ask me, “What were the biggest struggles you had when starting CD Baby?”
+</p><p>
+I would say, “Nothing.  There were no obstacles, nothing.”
+</p><p>
+There seriously weren’t.  Everything went my way, and now I know the difference.  I know the difference because I felt what it was like doing 12 years of having everything work the opposite, where everything felt hard.
+</p><p>
+So my advice is, if you aren’t loving what you’re doing, just stop.  Don’t persist and don’t push it.  I know that this is really contrarian advice, but the thing is, I was in the music business for so long that I met a lot of songwriters and there are some songwriters -- ((this is cute as a speaker:  You know you’ve made a good point when you see a bunch of phones go up.  Yeah.  Instagram that baby.))
+</p><p>
+I know a lot of songwriters, and there is a certain kind of songwriter that would have one song that they believed in, and goddammit, they would try to push down every door pushing their one song.  They believe this one song should be recorded by this artist, or this one song is a hit, and they would spend years and years trying to get momentum for one song.  And it just wasn’t happening.
+</p><p>
+Whereas, the successful songwriters I know, they would just keep writing and writing, and write new songs every week.  And then something they wrote a year and a half ago would suddenly get placed into a movie and be a huge hit.  But they just kept going.
+</p><p>
+So my point is, even if you have got an idea that you feel is brilliant, if you keep trying it out on people and it’s just not clicking, just let it go and write another song and keep moving.
+</p><p>
+You’ll know when you’re on to something great, because people will be freaking out.  And I mean really freaking out, not like, “Hey man, what do you think of my business idea?”
+</p><p>
+And people go, “Yeah, it sounds pretty cool, let me know how that goes.”
+</p><p>
+That’s not enough, that doesn’t cut it.  In fact, what they have just given you is a polite nah.  Because if they were really into it, they would say, “Oh my god, yes, yes, yes, here’s so money right now, take it, I need this thing immediately, can I please be your first customer?  Seriously can you do this for me right now?”
+</p><p>
+If they say this, then you know you’re on to something, but if it is anything less than that, don’t keep pushing this idea.  Just stop and change and write a different song.
+</p><p>
+So the lesson learned is, success comes from persistently improving and inventing, but not persistently pushing what is not working.
+</p><p>
+I think we are always told that we should all be persistent.  Perseverance, persistence, but it’s a slightly different definition.  You can’t just keep doing the same thing and then get mad at the world that they’re not seeing your vision.  You have to constantly adjust and try different things.
+</p><p>
+Version 0.1.
+</p><p>
+So, I met a guy at a music conference once, just meeting lots of people, and I said, “Hey, what are you working on?”
+</p><p>
+He said, “I am building the ultimate music recommendation engine.  This is going to be the ultimate thing, and tie into all your social networks and all of your friends, and it’s going to be the ultimate music recommendation that is going to listen to everything that you’ve ever streamed and everything in your hard-drive and everything on all of your devices.  It’s going to be the ultimate music recommendation.  Thing is, I’ve been working on this project for two years, no, I’ve been pitching this idea for two years, but it’s going to take 2 million dollars to make it.  I’ve got it all specked out, but the cost to make this thing is going to be 2 million dollars, so for the past two years, I’ve been trying to meet investors.  Do you know any investors?”
+</p><p>
+And I went, “Oh God, hold on.  What kind of music would I like?”
+</p><p>
+He said, “What?”
+</p><p>
+I said, “You said you want to start a music recommendation service, so what music would I like?”
+</p><p>
+He said, “No man, this isn’t about that.  This isn’t like that.  We’re building a whole enterprise back-end, this thing is going to be huge, it’s going to be the hugest thing ever!”
+</p><p>
+I was like, “Yeah, yeah, yeah but look.  Even elephants are born small.  So, you have to start with something.  If you want to start something, you know how they have software version numbers right?  Like software version 1.0, version 3.5.”
+</p><p>
+I said, “What you’ve described to me, is like version infinity.  That is the glorious future of your idea, where everything has worked out perfect and that is like a decade in the future.  That’s where your big idea will be, but as of right now, what you need is version 0.1.  And version 0.1 is the thing that you can do right now, with a piece of paper and quit making excuses that you’re looking for investors.”
+</p><p>
+And so, when you’re sitting there at this music conference --
+</p><p>
+((That’s why I like Chris’s $100 start-up book.  I love that.))
+</p><p>
+So we were at this music conference, and I said, “Here, excuse me, but just watch.”
+</p><p>
+And I said, “Excuse me, what kind of music do you like?”
+</p><p>
+And the guy said, “Me?”
+</p><p>
+I said, “Yeah, what kind of music do you like?”
+</p><p>
+He said, “Bjork.”
+</p><p>
+I said, “Have you heard <a href="http://www.lykkeli.com/">Lykke Li</a>?”
+</p><p>
+He said, “No.”
+</p><p>
+I said, “Check it out, let me know what you think.”
+</p><p>
+He said, “Alright.”
+</p><p>
+I just began a music recommendation service!
+</p><p>
+I think when you have this idea -- I’m guessing that this kind of crowd -- we’re not at Tech Crunch right now, so I’m guessing you’ve got your feet on the ground, you know this kind of stuff I’m saying, but it just pains me when I see people that spend all their time trying to raise money, whereas that same amount of time could be spent actually doing something.
+</p><p>
+And the two years that this guy had spent trying to raise money could have been two years just with a piece of paper talking to real people.
+</p><p>
+“What kind of music do you like?  Ok.  Did you like Lykke Li, was she good?  Oh you didn’t, alright noted.”
+</p><p>
+Then eventually you put it in a spreadsheet, then maybe you put it into a computer, then maybe you build a website for it, then maybe you give it a name, and then maybe people can log in.  But you can just start with this<Format:  Italics> now.
+</p><p>
+So, the first version of CD Baby did almost nothing.  I didn’t know programming at the time and I made it in six days.  It was a one-page website that had 20 of my friends, each one with a little button next to it that said, “Add to Cart.”
+</p><p>
+And check this out, I would never have admitted this at the time, but when you would type in your credit card info and click “Buy,” all it would do is just email it to me.  It would email me your raw credit card info to me and I would highlight my mouse and copy and paste every single field.  I’d highlight my mouse over first name, control C, alt tab, Control B, alt tab, Control C, Control V.
+</p><p>
+Because the deal was, I was only getting like three orders a week, so there was no need to build some big damn system.  And it got me started.  I started it in six days, and it was profitable in six weeks.
+</p><p>
+My biggest startup expense?  You know when you have to get the SSL Certificate so you can have an HTTP S?  That was $375 bucks, those fuckers.  So everything after that was profit.  I made $400 bucks after six weeks and then I was profitable.
+</p><p>
+But there is a great quote, I think it is from Reid Hoffman who started LinkedIn, that says something like, “If you’re not embarrassed by your first launch, then you’ve launched too late.”  I really like that idea.
+</p><p>
+Ideas Versus Execution.
+</p><p>
+I had this friend once, that did that social thing that I hate where he emailed me with his friend in CC.
+</p><p>
+He said, “Hey Derek, I’ve got this friend, he’s got a billion dollar idea.  I want you to hear it.  So Derek meet Jeff, Jeff meet Derek.  The two of you talk, this is going to be great.  Go.”
+</p><p>
+I was like, “Aaaahhh, ok...Hi Jeff, what’s this idea of yours?”
+</p><p>
+He said, “I’ve got this billion dollar idea man, but this thing is so big I need you to sign an NDA before I can tell you.”
+</p><p>
+I was like, “Ahhhhh.  Ok.  My nice friend introduced us, so here’s your NDA.  Faxed it back to you.  There, what?”
+</p><p>
+He said, “Ok, are you ready?”
+</p><p>
+“Ok, what’s this big idea?”
+</p><p>
+“Online dating.  With music.”
+</p><p>
+And I said, “Yeah?”
+</p><p>
+And he said, “Dude.  Online dating.  With music.”
+</p><p>
+I said, “Is there anything more to this?  Ok.  Alright.  I’m listening, what are the details?”
+</p><p>
+He said, “Dude.  Online dating with music.  This thing is a billion dollar idea.  I just figure, you know, I’m the idea guy, you can just make it.  You know programming, you can do this thing.  So you can make it happen and we can just split the profits 50/50.”
+</p><p>
+I was like, “Really?  Ok.  Hold on, let me explain something.  Ideas are just a multiplier of execution.  Let’s say this chart -- let’s give a bad idea a negative one rating, but a weak idea is a one and an average idea is a 5.  A good idea is a 10, and a great idea is a 15, and an amazing idea is a 20.  But then execution.  No execution?  Let’s say a dollar to be nice.  Weak execution, a thousand dollars, average execution, 10,000 dollars, good execution, 100,000 dollars.  Great execution one million dollars.  Amazing execution, 10 million dollars!”
+</p><p>
+The point is, to make a business you need to multiply the two sides.  For example, if you have an amazing idea but no execution, it’s not worth anything.  You haven’t done anything.  It’s worthless.  Ok, I’ll pay for the Cokes we’re drinking right now.  You haven’t done anything, it’s just an idea.  It’s not worth anything.
+</p><p>
+On the other hand, if you had a good idea and you’ve actually gone and made it happen in a pretty good way, you could maybe make a million dollars.  And if you have an amazing idea, and you have an amazing team and you do great execution, you could maybe make 20 million dollars.
+</p><p>
+But this is why I never want to hear people’s ideas, when they do this thing about, “I’ve got this great idea!”
+</p><p>
+I’m like, “Naaaahhh, I don’t want to hear your ideas, just let me see your execution.”
+</p><p>
+It’s just a multiplier.
+</p><p>
+On that note, in my last few minutes, since I’ve been talking in kind of vague terms and stories, I’m going to tell you specifically the most successful things we did at CD Baby.  These are the things that either made the most money, or I noticed made the most people ecstatically happy.
+</p><p>
+The first one, believe it or not is that we answered the phone.  ((That’s right, applaud me for answering the phone!  Yes, yes, it is a genius revolution I started!  Have you tried my famous peanut butter and jelly?))
+</p><p>
+You would think that this would be obvious right?  But I think there are so many people, that in their heads they’re already this billion dollar business and, “Hey man, answering the phone doesn’t scale, so we’re trying to make it so that nobody can contact us.  You just use our online forms.”
+</p><p>
+But because of this, it blew my mind that when I would go to music conferences I would overhear one musician telling another, especially in the early days when not a lot of people had heard of CD Baby yet, this guy would say, “Oh you’re not on CD Baby yet.  Dude, CD Baby is awesome.  You know what?  They answer the phone.  You can call them and they answer and you can talk to a real person!”
+</p><p>
+They’re like, “No way!”
+</p><p>
+“Yeah way!  Amazon won’t do that.”
+</p><p>
+And they weren’t talking about my cool graphic design, or my fancy CSS Stylesheets on my website.  No.  None of the other stuff mattered.
+</p><p>
+We answered the phone.  And that was enough to get his friend to sign up.
+</p><p>
+The other one, was a geeky little thing I just did for fun one day.  It only took two lines of computer code to intercept outgoing emails and put the person’s first name into the from header, not just the to header.  So, if an email was going to Sarah, for example, it would say the email was from CD Baby loves Sarah.  It was just the tiniest little geeky thing I did once, just to make myself laugh.
+</p><p>
+But people replied back, “Did you just really?  You guys are crazy!”
+</p><p>
+And then they would forward it to friends, and friends would tell friends, and friends would come and buy CDs from us.  Just because of this stupid little thing.
+</p><p>
+A fun one was I had a policy that “changes need pizza.”  The reason for this is because every time a new album came into the store, it would take about 45 minutes of work to lay it on the scanner, scan the album art, photoshop it, drop the CD into the bin, rip it fully and then take the little clips, and do all the stuff, and fix their bio.
+</p><p>
+And every now and then, somebody would contact us two weeks later and say, “Uhhhh, can I change my choice?  I want to send you a different album art cover, or I want to change the way my tracks are done.”
+</p><p>
+And I would say, “Alright no problem, just send us a pizza.”
+</p><p>
+And they would say, “What?”
+</p><p>
+I’d say, “Yeah.  Look we’re happy to do it, but it’s kind of a pain in the ass.  We’re going to have to go out to the warehouse and find your CD.  If you don’t mind, just send us a pizza and we’re happy to do it.”
+</p><p>
+And they’d say, “You’re serious.”
+</p><p>
+“Yeah, serious.  Here’s the phone number of the local pizzeria, they know us, just tell them you want to buy CD Baby a pizza.  They already know our favourite pizza, so you just call them up with your credit card, say I want to get CD Baby a pizza. The pizza shows up, we’ll do anything you want.”
+</p><p>
+The real point was, this is humanizing.  I think too many of us start businesses and you want it to look big, and you start to say things on your website, like “we” instead of “I”.  Even though it is just you.  We try to do these things to make it look corporate.  But when you do these things to humanize it and remind people that it’s just a real person back here -- we’re just real people with a lot of work, so get us a pizza, we’ll do it -- People loved that.  I mean seriously, I would overhear this at conferences.
+</p><p>
+“Oh my god dude, you have to sign up to CD Baby.”
+</p><p>
+“Why?”
+</p><p>
+“Dude, they changed my album because I sent them a pizza.”
+</p><p>
+“No way.”
+</p><p>
+“Yeah, way.  You gotta sign up.”
+</p><p>
+Another one I really liked, is sending customer comments to the musicians.  At the end of an order, after you typed in your name, address and your credit card, I’d leave a blank field asking two things:
+</p><p>
+Number 1 was, please let the musician know where you heard of them.  And people would actually write things like, “Hey I saw you playing on the 3rd Street Promenade and loved your music but didn’t have any money that day, so I went and Googled you later and found you and here I am.”
+</p><p>
+Or, “I heard you on KEXP Radio and I thought you guys were awesome, but I missed your name so I called the station and they told me, and I found your address.  I’m a big fan.”
+</p><p>
+And I would forward these comments to the musicians and years later people would tell me like, “Hey do you know what?  It was because of you that I booked an entire tour through Japan.”
+</p><p>
+I would say, “What do you mean?”
+</p><p>
+He’d say, “Well, one of those comments you forwarded me from some customer in Japan.  We got in touch because he left a nice comment, and he’s a big fan and he booked a whole tour for us.”
+</p><p>
+All because of that.
+</p><p>
+The Second thing:  below it would say, “Where did you hear of this artist?” And below that it would say, “Do you have any special requests?”  And I put in parentheses, “Yes, anything.”
+</p><p>
+Most people would leave this blank because they would look at it saying, “No.  I don’t know.  Nothing.”
+</p><p>
+But one guy once wrote, “Yeah, in fact I would like some cinnamon gum.”
+</p><p>
+So, one of the guys in the warehouse was just about to go do a run and get some gas and go to the store anyway, so I was like, “Dude, get some cinnamon gum while you’re there!”
+</p><p>
+He was like, “Alright.”
+</p><p>
+So he comes back and I put this order aside.  He came back with the cinnamon gum.  Sent it to the customer and he was like, “No fucking way!”
+</p><p>
+So he wrote a blog post about it and thousands of people read this, and thousands of people heard about CD Baby because of it.
+</p><p>
+Then we got this other one where a guy bought a CD where the album cover was a picture of a guy’s face with a squid on his head.  So in the customer comment at the end for any special requests he said, “Yes, I would like a plastic squid with my order, or if you do not have a plastic squid, a regular squid will do.”
+</p><p>
+Well, guess what.  Some guy in Korea, a musician, had sent us a box of CDs, and as a special gift, maybe because he couldn’t send a pizza, he sent us shrink wrapped squid in a frozen plastic bag.  And the guys at the warehouse thought it was funny, and so they had kept it tacked up on the wall for awhile as a comedy piece.  Along with Danny Devito pictures, whatever.
+</p><p>
+So, they’re like, “Dude, somebody wants a squid!”
+</p><p>
+They dropped the squid in with the order, and the guy got it and he was like, “Oh my God!”
+</p><p>
+So if you go on to Youtube, actually I gave a short link to it.  My web address is sivers.org, so if you go to sivers.org/squid it will redirect you to the youtube page that this guy made.  He made a seven minute long Youtube video telling his story about he requested the squid and it showed up.  This thing has been viewed thousands of times.
+</p><p>
+So and people ask every now and then, “Hey I’ve got this startup, but how do I really get traction for it?”
+</p><p>
+I’ve just found from experience that people remember you more for all of these little ways you make them smile than all of the other tech stuff that you do, and all the way that you have your Mongodb Database and chart it across something, something, something and you think you need to do Ruby on Rails and, you need to do Nogs and it has to be....  All of that stuff doesn’t matter as much as these little things you do to make people smile.
+</p><p>
+I think it is important to be so unusual or remarkable, that everyone tells their friends.  (Notice by the way, that the word remarkable is actually made up of two words.  It’s remar, and kable.)  The point is to be shockingly unique.  Just use uncommon sense.  All of these things don’t need to feel like a revolution, they’ll just be surprisingly simple.  It’ll seem like, “Of course we should ask the customers what they want and let them choose anything.  Of course we should pick up the phone,” etc.
+</p><p>
+Please write down my email address, send me an email, say hi.  You guys are my kind of people, though I’ve been stressed out and practicing my talk for the last two days, so I haven’t met most of you, so please email me and say hi!
+</p><p>
+Thanks!
+</p>
+
+<footer>
+© 2015 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

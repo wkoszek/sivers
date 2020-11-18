@@ -1,0 +1,18 @@
+<h2><%= @pagetitle %></h2>
+
+
+<div class="small-6 columns">
+<ul>
+<% @customers.each do |c| %>
+	<li><a href="/customer/<%= c.id %>"><%=h c.name %></a></li>
+<% end %>
+</ul>
+</div>
+<div class="small-6 columns">
+<form action="/customers" method="post">
+	<label for="person_id">enter person_id to create new customer:</label>
+	<input type="text" name="person_id" id="person_id" value="<%= @person_id %>">
+	<input type="submit" name="submit" value="add">
+</form>
+</div>
+

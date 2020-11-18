@@ -1,0 +1,30 @@
+<section id="login">
+
+<h1>Muckwork client:</h1>
+
+<p>
+If you want to hire Muckwork to do some work for you…
+</p>
+
+<h1>sign up</h1>
+
+<form action="/signup" method="post" name="signup">
+	<label for="signup_name">Full name:</label>
+	<input type="text" name="name" id="signup_name" value="">
+	<label for="signup_email">Email address:</label>
+	<input type="email" name="email" id="signup_email" value="">
+	<input type="submit" value="sign up">
+</form>
+<script>
+document.signup.name.focus();
+</script>
+
+<h1>log in</h1>
+
+<form action="/login" method="post" name="login">
+	<input type="email" name="email" placeholder="email">
+	<input type="password" name="password" placeholder="password">
+	<input type="submit" value="log in">
+</form>
+
+</section>

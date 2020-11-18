@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>sites with a /now page</title>
+		<description>latest sites with a /now page</description>
+		<link>http://nownownow.com/</link>
+		<pubDate><%= Time.now %></pubDate>
+
+		<% @profiles_with_image.each do |url| %>
+		<item>
+			<title><%=h url[:name] %></title>
+			<description><%=h url[:subtitle] %></description>
+			<link><%= url[:long] %></link>
+			<guid isPermaLink="false">nownownow.com/url/<%= url[:short] %></guid>
+		</item>
+		<% end %>
+
+		<% @urls_with_image.each do |url| %>
+		<item>
+			<title><%=h url[:name] %></title>
+			<description><%=h url[:subtitle] %></description>
+			<link><%= url[:long] %></link>
+			<guid isPermaLink="false">nownownow.com/url/<%= url[:short] %></guid>
+		</item>
+		<% end %>
+
+		<% @profiles_without_image.each do |url| %>
+		<item>
+			<title><%=h url[:name] %></title>
+			<description><%=h url[:subtitle] %></description>
+			<link><%= url[:long] %></link>
+			<guid isPermaLink="false">nownownow.com/url/<%= url[:short] %></guid>
+		</item>
+		<% end %>
+
+		<% @urls_without_image.each do |url| %>
+		<item>
+			<title><%=h url[:name] %></title>
+			<description><%=h url[:subtitle] %></description>
+			<link><%= url[:long] %></link>
+			<guid isPermaLink="false">nownownow.com/url/<%= url[:short] %></guid>
+		</item>
+		<% end %>
+
+	</channel>
+</rss>

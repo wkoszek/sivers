@@ -1,0 +1,28 @@
+<section id="sentence">
+
+<div>
+	(<a href="<%= @article_url %>">see article</a>)
+</div>
+
+<h3>English:</h3>
+<%=h @sentence[:sentence] %>
+
+<h3>Translation:</h3>
+<form method="post" action="<%= @post_url %>">
+	<textarea name="translation"><%=h @sentence[:translation] %></textarea>
+	<input type="submit" value="update">
+</form>
+
+<% if String(@sentence[:merged]).length > 0 %>
+<h3>Preview:</h3>
+<p>
+<%=h @sentence[:merged] %>
+</p>
+<hr>
+<p>
+<%= @sentence[:merged] %>
+</p>
+<hr>
+<form action="<%= @article_url %>"><input type="submit" value="done"></form>
+<% end %>
+

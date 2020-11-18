@@ -1,0 +1,16 @@
+<!-- Thank you! -->
+<h1>Thank you!</h1>
+<p id="msg">
+You’re so cool.
+</p>
+<script>
+var msg = {
+	list: 'I updated your email list settings.</p><p>Your info is private and will never be sold to anyone else, ever.</p><p>Of course you can email me anytime at <a href="mailto:derek@sivers.org">derek@sivers.org</a>',
+	reset: 'Wait a minute, then check your inbox for an email from derek@sivers.org with the subject “your password reset link”.</p><p>If you don’t get it in a minute or two, please email me to let me know.',
+	pdf: 'Wait a minute, then check your inbox for an email from derek@sivers.org with the subject “How to Call Attention to Your Music”.</p><p>If you don’t get it in a minute or two, please email me to let me know.'
+};
+var m = /\?for=([a-z]+)/.exec(location.search);
+if(m && msg[m[1]]) {
+	document.getElementById('msg').innerHTML = msg[m[1]];
+}
+</script>

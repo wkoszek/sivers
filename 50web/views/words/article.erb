@@ -1,0 +1,22 @@
+<section id="article">
+
+<h3>filename:</h3>
+<%=h @article[:filename] %>
+
+<h3>raw:</h3>
+<%=h @article[:raw] %>
+
+<h3>merged:</h3>
+<%=h @article[:merged] %>
+
+<h3>sentences:</h3>
+<ol>
+<% @article[:sentences].each do |sentence| %>
+	<li>
+	<a href="/sentence/<%= sentence[:code] %>/<%= @translator[:lang] %>">edit</a>
+	<%=h sentence[:merged] %>
+	</li>
+<% end %>
+</ol>
+
+</section>

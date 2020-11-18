@@ -1,0 +1,50 @@
+DATABASE EXPLANATION:
+
+There are four types of people: Researchers, Writers, Editors, and Customers.
+
+The Book is the trunk of the tree of info:
+Each Book has Topics
+Each Topic has Subtopics
+Each Subtopic has TemplateQuestions
+Each TemplateQuestion has Questions for each country
+Question can be used in multiple books (2013, 2014, etc)
+Each Question has Answers, created by a Researcher
+Each Question has one Essay per book, created by a Writer.
+The final Essays are cleaned up by an Editor.
+Then each Book is bought by Customers.
+
+For researching, there Tidbits of information, each with Tags, optionally related to Questions.
+
+So... Associations:
+Book has: Topics, Subtopics, TemplateQuestions, Questions, Answers, Essays, Researchers, Writer, Editor, Customers
+Topic has: Subtopics, TemplateQuestions, Questions, Answers, Essays
+Subtopic has: TemplateQuestions, Questions, Answers, Essays, Topic
+TemplateQuestion has: Questions, Answers, Essays, Subtopic, Topic
+Question has: Books, Answers, Essays, TemplateQuestion, Subtopic, Topic, Researchers, Editor, Tidbits
+Answer has: Essays, Researcher, Question, Editor, Subtopic, Topic, Books
+Essay has: Writer, Editor, Question, TemplateQuestion, Subtopic, Topic, Book
+Tidbit has: Tags, Questions
+Tag has: Tidbits
+Researcher has: Books, Questions, Answers (can be grouped by Topic and Subtopic)
+Writer has: Essays, Books, Questions, Answers (can be grouped by Topic and Subtopic)
+Editor has: Essays, Books, Questions, Answers (can be grouped by Topic and Subtopic)
+Customer Has: Books, Questions, Answers, Essays (can be grouped by Topic and Subtopic)
+
+
+
+------------ TODO: ACCOUNTING:
+-- customers buying history
+-- researchers payment history
+-- writers payment history
+-- editors payment history
+
+receipts
+	customer_id
+	book_id
+	content text
+
+payments
+	researcher_id
+	writer_id
+	editor_id
+

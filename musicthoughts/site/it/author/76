@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="it" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Wolfgang Amadeus Mozart PensieriMusicali</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<link rel="alternate" hreflang="en" href="http://musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="es" href="http://es.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="fr" href="http://fr.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="de" href="http://de.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="pt" href="http://pt.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="ru" href="http://ru.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="ar" href="http://ar.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="ja" href="http://ja.musicthoughts.com/author/76" />
+<link rel="alternate" hreflang="zh" href="http://zh.musicthoughts.com/author/76" />
+</head>
+<body id="author">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/">PensieriMusicali</a></h1>
+<h2>un luogo tranquillo dove riflettere sulla musica</h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new">nuovo</a></li>
+	<li><a href="/authors">autori</a></li>
+	<li><a href="/contributors">contributori</a></li>
+	<li><a href="/t/619">pensiero a caso</a></li>
+	<li><a href="/search">ricerca</a></li>
+	<li><a href="/about">su di</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<h1>Wolfgang Amadeus Mozart</h1>
+<ul>
+
+	<li><blockquote cite="/t/2392">
+	<q>Il modo più breve per fare molte cose sta nel farne solo una per volta.</q>
+	<cite><a href="/t/2392">Wolfgang Amadeus Mozart</a></cite>
+</blockquote>
+
+</li>
+
+	<li><blockquote cite="/t/319">
+	<q>Il silenzio è di estrema importanza. Il silenzio tra le note ha la stessa importanza delle note stesse.</q>
+	<cite><a href="/t/319">Wolfgang Amadeus Mozart</a></cite>
+</blockquote>
+
+</li>
+
+</ul>
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+	<li><a href="http://musicthoughts.com/author/76">English</a></li>
+	<li><a href="http://es.musicthoughts.com/author/76">Español</a></li>
+	<li><a href="http://fr.musicthoughts.com/author/76">Français</a></li>
+	<li><a href="http://de.musicthoughts.com/author/76">Deutsch</a></li>
+	<li><a href="http://pt.musicthoughts.com/author/76">Português</a></li>
+	<li><a href="http://ru.musicthoughts.com/author/76">Русский</a></li>
+	<li><a href="http://ar.musicthoughts.com/author/76">العربية</a></li>
+	<li><a href="http://ja.musicthoughts.com/author/76">日本語</a></li>
+	<li><a href="http://zh.musicthoughts.com/author/76">中文</a></li>
+</ul>
+</nav>
+
+<blockquote cite="/t/2389">
+	<q>Chi guarda all&#39;esterno, sogna. Chi guarda all&#39;interno, si sveglia.</q>
+	<cite><a href="/t/2389">Carl Jung</a></cite>
+</blockquote>
+
+
+</footer>
+
+</div>
+</body>
+</html>
+

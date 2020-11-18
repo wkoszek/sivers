@@ -1,0 +1,10 @@
+person_url:
+        http://someurl.io/person/%d
+woodegg_person_url:
+        http://anotherurl.io/person/%d
+aws_key:
+        ABCDEFG
+aws_secret:
+        abcdefg1234567
+email_suffix:
+        [fastmail.fm, corporate.com]

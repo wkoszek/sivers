@@ -1,0 +1,24 @@
+<article>
+<header>
+<div class="blogparent"><%= @parent %>:</div>
+<h1><%=h @title %></h1>
+<p class="postdate"><%= @date %></p>
+</header>
+
+<%= @body %>
+
+<footer>
+© <%= @year %> <a href="https://sivers.org/">Derek Sivers</a>.
+(
+<% if @prev1 %>
+	« <a href="/<%= @prev1 %>" accesskey="p" rel="prev">previous</a>
+<% end %>
+<% if @prev1 && @next1 %>
+	||
+<% end %>
+<% if @next1 %>
+	<a href="/<%= @next1 %>" accesskey="n" rel="next">next</a> »
+<% end %>
+)
+</footer>
+</article>

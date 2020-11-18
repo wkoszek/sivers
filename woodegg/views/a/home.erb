@@ -1,0 +1,14 @@
+<h2>Hi <%= @person.name %>. Click your book for more.</h2>
+
+<ul>
+<% @customer.books.each do |b| %>
+	<li><a href="/a/book/<%= b.code %>"><%= b.short_title %></a></li>
+<% end %>
+</ul>
+
+<% if @customer.books.size < 16 %>
+<p class="small">
+(If you have another, not listed here, just <a href="/a/proof">register it</a>.)
+</p>
+<% end %>
+

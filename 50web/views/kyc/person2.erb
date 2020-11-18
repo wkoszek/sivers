@@ -1,0 +1,106 @@
+<section id="showemail">
+<h1>#2 = Add new (&amp; delete dead) URLs</h1>
+
+<% if @eurls %>
+	<h2>Maybe URLs?</h2>
+	<ul>
+	<% @eurls.each do |url| %>
+		<li><a href="/link?url=<%=h url %>" target="_blank"><%=h url.gsub(/^https?:\/\//, '') %></a></li>
+	<% end %>
+	</ul>
+	<hr>
+<% end %>
+
+<% @person[:emails].each do |e| %>
+	<%= h(e[:body]).gsub("\n", '<br>') %>
+	<hr>
+<% end %>
+</section>
+<section id="showperson">
+<h3><%=h @person[:email] %></h3>
+
+<div id="urls">
+<form id="urladd" data-post="/person/<%= @person[:id] %>/url.json" data-after="addUrl">
+	<input name="url" placeholder="url" accesskey="u">
+	<input id="urladdbutton" type="submit" name="submit" value="add url">
+</form>
+<ul id="urllist"></ul>
+
+<script>
+function activate(form) {
+	var url = form.getAttribute('data-post');
+	// use window[functionName] to get function from string
+	var after = window[form.getAttribute('data-after')];
+	var postit = function(e) {
+		e.preventDefault();
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState == 4) {
+				console.log(xhr.responseText);
+				after(JSON.parse(xhr.responseText));
+				form.reset();
+			}
+		};
+	xhr.open('post', url, true);
+	xhr.send(new FormData(form));
+	};
+	form.elements['submit'].addEventListener('click', postit, false);
+}
+
+function activateForms(node) {
+	if(node.nodeName == 'FORM' && node.getAttribute('data-post')) {
+		activate(node);
+	} else {
+		var l = node.children.length;
+		for(var i=0; i < l; i++) {
+			activateForms(node.children[i]);
+		}
+	}
+}
+
+activate(document.getElementById('urladd'));
+
+function formUrl(u) {
+	return('<form data-post="/url/' + u.id + '/delete.json" data-after="killUrl">' +
+	'<input type="submit" name="submit" value="x"></form>' +
+	'<form data-post="/url/' + u.id + '.json" data-after="updateUrl">' +
+	'<input type="hidden" name="star" value="' + (u.main ? 'f' : 't') + '">' +
+	'<input type="submit" name="submit" value="' + (u.main ? '★' : '☆') + '">' +
+	'<a href="/link?url=' + encodeURIComponent(u.url) + '" target="_blank">' + u.url.replace(/^https?:\/\//, '') + '</a></form>');
+}
+function listUrl(u) {
+	var li = document.createElement('li');
+	li.id = 'url-' + u.id;
+	li.innerHTML = formUrl(u);
+	var list = document.getElementById('urllist');
+	list.appendChild(li);
+	return li;
+}
+function addUrl(u) {
+	var li = listUrl(u);
+	activateForms(li);
+}
+function updateUrl(u) {
+	var li = document.getElementById('url-' + u.id);
+	li.innerHTML = formUrl(u);
+	activateForms(li);
+}
+function killUrl(u) {
+	var li = document.getElementById('url-' + u.id);
+	document.getElementById('urllist').removeChild(li);
+}
+
+<% if @person[:urls] %>
+	<% @person[:urls].each do |url| %>
+		addUrl(<%= url.to_json %>);
+	<% end %>
+<% end %>
+</script>
+</div>
+
+<br>
+<hr>
+<br>
+<form action="/person3/<%= @person[:id] %>"><input type="submit" value="URLs done" class="go"></form>
+</section>
+

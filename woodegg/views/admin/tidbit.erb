@@ -1,0 +1,65 @@
+<div class="small-3 columns">
+<h4>tags:</h4>
+<ul>
+<% @tidbit.tags.each do |tag| %>
+	<li>
+		<a href="/tidbits?tag_id=<%= tag.id %>"><%=h tag.name %></a>
+		<form action="/tidbit/<%= @tidbit.id %>/tag/<%= tag.id %>" method="post"><input type="hidden" name="_method" value="delete"><input type="submit" name="submit" value="x" class="alert tiny"></form>
+	</li>
+<% end %>
+</ul>
+
+<h4>add tag:</h4>
+<form action="/tidbit/<%= @tidbit.id %>/tags" method="post">
+	<select name="tag_id">
+		<option value="0">...</option>
+	<% @all_tags.each do |tag| %>
+		<option value="<%= tag.id %>"><%=h tag.name %></option>
+	<% end %>
+	</select>
+	<label for="tag_name">or new tag:</label>
+	<input type="text" name="tag_name" id="tag_name" value="">
+	<input type="submit" name="submit" value="add">
+</form>
+
+<h4>questions:</h4>
+<ul>
+<% @tidbit.questions.each do |q| %>
+	<li>
+		<a href="/question/<%= q.id %>"><%=h q.question %></a>
+		<form action="/tidbit/<%= @tidbit.id %>/question/<%= q.id %>" method="post"><input type="hidden" name="_method" value="delete"><input type="submit" name="submit" value="x" class="alert tiny"></form>
+	</li>
+<% end %>
+</ul>
+<h4>add question:</h4>
+<form action="/tidbit/<%= @tidbit.id %>/questions" method="post">
+	<label for="question_id">question_id#</label>
+	<input type="text" name="question_id" id="question_id" value="">
+	<input type="submit" name="submit" value="add">
+</form>
+
+</div>
+
+<div class="small-9 columns">
+<form action="/tidbit/<%= @tidbit.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="created_at">created_at</label>
+	<input type="text" name="created_at" id="created_at" value="<%=h @tidbit.created_at %>">
+	<label for="created_by">created_by</label>
+	<input type="text" name="created_by" id="created_by" value="<%=h @tidbit.created_by %>">
+	<label for="headline">headline</label>
+	<input type="text" name="headline" id="headline" value="<%=h @tidbit.headline %>">
+	<label for="url">url</label>
+	<input type="text" name="url" id="url" value="<%=h @tidbit.url %>">
+	<label for="intro">intro</label>
+	<textarea name="intro" id="intro"><%=h @tidbit.intro %></textarea>
+	<label for="content">content</label>
+	<textarea name="content" id="content"><%=h @tidbit.content %></textarea>
+	<input type="submit" name="submit" value="update tidbit">
+</form>
+or
+<form action="/tidbit/<%= @tidbit.id %>" method="post"><input type="hidden" name="_method" value="delete">
+<input type="submit" name="submit" value="delete tidbit" class="alert">
+</form>
+</div>
+
+

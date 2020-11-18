@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Productive Programmer - by Neal Ford | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: I thought it was going to be more general or philosophical tips, but seemed to be more about IDE-specific tips instead.  Then it crashed my Kindle (and still does). Oh well.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="The Productive Programmer - by Neal Ford | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/book/ProductiveProgrammer">
+<meta property="og:image" content="https://sivers.org/images/ProductiveProgrammer.gif">
+<meta property="og:description" content="I thought it was going to be more general or philosophical tips, but seemed to be more about IDE-specific tips instead.  Then it crashed my Kindle (and still does). Oh well.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="The Productive Programmer - by Neal Ford | Derek Sivers">
+<meta name="twitter:description" content="I thought it was going to be more general or philosophical tips, but seemed to be more about IDE-specific tips instead.  Then it crashed my Kindle (and still does). Oh well.">
+<meta name="twitter:image" content="https://sivers.org/images/ProductiveProgrammer.gif">
+</head>
+<body id="onebook">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<header>
+<figure><a href="http://www.amazon.com/dp/0596519788?tag=sivers-20"><img src="/images/ProductiveProgrammer.gif" alt="The Productive Programmer - by Neal Ford"></a></figure>
+<h1>The Productive Programmer - by Neal Ford</h1>
+<p class="postdate">
+ISBN: 0596519788, 
+READ: 2009-11-01, 
+RATING: 1/10
+<br>(See <a href="/book">my list of 200+ books</a>, for more.)
+</p>
+<p><strong>Go to the <a href="http://www.amazon.com/dp/0596519788?tag=sivers-20">Amazon page</a></strong> for details and reviews.</p>
+</header>
+
+<p id="booksummary">I thought it was going to be more general or philosophical tips, but seemed to be more about IDE-specific tips instead.  Then it crashed my Kindle (and still does). Oh well.</p>
+<h2>my notes</h2>
+<p id="booknotes">
+Productivity is defined as the amount of useful work performed over time. Someone who is more productive performs more effective work in a given time interval than someone less productive.<br>
+<br>
+With many of the productivity hints in this book, you have to keep an active mindset to take advantage of these techniques. Recognizing the appropriate situation where one of them applies is half the battle. I constantly use clipboard history; I can’t imagine life without it now.<br>
+<br>
+Up and down arrow keys, which is a brute-force way to get to previous commands. But, as I’ve stated before, searching is more effective than navigation. You can search your history to find the command in question faster than you can scan each entry as you walk back through them one at a<br>
+<br>
+You can set VI mode in your *-nix environment by adding the following to your ~/.profile file:set -o viWhen you have VI mode set, you can hit Escape (which puts you in command mode), then / to put yourself in search mode. Type the search text, then hit Enter. The first match will be the most recent command that matches the search string. If that’s not the one you want, hit / followed by Enter to search for the next occurrence. Also in bash, if you have recently executed a command, you can hit the hotkey ! along with the first letter of the recent command to re-run it. The ! gives you access to the history directly. If you want to see your command-line history, execute the history command, which provides a numbered list of the commands you’ve executed,<br>
+<br>
+Each time the pushd command is issued, it shows the existing directories already on the stack.<br>
+<br>
+If you use a mouse to select a menu or tool button, he makes you undo your operation, then do it three times using the keyboard.<br>
+<br>
+When you type a complicated construct for the second time, templatize it.<br>
+<br>
+Key macro tools are also great for common phrases that you must type over and over.<br>
+<br>
+Spend a little time each day to make every day more productive.<br>
+<br>
+The higher the level of concentration, the denser the ideas.<br>
+<br>
+find . -regex ".*Db\.java"<br>
+<br>
+Selenium is an open source user acceptance testing tool for web applications. It allows you to simulate user actions by automating the browser via JavaScript.<br>
+<br>
+Firefox browser plug-in called Selenium IDE. Selenium IDE allows you to record your interaction with a web application as a Selenium script, which you can play back through Selenium’s TestRunner or through Selenium IDE itself. While this is useful when creating tests, it is invaluable if you need to automate your interaction with a web application.<br>
+<br>
+Timebox your efforts: allocate an exact amount of time for exploration and fact gathering. At the end of the timebox, re-evaluate objectively whether completely pursuing this task is feasible.<br>
+</p>
+
+
+</div>
+</body>
+</html>

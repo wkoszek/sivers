@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wood Egg Editor: <%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/edit/favicon.ico"/>
+<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/login.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/showdown.js"></script>
+</head>
+<body id="editsite">
+
+<div class="navbar"><div class="navbar-inner"><div class="container">
+<a class="brand" href="/edit/">Wood Egg editing site for <%= @editor.name %></a>
+<ul class="nav">
+	<li><a href="/edit/todo">TO DO: <%= @todo_count %></a></li>
+	<li><a href="/edit/done">DONE: <%= @done_count %></a></li>
+	<li><a href="/edit/editor-help">HELP</a></li>
+</ul>   
+</div></div></div>
+
+<div class="container">
+
+<%= yield %>
+
+</div>
+</body>
+</html>

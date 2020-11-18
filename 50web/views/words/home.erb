@@ -1,0 +1,28 @@
+<section id="home">
+<h1>Hi <%=h @person[:address] %>.</h1>
+
+<% if @unfinished.count > 0 %>
+	<h2>Unfinished articles:</h2>
+	<ul>
+	<% @unfinished.each do |u| %>
+		<li>
+		<a href="/article/<%= u[:id] %>/<%= @translator[:lang] %>"><%=h u[:filename] %></a>
+		</li>
+	<% end %>
+	</ul>
+<% else %>
+	<h2>Congratulations! All articles finished.</h2>
+<% end %>
+
+<% if @finished.count > 0 %>
+	<h2>Finished articles:</h2>
+	<ul>
+	<% @finished.each do |u| %>
+		<li>
+		<a href="/article/<%= u[:id] %>/<%= @translator[:lang] %>"><%=h u[:filename] %></a>
+		</li>
+	<% end %>
+	</ul>
+<% end %>
+
+</section>

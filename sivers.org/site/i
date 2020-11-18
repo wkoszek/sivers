@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers Interviews</title>
+<meta name="description" content="Derek Sivers: over 50 interviews with Derek, if you’re into that kind of thing">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers Interviews">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/i">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="over 50 interviews with Derek, if you’re into that kind of thing">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers Interviews">
+<meta name="twitter:description" content="over 50 interviews with Derek, if you’re into that kind of thing">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interviews">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<h1>Interviews</h1>
+
+<p>
+	Click each title to read the transcript, download the MP3, or visit their website.
+</p><p>
+	Or <a href="/file/DerekSivers-49-Interviews.zip">click here to download all 49 interviews</a> as a huge 2GB zip file with 49 MP3s inside.
+	(That’s 41 hours of me talking.)
+</p>
+
+<hr>
+	<div class="interview_summary spacer">
+		<h2><a href="/2016-03-altucher">James Altucher</a> <span class="small">(date: 2016-03)</span></h2>
+		<p>My last interview for a long time. About faults, disappearing, money, favors, passion, goals, and much more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2016-01-jennyblake">Jenny Blake</a> <span class="small">(date: 2016-01)</span></h2>
+		<p>Podcast about success on your own terms, deliberate change, set points, writing, expertise, and much more</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-12-superhuman">Becoming a Superhuman</a> <span class="small">(date: 2015-12)</span></h2>
+		<p>Great dense talk with Jonathan Levi about… many things. See his site for a table of contents.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-12-ferriss2">Tim Ferriss Show : part 2</a> <span class="small">(date: 2015-12)</span></h2>
+		<p>31 minutes about the definition of success, unpopular beliefs, and more</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-12-ferriss">Tim Ferriss Show : part 1</a> <span class="small">(date: 2015-12)</span></h2>
+		<p>Two hour conversation on developing confidence, finding happiness, and saying no to millions.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-11-slowhustle">Slow Hustle</a> <span class="small">(date: 2015-11)</span></h2>
+		<p>Great talk with Peter Awad about job security, internalizing books, making memories, being global not local, parenting, expectations</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-11-influencer">Influencer Economy with Ryan Williams</a> <span class="small">(date: 2015-11)</span></h2>
+		<p>Finding your voice, breaking bad habits, and thriving.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-11-game">Game Changer Society with Lane Kennedy</a> <span class="small">(date: 2015-11)</span></h2>
+		<p>Great conversation about how weird I am, being useful, time management, and more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-software">Software Engineering Daily</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>Tech, programming, and creativity with Jeff Meyerson</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-robin">Robin Zander</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>Never stop learning</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-relaunch">ReLaunch</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>what’s important for you, a life you love, staying positive, with Joel Boggess</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-hacke">Hack the Entrepreneur</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>How to find your unfair advantage, self-education, being selfless, and what to do. Good conversation with Jon Nastor.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-built2sell">Built to Sell</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>Talking with John Warrillow about how I started and sold CD Baby</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-10-boomers">Boomers Rock</a> <span class="small">(date: 2015-10)</span></h2>
+		<p>Why passion is overrated, plasticity, career capital, culture, and more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-zen">Rock and Roll Zen</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Mark Hermann and I talk music, how to be useful to others, changing the music business, and more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-unmistakable">Unmistakable Creative</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Great conversation with Srini Rao about moving, introversion, programming, personal development, money, sharing what you've learned, and when to say no.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-tribe">Radical Tribe</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Talking with Faheem Moosa about starting, building, and selling a business.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-smile">Smile High</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Talk with Nate about people-pleasing and obstacles. Kind of awkward.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-ozeal">Ozeal: No Permission Needed</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Networking, saying yes, what a business really is, how musicians can thrive now, finding your core.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-bucket">Bucket List Life</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>With Travis Bell, that Bucket List guy</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-adventure">Art of Adventure</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>Turning Observations Into Action</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-09-33">33 Voices</a> <span class="small">(date: 2015-09)</span></h2>
+		<p>The Tao of Business and how to live it, as well as how to design a life philosophy with deep meaning.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-08-productive">Productive! Magazine</a> <span class="small">(date: 2015-08)</span></h2>
+		<p>talk with Michael Sliwinski about my recipe for a happy life, giving and taking</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-07-forbes">Forbes Brave Interview</a> <span class="small">(date: 2015-07)</span></h2>
+		<p>Short interview with Margie Warrell about business lessons learned</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-07-b2c">B2C: Business to Community</a> <span class="small">(date: 2015-07)</span></h2>
+		<p>Short Q&A with Margie Warrell about the biggest mistake, saying no, priorities, followers, naysayers, and making a change.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2015-06-start">The Start Zone</a> <span class="small">(date: 2015-06)</span></h2>
+		<p>Very tiny Q&A with Pedro Mendes</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2014-10-yowo">Your Own Way Out documentary</a> <span class="small">(date: 2014-10)</span></h2>
+		<p>Tom Libelt and Till Carlos ask questions about self-employment for their documentary film</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2014-02-suitcase">Suitcase Entrepreneur</a> <span class="small">(date: 2014-02)</span></h2>
+		<p>Talk with Natalie Sisson about outsourcing, lifestyle, comfort zone, where to live, and more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2014-02-baker">The Creative Entrepreneur</a> <span class="small">(date: 2014-02)</span></h2>
+		<p>Talking with Bob Baker about what to do early in your career, fame, fortune, failure, marketing, and the international life.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2013-09-drt">Dorm Room Tycoon</a> <span class="small">(date: 2013-09)</span></h2>
+		<p>Good conversation with William Channer about Wood Egg, employees, networking, focus, learning.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2013-01-conley">Tim Conley from Foolish Adventure</a> <span class="small">(date: 2013-01)</span></h2>
+		<p>On “changing your operating system” - my metaphor for making deep changes in my life.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-12-usesthis">The Setup</a> <span class="small">(date: 2011-12)</span></h2>
+		<p>Tiny Q&A about what equipment I use</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-waking">Waking Up the Workplace</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>The cutting edge of conscious business, with Ewan Townhead</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-mentor">MentorCoach</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>conversation with Ben Dean, just telling my story</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-joel">Mitch Joel - Six Pixels of Separation</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>Great 50-minute conversation about a variety of things. </p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-inspire">Inspire Me Today</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>Talk with Gail Lynne Goodwin about my book “Anything You Want”</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-duct">Duct Tape Marketing</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>How/when to sell your company, and other business/marketing things.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-coffee">Marketing Over Coffee</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>30-minute audio interview mostly about my book. Great questions.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-07-baer">Jay Baer - Convince &amp; Convert</a> <span class="small">(date: 2011-07)</span></h2>
+		<p>35-minute video interview about business, self-belief, and other good stuff. Great rapport. </p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-06-tardy">Eventual Millionaire</a> <span class="small">(date: 2011-06)</span></h2>
+		<p>One commenter said, “A great interview that became a fantastic interview in the last 20 minutes.”</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-06-slim">Escape from Cubicle Nation</a> <span class="small">(date: 2011-06)</span></h2>
+		<p>Do whatever the hell makes you happy! A 30-minute audio interview about business plans, freedom and happiness. </p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-06-mixergy">Mixergy</a> <span class="small">(date: 2011-06)</span></h2>
+		<p>Fun hour-long interview where we talk about business intuition, story-telling, and more.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-06-forbes">Forbes - Michael Ellsberg</a> <span class="small">(date: 2011-06)</span></h2>
+		<p>A great review of my book, followed by a great interview about minimalism in business. </p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-06-amber">Amber Rae</a> <span class="small">(date: 2011-06)</span></h2>
+		<p>My friend and the CEO of my book, “Anything You Want”! Fun 50-minute video interview about the book and related things.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2011-04-charm">Art of Charm</a> <span class="small">(date: 2011-04)</span></h2>
+		<p>Why being a good follower might be more important than being a good leader, learning from the best, and the value of experiential learning versus theory.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2010-09-techzing">TechZing podcast</a> <span class="small">(date: 2010-09)</span></h2>
+		<p>Talk with Justin Vincent and Jason Roberts about running CD Baby remotely, programming myself, stories, transparency, and minimalism.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2010-07-eday">Ronnie Overgoor at Emerce Eday</a> <span class="small">(date: 2010-07)</span></h2>
+		<p>Must see. Watch the video. Maybe my funniest interview. We have a great irreverent banter.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2010-07-actual">Actual Insights</a> <span class="small">(date: 2010-07)</span></h2>
+		<p>Matthew Niederberger in Rotterdam Netherlands asks me about selling CD Baby, being nomadic, and the dancing guy</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2010-01-seth-godin">Seth Godin</a> <span class="small">(date: 2010-01)</span></h2>
+		<p>on spreading music and selling intimacy</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-12-bye">Meet Innovators</a> <span class="small">(date: 2009-12)</span></h2>
+		<p>business talk about automating then selling my company, and what to do afterwards</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-10-newman">New Man with Tripp Lanier</a> <span class="small">(date: 2009-10)</span></h2>
+		<p>Capitalism with Heart and The Tao of Business</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-10-la">L.A. Music Blog</a> <span class="small">(date: 2009-10)</span></h2>
+		<p>just a little about the music biz, CD Baby, Muckwork</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-09-mus">MusFormation</a> <span class="small">(date: 2009-09)</span></h2>
+		<p>just some post-CD Baby questions</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-07-tom-williams">Tom Williams</a> <span class="small">(date: 2009-07)</span></h2>
+		<p>Hired by Apple at 14. I interviewed him for his full story.</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-05-ciraa">Canadian Independent Recording Artists Association</a> <span class="small">(date: 2009-05)</span></h2>
+		<p>How to call attention to your music</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-03-soundadvice">Ariel Hyatt</a> <span class="small">(date: 2009-03)</span></h2>
+		<p>video interview about promoting and marketing your music</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-03-berklee">Justin from Berklee</a> <span class="small">(date: 2009-03)</span></h2>
+		<p>Berklee College of Music interview about the music business</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2009-01-amber-rubarth">Amber Rubarth</a> <span class="small">(date: 2009-01)</span></h2>
+		<p>how to be a full-time touring musician</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2008-12-ppdp">Practical Personal Development</a> <span class="small">(date: 2008-12)</span></h2>
+		<p>with Alex Shalman about success and focus</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2008-10-vv">Venture Voice</a> <span class="small">(date: 2008-10)</span></h2>
+		<p>after selling CD Baby, thoughts on selling process, and what's after</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2008-08-tim-ferriss">Tim Ferriss</a> <span class="small">(date: 2008-08)</span></h2>
+		<p>I interview Tim about the 4-Hour Workweek</p>
+	</div>
+	<div class="interview_summary spacer">
+		<h2><a href="/2005-11-vv">Venture Voice</a> <span class="small">(date: 2005-11)</span></h2>
+		<p>while running CD Baby, thoughts on beginnings and operations</p>
+	</div>
+
+
+</div>
+</body>
+</html>

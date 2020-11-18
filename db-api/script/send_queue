@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+# PURPOSE: cron to run every minute, sending emails that are queued (in the database) ready-to-send
+require 'pg'
+require 'json'
+require 'my_mail'
+
+# only run on live server
+exit unless 'sivers.org' == %x{hostname}.strip
+
+# only one instance of this Ruby script running at one time:
+# (if it takes over one minute to run, crontab may try to run another)
+exit unless File.new(__FILE__).flock(File::LOCK_EX | File::LOCK_NB)
+
+DB = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+def get_config(k)
+	DB.exec_params("SELECT v FROM core.configs WHERE k=$1",[k])[0]['v']
+end
+
+# This is kind of a mess, but the authentication ('plain' vs :login) can't
+# be represented in JSON in the database, and port 587 is the same, so no
+# need to store that there, either.  So here's my ugly hybrid:
+profiles = {'sivers' => {
+	from: get_config('sivers.from'),
+	address: get_config('sivers.smtp.address'),
+	port: 587,
+	domain: get_config('sivers.domain'),
+	user_name: get_config('sivers.user_name'),
+	password: get_config('sivers.password'),
+	authentication: 'plain',
+	enable_starttls_auto: true
+}, 'muckwork' => {
+	from: get_config('muckwork.from'),
+	address: get_config('muckwork.smtp.address'),
+	port: 587,
+	domain: get_config('muckwork.domain'),
+	user_name: get_config('muckwork.user_name'),
+	password: get_config('muckwork.password'),
+	authentication: :login
+	}
+}
+
+# get all emails that are queued to send
+res = DB.exec('SELECT js FROM peeps.queued_emails()')
+emails = JSON.parse(res[0]['js'], symbolize_names: true)
+emails.each do |e|
+	# SEND IT
+	if MyMail::send(e, profiles[e[:profile]])
+		# assuming it worked, update the database to say it's been sent
+		DB.exec_params('SELECT * FROM peeps.email_is_sent($1)', [e[:id]])
+	end
+end
+

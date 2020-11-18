@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+exit unless 'sivers.org' == %x{hostname}.strip
+require 'pg'
+require 'json'
+require 'my_mail'
+
+DB = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+def get_config(k)
+	DB.exec_params("SELECT v FROM core.configs WHERE k=$1",[k])[0]['v']
+end
+
+# This is kind of a mess, but the authentication ('plain' vs :login) can't
+# be represented in JSON in the database, and port 587 is the same, so no
+# need to store that there, either.  So here's my ugly hybrid:
+profiles = {'sivers' => {
+	address: get_config('sivers.pop.address'),
+	port: 995,
+	user_name: get_config('sivers.user_name'),
+	password: get_config('sivers.password'),
+	enable_ssl: true
+}, 'muckwork' => {
+	address: get_config('muckwork.pop.address'),
+	port: 995,
+	user_name: get_config('muckwork.user_name'),
+	password: get_config('muckwork.password'),
+	enable_ssl: true
+}}
+
+%w(sivers muckwork).each do |profile|
+	puts "\n\n##### #{profile}"
+	MyMail::import(profile, profiles[profile], DB)
+end
+

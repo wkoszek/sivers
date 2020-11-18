@@ -1,0 +1,6 @@
+*.swp
+config.yml
+mailconfig.rb
+.sass-cache
+/bower_components/*
+

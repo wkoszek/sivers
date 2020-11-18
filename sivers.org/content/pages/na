@@ -1,0 +1,77 @@
+<!-- I can’t answer questions -->
+<h1>
+	I can’t answer questions
+</h1>
+
+<section>
+<h2>
+	Short explanation:
+</h2><p><strong>
+	Answering people’s questions was taking up all of my time.
+	<a href="/quit">So I quit</a>.
+</strong></p><p>
+	Please <a href="/contact">contact me</a> to introduce yourself, share your thoughts, or anything else.
+	I happily read and reply to every email.
+	But if you ask me a question, unfortunately I can’t answer.
+</p>
+</section>
+
+<section>
+<h2>
+	Try searching?
+</h2><p>
+	Everything I know is on my site, whether in my <a href="/blog">articles</a>, my <a href="/i">interviews</a>, or my <a href="/book">book notes</a>.
+	You can search those all at once, here:
+</p>
+<form action="https://www.google.com/search" method="get" class="inlineform">
+<input type="text" name="q" value="">
+<input type="hidden" name="sitesearch" value="sivers.org">
+<input type="submit" value="search">
+</form>
+</section>
+
+<section>
+<h2>
+	Long explanation:
+</h2><p>
+	You’d think it would be easy to answer <strong>a quick 5-minute question</strong>, right?
+	But I get almost 100 a day, so that’s 500 minutes, which is about 8 hours.
+</p><p>
+	In 2016, I answered 30,904 emails from 11,971 people.
+	Since 2008, I’ve answered over 192,000 emails from 78,000 people.
+</p><p><strong>
+	Answering people’s questions had become my full-time job.
+</strong>
+	This approach was unsustainable.
+</p><p>
+	So <strong>my original plan was to become completely unreachable after 2016!</strong>
+	I was going to go hard-core, shut off all email and social media, and make myself unreachable to all but a few close friends and colleagues.
+	It felt like the only solution.
+</p><p>
+	But then I realized <strong>I could remain reachable as long as I don’t answer questions</strong>.
+	(This is like <a href="/tilt">tilting my mirror</a>.)
+</p><p>
+	It only takes a few minutes a day to read my emails, and say thanks.
+	What was taking forever were my answers!
+</p><p>
+	So, I’m <strong>sincerely sorry</strong> if you took the time to send me a question, and I sent you here.
+	It feels weird to not answer.
+	I hope you understand why I can’t.
+	I need to <a href="/projects">finish my projects</a> instead.
+</p><p>
+	Lastly, please see <strong><a href="/contact">why you should still contact me</a> anyway.</strong>
+</p>
+</section>
+
+<section>
+<h2>
+	Related story:
+</h2><p>
+	As a musician, I would often do shows where I would perform for two hours, playing every single song I knew.
+</p><p>
+	People would come up to me to make a request.
+	I’d have to say, “Sorry, I’m playing you everything I know.”
+</p><p>
+	This website is like my show.
+</p>
+</section>

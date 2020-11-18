@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# PURPOSE: cron job once per day to update currency exchange rates
+require 'pg'
+require 'json'
+require 'net/http'
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+# needs API key from configs
+app_id = db.exec("SELECT v FROM core.configs WHERE k='openexchangerates'")[0]['v']
+uri = URI('http://openexchangerates.org/api/latest.json?app_id=' + app_id)
+
+# get JSON from server, and save in /tmp/ in case of trouble, for debugging
+js = Net::HTTP.get(uri)
+File.open('/tmp/currencies.json', 'w') {|f| f.puts js }
+
+# PostgreSQL does the hard work of updating the table from the JSON
+db.exec_params("SELECT * FROM core.update_currency_rates($1)", [js])

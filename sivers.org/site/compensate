@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Over-compensate to compensate | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: You have something you want to change: a thought process or habit you want to fix.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/thx">
+<link rel="next" href="https://sivers.org/advice">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Over-compensate to compensate | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/compensate">
+<meta property="og:image" content="https://sivers.org/images/compensate-b3.jpg">
+<meta property="og:description" content="You have something you want to change: a thought process or habit you want to fix.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Over-compensate to compensate | Derek Sivers">
+<meta name="twitter:description" content="You have something you want to change: a thought process or habit you want to fix.">
+<meta name="twitter:image" content="https://sivers.org/images/compensate-b3.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Over-compensate to compensate</h1>
+<p class="postdate">2016-02-23</p>
+</header>
+
+<p>
+	You have something you want to change: a thought process or habit you want to fix.
+</p><p>
+	Let’s use the metaphor of a bunch of bricks on a seesaw.
+	Right now all the bricks are stacked on one side.
+	This is the way you have been.
+</p>
+<img src="/images/compensate-l.jpg">
+<p>
+	To make a change, <strong>most people don’t do enough.</strong>
+</p><p>
+	If you do something small and sensible, it’s like moving one brick.
+	You’re still unbalanced.
+</p>
+<img src="/images/compensate-l1.jpg">
+<p>
+	You think you made the change, but it’s not accounting for:
+</p><ul><li>
+	a lifetime of doing it the other way
+</li><li>
+	your environment that made you that way
+</li><li>
+	the pressure from friends to stay that way
+</li><li>
+	and the undertow of old habits.
+</li></ul><p>
+	So, <strong>to make a change, you have to be extreme</strong>.
+	Go all the way the other way.
+	<strong>It will feel like over-compensating</strong>, but you have to stack a huge pile of bricks on the other side.
+</p>
+<img src="/images/compensate-r.jpg">
+<p>
+	This new you sounds extreme and exciting.
+	You will think you’re going to be completely changed.
+</p><p>
+	But actually the old stuff is still there.
+	So really this is what you needed to do to balance, to compensate for that cultural baggage, self-identity, habit, and history.
+</p>
+<img src="/images/compensate-b.jpg">
+<p>
+	Once balanced, it will sink in, and become your new normal.
+</p>
+<img src="/images/compensate-b2.jpg">
+<br>
+<img src="/images/compensate-b3.jpg">
+
+<h2>
+	Example:
+</h2>
+<p>
+	You have a tendency to blame others for your situation.
+	We all do this.
+</p>
+<img src="/images/compensate-l.jpg">
+<p>
+	You realize this is hurting your life.
+	You think, “I shouldn’t do that so much. I should take some responsibility.”
+</p><p>
+	So you try to make some changes:
+</p>
+<img src="/images/compensate-l1.jpg">
+<p>
+	Nope.
+	That’s not good enough.
+	Still unbalanced.
+<strong>
+	You need to go to a further extreme, in a way that will feel like over-compensating.
+</strong></p><p>
+	You need to think, “Absolutely everything is my fault. All of it. It’s my fault the world is the way it is. It’s my fault the government isn’t exactly to my liking. It’s my responsibility to fix everything I don’t love. It’s my fault that others act the way they do towards me.”
+</p><p>
+	Sounds extreme, right?
+	It will feel like this:
+</p>
+<img src="/images/compensate-r.jpg">
+<p>
+	You try to think this new way.
+	Sometimes you really can.
+</p><p>
+	But you still can’t help feeling that some things are not your fault.
+</p>
+<img src="/images/compensate-b.jpg">
+<p>
+	That’s OK.
+	Now you’re balanced.
+	This sinks in and becomes your new normal way of thinking.
+</p>
+<img src="/images/compensate-b2.jpg">
+<br>
+<img src="/images/compensate-b3.jpg">
+
+<h2>
+	More examples:
+</h2>
+<p>
+	The best and most effective changes I’ve made in my life seemed crazy at first, because they seemed to be over-compensating.
+</p><p>
+	I’m going to be writing about more of them in the future, and I’ll keep them listed here:
+</p><ul><li>
+	<a href="/mw">Assume men and women are the same</a>
+</li><li>
+	<a href="/my-fault">Everything is my fault</a>
+</li><li>
+	<a href="/below-average">I assume I’m below average</a>
+</li><li>
+	<a href="/lw">I love being wrong</a>
+</li><li>
+	<a href="/no2">Saying no to everything else</a>
+</li><li>
+	<a href="/up2you">Nobody’s going to help you. Does that encourage you or discourage you?</a>
+</li><li>
+	<a href="/more-than-one">Double-speed! Half-speed! Up an octave! Down an octave!</a>
+</li></ul>
+<div class="small">
+	Illustrations by <a href="http://portfolios.ru/cherry_inspiration">Victoria Medvedeva</a> in Saint Petersburg, Russia.
+	They are free for you to use.
+</div>
+
+
+<footer>
+© 2016 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/thx" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/advice" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

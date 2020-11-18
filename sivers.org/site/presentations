@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers Presentations</title>
+<meta name="description" content="Derek Sivers: TED talks, conference talks, and presentations">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers Presentations">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/presentations">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="TED talks, conference talks, and presentations">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers Presentations">
+<meta name="twitter:description" content="TED talks, conference talks, and presentations">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="presentations">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<h1>Presentations</h1>
+	<div class="presentation_summary spacer">
+		<a href="/wds"><img src="/images/wds.jpg" width="200" height="150" alt="Uncommon Sense - live @ WDS" /></a>
+		<h2><a href="/wds">Uncommon Sense - live @ WDS</a></h2>
+		<small>Length: <strong>40 minutes</strong>. &nbsp; Date: 2015-07</small>
+		<p>Probably the best talk I’ve ever done.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/lifeis"><img src="/images/lifeis.jpg" width="200" height="150" alt="The Meaning of Life" /></a>
+		<h2><a href="/lifeis">The Meaning of Life</a></h2>
+		<small>Length: <strong>19 minutes</strong>. &nbsp; Date: 2014-05</small>
+		<p>Let's just figure this out in under 20 minutes.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/nextbank"><img src="/images/nextbank.jpg" width="200" height="150" alt="Next Bank Asia : Disrupting Banking" /></a>
+		<h2><a href="/nextbank">Next Bank Asia : Disrupting Banking</a></h2>
+		<small>Length: <strong>16 minutes</strong>. &nbsp; Date: 2012-05</small>
+		<p>Addressing a room of bankers in Singapore about eliminating friction and serving tech entrepreneurs.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/uncommon"><img src="/images/uncommon.jpg" width="200" height="150" alt="Uncommon Sense" /></a>
+		<h2><a href="/uncommon">Uncommon Sense</a></h2>
+		<small>Length: <strong>47 minutes</strong>. &nbsp; Date: 2011-08</small>
+		<p>All of my business advice for entrepreneurs. A quick summary of almost everything I’ve learned. One of my most popular talks.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/anything"><img src="/images/anything.jpg" width="200" height="150" alt="Anything You Want cartoons" /></a>
+		<h2><a href="/anything">Anything You Want cartoons</a></h2>
+		<small>Length: <strong>16 minutes</strong>. &nbsp; Date: 2011-07</small>
+		<p>Philosophies on life and business, 7 chapters from my book, turned into short little animations.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/failure"><img src="/images/failure.jpg" width="200" height="150" alt="Why You Need to Fail" /></a>
+		<h2><a href="/failure">Why You Need to Fail</a></h2>
+		<small>Length: <strong>15 minutes</strong>. &nbsp; Date: 2010-12</small>
+		<p>The importance of failure - for effective learning, growth mindset, and quality through experimentation.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/tedxnus"><img src="/images/tedxnus.jpg" width="200" height="150" alt="TEDxNUS - 9 stories in 18 minutes" /></a>
+		<h2><a href="/tedxnus">TEDxNUS - 9 stories in 18 minutes</a></h2>
+		<small>Length: <strong>22 minutes</strong>. &nbsp; Date: 2010-10</small>
+		<p>9 short stories to a TEDx crowd at the National University of Singapore.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/aopv"><img src="/images/aopv.jpg" width="200" height="150" alt="The Art of Profitability" /></a>
+		<h2><a href="/aopv">The Art of Profitability</a></h2>
+		<small>Length: <strong>27 minutes</strong>. &nbsp; Date: 2010-09</small>
+		<p>Examples of 8 profit models from the book “The Art of Profitability”</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/zipit2"><img src="/images/zipit2.jpg" width="200" height="150" alt="Keep your goals to yourself" /></a>
+		<h2><a href="/zipit2">Keep your goals to yourself</a></h2>
+		<small>Length: <strong>3 minutes</strong>. &nbsp; Date: 2010-07</small>
+		<p>Psychology tests show that announcing your goals makes you less motivated to accomplish them.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/railsconf"><img src="/images/railsconf.jpg" width="200" height="150" alt="Rails Conf Keynote" /></a>
+		<h2><a href="/railsconf">Rails Conf Keynote</a></h2>
+		<small>Length: <strong>44 minutes</strong>. &nbsp; Date: 2010-05</small>
+		<p>Short stories about programming, accents, quirks, delegating, confabulation, instinct, etc.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/sxsw"><img src="/images/sxsw.jpg" width="200" height="150" alt="Successful SxSW: the Tao of the Conference" /></a>
+		<h2><a href="/sxsw">Successful SxSW: the Tao of the Conference</a></h2>
+		<small>Length: <strong>5 minutes</strong>. &nbsp; Date: 2010-03</small>
+		<p>Advice for musicians on how to get the most out of the SxSW Music Conference.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/dancingguy"><img src="/images/dancingguy.jpg" width="200" height="150" alt="Leadership Lessons from Dancing Guy" /></a>
+		<h2><a href="/dancingguy">Leadership Lessons from Dancing Guy</a></h2>
+		<small>Length: <strong>3 minutes</strong>. &nbsp; Date: 2010-02</small>
+		<p>First follower. How to start a movement. My most popular talk.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/opposite"><img src="/images/opposite.jpg" width="200" height="150" alt="The opposite may also be true" /></a>
+		<h2><a href="/opposite">The opposite may also be true</a></h2>
+		<small>Length: <strong>2 minutes</strong>. &nbsp; Date: 2009-11</small>
+		<p>Japanese addresses, Chinese doctors, Nigerian music, and an upside-down map.</p>
+	</div>
+	<div class="presentation_summary spacer">
+		<a href="/berklee6"><img src="/images/berklee6.jpg" width="200" height="150" alt="Berklee College of Music keynote" /></a>
+		<h2><a href="/berklee6">Berklee College of Music keynote</a></h2>
+		<small>Length: <strong>10 minutes</strong>. &nbsp; Date: 2008-09</small>
+		<p>6 things I wish I knew the day I started Berklee. Lessons apply to other aspects of life, too.</p>
+	</div>
+
+
+</div>
+</body>
+</html>

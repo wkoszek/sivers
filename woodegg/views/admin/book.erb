@@ -1,0 +1,78 @@
+<h2><%= @pagetitle %></h2>
+
+<div id="bookinfo">
+
+<h4>Related:</h4>
+<ul id="booknav">
+<li><a href="/book/<%= @book.id %>/gsub">Search &amp; Replace</a></li>
+<li><a href="/book/<%= @book.id %>/essay">tweak edited essays</a></li>
+<li><a href="/book/<%= @book.id %>/customers">customers</a></li>
+<li><a href="/book/<%= @book.id %>/questions">questions</a></li>
+<li><a href="/book/<%= @book.id %>/essays">essays</a></li>
+</ul>
+
+<h4>Researchers:</h4>
+<ul>
+<% @researchers.each do |x| %>
+	<li><a href="/researcher/<%= x.id %>"><%= x.name %></a></li>
+<% end %>
+</ul>
+
+<h4>Writers:</h4>
+<ul>
+<% @writers.each do |x| %>
+	<li><a href="/writer/<%= x.id %>"><%= x.name %></a></li>
+<% end %>
+</ul>
+
+<h4>Editors:</h4>
+<ul>
+<% @editors.each do |x| %>
+	<li><a href="/editor/<%= x.id %>"><%= x.name %></a></li>
+<% end %>
+</ul>
+</div>
+
+<div id="bookedit">
+<h4>Edit Book Info:</h4>
+<form action="/book/<%= @book.id %>" method="post"><input type="hidden" name="_method" value="put">
+<label for="title">title:</label>
+<input type="text" name="title" id="title" value="<%= @book.title %>"><br>
+<label for="isbn">isbn:</label>
+<input type="text" name="isbn" id="isbn" value="<%= @book.isbn %>"><br>
+<label for="asin">Amazon ASIN: (amazon.com/dp/____)</label>
+<input type="text" name="asin" id="asin" value="<%= @book.asin %>"><br>
+<label for="apple">Apple iTunes ID</label>
+<input type="text" name="apple" id="apple" value="<%= @book.apple %>"><br>
+<label for="leanpub">leanpub URI: (leanpub.com/____)</label>
+<input type="text" name="leanpub" id="leanpub" value="<%= @book.leanpub %>"><br>
+<label for="intro">intro:</label>
+<textarea name="intro" id="intro"><%= @book.intro %></textarea><br>
+<label for="salescopy">salescopy:</label>
+<textarea name="salescopy" id="salescopy"><%= @book.salescopy %></textarea><br>
+<label for="credits">credits:</label>
+<textarea name="credits" id="credits"><%= @book.credits %></textarea><br>
+<label for="pages">pages:</label>
+<input type="text" name="pages" id="pages" value="<%= @book.pages %>"><br>
+<input type="submit" name="submit" value="update">
+</form>
+</div>
+
+<div id="bookprogress">
+<% unless @done %>
+	<% if @questions_missing_essays.size > 0 %>
+		<h2>Questions missing essays:</h2>
+		<ul>
+		<% @questions_missing_essays.each do |q| %>
+			<li><a href="/question/<%= q.id %>"><%= q.question %></a></li>
+		<% end %>
+		</ul>
+	<% end %>
+	<% if @essays_unedited.size < 10 %>
+		<h2>Clean these essays: <%= @essays_unedited.map {|e| '<a href="/essay/%d">%d</a>' % [e.id, e.id]}.join(',') %></h2>
+	<% else %>
+		<h2># essays unedited: <%= @essays_unedited.size %></h2>
+	<% end %>
+<% end %>
+</div>
+

@@ -1,0 +1,7 @@
+<h1><%= @pagetitle %> Questions</h1>
+<ul>
+<% @essays.each do |e| %>
+  <li><a href="/write/essay/<%= e.id %>"><%= e.question.question.h %></a></li>
+<% end %>
+</ul>
+

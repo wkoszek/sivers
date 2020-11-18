@@ -1,0 +1,35 @@
+<h2>customer #<%= @customer.id %>: <%=h @customer.name %></h2>
+
+<p><a href="<%= @person_url %>">person page</a></p>
+
+<div class="small-6 columns">
+<h3>books</h3>
+<ul>
+<% @books.each do |b| %>
+	<li><a href="/book/<%= b.id %>"><%= b.short_title %></a></li>
+<% end %>
+</ul>
+</div>
+<div class="small-6 columns">
+<% if @books_to_add.size > 0 %>
+<h3>give them a book (or all)</h3>
+<form action="/customer/<%= @customer.id %>/books" method="post">
+	<select name="book_id">
+		<option value="all">ALL books</option>
+	<% @books_to_add.each do |b| %>
+		<option value="<%= b.id %>"><%= b.short_title %></option>
+	<% end %>
+	</select>
+	<input type="submit" name="submit" value="give book">
+</form>
+<% end %>
+<% if @sent %>
+	<h3>sent!</h3>
+<% else %>
+<h3>email their reset link</h3>
+<form action="/customer/<%= @customer.id %>/email" method="post">
+	<div class="small">(it automatically adds greeting and “Just click this link and make a password:” + unique URL)</div>
+	<input type="submit" name="submit" value="send email">
+</form>
+<% end %>
+</div>

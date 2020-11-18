@@ -1,0 +1,20 @@
+<h2><%= @pagetitle %></h2>
+
+<table>
+<tr><td>editor</td><td>country</td><td>done</td><td>to-do</td></tr>
+<% @active.each do |editor| %>
+	<tr>
+	<td><a href="/editor/<%= editor.id %>"><img src="/images/200/editor-<%= editor.id %>.jpg" width="200" height="200"> <%= editor.name %></a></td>
+	<td><%= Countries.hsh[editor.book.country] %></td>
+	<td><a href="/editor/<%= editor.id %>/essays/done"><%= editor.done_count %></a></td>
+	<td><a href="/editor/<%= editor.id %>/essays/todo"><%= editor.todo_count %></a></td>
+	</tr>
+<% end %>
+</table>
+
+<h3>old:</h3>
+<ul>
+<% @inactive.each do |editor| %>
+	<li><a href="/editor/<%= editor.id %>"><%= editor.name %></a></li>
+<% end %>
+</ul>

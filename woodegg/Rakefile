@@ -1,0 +1,14 @@
+desc 'Run all tests in test/test-*.rb'
+task :test do
+  Dir['test/test-*.rb'].each do |f|
+    cmd = "/usr/bin/ruby #{f}"
+    puts "\n#########: #{cmd}"
+    system cmd
+  end
+end
+
+desc 'Open an irb session preloaded with this library'
+task :console do
+  sh 'irb -r ./models.rb'
+end
+

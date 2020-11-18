@@ -1,0 +1,42 @@
+<p>Book: <a href="/book/<%= @essay.book.id %>"><%= @essay.book.title %></a></p>
+<p>Editor: <a href="/writer/<%= @essay.writer.id %>"><%= @essay.writer.name %></a></p>
+<h3><a href="/question/<%= @essay.question.id %>"><%= @essay.question.question %></a></h3>
+
+<form action="/essay/<%= @essay.id %>" method="post"><input type="hidden" name="_method" value="put">
+
+<label for="content">content:</label>
+<textarea name="content" id="content"><%= @essay.content %></textarea>
+
+<label for="edited">edited:</label>
+<textarea name="edited" id="edited"><%= @essay.edited %></textarea>
+
+<div class="row">
+	<div class="small-3 columns">
+<label for="started_at">started_at:</label>
+<input type="text" name="started_at" id="started_at" value="<%= @essay.started_at %>">
+	</div>
+	<div class="small-3 columns">
+<label for="finished_at">finished_at:</label>
+<input type="text" name="finished_at" id="finished_at" value="<%= @essay.finished_at %>">
+	</div>
+	<div class="small-1 columns">
+<label for="payable">payable:</label>
+<input type="text" name="payable" id="payable" value="<%= @essay.payable %>">
+	</div>
+	<div class="small-3 columns">
+<label for="edited_at">edited_at:</label>
+<input type="text" name="edited_at" id="edited_at" value="<%= @essay.edited_at %>">
+	</div>
+	<div class="small-2 columns">
+<label for="editor_id">editor_id:</label>
+<input type="text" name="editor_id" id="editor_id" value="<%= @essay.editor_id %>">
+	</div>
+</div>
+
+<input type="submit" name="submit" value="update">
+
+</form>
+
+<h2>Preview:</h2>
+<%= @html %>
+

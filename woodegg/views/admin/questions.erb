@@ -1,0 +1,13 @@
+<h1><%= @pagetitle %></h1>
+
+<% @topicnest.each do |t| %>
+	<h2><%= t[0] %></h2>
+	<% t[1].each do |subtopic, questions| %>
+		<h3><%= subtopic %></h3>
+		<ul>
+		<% questions.each do |q| %>
+			<li><a href="/question/<%= q.id %>"><%= q.question %></a></li>
+		<% end %>
+		</ul>
+	<% end %>
+<% end %>

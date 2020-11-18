@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>à propos PenséesMusicales</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<link rel="alternate" hreflang="en" href="http://musicthoughts.com/about" />
+<link rel="alternate" hreflang="es" href="http://es.musicthoughts.com/about" />
+<link rel="alternate" hreflang="de" href="http://de.musicthoughts.com/about" />
+<link rel="alternate" hreflang="it" href="http://it.musicthoughts.com/about" />
+<link rel="alternate" hreflang="pt" href="http://pt.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ru" href="http://ru.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ar" href="http://ar.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ja" href="http://ja.musicthoughts.com/about" />
+<link rel="alternate" hreflang="zh" href="http://zh.musicthoughts.com/about" />
+</head>
+<body id="about">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/">PenséesMusicales</a></h1>
+<h2>un endroit calme pour réfléchir à la musique</h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new">nouveau</a></li>
+	<li><a href="/authors">auteurs</a></li>
+	<li><a href="/contributors">collaborateurs</a></li>
+	<li><a href="/t/2271">pensée au hasard</a></li>
+	<li><a href="/search">chercher</a></li>
+	<li><a href="/about">à propos</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<a href="http://sivers.org/"><img src="/css/DerekSivers-20141119-200.jpg"></a>
+<p>
+Mon nom est Derek Sivers.
+</p><p>
+Je suis musicien depuis 1984, et cela fait 13 ans que je fais carrière en musique.
+</p><p>
+En 1998, j'ai créé cdbaby.com et hostbaby.com
+</p><p>
+En 1999, j'ai créé musicthoughts.com parce que j'affectionnais particulièrement le fait que les pensées d'autres musiciens à propos du processus de faire de la musique puissent m'inspirer dans la création de ma propre musique.
+</p><p>
+Vous pouvez également vous ajouter à la <a href="https://groups.yahoo.com/neo/groups/musicthoughts/info">liste de courriel de musicthoughts</a> pour échanger avec d'autres musiciens.
+</p><p>
+musicthoughts.com est un site totalement gratuit à but non-lucratif, dont le seul but est de vous inspirer.
+</p><p>
+Si vous avez une autre idée d'utilité potentielle pour le site, veuiller <a href="http://sivers.org/#follow">me contacter</a>.
+</p><p>
+Vous pouvez trouver tous mes nouveaux projets sur <a href="http://sivers.org/">sivers.org</a>
+</p>
+
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+	<li><a href="http://musicthoughts.com/about">English</a></li>
+	<li><a href="http://es.musicthoughts.com/about">Español</a></li>
+	<li><a href="http://de.musicthoughts.com/about">Deutsch</a></li>
+	<li><a href="http://it.musicthoughts.com/about">Italiano</a></li>
+	<li><a href="http://pt.musicthoughts.com/about">Português</a></li>
+	<li><a href="http://ru.musicthoughts.com/about">Русский</a></li>
+	<li><a href="http://ar.musicthoughts.com/about">العربية</a></li>
+	<li><a href="http://ja.musicthoughts.com/about">日本語</a></li>
+	<li><a href="http://zh.musicthoughts.com/about">中文</a></li>
+</ul>
+</nav>
+
+<blockquote cite="/t/2029">
+	<q>Si tu ne le dis pas, ne l&#39;écris pas.</q>
+	<cite><a href="/t/2029">Jason Blume</a></cite>
+</blockquote>
+
+
+</footer>
+
+</div>
+</body>
+</html>
+

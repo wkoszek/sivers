@@ -1,0 +1,22 @@
+<!-- How to Call Attention to Your Music -->
+
+  <h1>How to Call Attention to Your Music</h1>
+
+  <p>
+  <strong>A free e-book with my best advice for my fellow musicians, about how to be more successful promoting your music.</strong>
+  </p><p>
+  It's a combination of my advice from my own experience, and my advice from watching the experiences of other successful musicians.
+  </p><p>
+  I don't want to sell my advice. I just want musicians to succeed. So feel free to pass this around to anyone. Email it to your friends. Paste it anywhere.
+  </p><p>
+  <strong>Enter your info, and the PDF e-book will be emailed to you immediately</strong>.
+  </p>
+
+  <form action="/download/ebook" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" name="name" id="name" value=""/>
+    <label for="email">Your Email <span class="small">(kept private! never shared.)</span></label>
+    <input type="email" name="email" id="email" value=""/>
+    <input type="submit" name="submit" value="OK - send it!" />
+  </form>
+

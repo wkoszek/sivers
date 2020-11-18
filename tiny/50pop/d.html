@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OpenBSD 6.0 on Digital Ocean</title>
+  <meta name="description" content="Installing OpenBSD 6.0 on Digital Ocean">
+  <meta name="author" content="Derek Sivers">
+  <style type="text/css">
+body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 60em; line-height: 30px; }
+h1, h2 { font-family: sans-serif; color: #900; }
+li { margin: 2em 0; }
+code { font-family: monospace; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<h1>Installing OpenBSD 6.0 on Digital Ocean</h1>
+
+<p><a href="v.html">Vultr</a> is easier, but if you really prefer Digital Ocean, I got <a href="http://www.tubsta.com/2015/04/openbsd-on-digital-ocean/">this great tip</a> from Jason Tubnor:</p>
+
+<ol>
+<li>Sign up or log in at <a href="https://cloud.digitalocean.com/droplets">digitalocean.com</a> then click <code>[Create Droplet]</code></li>
+<li>Choose an image → Distributions → <strong>FreeBSD 10.3</strong>.  Then any size and data center. No need for the additional options.</li>
+<li>Add your <strong>SSH keys</strong>. If you've already uploaded one, check its box. If not, upload one now.</li>
+<li>1 Droplet. Any hostname. Then <strong>[Create]</strong>. Wait a minute while it creates.</li>
+<li>Copy the IP address of your new Droplet, then from your computer: <code>ssh freebsd@___.__.__.__</code> (that IP address). That should log you in to a “Welcome to FreeBSD” screen and prompt.</li>
+<li><code>sudo su -</code></li>
+<li><code>fetch ftp://ftp3.usa.openbsd.org/pub/OpenBSD/6.0/amd64/miniroot60.fs</code> (or <a href="http://www.openbsd.org/ftp.html">closer mirror</a>)</li>
+<li><code>swapoff /dev/gpt/swapfs</code></li>
+<li><code>sysctl kern.geom.debugflags=0x10</code></li>
+<li><code>dd if=miniroot60.fs of=/dev/vtbd0 bs=512k</code></li>
+<li><code>reboot</code></li>
+<li>Go back to <a href="https://cloud.digitalocean.com/droplets">https://cloud.digitalocean.com/droplets</a> and to the right of your Droplet name, click the <strong>More ↓</strong> menu, then <strong>Access Console</strong>.</li>
+<li>That should pop up a new window with a black screen OpenBSD installation program. </li>
+</ol>
+
+<p>Then go to the <a href="http://www.openbsd.org/faq/faq4.html#install">installation guide</a>.</p>
+
+</body>
+</html>

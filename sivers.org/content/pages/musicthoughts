@@ -1,0 +1,38 @@
+<!-- MusicThoughts -->
+
+<h1><a href="/projects">Projects</a> » MusicThoughts</h1>
+
+<p>
+A collection of inspiring thoughts about music.  Launched in June 1999.  Rewritten in 2009, translated into 10 languages.
+</p>
+
+<h3>Status: <a href="http://musicthoughts.com/">live</a></h3>
+
+<h3>CODE: <a href="https://code.sivers.org/musicthoughts/">here</a></h3>
+
+<p>Now just a static site, with no more dynamic updates.</p>
+
+<h2>Schema</h2>
+<p>
+Everything revolves around a <strong>thought</strong>. It's a quote, by a famous <strong>author</strong>, that was contributed to musicthoughts.com by a <strong>contributor</strong>, and has at least one <strong>category</strong>.
+</p><p>
+Every thought is translated into 10 languages (en es fr de pt it ru ar ja zh).
+</p><p>
+Thoughts contributed on the website do not appear in the list until an administrator approves them.  The best succinct ones are marked “as random”, a flag that means it can be shown whenever a random thought is requested, like at the footer of every page.
+</p><p>
+The contributors are saved in my central “people” database, and linked back to that ID.
+</p>
+
+<h2>Site</h2>
+<p>
+Simple browsing and searching of thoughts, categories, authors, and contributors.  The target audience is a musician looking for a little inspiration.
+</p><p>
+There's a form for adding a new thought to the database.
+</p><p>
+Search looks for that phrase in categories, contributor names, author names, and thoughts.
+</p><p>
+The entire site is multi-lingual, based on subdomain.
+</p><p>
+Any time a list of thoughts is shown, each thought is linked back to its own URL, where the full info (contributor, TODO: categories) can be shown.
+</p>
+

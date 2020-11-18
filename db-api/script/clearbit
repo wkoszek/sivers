@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+require 'pg'
+require 'json'
+require 'clearbit'
+
+# only run on live server
+exit unless 'sivers.org' == %x{hostname}.strip
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+# get the highest person_id number I've already done so far
+minid = db.exec("SELECT MAX(person_id) FROM peeps.stats WHERE statkey='clearbit'")[0]['max'].to_i
+
+# That subselect might not be necessary.  Just getting all people without clearbit stats,
+# but starting at a minimum ID# to reduce query time.
+sql = "SELECT id, email, name FROM peeps.people" +
+	" WHERE email IS NOT NULL AND id > #{minid} AND id NOT IN" +
+	" (SELECT person_id FROM peeps.stats WHERE statkey='clearbit' AND person_id > #{minid})" +
+	" ORDER BY id ASC"
+peeps = db.exec(sql)
+
+# config clearbit
+Clearbit.key = db.exec("SELECT v FROM core.configs WHERE k='clearbit'")[0]['v']
+
+peeps.each do |p|
+	# show each person before querying
+	puts "%d\t%s\t%s" % [p['id'], p['email'], p['name']]
+	names = p['name'].split
+	begin
+		cb = Clearbit::Enrichment.find(email: p['email'],
+			given_name: names[0], family_name: names[-1], stream: true)
+		db.exec_params("INSERT INTO peeps.stats(person_id, statkey, statvalue)" +
+		" VALUES($1, 'clearbit', $2)", [p['id'], cb.to_json])
+	rescue
+		# it fails a lot
+		puts '===== FAILURE ====='
+	end
+end
+

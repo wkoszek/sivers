@@ -1,0 +1,16 @@
+<h1><%=h @question.question %></h1>
+
+<h2>Answers from Researchers:</h2>
+<% @answers.each do |a| %>
+	<hr>
+	<p><%= a.answer.to_html %></p>
+<% end %>
+
+<h2 id="youranswer">Your Answer:</h2>
+<form action="/wt/question/<%= @question.id %>" method="post">
+	<textarea id="content_field" name="content" rows="30"><%=h @test_essay.content %></textarea>
+	<br>Then click:
+	<br><input type="submit" name="submit" class="btn-large btn-success" value="SAVE"> to save your work and continue
+	<br>... or click:
+	<br><input type="submit" name="submit" class="btn-large btn-danger" value="FINISHED"> when done
+</form>

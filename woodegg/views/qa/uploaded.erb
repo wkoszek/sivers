@@ -1,0 +1,11 @@
+<h1>File Uploaded</h1>
+
+<table>
+<% %i(their_filename our_filename mime_type notes bytes created_at).each do |k| %>
+	<tr><td><%= k %></td><td><%= @upload.send(k) %></td></tr>
+<% end %>
+</table>
+
+<p>To do another, just <a href="/qa/upload">click here</a>.</p>
+
+<%= erb :uploads %>

@@ -1,0 +1,18 @@
+<header>
+<figure><a href="http://www.amazon.com/dp/<%= @isbn %>?tag=sivers-20"><img src="/images/<%= @uri %>.gif" alt="<%= @title %>"></a></figure>
+<h1><%= @title %></h1>
+<p class="postdate">
+ISBN: <%= @isbn %>, 
+READ: <%= @date %>, 
+RATING: <%= @rating %>/10
+<br>(See <a href="/book">my list of 200+ books</a>, for more.)
+</p>
+<p><strong>Go to the <a href="http://www.amazon.com/dp/<%= @isbn %>?tag=sivers-20">Amazon page</a></strong> for details and reviews.</p>
+</header>
+
+<p id="booksummary"><%= @summary %></p>
+<h2>my notes</h2>
+<p id="booknotes">
+<%= @notes %>
+</p>
+

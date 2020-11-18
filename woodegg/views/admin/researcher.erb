@@ -1,0 +1,99 @@
+<h2><%= @pagetitle %></h2>
+
+<div class="row">
+<div class="small-4 columns">
+<img src="/images/200/researcher-<%= @researcher.id %>.jpg" width="200" height="200" alt="<%= @researcher.name %>">
+</div>
+<div class="small-8 columns">
+<a href="<%= @person_url %>">Person page for <%= @researcher.name %></a>
+<form action="/researcher/<%= @researcher.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="bio">bio:</label>
+	<textarea name="bio" id="bio"><%= @researcher.bio %></textarea><br>
+<input type="submit" name="submit" value="update">
+</form>
+</div>
+</div>
+
+<div class="row">
+<div class="small-4 columns">
+<% if @ok_to_delete %>
+<form action="/researcher/<%= @researcher.id %>" method="post"><input type="hidden" name="_method" value="delete">
+	<input type="submit" name="submit" value="delete">
+</form>
+<% else %>
+<h2>Answers:</h2>
+<table>
+<tr>
+	<td>Finished:</td>
+	<td><a href="/researcher/<%= @researcher.id %>/answers/finished"><%= @researcher.answers_finished_count %></a></td>
+</tr>
+<tr>
+	<td>Unfinished:</td>
+	<td><a href="/researcher/<%= @researcher.id %>/answers/unfinished"><%= @researcher.answers_unfinished_count %></a></td>
+</tr>
+<tr>
+	<td>Unpaid:</td>
+	<td><a href="/researcher/<%= @researcher.id %>/answers/unpaid"><%= @researcher.answers_unpaid_count %></a></td>
+</tr>
+<tr>
+	<td>Unjudged:</td>
+	<td><a href="/researcher/<%= @researcher.id %>/answers/unjudged"><%= @researcher.answers_unjudged_count %></a></td>
+</tr>
+</table>
+<% end %>
+
+</div>
+<div class="small-8 columns">
+<h2>Books:</h2>
+<ul>
+<% @researcher.books.each do |b| %>
+	<li><a href="/book/<%= b.id %>"><%= b.short_title %></a></li>
+<% end %>
+</ul>
+<h4>Assign them a book:</h4>
+<form action="/researcher/<%= @researcher.id %>/books" method="post">
+<select name="book_id">
+	<option value="0">... choose book ...</option>
+<% @books2add.each do |b| %>
+	<option value="<%= b.id %>"><%= b.short_title %></option>
+<% end %>
+</select>
+<input type="submit" name="submit" value="assign book">
+</form>
+</div>
+
+<div class="small-12 columns">
+<h4>Create a new Answer for this Researcher. Choose question:</h4>
+<form action="/researcher/<%= @researcher.id %>/answers" method="post">
+	<select name="question_id">
+		<option value="0">... choose question ...</option>
+<% @researcher.questions.each do |q| %>
+		<option value="<%= q.id %>"><%=h q.question %></option>
+<% end %>
+	</select>
+	<input type="submit" name="submit" value="create answer">
+</form>
+
+<h3>Uploads</h3>
+
+<table>
+	<tr>
+		<td>date</td>
+		<td>filename (click for details)</td>
+		<td>missing info?</td>
+		<td>transcription?</td>
+		<td>download URL</td>
+	</tr>
+<% @uploads.each do |u| %>
+	<tr>
+		<td><%= u.created_at %></td>
+		<td><a href="/upload/<%= u.id %>"><%= u.our_filename %></a></td>
+		<td><%= (u.missing_info?) ? 'MISSING INFO!' : 'ok' %></td>
+		<td><%= u.status %></td>
+		<td><a href="<%= u.url %>">link</a></td>
+	</tr>
+<% end %>
+</table>
+
+</div>
+</div>

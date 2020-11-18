@@ -1,0 +1,10 @@
+<h1>Presentations</h1>
+<% @presentations.each do |p| %>
+	<div class="presentation_summary spacer">
+		<a href="/<%= p[:url] %>"><img src="/images/<%= p[:url] %>.jpg" width="200" height="150" alt="<%= p[:title] %>" /></a>
+		<h2><a href="/<%= p[:url] %>"><%= p[:title] %></a></h2>
+		<small>Length: <strong><%= p[:minutes] %> minutes</strong>. &nbsp; Date: <%= p[:date] %></small>
+		<p><%= p[:subhead] %></p>
+	</div>
+<% end %>
+

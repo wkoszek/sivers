@@ -1,0 +1,13 @@
+<% if @userstats.size > 0 %>
+<h2>Proof of purchase waiting:</h2>
+<% @userstats.each do |u| %>
+	<h4><a href="<%= WoodEgg.config['person_url'] % u.person_id %>"><%=h u.person.name %></a></h4>
+	<div class="small"><%=h u.statvalue %></div>
+	<form action="/proof" method="post">
+		<input type="hidden" name="uid" value="<%= u.id %>">
+		<input type="submit" name="submit" value="ok">
+		<input type="submit" name="submit" class="alert" value="no">
+	</form>
+	<hr>
+<% end %>
+<% end %>

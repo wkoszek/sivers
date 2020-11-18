@@ -1,0 +1,22 @@
+<h1>update file description or transcription</h1>
+
+<table>
+	<tr><td>date:</td><td><%= @upload.created_at %></td></tr>
+	<tr><td>local filename:</td><td><%= @upload.our_filename %></td></tr>
+	<tr><td>remote filename:</td><td><%= @upload.their_filename %></td></tr>
+	<tr><td>duration: (H:m:s)</td><td><%= @upload.duration %></td></tr>
+	<tr><td>upload status:</td><td><%= @upload.uploaded_status %><%= @downlink %></td></tr>
+</table>
+
+<hr>&nbsp;<br>
+
+<form action="/qa/upload/<%= @upload.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="notes_field">DESCRIPTION: (who is interviewed? subjects discussed?)</label>
+	<textarea name="notes" id="notes_field"><%=h @upload.notes %></textarea>
+
+	<label for="transcription_field">TRANSCRIPTION: (Paste full transcription, if you have it. If none needed, write “none”.)</label>
+	<textarea name="transcription" id="transcription_field"><%=h @upload.transcription %></textarea>
+	<br>
+	<input type="submit" value="UPDATE">
+</form>
+

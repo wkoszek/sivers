@@ -1,0 +1,59 @@
+<!-- TITLE: The Setup -->
+<!-- SUBTITLE: Tiny Q&A about what equipment I use -->
+<!-- URL: https://usesthis.com/interviews/derek.sivers/ -->
+
+<h4>Who are you, and what do you do?</h4>
+
+<p><a href="http://sivers.org/" title="Derek’s website">Derek Sivers</a>. Founded <a href="http://cdbaby.com/" title="An online music store.">CD Baby</a> in 1997, <a href="http://sivers.org/trust" title="Derek’s post on selling CD Baby.">sold it</a> in 2008. I <a href="http://www.ted.com/speakers/derek_sivers.html" title="Derek’s TED speaker page.">speak at TED</a>, wrote <a href="http://sivers.org/a" title="Derek’s book page.">a book</a>, <a href="http://sivers.org/singapore" title="Derek’s post on moving to Singapore.">moved to Singapore</a>, and am now starting some <a href="http://50pop.com/" title="The 50pop site.">new</a> <a href="http://woodegg.com/" title="The Wood Egg site.">companies</a>.</p>
+
+<h4>What hardware do you use?</h4>
+
+<ul>
+<li><a href="http://www.cnet.com/products/lenovo-thinkpad-t400s/" title="A thin 14 inch PC laptop.">Lenovo T400s</a> Linux laptop.</li>
+<li>Google <a href="http://en.wikipedia.org/wiki/Nexus_One" title="An Android-based smartphone.">Nexus One phone</a> (free gift from TED Conference).</li>
+<li><a href="http://www.amazon.com/Kindle-Ereader-ebook-reader/dp/B007HCCNJU" title="A digital book reader.">Kindle</a>.</li>
+<li>Audio-Technica <a href="http://www.audio-technica.com/cms/headphones/1c7efaa15727a938/index.html" title="Noise-cancelling headphones.">ATH-ANC7b headphones</a>.</li>
+<li>Graph paper &amp; a felt-tip pen for practicing Chinese.</li>
+</ul>
+
+<p>That’s all. I’ve been living out of <a href="http://www.tombihn.com/PROD/TB0940.html" title="A carry-on bag.">a carry-on bag</a> for a few years, until recently, so the less, the better.</p>
+
+<p>Best feature of the Lenovo T400s laptop is its DVD bay can be removed with a switch and replaced with an easy 2.5&quot; drive bay that you can just pop drives in and out of, with no screws. So I have everything backed-up twice on two cloned 2.5&quot; terabyte drives. And two cloned drives filled with the entire collection of Roger Ebert’s <a href="http://rogerebert.suntimes.com/apps/pbcs.dll/section?category=greatmovies_fulllist" title="Robert Ebert’s ’Great Movies’ list.">&quot;Great Movies&quot;</a>.</p>
+
+<h4>And what software?</h4>
+
+<p>I love love LOVE <a href="https://www.archlinux.org/" title="A Linux distro.">Arch Linux</a>. I used to be an <a href="http://www.openbsd.org/" title="An open-source operating system emphasising security and cryptography.">OpenBSD</a> fan, but it was sometimes a drag for day-to-day laptop use. I switched to <a href="http://www.freebsd.org/" title="An open source operating system.">FreeBSD</a>, which I still love, but missed having Flash for YouTube. I used <a href="http://www.ubuntu.com/" title="A Unix distribution.">Ubuntu</a> for a while, but it felt too hand-holdy, too much stuff pre-installed, like those awful Windows computers where the manufacturer has installed a bunch of crap in advance &quot;for your convenience&quot;.</p>
+
+<p>Then I found Arch Linux. Ahhh.... SO nice. Starts with nothing. A bare command-line prompt to install the core. That’s it. A minimalist’s dream. Everything that gets installed past that is something you chose to install. They do &quot;rolling releases&quot;, so the software is just updated every few days. It’s always cutting-edge current. Love it.</p>
+
+<p>By default, I boot into raw console mode. No Xorg. No graphics. It keeps me focused and writing, keeps me away from a web browser. I think my best work is done in this mode.</p>
+
+<p>When I do startx, I use the <a href="http://www.nongnu.org/ratpoison/" title="A window manager for X">Ratpoison</a> window manager, which I also love. Everything full-screen always. No menu-bars or anything else.</p>
+
+<p>Then I just use <a href="https://en.wikipedia.org/wiki/Xterm" title="Terminal software for the X Window System.">xterm</a> and <a href="https://www.mozilla.org/en-US/firefox/new/" title="A cross-platform open-source web browser.">Firefox</a> all day.</p>
+
+<p>I do almost everything in the terminal and <a href="http://www.vim.org/" title="A command-line text editor.">Vim</a>. Even email, I run my own <a href="http://www.postfix.org/" title="Mail server software.">Postfix</a> mail server and SSH into <a href="http://www.mutt.org/" title="A command-line email client.">Mutt</a> to check/send mail.</p>
+
+<p>I have an aversion to installing a big GUI software when my little terminal is good-enough.</p>
+
+<p>Music or movies? <a href="http://www.mplayerhq.hu/" title="Movie viewing software.">Mplayer</a>. 
+Accounting? <a href="http://ledger-cli.org/" title="A command-line accounting system.">Ledger</a>. 
+Image editing? <a href="http://www.imagemagick.org/script/index.php" title="Image editing and converting software.">ImageMagick</a>. 
+PDFs? <a href="http://foolabs.com/xpdf/about.html" title="An open source PDF viewer.">xpdf</a>.</p>
+
+<p>But two GUI apps I’m happy to use:</p>
+
+<p>For learning Chinese, I use the awesome <a href="http://www.wenlin.com/" title="Software to help you learn Chinese.">Wenlin</a>.</p>
+
+<p>For learning anything, I use the awesome <a href="http://www.ankisrs.net/" title="A flash-card based learning tool.">Anki</a>, which I love so much I donated $500 to. (The author wrote me back, thinking it must have been a PayPal mistake.) For learning Chinese in Anki, I use the great <a href="http://batterseapower.github.io/pinyin-toolkit/" title="A plugin for Anki that helps with learning Chinese.">Pinyin Toolkit</a>.</p>
+
+<p>Lastly, I also use <a href="http://www.skype.com/en/" title="Voice and video chat software.">Skype</a>, but hope that someday I could use a command-line VoIP app instead. (Know of any? I guess it’s not much of a market, huh.)</p>
+
+<p>No apps on my phone. When I’m away from my computer, I enjoy being pretty disconnected. But I do use its built-in Google Maps + GPS, since I’m usually in places I’ve never been.</p>
+
+<h4>What would be your dream setup?</h4>
+
+<p>I’m very happy with this. Any shortcomings are my own, not my gear’s.</p>
+
+<p>I wish I could piece together laptops like I can desktops. I’ll take this shell, this keyboard, that display, this CPU, that GPU, this drive, that mouse, etc. I could upgrade certain parts when needed, but keep the rest as-is.</p>
+

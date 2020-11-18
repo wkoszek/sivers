@@ -1,0 +1,3 @@
+*.swp
+*.pid
+lib/peeps-config.rb

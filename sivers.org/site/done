@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How I knew I was done with my company | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: I thought I would never sell my company.When National Public Radio did a story about me in 2004, I said I’d stick it out until the end, and I meant it.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/unclear">
+<link rel="next" href="https://sivers.org/metaphor">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="How I knew I was done with my company | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/done">
+<meta property="og:image" content="https://sivers.org/images/adoption_life_cycle-500x414.jpg">
+<meta property="og:description" content="I thought I would never sell my company.When National Public Radio did a story about me in 2004, I said I’d stick it out until the end, and I meant it.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="How I knew I was done with my company | Derek Sivers">
+<meta name="twitter:description" content="I thought I would never sell my company.When National Public Radio did a story about me in 2004, I said I’d stick it out until the end, and I meant it.">
+<meta name="twitter:image" content="https://sivers.org/images/adoption_life_cycle-500x414.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent">“<a href="/a" rel="tag">Anything You Want</a>”:</div>
+<h1>How I knew I was done with my company</h1>
+<p class="postdate">2009-10-13</p>
+</header>
+
+<p>
+	I thought I would never sell my company.
+	When <a href="http://www.npr.org/templates/story/story.php?storyId=4247407">National Public Radio did a story</a> about me in 2004, I said I’d stick it out until the end, and I meant it.
+</p><p>
+	In 2007 I did a ground-up rewrite of the website from scratch.
+	And man, it was beautiful code.
+	The proudest achievement of my life so far is that rewritten software.
+	Wonderfully organized, extensible, and efficient: the culmination of everything I’d learned about programming in ten years.
+</p><p>
+	After a successful relaunch and Christmas rush, I was looking at my plan for 2008 and beyond.
+	All my plans needed a huge effort for little reward, but were required for future growth.
+	I had broken it into about 20 projects, each taking 2 to 12 weeks, and I wasn’t excited about any of them.
+	I’d taken it far beyond my goals, and realized I had no big vision for it being much else.
+</p><p>
+	The next week, I got calls from three companies, each asking if I’d be interested in selling.
+	I said no, as usual, since I’d been giving the same answer for ten years.
+</p><p>
+	But just to be open-minded, that weekend I opened my diary and started answering the question, “What if I sold?”
+</p><p>
+	I had done this a few times in previous years, but the answer had always been, “No way! There’s so much more I want to do! This is my baby. There’s no way I could let go.”
+</p><p>
+	This time it was different.
+	I thought how nice it’d be to not have 85 employees and all that responsibility.
+	I wrote about how nice it’d be to get outside a bit and feel free from all that.
+	I got excited about all the cool new projects I could do instead.
+</p><p>
+	I realized the bigger learning and growing challenge for me was letting go, not staying on.
+</p><p>
+	Surprised by this, I asked <a href="http://sethgodin.com/">Seth Godin</a>’s advice.
+	All he said was, “If you care, sell.”
+</p><p>
+	I think his point was that my lack of enthusiastic vision was doing a disservice to my clients.
+	It’d be better for everyone if I put the company in more motivated hands that could help them all grow.
+</p><p>
+	I called a friend and asked him to grill me upside down about this big decision.
+	“What other ways can you achieve the freedom you want, without selling?”
+	After an hour of questions like this, we both came to the conclusion that I was really done.
+</p><p>
+	As with any breakup, graduation, or move, you emotionally disconnect, and it all feels as if it were in the distant past.
+	I felt like I was already on the highway with a little box of stuff, moving cross-country, with my old home long gone, never to be seen again.
+	By the end of that day, I was no longer derek@cdbaby.com.
+</p><p>
+	Unfortunately, like a divorce, the paperwork took another 7 months.
+	I let two companies bid, and ended up choosing the one with the lower bid, but that I felt understood my clients better.
+</p><p>
+	But it was never about the money.
+	The decision was done in that one introspective day of writing in my diary and talking with my mentors.
+	I was completely unconflicted, and knew it was the right decision.
+</p><p>
+	I went to bed that night (January 18, 2008) and slept longer than I had in months.
+	Then I woke up full of detailed ideas for my next company, but that’s a different story.
+</p><p>
+	The reason I’m telling all this is because I’ve been asked the question a few times by other entrepreneurs, <strong>“How do you know when it’s time to sell?”</strong>.
+</p><p>
+	My answer is, <strong>“You’ll know”</strong>, but I hope this detailed story helps illustrate that feeling.
+</p>
+<img src="/images/adoption_life_cycle-500x414.jpg" alt="Adoption Life Cycle" />
+<p class="small"><em>(Huge thanks to <a href="http://www.idea-sandbox.com/">Idea Sandbox</a> for that brilliant image.)</em></p>
+
+<footer>
+© 2009 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/unclear" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/metaphor" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

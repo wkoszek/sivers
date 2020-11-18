@@ -1,0 +1,9 @@
+<h1>Finished Test Essays (newest first)</h1>
+
+<dl>
+<% @essays.each do |te| %>
+    <dt><a href="/person/<%= te.person_id %>/test_essays"><%=h te.name %></a></dt>
+    <dd><a href="/test_essay/<%= te.id %>"><%= te.id %></a> &nbsp; <%=h te.notes %></dd>
+<% end %>
+</dl>
+

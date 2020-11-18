@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title><%=h @pagetitle %> | words.sivers.org</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body { margin: 0; padding: 0; font-family: Georgia, serif; }
+h1, h2, h3, h4, nav, label, input { font-family: sans-serif; }
+#content { margin: 0 auto; max-width: 50em; }
+label, input, select, textarea { display: block; }
+#content li {line-height: 2em;}
+input, select, textarea { margin-bottom: 1em; padding: 5px; }
+textarea { width: 100%; height: 3em; }
+nav ul { margin: 0; padding: 5px 0; background-color: #404; color: #fff; }
+nav ul li { display: inline; margin: 0 20px 0 5px; }
+nav ul li a { color: #fff; text-decoration: none; }
+.editlink { font-size: 0.75em; }
+.hide { display: none; }
+</style>
+</head>
+<body>
+<nav id="navigation">
+	<ul>
+		<li><a href="/">home</a></li>
+		<li><a href="/logout">log out</a></li>
+	</ul>
+</nav>
+<div id="content">
+
+<%= yield %>
+
+</div>
+</body>
+</html>
+

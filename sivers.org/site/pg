@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simplify: move code into database functions | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: If you are a web or API developer, programming code that uses an SQL database, this is for you.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/bad">
+<link rel="next" href="https://sivers.org/2do">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Simplify: move code into database functions | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/pg">
+<meta property="og:image" content="http://img.youtube.com/vi/rI8tNMsozo0/0.jpg">
+<meta property="og:description" content="If you are a web or API developer, programming code that uses an SQL database, this is for you.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Simplify: move code into database functions | Derek Sivers">
+<meta name="twitter:description" content="If you are a web or API developer, programming code that uses an SQL database, this is for you.">
+<meta name="twitter:image" content="http://img.youtube.com/vi/rI8tNMsozo0/0.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Simplify: move code into database functions</h1>
+<p class="postdate">2015-05-04</p>
+</header>
+
+<p>
+	If you are a web or API developer, programming code that uses an SQL database, this is for you.
+</p><p>
+	I’ve found a very different and useful way to structure code.
+	It’s made such a big difference for me that I had to share it here.
+</p>
+
+<h2>
+	How things are
+</h2>
+<p>
+	Most web development — whether custom or using frameworks like Rails, Django, Laravel, Sinatra, Flask, and Symfony — tends to work the same way:
+</p>
+<ul><li>
+	At the core is a <strong>database</strong>, which is just the storage of data.
+</li><li>
+	<strong>All intelligence</strong> is in Ruby/Python/PHP/JavaScript classes.
+</li></ul>
+
+<h2>
+	Why that’s bad
+</h2>
+<p>
+	These norms have some dangerous implications:
+</p>
+<ul><li>
+	<strong>Everything</strong> must go through these Ruby/Python/PHP/JavaScript classes — including shell scripts and other things not part of this website.
+</li><li>
+	<strong>Nothing</strong> else may access the database directly, since doing so may break the rules defined by these surrounding classes.
+</li><li>
+	The <strong>database is treated as dumb storage</strong>, even though the database is smart enough to have most of this logic built-in.
+</li><li>
+	But if you add business rules into the database itself, it’s now <strong>duplicated</strong>, requiring changing in multiple places if the rules change.
+</li><li>
+	These two systems — the database and its surrounding code — are <strong>coupled and dependent</strong> on eachother.
+</li><li>
+	If it’s ever advantageous to <strong>switch languages</strong> (say from Ruby to JavaScript, or Python to Elixir), you’re going to have to <strong>re-write absolutely everything</strong>.
+</li></ul>
+
+<h2>
+	Simple vs complex
+</h2>
+<p>
+	Please go watch this amazing 35-minute talk as soon as possible:
+<strong><a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Simplicity Matters by Rich Hickey</a></strong>.
+</p><p>
+	Here are his important points for this article:
+</p><ul><li>
+	“<strong>Complex</strong>” is objective.
+	It means <strong>many things tied together</strong>.
+</li><li>
+	“<strong>Simple</strong>” is objective.
+	It means <strong>one ingredient</strong> — the opposite of complex.
+</li><li>
+	These are unrelated to “easy”.
+	It is easy to install and bind yourself to something very complex (like <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a>), and can be hard to build something simple.
+</li><li>
+	Classes, models, and methods (<a href="http://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a>) are an <strong>unnecessary complication</strong>.
+</li><li>
+	Information is simple, so <strong>don’t hide it</strong> behind a micro-language.
+</li><li>
+	<strong>Work with values directly</strong>: hash/map of strings.
+</li><li>
+	Since a <strong>JSON API</strong> — a hash/map of strings — is often the eventual interface, it’s even more reason to skip the abstractions and work with values directly.
+</li></ul>
+
+<h2>
+	Why this hit home for me
+</h2>
+<p>
+	I’ve been using the same SQL database since 1997: same data, values, and SQL tables.
+	But the code around it has changed so many times.
+</p><p>
+	In 1997, I started in Perl.
+	In 1998, I switched to PHP.
+	In 2004, a rewrite in Rails.
+	In 2007, <a href="/rails2php">back</a> to PHP.
+	In 2009, minimalist Ruby.
+	In 2012, client-side JavaScript.
+</p><p>
+	<strong>Each time I’d have to re-write all of the logic around the database</strong>:
+	how to add a new person into the database,
+	how to verify an invoice is correct,
+	how to mark an order as paid, etc.
+</p><p>
+	But <strong>that whole time, my trusty PostgreSQL database stayed the same</strong>.
+</p><p>
+	Since most of this is <a href="http://rob.conery.io/2015/02/21/its-time-to-get-over-that-stored-procedure-aversion-you-have/">data logic, not business logic</a>, it should be in the database.
+</p><p>
+	So I’m putting this data logic directly into <a href="http://www.postgresql.org/about/">PostgreSQL</a>, since I plan to stay with it for many more years, but plan to keep experimenting with programming languages.
+(<a href="https://www.haskell.org/">Haskell</a>, <a href="http://elixir-lang.org/">Elixir</a>, <a href="http://racket-lang.org/">Racket</a>, <a href="http://www.lua.org/about.html">Lua</a>.)
+</p>
+
+<h2>
+	How things could be
+</h2>
+<p>
+	Web developers have been treating the database as dumb storage, but it’s actually <a href="http://www.postgresql.org/docs/9.5/static/server-programming.html">quite smart</a>.
+</p><p>
+	It’s <strong>simple</strong> to have all of this intelligence <strong>in the database itself</strong>.
+</p><p>
+	It’s <strong>complex</strong> to have it tied to surrounding outside code.
+</p><p>
+	Once you put all of the intelligence directly into the database, then the outside code disappears!
+</p><p>
+	Then <strong>the database is self-contained, and not tied to anything</strong>.
+</p><p>
+	Your outside interface can <strong>switch</strong> to JavaScript, Haskell, Elixir or anything else with ease, because your core intelligence is all inside the database.
+</p>
+
+<h2>
+	How to do it
+</h2>
+
+<h3>
+	Table constraints
+</h3>
+<p>
+	The easiest place to start is <a href="http://www.postgresql.org/docs/9.5/static/ddl-constraints.html">constraints</a>:
+</p>
+<pre><code>
+CREATE TABLE people (
+  id serial primary key,
+  name text NOT NULL CONSTRAINT no_name CHECK (LENGTH(name) > 0),
+  email text UNIQUE CONSTRAINT valid_email CHECK (email ~ '\A\S+@\S+\.\S+\Z')
+);
+CREATE TABLE tags (
+  person_id integer NOT NULL REFERENCES people(id) ON DELETE CASCADE,
+  tag varchar(16) CONSTRAINT tag_format CHECK (statkey ~ '\A[a-z0-9._-]+\Z')
+);
+</code></pre>
+<p>
+	Define what is considered valid/invalid data here.
+</p><p>
+	In my people example above, it says name can’t be empty, email must match that pattern with “@” and “.” and no whitespace.
+	Then it says tags.person_id has to exist in the people table, but if the person is deleted then delete the tags, too.
+	And the tag has to fit that regexp pattern of lowercase letters, numbers, dot, underscore, dash.
+</p><p>
+	It helps to name your constraints for later use in error catching.
+</p>
+
+<h3>
+	Triggers
+</h3>
+<p>
+	For things that happen before or after you alter data, use <a href="http://www.postgresql.org/docs/9.5/static/trigger-definition.html">triggers</a>:
+</p>
+<pre><code>
+CREATE FUNCTION clean() RETURNS TRIGGER AS $$
+BEGIN
+  NEW.name = btrim(regexp_replace(NEW.name, '\s+', ' ', 'g'));
+  NEW.email = lower(regexp_replace(NEW.email, '\s', '', 'g'));
+END;
+$$ LANGUAGE plpgsql;
+CREATE TRIGGER clean BEFORE INSERT OR UPDATE OF name, email ON people
+  FOR EACH ROW EXECUTE PROCEDURE clean();
+</code></pre>
+<p>
+	This example cleans the input before it’s put into the database, in case someone accidently put a space in their email address, or a line-break in their name.
+</p>
+
+<h3>
+	Functions
+</h3>
+<p>
+	Make little re-usable functions for things you’ll use often inside your code.
+</p>
+<pre><code>
+CREATE FUNCTION get_person(a_name text, a_email text) RETURNS SETOF people AS $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM people WHERE email = a_email) THEN
+    RETURN QUERY INSERT INTO people (name, email)
+      VALUES (a_name, a_email) RETURNING people.*;
+  ELSE
+    RETURN QUERY SELECT * FROM people WHERE email = a_email;
+  END IF;
+END;
+$$ LANGUAGE plpgsql;
+</code></pre>
+<p>
+	That’s one I use often:
+	Given someone’s name and email, if they’re not already in my database, add them.
+	Then, either way, return the database info for this person.
+</p>
+
+<h3>
+	Views for JSON
+</h3>
+<p>
+	Instead of requiring outside code to convert your data into JSON, you can have the <a href="http://www.postgresql.org/docs/9.5/static/functions-json.html#FUNCTIONS-JSON-CREATION-TABLE">database create JSON directly</a>.
+</p><p>
+	For this, use <a href="http://www.postgresql.org/docs/9.5/static/sql-createview.html">views</a> as JSON structure templates.
+	Inside the view, use <a href="http://www.postgresql.org/docs/9.5/static/functions-aggregate.html">json_agg</a> for nested values.
+</p>
+<pre><code>
+CREATE VIEW person_view AS
+  SELECT *, (SELECT json_agg(t) AS tags FROM
+    (SELECT tag FROM tags WHERE person_id=people.id) t)
+  FROM people;
+</code></pre>
+<p>
+	This will be used in the API functions, below:
+</p>
+
+<h3>
+	API functions
+</h3>
+<p>
+	These are the only functions your outside code will access.
+</p><p>
+	They return only JSON.
+</p><p>
+</p>
+<pre><code>
+CREATE FUNCTION update_password(p_id integer, nu_pass text, OUT js json) AS $$
+BEGIN
+  UPDATE people SET password=crypt(nu_pass, gen_salt('bf', 8)) WHERE id = p_id;
+  js := row_to_json(r) FROM (SELECT * FROM person_view WHERE id = p_id) r;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE FUNCTION people_with_tag(a_tag text, OUT js json) AS $$
+BEGIN
+  js := json_agg(r) FROM
+    (SELECT * FROM person_view WHERE id IN
+      (SELECT person_id FROM tags WHERE tag = a_tag)) r;
+END;
+$$ LANGUAGE plpgsql;
+</code></pre>
+<p>
+	No matter what you need to do with your database, the <a href="http://www.postgresql.org/docs/9.5/static/xplang.html">procedural languages built-in to PostgreSQL</a> can do it.
+</p><p>
+	<a href="http://www.postgresql.org/docs/9.5/static/plpgsql-overview.html">PL/pgSQL</a> is <strong>not the most beautiful language</strong>, but the <strong>simplicity</strong> of having everything in the database is worth it.
+</p><p>
+	If you like JavaScript, check out the promising <a href="https://github.com/plv8/plv8/blob/master/README.md">plv8</a>, with a good <a href="http://plv8-talk.herokuapp.com/">presentation about it, here</a>.
+</p>
+
+<h2>
+	Now, if you need a REST API:
+</h2>
+<pre><code>
+require 'pg'
+require 'sinatra'
+DB = PG::Connection.new(dbconfig)
+
+def qry(sql, params=[])
+  @res = DB.exec_params('SELECT js FROM ' + sql, params)
+end
+
+after do
+  content_type 'application/json'
+  body @res[0]['js']
+end
+
+get '/people' do
+  qry('get_people()')
+end
+
+get %r{/people/([0-9]+)} do |id|
+  qry('get_person($1)', [id])
+end
+
+put %r{/people/([0-9]+)} do |id|
+  qry('update_password($1, $2)', [id, params[:password]])
+end
+
+get '/people/tagged' do
+  qry('people_with_tag($1)', [params[:tag]])
+end
+</code></pre>
+
+<h2>
+	Or if you need a client library:
+</h2>
+<pre><code>
+require 'pg'
+require 'json'
+DB = PG::Connection.new(dbconfig)
+
+def js(func, params=[])
+  res = DB.exec_params('SELECT js FROM ' + func, params)
+  JSON.parse(res[0]['js'])
+end
+
+def people
+  js('get_people()')
+end
+
+def person(id)
+  js('get_person($1)', [id])
+end
+
+def update_password(id, newpass)
+  js('update_password($1, $2)', [id, newpass])
+end
+
+def people_tagged(tag)
+  js('people_with_tag($1)', [tag])
+end
+</code></pre>
+
+<h2>
+	That’s it!
+</h2>
+<p>
+	Now whether a REST API or client library, <strong>all it really has to do is pass the arguments into the database functions, and return the JSON</strong>.
+</p><p>
+	I simplified the tiny code examples here, but feel free to see <strong>some real working examples:</strong>
+</p><ul>
+<li><a href="https://code.sivers.org/db-api/peeps/tables.sql">table definitions</a> with constraints</li>
+<li><a href="https://code.sivers.org/db-api/peeps/triggers.sql">triggers</a></li>
+<li><a href="https://code.sivers.org/db-api/woodegg/views.sql">views</a> for JSON creation</li>
+<li><a href="https://code.sivers.org/db-api/peeps/functions.sql">functions</a></li>
+<li>my little <a href="https://github.com/sivers/pg">PostgreSQL experiments</a> where I try out ideas</li>
+</ul>
+<p>
+	I’m not trying to convince everyone to do things this way.
+	But I hope you find it useful or at least interesting to consider.
+</p>
+
+
+<footer>
+© 2015 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/bad" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/2do" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

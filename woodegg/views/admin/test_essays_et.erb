@@ -1,0 +1,11 @@
+<h1>Test Essays by Country</h1>
+
+<% @countries.each do |cc,essays| %>
+  <h3><%= Countries.hsh[cc] %></h3>
+  <dl>
+  <% essays.each do |te| %>
+    <dt><%=h te.name %></dt>
+    <dd><a href="/test_essay/<%= te.id %>"><%= te.id %></a> &nbsp; <%=h te.notes %></dd>
+  <% end %>
+  </dl>
+<% end %>

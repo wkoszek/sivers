@@ -1,0 +1,13 @@
+<article>
+<header>
+<h1><a href="/presentations">Presentations</a> → <%=h @title %></h1>
+<p class="postdate">Length: <strong><%= @minutes %> minutes.</strong> Date recorded: <%= @month %></p>
+</header>
+<p><strong><%= @subhead %></strong></p>
+
+<%= @body %>
+
+<footer>
+© <%= @year %> <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>

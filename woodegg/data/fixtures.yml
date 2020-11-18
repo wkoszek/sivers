@@ -1,0 +1,422 @@
+Researcher:
+  gongli:
+    person_id: 7
+    active: true
+    bio: Yes I am Gong Li
+  yoko:
+    person_id: 8
+    active: true
+    bio: Yes I am Yoko Ono
+  oompa:
+    person_id: 5
+    active: true
+    bio: yes i am researching China
+
+Writer:
+  veruca:
+    person_id: 3
+    bio: Yes I am Veruca Salt
+  charlie:
+    person_id: 4
+    bio: Yes I am Charlie Bucket
+
+Customer:
+  augustus:
+    person_id: 6
+
+Editor:
+  derek:
+    person_id: 1
+  wonka:
+    person_id: 2
+
+Topic:
+  id1:
+    topic: Country
+  id2:
+    topic: Culture
+
+Subtopic:
+  id1:
+    topic_id: 1
+    subtopic: how big
+  id2:
+    topic_id: 1
+    subtopic: how old
+  id3:
+    topic_id: 2
+    subtopic: is it fun?
+  id4:
+    topic_id: 2
+    subtopic: what language?
+
+TemplateQuestion:
+  id1:
+    subtopic_id: 1
+    question: how big is {COUNTRY}?
+  id2:
+    subtopic_id: 2
+    question: how old is {COUNTRY}?
+  id3:
+    subtopic_id: 3
+    question: what is fun in {COUNTRY}?
+  id4:
+    subtopic_id: 3
+    question: do they laugh in {COUNTRY}?
+  id5:
+    subtopic_id: 4
+    question: what language in {COUNTRY}?
+
+Question:
+  id1:
+    template_question_id: 1
+    country: CN
+    question: how big is China?
+  id2:
+    template_question_id: 2
+    country: CN
+    question: how old is China?
+  id3:
+    template_question_id: 3
+    country: CN
+    question: what is fun in China?
+  id4:
+    template_question_id: 4
+    country: CN
+    question: do they laugh in China?
+  id5:
+    template_question_id: 5
+    country: CN
+    question: what language in China?
+  id6:
+    template_question_id: 1
+    country: JP
+    question: how big is Japan?
+  id7:
+    template_question_id: 2
+    country: JP
+    question: how old is Japan?
+  id8:
+    template_question_id: 3
+    country: JP
+    question: what is fun in Japan?
+  id9:
+    template_question_id: 4
+    country: JP
+    question: do they laugh in Japan?
+  id10:
+    template_question_id: 5
+    country: JP
+    question: what language in Japan?
+
+Answer:
+  id1:
+    question_id: 1
+    researcher_id: 1
+    started_at: 2013-06-28 08:16:40 +0000
+    finished_at: 2013-06-28 08:26:40 +0000
+    payable: true
+    answer: China whatever1
+    sources: none
+  id2:
+    question_id: 2
+    researcher_id: 1
+    started_at: 2013-06-28 08:26:40 +0000
+    finished_at: 2013-06-28 08:36:40 +0000
+    payable: true
+    answer: China whatever2
+  id3:
+    question_id: 3
+    researcher_id: 1
+    started_at: 2013-06-28 08:36:40 +0000
+    finished_at: 2013-06-28 08:46:40 +0000
+    payable: true
+    answer: China whatever3
+  id4:
+    question_id: 4
+    researcher_id: 1
+    started_at: 2013-06-28 08:46:40 +0000
+    finished_at: 2013-06-28 08:56:40 +0000
+    answer: China whatever4
+    sources: none
+  id5:
+    question_id: 5
+    researcher_id: 1
+    started_at: 2013-06-28 08:56:40 +0000
+    finished_at: 2013-06-28 09:06:40 +0000
+    answer: China whatever5
+  id6:
+    question_id: 6
+    researcher_id: 2
+    started_at: 2013-06-28 09:10:26 +0000
+    finished_at: 2013-06-28 09:20:26 +0000
+    payable: true
+    answer: Japan it depends 6
+    sources: mind
+  id7:
+    question_id: 7
+    researcher_id: 2
+    started_at: 2013-06-28 09:20:26 +0000
+    finished_at: 2013-06-28 09:30:26 +0000
+    payable: true
+    answer: Japan it depends 7
+    sources: mind
+  id8:
+    question_id: 8
+    researcher_id: 2
+    started_at: 2013-06-28 09:30:26 +0000
+    finished_at: 2013-06-28 09:40:26 +0000
+    payable: false
+    answer: Japan blah blah. Unacceptable answer here.
+  id9:
+    question_id: 9
+    researcher_id: 2
+    started_at: 2013-06-28 09:40:26 +0000
+
+Book:
+  id1:
+    country: CN
+    code: we13cn
+    title: "China 2013: How To"
+    isbn: 9789810766320
+    asin: B00D1HOJII
+    leanpub: ChinaStartupGuide2013
+    salescopy: THIS IS FOR SALE NOW
+  id2:
+    country: JP
+    code: we13jp
+    title: "Japan 2013: How To"
+    isbn: 9789810766368
+    leanpub: JapanStartupGuide2013
+    salescopy: COMING SOON
+  id3:
+    country: CN
+    code: we14cn
+    title: "China 2014: How To"
+
+Essay:
+  id1:
+    question_id: 1
+    writer_id: 1
+    book_id: 1
+    started_at: 2013-06-28 10:41:14 +0000
+    finished_at: 2013-06-28 10:51:14 +0000
+    payable: true
+    edited_at: 2013-06-28 14:01:14 +0000
+    editor_id: 1
+    content: China whatever1?
+    edited: China whatever1!
+  id2:
+    question_id: 2
+    writer_id: 1
+    book_id: 1
+    started_at: 2013-06-28 10:51:14 +0000
+    finished_at: 2013-06-28 11:01:14 +0000
+    payable: true
+    edited_at: 2013-06-28 14:11:14 +0000
+    editor_id: 1
+    content: China whatever2?
+    edited: China whatever2!
+  id3:
+    question_id: 3
+    writer_id: 1
+    book_id: 1
+    started_at: 2013-06-28 11:01:14 +0000
+    finished_at: 2013-06-28 11:11:14 +0000
+    payable: true
+    edited_at: 2013-06-28 14:21:14 +0000
+    editor_id: 1
+    content: China .whatever3.
+    edited: China whatever3
+  id4:
+    question_id: 4
+    writer_id: 1
+    book_id: 1
+    started_at: 2013-06-28 11:11:14 +0000
+    finished_at: 2013-06-28 11:21:14 +0000
+    payable: true
+    edited_at: 2013-06-28 14:31:14 +0000
+    editor_id: 1
+    content: China whatever4
+    edited: China whatever4
+  id5:
+    question_id: 5
+    writer_id: 1
+    book_id: 1
+    started_at: 2013-06-28 11:21:14 +0000
+    finished_at: 2013-06-28 11:31:14 +0000
+    payable: true
+    edited_at: 2013-06-28 14:41:14 +0000
+    editor_id: 1
+    content: China? whatever5
+    edited: China! whatever5
+  id6:
+    question_id: 6
+    writer_id: 2
+    book_id: 2
+    started_at: 2013-07-08 10:41:14 +0000
+    finished_at: 2013-07-08 10:51:14 +0000
+    payable: true
+    edited_at: 2013-07-09 14:41:14 +0000
+    editor_id: 2
+    content: Japan whatever1
+    edited: Japan. Whatever. One.
+  id7:
+    question_id: 7
+    writer_id: 2
+    book_id: 2
+    started_at: 2013-07-08 11:41:14 +0000
+    finished_at: 2013-07-08 11:51:14 +0000
+    payable: true
+    editor_id: 2
+    content: Japan whatever2
+    edited: Editor still editing this one.
+  id8:
+    question_id: 8
+    writer_id: 2
+    book_id: 2
+    started_at: 2013-07-08 11:44:14 +0000
+    finished_at: 2013-07-08 11:49:14 +0000
+    content: Japan finished but unjudged
+  id9:
+    question_id: 9
+    writer_id: 2
+    book_id: 2
+    started_at: 2013-07-08 11:52:14 +0000
+    content: Japan unfinished
+
+
+Tag:
+  id1:
+    name: China
+  id2:
+    name: Japan
+
+Tidbit:
+  id1:
+    created_at: 2013-06-26
+    created_by: derek
+    headline: Things looking good
+    url: http://www.cnn.com/article/123
+    intro: Things sure are looking good
+    content: A long article about laughing and language in China here
+  id2:
+    created_at: 2013-06-27
+    created_by: derek
+    headline: All is well
+    url: http://www.cnn.com/article/321
+    intro: Things sure are well
+    content: A long article about how big and old Japan is
+
+Upload:
+  id1:
+    created_at: 2013-08-07
+    researcher_id: 3
+    their_filename: Some Interview.MP3
+    our_filename: r003-20130807-someinterview.mp3
+    mime_type: "audio/mp3"
+    bytes: 1234567
+    uploaded: y
+    status: done
+    notes: This is me interviewing someone.
+    transcription: This has a transcription.
+  id2:
+    created_at: 2013-08-07
+    researcher_id: 3
+    their_filename: Another Interview.MP3
+    our_filename: r003-20130807-anotherinterview.mp3
+    mime_type: "audio/mp3"
+    bytes: 54321
+    uploaded: p
+    status: new
+    notes: Currently uploading
+  id3:
+    created_at: 2013-08-08
+    researcher_id: 3
+    their_filename: Needs Notes.MP3
+    our_filename: r003-20130808-needsnotes.mp3
+    mime_type: "audio/mp3"
+    bytes: 654321
+    uploaded: n
+    status: new
+
+TestEssay:
+  yoko1:
+    person_id: 8
+    country: JP
+    question_id: 6
+    started_at: 2013-09-04 21:08:44+08
+    finished_at: 2013-09-04 22:56:40+08
+    content: good country
+    notes: too succinct
+  yoko2:
+    person_id: 8
+    country: JP
+    question_id: 7
+    started_at: 2013-09-05 22:08:44+08
+    finished_at: 2013-09-05 23:56:40+08
+    content: very good country
+    notes: still too succinct
+  augustus1:
+    person_id: 6
+    country: CN
+    question_id: 1
+    started_at: 2013-09-06 18:08:44+08
+    finished_at: 2013-09-06 20:56:40+08
+    content: das is huge
+  augustus2:
+    person_id: 6
+    country: CN
+    question_id: 2
+    started_at: 2013-09-06 21:08:44+08
+
+INSERTS:
+  books_writers:
+    id1:
+      book_id: 1
+      writer_id: 1
+    id2:
+      book_id: 2
+      writer_id: 2
+  books_researchers:
+    id1:
+      book_id: 1
+      researcher_id: 1
+    id2:
+      book_id: 2
+      researcher_id: 2
+    id3:
+      book_id: 3
+      researcher_id: 3
+  books_customers:
+    id1:
+      book_id: 1
+      customer_id: 1
+  books_editors:
+    id1:
+      book_id: 1
+      editor_id: 1
+    id2:
+      book_id: 2
+      editor_id: 2
+  tags_tidbits:
+    id1:
+      tag_id: 1
+      tidbit_id: 1
+    id2:
+      tag_id: 2
+      tidbit_id: 2
+  questions_tidbits:
+    id1:
+      question_id: 4
+      tidbit_id: 1
+    id2:
+      question_id: 5
+      tidbit_id: 1
+    id3:
+      question_id: 6
+      tidbit_id: 2
+    id4:
+      question_id: 7
+      tidbit_id: 2
+

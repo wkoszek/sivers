@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wood Egg ADMIN <%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/app.css" type="text/css" media="screen" />
+</head>
+<body id="<%= @bodyid %>">
+
+<nav class="top-bar">
+<ul class="title-area">
+<li class="name"><h1><a href="/">Wood Egg ADMIN</a></h1></li>
+</ul>
+<section class="top-bar-section">
+<ul class="left">
+<li><a href="/books">books</a></li>
+<li><a href="/writers">writers</a></li>
+<li><a href="/essays">essays</a></li>
+<li><a href="/researchers">researchers</a></li>
+<li><a href="/editors">editors</a></li>
+<li><a href="/customers">customers</a></li>
+<li><a href="/answers">answers</a></li>
+<li><a href="/test_essays">test essays</a></li>
+<li><a href="/interviewees">interviewees</a></li>
+<li><a href="/stats">stats</a></li>
+<li><a href="/uploads">uploads</a></li>
+<li><a href="/tidbits">tidbits</a></li>
+</ul>
+</nav>
+
+<div id="wholepage">
+<%= yield %>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<h1><%=h @question.question %></h1>
+
+<form id="youranswer" action="/et/question/<%= @question.id %>" method="post">
+	<textarea id="content_field" name="content" rows="30"><%=h @test_essay.content %></textarea>
+	<br>Then click:
+	<br><input type="submit" name="submit" class="btn-large btn-success" value="SAVE"> to save your work and continue
+	<br>... or click:
+	<br><input type="submit" name="submit" class="btn-large btn-danger" value="FINISHED"> when done
+</form>
+
+<h2>Preview:</h2>
+<p>
+<%= @html %>
+</p>
+
+<br>
+

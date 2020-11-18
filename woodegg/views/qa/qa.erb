@@ -1,0 +1,8 @@
+<h1>Wood Egg research</h1>
+
+<ul>
+<% @qacc.each do |code,name| %>
+	<li><a href="/qa/<%= code.downcase %>"><%= name %></a></li>
+<% end %>
+</ul>
+

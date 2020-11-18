@@ -1,0 +1,9 @@
+<h1><%= @cname %> Question:</h1>
+<p>Topic: <%= @q.template_question.subtopic.subtopic %></p>
+<h2><%= @q.question %></h2>
+
+<h4>Want to answer this question? Click when ready:</h4>
+<form class="well" action="/qa/answer" method="post">
+	<input type="hidden" name="question_id" value="<%= @q.id %>" />
+	<input type="submit" class="btn btn-primary" name="submit" value="READY" />
+</form>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>关于 音樂的思維</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<link rel="alternate" hreflang="en" href="http://musicthoughts.com/about" />
+<link rel="alternate" hreflang="es" href="http://es.musicthoughts.com/about" />
+<link rel="alternate" hreflang="fr" href="http://fr.musicthoughts.com/about" />
+<link rel="alternate" hreflang="de" href="http://de.musicthoughts.com/about" />
+<link rel="alternate" hreflang="it" href="http://it.musicthoughts.com/about" />
+<link rel="alternate" hreflang="pt" href="http://pt.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ru" href="http://ru.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ar" href="http://ar.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ja" href="http://ja.musicthoughts.com/about" />
+</head>
+<body id="about">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/">音樂的思維</a></h1>
+<h2>一個寧靜的地方供您思索音樂</h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new">新的</a></li>
+	<li><a href="/authors">作者們，使創者</a></li>
+	<li><a href="/contributors">提供者</a></li>
+	<li><a href="/t/666">靈機一觸</a></li>
+	<li><a href="/search">搜尋</a></li>
+	<li><a href="/about">关于</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<a href="http://sivers.org/"><img src="/css/DerekSivers-20141119-200.jpg"></a>
+<p>
+我的名字叫 Derek Sivers。
+</p><p>
+我从 1984 开始成为了一名音乐家，作为职业音乐家已经有 13 年的时间。
+</p><p>
+我在 1998 年创建了 cdbaby.com 和 hostbaby.com。
+</p><p>
+在 1999 年我又创建了 musicthoughts.com，因为我喜欢其他音乐家关于制作音乐的想法在我创作自己的音乐时带给我的灵感。
+</p><p>
+你也可以加入 <a href="https://groups.yahoo.com/neo/groups/musicthoughts/info">musicthoughts 电子邮箱列表</a>来和其他音乐家沟通交流。
+</p><p>
+musicthoughts.com 是一个完全免费的非商业网站，它的存在只是为了给你提供灵感。
+</p><p>
+如果你对于它还能提供什么其他功能有什么想法的话，请<a href="http://sivers.org/#follow">联系我</a>。
+</p><p>
+我的所有新项目都在 <a href="http://sivers.org/">sivers.org</a> 上
+</p>
+
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+	<li><a href="http://musicthoughts.com/about">English</a></li>
+	<li><a href="http://es.musicthoughts.com/about">Español</a></li>
+	<li><a href="http://fr.musicthoughts.com/about">Français</a></li>
+	<li><a href="http://de.musicthoughts.com/about">Deutsch</a></li>
+	<li><a href="http://it.musicthoughts.com/about">Italiano</a></li>
+	<li><a href="http://pt.musicthoughts.com/about">Português</a></li>
+	<li><a href="http://ru.musicthoughts.com/about">Русский</a></li>
+	<li><a href="http://ar.musicthoughts.com/about">العربية</a></li>
+	<li><a href="http://ja.musicthoughts.com/about">日本語</a></li>
+</ul>
+</nav>
+
+<blockquote cite="/t/233">
+	<q>如果你沒能殺到他們爽(讓他們讚不絕口，如橫掃千軍般地讓他們全部對你佩服的五體投地)，或許你的尖頭刺端(重點，想傳達的訊息與意義)不夠尖銳鋒利。</q>
+	<cite><a href="/t/233">Kevin Welch</a></cite>
+</blockquote>
+
+
+</footer>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Wood Egg: <%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="/css/woodegg.css" />
+</head>
+<body>
+<nav>
+	<a href="http://woodegg.com/">Wood Egg</a>
+	<ul>
+		<% if @customer %>
+			<li><a href="/home"><%=h @customer[:name] %> account</a></li>
+			<li><a href="/logout">log out</a></li>
+		<% end %>
+		<li><a href="http://woodegg.com/about">about</a></li>
+		<li><a href="http://woodegg.com/contact">contact</a></li>
+	</ul>
+</nav>
+
+<div id="page">
+
+<section id="content">
+
+<%= yield %>
+
+</section>
+
+</div>
+</body>
+</html>
+

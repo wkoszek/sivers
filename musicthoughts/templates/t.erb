@@ -1,0 +1,6 @@
+<blockquote>
+	<q><%= h(@thought[:thought]).gsub("\n", '<br>') %></q>
+	<cite><a href="/author/<%= @thought[:author][:id] %>"><%=h @thought[:author][:name] %></a></cite>
+	<footer><%= @t.contributed_by_s % ('<a href="/contributor/%d">%s</a>' % [@thought[:contributor][:id], @thought[:contributor][:name]]) %></footer>
+</blockquote>
+

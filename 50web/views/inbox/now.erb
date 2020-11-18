@@ -1,0 +1,19 @@
+<section id="stats">
+
+<% if @unknowns.size > 0 %>
+	<h1>/now URLs with unknown person:</h1>
+	<ul>
+	<% @unknowns.each do |n| %>
+		<li><a href="/now/find/<%= n[:id] %>"><%= n[:short] %></a></li>
+	<% end %>
+	</ul>
+<% end %>
+
+<h1>/now with known person:</h1>
+<ul>
+<% @knowns.each do |n| %>
+	<li><a href="/now/<%= n[:person_id] %>"><%= n[:short] %></a></li>
+<% end %>
+</ul>
+
+</section>

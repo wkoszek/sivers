@@ -1,0 +1,53 @@
+<section id="account">
+<% if @msg %>
+	<div class="alert">Updated. Thank you!</div>
+<% end %>
+
+
+<h2>Update your info?</h2>
+<form action="/account" method="post">
+	<label for="client_name">your name:</label>
+	<input name="name" id="client_name" value="<%=h @client[:name] %>">
+	<label for="client_address">how should we address you?:</label>
+	<input name="address" id="client_address" value="<%=h @client[:address] %>">
+	<label for="client_email">your email:</label>
+	<input type="email" name="email" id="client_email" value="<%=h @client[:email] %>">
+	<label for="client_company">company name:</label>
+	<input name="company" id="client_company" value="<%=h @client[:company] %>">
+	<label for="client_city">your city:</label>
+	<input name="city" id="client_city" value="<%=h @client[:city] %>">
+	<label for="client_state">your state/province:</label>
+	<input name="state" id="client_state" value="<%=h @client[:state] %>">
+	<label for="client_country">your country:</label>
+	<select name="country" id="client_country">
+<%=
+@locations.inject('<option value="">… country …</option>') do |html, c|
+	html + '<option value="%s"%s>%s</option>' %
+		[c[:code], (@client[:country] == c[:code]) ? ' selected' : '', c[:name][0,20]]
+end
+%>
+	</select>
+	<label for="client_phone">your phone:</label>
+	<input name="phone" id="client_phone" value="<%=h @client[:phone] %>">
+	<label for="client_currency">money currency:</label>
+	<select name="currency" id="client_currency">
+<%=
+@currencies.inject('<option value="">currency</option>') do |html, c|
+	html + '<option value="%s"%s>%s: %s</option>' %
+		[c[:code], (@client[:currency] == c[:code]) ? ' selected' : '', c[:code], c[:name]]
+end
+%>
+	</select>
+	<input type="submit" value="update">
+</form>
+
+<hr>
+
+<h2>Change your password?</h2>
+<form action="/password" method="post">
+	<label for="client_password">new password:</label>
+	<input type="password" name="password" id="client_password">
+	<input type="submit" value="change password">
+</form>
+
+</section>

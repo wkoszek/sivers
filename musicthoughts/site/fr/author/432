@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Buddha PenséesMusicales</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<link rel="alternate" hreflang="en" href="http://musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="es" href="http://es.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="de" href="http://de.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="it" href="http://it.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="pt" href="http://pt.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="ru" href="http://ru.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="ar" href="http://ar.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="ja" href="http://ja.musicthoughts.com/author/432" />
+<link rel="alternate" hreflang="zh" href="http://zh.musicthoughts.com/author/432" />
+</head>
+<body id="author">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/">PenséesMusicales</a></h1>
+<h2>un endroit calme pour réfléchir à la musique</h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new">nouveau</a></li>
+	<li><a href="/authors">auteurs</a></li>
+	<li><a href="/contributors">collaborateurs</a></li>
+	<li><a href="/t/286">pensée au hasard</a></li>
+	<li><a href="/search">chercher</a></li>
+	<li><a href="/about">à propos</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<h1>Buddha</h1>
+<ul>
+
+	<li><blockquote cite="/t/2541">
+	<q>Les mots ont le pouvoir de détruire ou de guérir. Quand ils sont à la fois vrai et de coeur, ils peuvent changer le monde.</q>
+	<cite><a href="/t/2541">Buddha</a></cite>
+</blockquote>
+
+</li>
+
+</ul>
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+	<li><a href="http://musicthoughts.com/author/432">English</a></li>
+	<li><a href="http://es.musicthoughts.com/author/432">Español</a></li>
+	<li><a href="http://de.musicthoughts.com/author/432">Deutsch</a></li>
+	<li><a href="http://it.musicthoughts.com/author/432">Italiano</a></li>
+	<li><a href="http://pt.musicthoughts.com/author/432">Português</a></li>
+	<li><a href="http://ru.musicthoughts.com/author/432">Русский</a></li>
+	<li><a href="http://ar.musicthoughts.com/author/432">العربية</a></li>
+	<li><a href="http://ja.musicthoughts.com/author/432">日本語</a></li>
+	<li><a href="http://zh.musicthoughts.com/author/432">中文</a></li>
+</ul>
+</nav>
+
+<blockquote cite="/t/1809">
+	<q>Je n&#39;ai jamais connu de musicien qui regrettait de l&#39;être. Qu&#39;importe les déceptions que la vie te réserve, la musique ne te décevra jamais.</q>
+	<cite><a href="/t/1809">Virgil Thompson</a></cite>
+</blockquote>
+
+
+</footer>
+
+</div>
+</body>
+</html>
+

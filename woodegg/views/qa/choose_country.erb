@@ -1,0 +1,7 @@
+<p>Choose which country you will be answering questions for:</p>
+
+<ul>
+<% @qacc.each do |cc| %>
+	<li><a href="/qa/<%= cc %>"><%= Countries.hsh[cc.upcase] %></a></li>
+<% end %>
+</ul>

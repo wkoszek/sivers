@@ -1,0 +1,20 @@
+<!-- Cyrano -->
+
+<h1><a href="/projects">Projects</a> → Cyrano</h1>
+
+<p>
+Musicians (and others) are often told that we should be tweeting a lot.
+</p><p>
+But most of us don't feel like it, or just don't have that much to say.
+</p><p>
+Solution?  Get Cyrano to do it for you.
+</p><p>
+Cyrano hires some great writers to write thousands of great tweets in advance.  Group them by personality (funny, deep, etc).
+</p><p>
+Customer signs up, gives auth access to their Twitter/Facebook/etc status API.  Chooses a personality (funny, deep, etc), a frequency (daily?), and a time (9am? 9pm?).  Then Cyrano starts tweeting as them, unbeknownst to all.
+</p><p>
+Clearly, this is a goofy light-hearted thing, only meant for those who don't take any of this too seriously.  Though there should be enough tweets that people won't get “busted” for “hey - that's not you writing!”, someone should only sign up if they don't really care if they're busted or not.
+</p>
+
+<h3>Status: maybe some day</h3>
+

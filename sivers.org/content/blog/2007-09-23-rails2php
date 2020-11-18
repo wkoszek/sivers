@@ -1,0 +1,143 @@
+<!-- 7 reasons I switched back to PHP after 2 years on Rails -->
+<p><em>
+	This was originally posted on <a href="http://archive.oreilly.com/pub/post/7_reasons_i_switched_back_to_p_1.html">O’Reilly</a> in September 2007.
+	Re-posting it here for a permanent archive.
+</em></p>
+<hr>
+<p>
+	SUMMARY:
+<strong>
+	I spent two years trying to make Rails do something it wasn’t meant to do, then realized my old abandoned language would do just fine if approached with my new Rails-gained wisdom.
+</strong>
+</p><p>
+	BACKGROUND:
+</p><p>
+	Back in January 2005, I announced that I was going to completely scrap over 100,000 lines of messy PHP code in my existing CD Baby (cdbaby.com) website, and rewrite the entire thing in Rails, from scratch.
+</p><p>
+	I hired one of the best Rails programmers in the world (Jeremy Kemper), and we set off on this huge task with intensity.
+	The first few months showed good progress, and Jeremy could not have been more amazing, twisting the deep inner guts of Rails to make it do things it was never intended to do.
+</p><p>
+	But at every step, it seemed our needs clashed with Rails’ preferences.
+	Like trying to turn a train into a boat.
+	It’s possible with a lot of glue.
+	But it’s damn hard, and makes you ask why you’re really doing this.
+</p><p>
+<strong>
+	Two years later, after various setbacks, we were less than halfway done.
+</strong>
+	(To be fair to Jeremy’s expertise: many setbacks were because of tech emergencies that pulled our attention to other internal projects that were not the rewrite itself.)
+	The entire music distribution world had changed, and we were still working on the same goddamn rewrite.
+	I said fuckit, and we abandoned the Rails rewrite.
+	Jeremy took a job with <a href="https://basecamp.com/">37 Signals</a>, and that was that.
+</p><p>
+	I didn’t abandon the rewrite idea, though.
+	I just asked myself one important question:
+</p><p>
+<strong>
+	“Is there anything Rails can do, that PHP can’t do?”
+</strong>
+</p><p>
+	The answer is no.
+</p><p>
+	I threw away 2 years of Rails code, and opened a new empty project.
+</p><p>
+	Then in a mere two months, by myself, not even telling anyone I was doing this, using nothing but vim, and no frameworks, I rewrote CD Baby from scratch in PHP.
+	Done!
+	Launched!
+	And it works amazingly well.
+</p><p>
+	It’s the most beautiful PHP I’ve ever written, all wonderfully <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> and <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a>, and and I owe it all to Rails.
+</p><p>
+<h3>
+	Inspired by Rails:
+</h3>
+<ul><li>
+	all logic is coming from the models, one per database table, like Martin Fowler’s Active Record pattern.
+</li><li>
+	no requires or includes needed, thanks to __autoload
+</li><li>
+	real MVC separation: controllers have no HTML or business-logic, and only use REST-approved HTTP.
+</li><li>
+	all HTML coming from a cute and powerful templating system I whipped up in 80 lines, all multi-lingual and caching and everything
+</li><li>
+	… and much more. In only 12,000 lines of code, including HTML templates. (Down from 90,000, before.)
+</li></ul>
+<p>
+	Though I’m not saying other people should do what I’ve done, I thought I should share my reasons and lessons-learned, here:
+</p>
+<h3>
+	7 reasons I switched back to PHP after 2 years on Rails:
+</h3>
+<h4>
+	#1 - “Is there anything Rails/Ruby can do that PHP can’t do? No.”
+</h4>
+<p>
+	For 2 years, I thought Rails is genius, PHP is shit. Rails is powerful, PHP is crap.
+	I was nearly killing my company in the name of blindly insisting Rails was the answer to all questions, timeframes be damned.
+	But when I took a real emotionless non-prejudiced look at it, I realized the language didn’t matter that much.
+	Ruby is prettier. Rails has nice shortcuts. But no big shortcuts I can’t code-up myself in a day if needed.
+	Looked at from a real practical point of view, I could do anything in PHP, and there were many business reasons to do so.
+</p>
+<h4>
+	#2 - Our entire company’s stuff was in PHP. Don’t underestimate integration.
+</h4>
+<p>
+	By the old plan (ditching all PHP and doing it all in Rails), there was going to be this One Big Day, where our entire Intranet, Storefront, Members’ Login Area, and dozens of cron shell scripts were ALL going to have to change.
+	85 employees re-trained. All customers and clients calling up furious that One Big Day, with questions about the new system.
+	Instead, I was able to slowly gut the ugly PHP and replace it with beautiful PHP.
+	Launch in stages. No big re-training.
+</p>
+<h4>
+	#3 - I don’t want what i don’t need
+</h4>
+<p>
+	I admire the hell out of the Rails core gang that actually understand every line inside Rails itself.
+	But I don’t.
+	And I’m sure I will never use 90% of it.
+	With my little self-made system, every line is only what’s absolutely necessary.
+	That makes me extremely happy and comfortable.
+</p>
+<h4>
+	#4 - It’s small and fast
+</h4>
+<p>
+	One little 2U server is serving up a ton of cdbaby.com traffic damn fast with hardly any load.
+</p>
+<h4>
+	#5 - It’s built to my tastes
+</h4>
+<p>
+	I don’t need to adapt my ways to Rails.
+	I tell PHP exactly what I want to do, the way I want to do it, and it doesn’t complain.
+	I was having to hack-up Rails with all kinds of plugins and mods to get it to be the multi-lingual integration to our existing 95-table database.
+	My new code was made just for me.
+	The most efficient possible code to work with our exact needs.
+</p>
+<h4>
+	#6 - I love SQL
+</h4>
+<p>
+	Speaking of tastes: one tiny but important thing:
+	I love SQL. I dream in queries. I think in tables.
+	I was always fighting against Rails and its migrations hiding my beloved SQL from me.
+</p>
+<h4>
+	#7 - Programming languages are like girlfriends.
+	The new one is better because *you* are better
+</h4>
+<p>
+	Rails was an amazing teacher.
+	I loved it’s “do exactly as I say” paint-by-numbers framework that taught me some great guidelines.
+	I love Ruby for making me really understand OOP.
+	God, Ruby is so beautiful.
+	I love you, Ruby.
+	But the main reason that any programmer learning any new language thinks the new language is so much better than the old one is because he’s a better programmer now!
+	You look back at your old ugly PHP code, compared to your new beautiful Ruby code, and think, “God that PHP is ugly!”
+	But don’t forget you wrote that PHP years ago and are unfairly discriminating against it now.
+	It’s not the language (entirely).
+	It’s you. You’re better now. Give yourself some credit.
+</p><p>
+	Ok. All that being said, I’m looking forward to using Rails some day when I start a brand new project from scratch, with Rails in mind from the beginning.
+</p><p>
+	But I hope that this reaches someone somewhere thinking, “God our old code is ugly. If we only threw it all away and did it all over in Rails, it’d be so much easier!”
+</p>

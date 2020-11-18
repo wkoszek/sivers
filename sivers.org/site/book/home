@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOOKS | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: over 200 book summaries with detailed notes for each">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="BOOKS | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/book">
+<meta property="og:image" content="https://sivers.org/images/bookstand.jpg">
+<meta property="og:description" content="over 200 book summaries with detailed notes for each">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="BOOKS | Derek Sivers">
+<meta name="twitter:description" content="over 200 book summaries with detailed notes for each">
+<meta name="twitter:image" content="https://sivers.org/images/bookstand.jpg">
+</head>
+<body id="booklist">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<header>
+	<h1>Books I’ve read</h1>
+	<p>Tiny summary but <strong>detailed notes for each</strong>. Use the ISBN number to find it from your local library or anywhere else. <strong>This page will constantly update as I read more</strong>, so bookmark it if you want to check back in a few months.</p>
+</header>
+<p id="sorters">Sorted with <strong>my top recommendations up top</strong>. Sort by
+	<a href="/book?sort=title" id="sort-title">title</a>,
+	<a href="/book?sort=date" id="sort-date">newest</a>, or
+	<a href="/book?sort=rating" id="sort-rating">best</a>.
+</p>
+<hr>
+
+<section id="allbooks">
+	<figure class="abook" data-rating="10" data-title="Mindwise: How We Understand What Others Think, Believe, Feel, and Want - by Nicholas Epley" data-date="2014-10-01">
+		<a href="/book/Mindwise"><img src="/images/124x187.gif" data-echo="/images/Mindwise.gif" alt="Mindwise: How We Understand What Others Think, Believe, Feel, and Want - by Nicholas Epley" /></a>
+		<figcaption>
+			<h2><a href="/book/Mindwise">Mindwise: How We Understand What Others Think, Believe, Feel, and Want - by Nicholas Epley</a></h2>
+			<p>ISBN: 0307595919 READ: 2014-10-01 RATING: 10/10</p>
+			<p>Many new brilliant insights, especially about over-estimating the differences between you and others, thereby separating into us-vs-them tribalism. Scan to the end of my notes, to see. If you know more books like this, please recommend them to me. I adore this subject.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="So Good They Can't Ignore You - by Cal Newport" data-date="2012-10-07">
+		<a href="/book/SoGood"><img src="/images/124x187.gif" data-echo="/images/SoGood.gif" alt="So Good They Can't Ignore You - by Cal Newport" /></a>
+		<figcaption>
+			<h2><a href="/book/SoGood">So Good They Can't Ignore You - by Cal Newport</a></h2>
+			<p>ISBN: 1455509124 READ: 2012-10-07 RATING: 10/10</p>
+			<p>Shockingly smart thoughts about your career. A MUST-READ for anyone who is not loving their work, wanting to quit their job, and follow their passion, or not sure what to do next.  I'm recommending this many times a week to people who email me with these kinds of questions. Best book I've ever read on the subject.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="The War of Art - by Steven Pressfield" data-date="2012-01-05">
+		<a href="/book/WarOfArt"><img src="/images/124x187.gif" data-echo="/images/WarOfArt.gif" alt="The War of Art - by Steven Pressfield" /></a>
+		<figcaption>
+			<h2><a href="/book/WarOfArt">The War of Art - by Steven Pressfield</a></h2>
+			<p>ISBN: 0446691437 READ: 2012-01-05 RATING: 10/10</p>
+			<p>Have you experienced a vision of the person you might become, the work you could accomplish, the realized being you were meant to be? Are you a writer who doesn’t write, a painter who doesn’t paint, an entrepreneur who never starts a venture? Then you know what “Resistance” is. This book is about that. Read it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="Thinking, Fast and Slow - by Daniel Kahneman" data-date="2011-12-08">
+		<a href="/book/ThinkingFastAndSlow"><img src="/images/124x187.gif" data-echo="/images/ThinkingFastAndSlow.gif" alt="Thinking, Fast and Slow - by Daniel Kahneman" /></a>
+		<figcaption>
+			<h2><a href="/book/ThinkingFastAndSlow">Thinking, Fast and Slow - by Daniel Kahneman</a></h2>
+			<p>ISBN: 0374275637 READ: 2011-12-08 RATING: 10/10</p>
+			<p>If you liked “Predictably Irrational” or “Stumbling on Happiness” or any of those pop-psychology books, well, this is the Godfather of all of their work. Huge thorough book gives a great overview of much of his work. Read the other quotes on Amazon about it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="A Guide to the Good Life: The Ancient Art of Stoic Joy - by William Irvine" data-date="2010-09-26">
+		<a href="/book/StoicJoy"><img src="/images/124x187.gif" data-echo="/images/StoicJoy.gif" alt="A Guide to the Good Life: The Ancient Art of Stoic Joy - by William Irvine" /></a>
+		<figcaption>
+			<h2><a href="/book/StoicJoy">A Guide to the Good Life: The Ancient Art of Stoic Joy - by William Irvine</a></h2>
+			<p>ISBN: 0195374614 READ: 2010-09-26 RATING: 10/10</p>
+			<p>Almost too personal for me to give an objective review, because I found when reading it that the quirky philosophy I've been living my life by since 17 matches up exactly with a 2000-year-old philosophy called Stoicism. Mine was self-developed haphazardly, so it was fascinating to read the refined developed original. Really resonated.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="The Time Paradox - by Philip Zimbardo and John Boyd" data-date="2009-04-03">
+		<a href="/book/TimeParadox"><img src="/images/124x187.gif" data-echo="/images/TimeParadox.gif" alt="The Time Paradox - by Philip Zimbardo and John Boyd" /></a>
+		<figcaption>
+			<h2><a href="/book/TimeParadox">The Time Paradox - by Philip Zimbardo and John Boyd</a></h2>
+			<p>ISBN: 1416541993 READ: 2009-04-03 RATING: 10/10</p>
+			<p>Profound idea that everyone has a primary time focus: either Future-focused, Present-focused, or Past-focused. Fascinating implications of each. Because I'm so future-focused, reading this book helped me understand people who are very present-focused. Also great advice on shifting your focus when needed. I read it 7 years ago, but still think about it almost every day.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="Stumbling on Happiness - by Daniel Gilbert" data-date="2007-07-11">
+		<a href="/book/StumblingOnHappiness"><img src="/images/124x187.gif" data-echo="/images/StumblingOnHappiness.gif" alt="Stumbling on Happiness - by Daniel Gilbert" /></a>
+		<figcaption>
+			<h2><a href="/book/StumblingOnHappiness">Stumbling on Happiness - by Daniel Gilbert</a></h2>
+			<p>ISBN: 1400077427 READ: 2007-07-11 RATING: 10/10</p>
+			<p>Not at all new-agey, as the title might suggest. Harvard professor of psychology has studied happiness for years, and shares factual findings that will change the way you look at the world.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="10" data-title="E-Myth Revisited - by Michael Gerber" data-date="2004-02-26">
+		<a href="/book/EMythRevisited"><img src="/images/124x187.gif" data-echo="/images/EMythRevisited.gif" alt="E-Myth Revisited - by Michael Gerber" /></a>
+		<figcaption>
+			<h2><a href="/book/EMythRevisited">E-Myth Revisited - by Michael Gerber</a></h2>
+			<p>ISBN: 0887307280 READ: 2004-02-26 RATING: 10/10</p>
+			<p>Absolutely everyone who is an entrepreneur or wants to be one needs to read this book. I first read it after 10 years of successfully running my company, and was still blown away and totally humbled by its wisdom. Re-reading it today, I'm amazed how my view of business was completely changed by this one little book. See my notes for examples, but definitely read the book itself to get the real impact.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Au Contraire: Figuring Out the French - by Gilles Asselin and Ruth Mastron" data-date="2016-10-11">
+		<a href="/book/AuContraire"><img src="/images/124x187.gif" data-echo="/images/AuContraire.gif" alt="Au Contraire: Figuring Out the French - by Gilles Asselin and Ruth Mastron" /></a>
+		<figcaption>
+			<h2><a href="/book/AuContraire">Au Contraire: Figuring Out the French - by Gilles Asselin and Ruth Mastron</a></h2>
+			<p>ISBN: 1931930929 READ: 2016-10-11 RATING: 9/10</p>
+			<p>The absolute best book I've ever found on explaining the mindset of a country. (Runner-up is “Watching the English” by Kate Fox.) I wish every country had a book this deep. Not just what but why! Also appreciate the bold writing, skipping caveats.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Subtle Art of Not Giving a Fuck - by Mark Manson " data-date="2016-09-26">
+		<a href="/book/NotFuck"><img src="/images/124x187.gif" data-echo="/images/NotFuck.gif" alt="The Subtle Art of Not Giving a Fuck - by Mark Manson " /></a>
+		<figcaption>
+			<h2><a href="/book/NotFuck">The Subtle Art of Not Giving a Fuck - by Mark Manson </a></h2>
+			<p>ISBN: 0062457713 READ: 2016-09-26 RATING: 9/10</p>
+			<p>The opposite of every other book. Don’t try. Give up. Be wrong. Lower your standards. Stop believing in yourself. Follow the pain. And oh yeah, kill yourself. Each point is profoundly true, useful, and more powerful than the usual positivity. Succinct but surprisingly deep, I read it in one night, then read it again a month later.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Ego Is the Enemy - by Ryan Holiday" data-date="2016-08-01">
+		<a href="/book/EgoEnemy"><img src="/images/124x187.gif" data-echo="/images/EgoEnemy.gif" alt="Ego Is the Enemy - by Ryan Holiday" /></a>
+		<figcaption>
+			<h2><a href="/book/EgoEnemy">Ego Is the Enemy - by Ryan Holiday</a></h2>
+			<p>ISBN: 1591847818 READ: 2016-08-01 RATING: 9/10</p>
+			<p>Forget yourself and focus on the work. Be humble and persistent. Value discipline and results, not passion and confidence. Be lesser, do more. This message is crucial, but the opposite of almost every other book. I wish everyone would read this. I need to re-read it each year. It's that important. It's easy to read this and say “oh yeah I've got my ego under control”, but the problem is deeper than that.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Total Recall - by Arnold Schwarzenegger" data-date="2016-05-05">
+		<a href="/book/TotalRecall"><img src="/images/124x187.gif" data-echo="/images/TotalRecall.gif" alt="Total Recall - by Arnold Schwarzenegger" /></a>
+		<figcaption>
+			<h2><a href="/book/TotalRecall">Total Recall - by Arnold Schwarzenegger</a></h2>
+			<p>ISBN: 1410452107 READ: 2016-05-05 RATING: 9/10</p>
+			<p>I was not expecting to love this so much! I'm not a fan of his, but MAN his ambitious mindset, especially in his early days when he first moved to America, is so inspiring. Both on the movie-star side and real-estate side. If you need a role model or inspiration for thinking big, this is it. (Skip the final section on his governor days.) I was telling friends stories and thoughts about this book for weeks afterwards.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now - by Gordon Livingston" data-date="2016-04-26">
+		<a href="/book/30TrueThings"><img src="/images/124x187.gif" data-echo="/images/30TrueThings.gif" alt="Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now - by Gordon Livingston" /></a>
+		<figcaption>
+			<h2><a href="/book/30TrueThings">Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now - by Gordon Livingston</a></h2>
+			<p>ISBN: 1569244197 READ: 2016-04-26 RATING: 9/10</p>
+			<p>Powerful and profound life lessons from a psychiatrist who's been listening to people's problems for decades.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Zero to One - by Peter Thiel and Blake Masters" data-date="2016-03-10">
+		<a href="/book/ZeroToOne"><img src="/images/124x187.gif" data-echo="/images/ZeroToOne.gif" alt="Zero to One - by Peter Thiel and Blake Masters" /></a>
+		<figcaption>
+			<h2><a href="/book/ZeroToOne">Zero to One - by Peter Thiel and Blake Masters</a></h2>
+			<p>ISBN: 0804139296 READ: 2016-03-10 RATING: 9/10</p>
+			<p>Brilliant, bold, and clear thoughts about how to make a big Silicon Valley size company. Other great insights like definite/indefinite optimism/pessimism.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Cows, Pigs, Wars, and Witches - by Marvin Harris" data-date="2016-02-19">
+		<a href="/book/CowsPigsWarsWitches"><img src="/images/124x187.gif" data-echo="/images/CowsPigsWarsWitches.gif" alt="Cows, Pigs, Wars, and Witches - by Marvin Harris" /></a>
+		<figcaption>
+			<h2><a href="/book/CowsPigsWarsWitches">Cows, Pigs, Wars, and Witches - by Marvin Harris</a></h2>
+			<p>ISBN: 0679724680 READ: 2016-02-19 RATING: 9/10</p>
+			<p>Mind-blowing anthropology. Great argument that the reasons that religions worship cows or hate pigs, that tribes wage wars, or Europe's 200 years of witch hunts, are all very practical economic reasons usually unknown to the participants or washed out of history. But they're revealed here in zoomed-out hindsight. My notes here can't describe it. You have to read the whole book. Riveting.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Entrepreneur Roller Coaster - by Darren Hardy" data-date="2015-08-01">
+		<a href="/book/RollerCoaster"><img src="/images/124x187.gif" data-echo="/images/RollerCoaster.gif" alt="The Entrepreneur Roller Coaster - by Darren Hardy" /></a>
+		<figcaption>
+			<h2><a href="/book/RollerCoaster">The Entrepreneur Roller Coaster - by Darren Hardy</a></h2>
+			<p>ISBN: 0990798623 READ: 2015-08-01 RATING: 9/10</p>
+			<p>Rar! My heart rate is racing as I tear through this riveting book. Darren captures and spreads the entrepreneurial spirit better than anyone I know. I've been a successful entrepreneur for 25 years but The Entrepreneur Roller Coaster just got me more excited and enlightened than I've been in a long time. You must read and USE this immediately!</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="On Writing Well - by William Zinsser" data-date="2015-08-01">
+		<a href="/book/OnWritingWell"><img src="/images/124x187.gif" data-echo="/images/OnWritingWell.gif" alt="On Writing Well - by William Zinsser" /></a>
+		<figcaption>
+			<h2><a href="/book/OnWritingWell">On Writing Well - by William Zinsser</a></h2>
+			<p>ISBN: 0060891548 READ: 2015-08-01 RATING: 9/10</p>
+			<p>Pow! Love it. Great blunt advice about writing better non-fiction. So inspiring.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Wisdom of No Escape - by Pema Chödrön" data-date="2015-04-16">
+		<a href="/book/WisdomOfNoEscape"><img src="/images/124x187.gif" data-echo="/images/WisdomOfNoEscape.gif" alt="The Wisdom of No Escape - by Pema Chödrön" /></a>
+		<figcaption>
+			<h2><a href="/book/WisdomOfNoEscape">The Wisdom of No Escape - by Pema Chödrön</a></h2>
+			<p>ISBN: 1570628726 READ: 2015-04-16 RATING: 9/10</p>
+			<p>Powerful thoughts on not running, distracting, or escaping, but sticking with something all the way through.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="When Things Fall Apart - by Pema Chödrön" data-date="2014-11-30">
+		<a href="/book/WhenThingsFallApart"><img src="/images/124x187.gif" data-echo="/images/WhenThingsFallApart.gif" alt="When Things Fall Apart - by Pema Chödrön" /></a>
+		<figcaption>
+			<h2><a href="/book/WhenThingsFallApart">When Things Fall Apart - by Pema Chödrön</a></h2>
+			<p>ISBN: 1570623449 READ: 2014-11-30 RATING: 9/10</p>
+			<p>Profound philosophy on facing the negative emotions head-on and getting to know them well, instead of trying to avoid them or escape.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Fluent Forever - by Gabriel Wyner" data-date="2014-08-18">
+		<a href="/book/FluentForever"><img src="/images/124x187.gif" data-echo="/images/FluentForever.gif" alt="Fluent Forever - by Gabriel Wyner" /></a>
+		<figcaption>
+			<h2><a href="/book/FluentForever">Fluent Forever - by Gabriel Wyner</a></h2>
+			<p>ISBN: 0385348118 READ: 2014-08-18 RATING: 9/10</p>
+			<p>Forget Rosetta Stone, Pimsleur, and the rest. I really believe this is the best way to learn another language, by far. Using the most up-to-date techniques and insights, and a unique emphasis on getting the sounds correct first. It's not easy, but it's much more effective than any other program or guide. Highly recommended if you're serious, and ready to do it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Compound Effect - by Darren Hardy" data-date="2014-07-17">
+		<a href="/book/CompoundEffect"><img src="/images/124x187.gif" data-echo="/images/CompoundEffect.gif" alt="The Compound Effect - by Darren Hardy" /></a>
+		<figcaption>
+			<h2><a href="/book/CompoundEffect">The Compound Effect - by Darren Hardy</a></h2>
+			<p>ISBN: 159315724X READ: 2014-07-17 RATING: 9/10</p>
+			<p>Classic self-help book, in the best sense. Inspired the hell out of me. Mostly fundamentals I had heard before, but put in a very energetic go-do-it way. As he says, “You already know all that you need to succeed. You don’t need to learn anything more. If all we needed was more information, everyone with an Internet connection would live in a mansion, have abs of steel, and be blissfully happy.”</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="When Cultures Collide - by Richard D. Lewis" data-date="2014-07-16">
+		<a href="/book/WhenCulturesCollide"><img src="/images/124x187.gif" data-echo="/images/WhenCulturesCollide.gif" alt="When Cultures Collide - by Richard D. Lewis" /></a>
+		<figcaption>
+			<h2><a href="/book/WhenCulturesCollide">When Cultures Collide - by Richard D. Lewis</a></h2>
+			<p>ISBN: 1904838022 READ: 2014-07-16 RATING: 9/10</p>
+			<p>Masterpiece of cultural observations. I wish there were more books like this. My Wood Egg books were created with the same goal. Insights into different countries' cultures. Some amazing, like the reason for American's lack of manners, or Japanese procedures. My detailed notes don't do it justice because I practically underlined the entire book, I loved it so much.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Antidote: Happiness for People Who Can't Stand Positive Thinking - by Oliver Burkeman" data-date="2014-06-28">
+		<a href="/book/Antidote"><img src="/images/124x187.gif" data-echo="/images/Antidote.gif" alt="The Antidote: Happiness for People Who Can't Stand Positive Thinking - by Oliver Burkeman" /></a>
+		<figcaption>
+			<h2><a href="/book/Antidote">The Antidote: Happiness for People Who Can't Stand Positive Thinking - by Oliver Burkeman</a></h2>
+			<p>ISBN: 0865478015 READ: 2014-06-28 RATING: 9/10</p>
+			<p>Surprisingly deep and philosophical. The first book I've read in years that makes me want to read it twice. The title and cover make it seem like light pop, but it's a wonderfully-cynical British journalist diving into Stoicism, meditation, death, etc.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Show Your Work - by Austin Kleon" data-date="2014-06-15">
+		<a href="/book/ShowYourWork"><img src="/images/124x187.gif" data-echo="/images/ShowYourWork.gif" alt="Show Your Work - by Austin Kleon" /></a>
+		<figcaption>
+			<h2><a href="/book/ShowYourWork">Show Your Work - by Austin Kleon</a></h2>
+			<p>ISBN: 076117897X READ: 2014-06-15 RATING: 9/10</p>
+			<p>Short inspiring book about sharing your work online. Really healthy perspective. Makes me want to do it much more.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Self Reliance - by Ralph Waldo Emerson" data-date="2013-11-08">
+		<a href="/book/SelfReliance"><img src="/images/124x187.gif" data-echo="/images/SelfReliance.gif" alt="Self Reliance - by Ralph Waldo Emerson" /></a>
+		<figcaption>
+			<h2><a href="/book/SelfReliance">Self Reliance - by Ralph Waldo Emerson</a></h2>
+			<p>ISBN: 1936719061 READ: 2013-11-08 RATING: 9/10</p>
+			<p>Pow! This punched me in the gut from page one. Takes a tiny effort to read the English of the 1840s, but what a reward. A masterpiece essay (manifesto?) on independence, non-conformity, and trusting oneself. </p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Antifragile - by Nassim Nicholas Taleb" data-date="2013-05-15">
+		<a href="/book/Antifragile"><img src="/images/124x187.gif" data-echo="/images/Antifragile.gif" alt="Antifragile - by Nassim Nicholas Taleb" /></a>
+		<figcaption>
+			<h2><a href="/book/Antifragile">Antifragile - by Nassim Nicholas Taleb</a></h2>
+			<p>ISBN: 1400067820 READ: 2013-05-15 RATING: 9/10</p>
+			<p>Bold perspectives, unusual ideas, and surprisingly wise advice around an interesting subject of the “opposite of fragile.” Looking through that lens at health, education, governments, business, and life philosophy. Very inspiring, and sparks a lot of further discussion.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Willpower Instinct - by Kelly McGonigal" data-date="2013-02-05">
+		<a href="/book/WillpowerInstinct"><img src="/images/124x187.gif" data-echo="/images/WillpowerInstinct.gif" alt="The Willpower Instinct - by Kelly McGonigal" /></a>
+		<figcaption>
+			<h2><a href="/book/WillpowerInstinct">The Willpower Instinct - by Kelly McGonigal</a></h2>
+			<p>ISBN: 1583334386 READ: 2013-02-05 RATING: 9/10</p>
+			<p>Amazing book about willpower from Stanford psychology professor who teaches just this.  Killer first point: The best way to improve your self-control is to see how and why you lose control.  This is a better book than the other book on Willpower here on my list, because it's more actionable, better written, better presented.  Really amazing (IF you act on it!)</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Turning Pro - by Steven Pressfield" data-date="2012-10-25">
+		<a href="/book/TurningPro"><img src="/images/124x187.gif" data-echo="/images/TurningPro.gif" alt="Turning Pro - by Steven Pressfield" /></a>
+		<figcaption>
+			<h2><a href="/book/TurningPro">Turning Pro - by Steven Pressfield</a></h2>
+			<p>ISBN: 1936891034 READ: 2012-10-25 RATING: 9/10</p>
+			<p>In the same vein as his other books “Do the Work” and ”War of Art” - but a message that needs to be said again and again to really get through. It's all about the resistance, avoiding distractions, getting serious. Here he dives more into the mindset shift of thinking of your art as a hobby versus a real career. This stuff shakes me to the core, every time.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Quiet - by Susan Cain" data-date="2012-09-22">
+		<a href="/book/Quiet"><img src="/images/124x187.gif" data-echo="/images/Quiet.gif" alt="Quiet - by Susan Cain" /></a>
+		<figcaption>
+			<h2><a href="/book/Quiet">Quiet - by Susan Cain</a></h2>
+			<p>ISBN: 0307352145 READ: 2012-09-22 RATING: 9/10</p>
+			<p>Any introvert should like this book. Wonderful info and insights about introversion. It'll help you defend your preference for low-stimulus environments. Since reading it, I feel better about insisting on my quiet/alone time.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="What Technology Wants - by Kevin Kelly" data-date="2012-04-26">
+		<a href="/book/WhatTechnologyWants"><img src="/images/124x187.gif" data-echo="/images/WhatTechnologyWants.gif" alt="What Technology Wants - by Kevin Kelly" /></a>
+		<figcaption>
+			<h2><a href="/book/WhatTechnologyWants">What Technology Wants - by Kevin Kelly</a></h2>
+			<p>ISBN: 0143120174 READ: 2012-04-26 RATING: 9/10</p>
+			<p>Fascinating historical and philosophical perspective on technology, where it's come from, where it's going.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Do the Work - by Steven Pressfield" data-date="2011-10-25">
+		<a href="/book/DoTheWork"><img src="/images/124x187.gif" data-echo="/images/DoTheWork.gif" alt="Do the Work - by Steven Pressfield" /></a>
+		<figcaption>
+			<h2><a href="/book/DoTheWork">Do the Work - by Steven Pressfield</a></h2>
+			<p>ISBN: 1936719010 READ: 2011-10-25 RATING: 9/10</p>
+			<p>A true manifesto. A call to action. A kick in the butt for any creative person. Great thoughts on overcoming the resistance to creating.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="What Got You Here Won't Get You There - by  Marshall Goldsmith" data-date="2011-08-22">
+		<a href="/book/WhatGotYouThere"><img src="/images/124x187.gif" data-echo="/images/WhatGotYouThere.gif" alt="What Got You Here Won't Get You There - by  Marshall Goldsmith" /></a>
+		<figcaption>
+			<h2><a href="/book/WhatGotYouThere">What Got You Here Won't Get You There - by  Marshall Goldsmith</a></h2>
+			<p>ISBN: 1401301304 READ: 2011-08-22 RATING: 9/10</p>
+			<p>Aimed at already-successful people. The personality traits that brought you to success (personal discipline, saying yes to everything, over-confidence) are the same traits that hold you back from going further! (Where you need to listen to lead, and don't let over-confidence make you over-commit.) Stinging counter-intuitive insights that hit very close to home for me. Great specific suggestions for how to improve.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Personal MBA - by Josh Kaufman" data-date="2011-02-16">
+		<a href="/book/PersonalMBA"><img src="/images/124x187.gif" data-echo="/images/PersonalMBA.gif" alt="The Personal MBA - by Josh Kaufman" /></a>
+		<figcaption>
+			<h2><a href="/book/PersonalMBA">The Personal MBA - by Josh Kaufman</a></h2>
+			<p>ISBN: 1591843529 READ: 2011-02-16 RATING: 9/10</p>
+			<p>Wow. A masterpiece. This is now the one “START HERE” book I'll be recommending to everybody interested in business. An amazing overview of everything you need to know. Covers all the basics, minus buzz-words and fluff. Look at my notes for an example, but read the whole book. One of the most inspiring things I've read in years. Want proof? I asked the author to be my coach/mentor afterwards. It's that good.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Drive - by Daniel Pink" data-date="2010-09-01">
+		<a href="/book/Drive"><img src="/images/124x187.gif" data-echo="/images/Drive.gif" alt="Drive - by Daniel Pink" /></a>
+		<figcaption>
+			<h2><a href="/book/Drive">Drive - by Daniel Pink</a></h2>
+			<p>ISBN: 1594488843 READ: 2010-09-01 RATING: 9/10</p>
+			<p>Essential for all managers. Deep surprising study of motivation at work. Extrinsic vs intrinsic. Work vs play. When money is used as an external reward for some activity, the subjects lose intrinsic interest for the activity. See http://www.youtube.com/watch?v=u6XAPnuFjJc</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Switch - by Chip Heath and Dan Heath" data-date="2010-05-10">
+		<a href="/book/Switch"><img src="/images/124x187.gif" data-echo="/images/Switch.gif" alt="Switch - by Chip Heath and Dan Heath" /></a>
+		<figcaption>
+			<h2><a href="/book/Switch">Switch - by Chip Heath and Dan Heath</a></h2>
+			<p>ISBN: 0385528752 READ: 2010-05-10 RATING: 9/10</p>
+			<p>Great great great great GREAT psychology book about real ways to make change last - both personal and organizational.  So many powerful insights, based on fact not theory.  Inspiring counterintuitive stories of huge organizational change against all odds.  Highly recommended for everyone.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Happiness Hypothesis  -  by Jonathan Haidt" data-date="2010-05-01">
+		<a href="/book/HappinessHypothesis"><img src="/images/124x187.gif" data-echo="/images/HappinessHypothesis.gif" alt="The Happiness Hypothesis  -  by Jonathan Haidt" /></a>
+		<figcaption>
+			<h2><a href="/book/HappinessHypothesis">The Happiness Hypothesis  -  by Jonathan Haidt</a></h2>
+			<p>ISBN: 0465028020 READ: 2010-05-01 RATING: 9/10</p>
+			<p>Psychology professor's digestible but deep insight into how our minds work, around the topic of happiness. Great metaphor of a rider on the back of an elephant. Rider is reasoning, elephant is emotions. Rider has limited control of what the elephant does. Surprising insights into ethics and morality. See my notes for great quotes, but read the whole well-written book.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Influence - by Robert Cialdini" data-date="2009-08-15">
+		<a href="/book/Influence"><img src="/images/124x187.gif" data-echo="/images/Influence.gif" alt="Influence - by Robert Cialdini" /></a>
+		<figcaption>
+			<h2><a href="/book/Influence">Influence - by Robert Cialdini</a></h2>
+			<p>ISBN: 006124189X READ: 2009-08-15 RATING: 9/10</p>
+			<p>Classic book on the psychology of persuasion.  I read it 15 years ago, thought about it ever since, and re-read it now. How to get a 700% improvement in volunteers. How to sell more by doubling your prices. How to make people feel they made a choice, when really you made it for them.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Personal Development for Smart People - by Steve Pavlina" data-date="2008-12-27">
+		<a href="/book/PersonalDevelopmentForSmartPeople"><img src="/images/124x187.gif" data-echo="/images/PersonalDevelopmentForSmartPeople.gif" alt="Personal Development for Smart People - by Steve Pavlina" /></a>
+		<figcaption>
+			<h2><a href="/book/PersonalDevelopmentForSmartPeople">Personal Development for Smart People - by Steve Pavlina</a></h2>
+			<p>ISBN: 1401922759 READ: 2008-12-27 RATING: 9/10</p>
+			<p>A surprisingly great broad and unflourished look at all different aspects of self-improvement. Really great insights from someone who's read them all.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Predictably Irrational - by Dan Ariely" data-date="2008-08-11">
+		<a href="/book/PredictablyIrrational"><img src="/images/124x187.gif" data-echo="/images/PredictablyIrrational.gif" alt="Predictably Irrational - by Dan Ariely" /></a>
+		<figcaption>
+			<h2><a href="/book/PredictablyIrrational">Predictably Irrational - by Dan Ariely</a></h2>
+			<p>ISBN: 006135323X READ: 2008-08-11 RATING: 9/10</p>
+			<p>My favorite type of book: pointing out and understanding all of the counter-intuitive things people do.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Ultimate Sales Machine - by Chet Holmes" data-date="2008-06-12">
+		<a href="/book/UltimateSalesMachine"><img src="/images/124x187.gif" data-echo="/images/UltimateSalesMachine.gif" alt="The Ultimate Sales Machine - by Chet Holmes" /></a>
+		<figcaption>
+			<h2><a href="/book/UltimateSalesMachine">The Ultimate Sales Machine - by Chet Holmes</a></h2>
+			<p>ISBN: 1591842158 READ: 2008-06-12 RATING: 9/10</p>
+			<p>After reading E-Myth Revisited, this is the best book I’ve seen on how to turn it into real results, step-by-step. Not ambiguous. Very “do it like this”.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The 4-Hour Work Week - by Tim Ferriss" data-date="2008-05-15">
+		<a href="/book/4HourWorkWeek"><img src="/images/124x187.gif" data-echo="/images/4HourWorkWeek.gif" alt="The 4-Hour Work Week - by Tim Ferriss" /></a>
+		<figcaption>
+			<h2><a href="/book/4HourWorkWeek">The 4-Hour Work Week - by Tim Ferriss</a></h2>
+			<p>ISBN: 0307353133 READ: 2008-05-15 RATING: 9/10</p>
+			<p>Brilliant reversal of all of the “how to manage all your crap” books. This one tells you how to say “no” to the crap, set expectations on your terms, and be just as effective in a fraction of the time. This is perfect for musicians with other responsibilities (day jobs) that need more free time to actually make music!</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Smartest Investment Book You'll Ever Read - by Daniel R. Solin" data-date="2008-05-14">
+		<a href="/book/SmartestInvestmentBook"><img src="/images/124x187.gif" data-echo="/images/SmartestInvestmentBook.gif" alt="The Smartest Investment Book You'll Ever Read - by Daniel R. Solin" /></a>
+		<figcaption>
+			<h2><a href="/book/SmartestInvestmentBook">The Smartest Investment Book You'll Ever Read - by Daniel R. Solin</a></h2>
+			<p>ISBN: 0399532838 READ: 2008-05-14 RATING: 9/10</p>
+			<p>An itty-bitty quick-read no-fluff book with the wisest succinct advice to investors: You can't predict the future, and neither can anyone else. Determine your asset allocation, stick with cheap broad indexes, and rebalance occasionally.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Wisdom of Crowds - by James Surowiecki" data-date="2008-04-16">
+		<a href="/book/WisdomOfCrowds"><img src="/images/124x187.gif" data-echo="/images/WisdomOfCrowds.gif" alt="The Wisdom of Crowds - by James Surowiecki" /></a>
+		<figcaption>
+			<h2><a href="/book/WisdomOfCrowds">The Wisdom of Crowds - by James Surowiecki</a></h2>
+			<p>ISBN: 0385721706 READ: 2008-04-16 RATING: 9/10</p>
+			<p>Mind-blowing examples of how groups of diverse people acting independently are smarter than any one person in the group. Has huge implications for management, markets, decision-making, and more.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Paradox of Choice - Why More is Less - by Barry Schwartz" data-date="2007-07-11">
+		<a href="/book/ParadoxOfChoice"><img src="/images/124x187.gif" data-echo="/images/ParadoxOfChoice.gif" alt="The Paradox of Choice - Why More is Less - by Barry Schwartz" /></a>
+		<figcaption>
+			<h2><a href="/book/ParadoxOfChoice">The Paradox of Choice - Why More is Less - by Barry Schwartz</a></h2>
+			<p>ISBN: 0060005688 READ: 2007-07-11 RATING: 9/10</p>
+			<p>Faced with many options or decisions in your life? This will change the way you look at them. We feel worse when we have too many options.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="Made to Stick - by Chip Heath and Dan Heath" data-date="2007-03-12">
+		<a href="/book/MadeToStick"><img src="/images/124x187.gif" data-echo="/images/MadeToStick.gif" alt="Made to Stick - by Chip Heath and Dan Heath" /></a>
+		<figcaption>
+			<h2><a href="/book/MadeToStick">Made to Stick - by Chip Heath and Dan Heath</a></h2>
+			<p>ISBN: 1400064287 READ: 2007-03-12 RATING: 9/10</p>
+			<p>Actually analyzing what makes certain ideas or stories more memorable than others! Fascinating. Apply this wisdom to your songs, bio/story, communication with fans, etc.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="9" data-title="The Art of Profitability - by Adrian Slywotzky" data-date="2005-12-02">
+		<a href="/book/ArtOfProfitability"><img src="/images/124x187.gif" data-echo="/images/ArtOfProfitability.gif" alt="The Art of Profitability - by Adrian Slywotzky" /></a>
+		<figcaption>
+			<h2><a href="/book/ArtOfProfitability">The Art of Profitability - by Adrian Slywotzky</a></h2>
+			<p>ISBN: 0446692271 READ: 2005-12-02 RATING: 9/10</p>
+			<p>25 different models of profitability presented in examples you can relate to your own business, making you realize profit-sources you’d never thought of before.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Guns, Germs, and Steel - by Jared Diamond" data-date="2016-07-25">
+		<a href="/book/GunsGermsSteel"><img src="/images/124x187.gif" data-echo="/images/GunsGermsSteel.gif" alt="Guns, Germs, and Steel - by Jared Diamond" /></a>
+		<figcaption>
+			<h2><a href="/book/GunsGermsSteel">Guns, Germs, and Steel - by Jared Diamond</a></h2>
+			<p>ISBN: 0393061310 READ: 2016-07-25 RATING: 8/10</p>
+			<p>Why did the people of certain continents succeeded in invading other continents and conquering or displacing their people? Fascinating world history. Winner of the Pulitzer Prize. See the notes.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Steal Like an Artist - by Austin Kleon" data-date="2016-05-10">
+		<a href="/book/StealLikeAnArtist"><img src="/images/124x187.gif" data-echo="/images/StealLikeAnArtist.gif" alt="Steal Like an Artist - by Austin Kleon" /></a>
+		<figcaption>
+			<h2><a href="/book/StealLikeAnArtist">Steal Like an Artist - by Austin Kleon</a></h2>
+			<p>ISBN: 0761169253 READ: 2016-05-10 RATING: 8/10</p>
+			<p>Short, inspiring insights into creativity and the creative life: the day job, the mindset, etc. Also read his other book “Show Your Work”.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Geography of Genius - by Eric Weiner" data-date="2016-02-02">
+		<a href="/book/GeographyOfGenius"><img src="/images/124x187.gif" data-echo="/images/GeographyOfGenius.gif" alt="The Geography of Genius - by Eric Weiner" /></a>
+		<figcaption>
+			<h2><a href="/book/GeographyOfGenius">The Geography of Genius - by Eric Weiner</a></h2>
+			<p>ISBN: 1451691653 READ: 2016-02-02 RATING: 8/10</p>
+			<p>What made Athens, Florence, Hangzhou, Vienna, Calcutta, and Silicon Valley such creative centers? Author goes to each to find out, and dives into the subject of creativity in general. He's such a great writer, so insightful, and finds so many great points of view from the people he interviews. See his other book here “Geography of Bliss”. Equally brilliant.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="A Mind for Numbers - by Barbara Oakley" data-date="2015-03-03">
+		<a href="/book/MindForNumbers"><img src="/images/124x187.gif" data-echo="/images/MindForNumbers.gif" alt="A Mind for Numbers - by Barbara Oakley" /></a>
+		<figcaption>
+			<h2><a href="/book/MindForNumbers">A Mind for Numbers - by Barbara Oakley</a></h2>
+			<p>ISBN: 039916524X READ: 2015-03-03 RATING: 8/10</p>
+			<p>Thought I was getting a book about math, but ended up being a surprisingly good book about learning in general.  Main points are about diffused thinking vs focused thinking.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Smartcuts - by Shane Snow " data-date="2014-11-20">
+		<a href="/book/Smartcuts"><img src="/images/124x187.gif" data-echo="/images/Smartcuts.gif" alt="Smartcuts - by Shane Snow " /></a>
+		<figcaption>
+			<h2><a href="/book/Smartcuts">Smartcuts - by Shane Snow </a></h2>
+			<p>ISBN: 0062302450 READ: 2014-11-20 RATING: 8/10</p>
+			<p>Inspiring study of how successful people took smart shortcuts and bypassed the long-slogging dues-paying process. Great insights on momentum. Read the whole book for specific stories of Jimmy Fallon, Skrillex, Elon Musk, David Heinemeier Hansson, and Michelle Phan.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Superhuman by Habit - by Tynan" data-date="2014-10-10">
+		<a href="/book/SuperhumanByHabit"><img src="/images/124x187.gif" data-echo="/images/SuperhumanByHabit.gif" alt="Superhuman by Habit - by Tynan" /></a>
+		<figcaption>
+			<h2><a href="/book/SuperhumanByHabit">Superhuman by Habit - by Tynan</a></h2>
+			<p>ISBN: B00NGC8I9E READ: 2014-10-10 RATING: 8/10</p>
+			<p>Great little manifesto about habits. Very well thought-through practical applications, tips, and philosophies on creating and sustaining the habits you want.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Obstacle Is the Way - by Ryan Holiday" data-date="2014-06-30">
+		<a href="/book/ObstacleIsTheWay"><img src="/images/124x187.gif" data-echo="/images/ObstacleIsTheWay.gif" alt="The Obstacle Is the Way - by Ryan Holiday" /></a>
+		<figcaption>
+			<h2><a href="/book/ObstacleIsTheWay">The Obstacle Is the Way - by Ryan Holiday</a></h2>
+			<p>ISBN: 1591846358 READ: 2014-06-30 RATING: 8/10</p>
+			<p>A succinct adrenaline-generating call to clear thinking and rational action. Many historical examples. Incredibly inspiring.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Decisive - by Chip and Dan Heath" data-date="2014-06-27">
+		<a href="/book/Decisive"><img src="/images/124x187.gif" data-echo="/images/Decisive.gif" alt="Decisive - by Chip and Dan Heath" /></a>
+		<figcaption>
+			<h2><a href="/book/Decisive">Decisive - by Chip and Dan Heath</a></h2>
+			<p>ISBN: 0307956393 READ: 2014-06-27 RATING: 8/10</p>
+			<p>Interesting and insightful dive into the subject of how to make big decisions. Specific useful advice.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="How to Fail at Almost Everything and Still Win Big - by Scott Adams" data-date="2013-10-28">
+		<a href="/book/HowToFail"><img src="/images/124x187.gif" data-echo="/images/HowToFail.gif" alt="How to Fail at Almost Everything and Still Win Big - by Scott Adams" /></a>
+		<figcaption>
+			<h2><a href="/book/HowToFail">How to Fail at Almost Everything and Still Win Big - by Scott Adams</a></h2>
+			<p>ISBN: 1591846919 READ: 2013-10-28 RATING: 8/10</p>
+			<p>Random assortment of life tips/hacks from the creator of Dilbert.  Interesting common thread of making your life a system for increasing your odds at success.  But I liked the random tips, too.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="5 Elements of Effective Thinking - by Edward B. Burger and Michael Starbird" data-date="2013-08-30">
+		<a href="/book/EffectiveThinking"><img src="/images/124x187.gif" data-echo="/images/EffectiveThinking.gif" alt="5 Elements of Effective Thinking - by Edward B. Burger and Michael Starbird" /></a>
+		<figcaption>
+			<h2><a href="/book/EffectiveThinking">5 Elements of Effective Thinking - by Edward B. Burger and Michael Starbird</a></h2>
+			<p>ISBN: 0691156662 READ: 2013-08-30 RATING: 8/10</p>
+			<p>Short and brilliant book with tips on being a better thinker. Being persistent, thorough, rooted in fundamentals, creative, and a more active learner. Surprisingly inspiring.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Icarus Deception - by Seth Godin" data-date="2013-01-11">
+		<a href="/book/IcarusDeception"><img src="/images/124x187.gif" data-echo="/images/IcarusDeception.gif" alt="The Icarus Deception - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/IcarusDeception">The Icarus Deception - by Seth Godin</a></h2>
+			<p>ISBN: 1591846072 READ: 2013-01-11 RATING: 8/10</p>
+			<p>VERY interesting. Seth is moving from talking about business to talking about being an artist in the broad sense of anyone who creates (and ships!) something daring and new. I loved the distiction between the industrialist and the artist, as it helped me give a term for something I'd experienced: not being able to relate at all to those who just want to grow business for business' sake, whereas I always saw my business like a creative art project.  The book stays very high-level, so don't look for “TO-DO” type tips.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Mastery - by Robert Greene" data-date="2012-12-06">
+		<a href="/book/Mastery2"><img src="/images/124x187.gif" data-echo="/images/Mastery2.gif" alt="Mastery - by Robert Greene" /></a>
+		<figcaption>
+			<h2><a href="/book/Mastery2">Mastery - by Robert Greene</a></h2>
+			<p>ISBN: 0670024961 READ: 2012-12-06 RATING: 8/10</p>
+			<p>Mostly detailed historical biographical tales of ”masters” like DaVinci, Darwin, Mozart, Proust, Goethe, Wright Brothers, Einstein, Coltrane, Martha Graham, etc. Lessons dissected from their successes, and categorized. Similar format to his great book “48 Laws of Power”, but a little less effective here. The biographies were interesting, but lessons were mostly conventional wisdom.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Mastery - by George Leonard" data-date="2012-10-01">
+		<a href="/book/Mastery"><img src="/images/124x187.gif" data-echo="/images/Mastery.gif" alt="Mastery - by George Leonard" /></a>
+		<figcaption>
+			<h2><a href="/book/Mastery">Mastery - by George Leonard</a></h2>
+			<p>ISBN: 0452267560 READ: 2012-10-01 RATING: 8/10</p>
+			<p>A description of the path to mastery in any field: to enjoy regular practice for its own sake, to push your capabilities but to accept the plateau, to surrender to the path and exercises your teacher gives you. Stay focused, not distracted like the dabbler, impatient like the obsessive, or complacent like the hacker.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Little Book of Talent - by Daniel Coyle" data-date="2012-09-08">
+		<a href="/book/LittleBookOfTalent"><img src="/images/124x187.gif" data-echo="/images/LittleBookOfTalent.gif" alt="The Little Book of Talent - by Daniel Coyle" /></a>
+		<figcaption>
+			<h2><a href="/book/LittleBookOfTalent">The Little Book of Talent - by Daniel Coyle</a></h2>
+			<p>ISBN: 034553025X READ: 2012-09-08 RATING: 8/10</p>
+			<p>First he wrote The Talent Code, which I also highly recommend, then he distilled all that research about deliberate practice into 52 actionable tips. Amazing and inspiring, you can read the whole thing in 90 minutes, then get to work!</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Developing World - by Fredrik Härén" data-date="2011-12-28">
+		<a href="/book/DevelopingWorld"><img src="/images/124x187.gif" data-echo="/images/DevelopingWorld.gif" alt="The Developing World - by Fredrik Härén" /></a>
+		<figcaption>
+			<h2><a href="/book/DevelopingWorld">The Developing World - by Fredrik Härén</a></h2>
+			<p>ISBN: 9197547077 READ: 2011-12-28 RATING: 8/10</p>
+			<p>This is a wonderfully one-sided book that shows how exciting the big growth of China, India, Sri Lanka, Singapore, Myanmar, Malaysia, Indonesia, South Africa, Turkey, and Korea are. He's found great examples of people and companies doing really innovative things, but most of all it's a mindset.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Willpower - by Roy Baumeister and John Tierney" data-date="2011-09-09">
+		<a href="/book/Willpower"><img src="/images/124x187.gif" data-echo="/images/Willpower.gif" alt="Willpower - by Roy Baumeister and John Tierney" /></a>
+		<figcaption>
+			<h2><a href="/book/Willpower">Willpower - by Roy Baumeister and John Tierney</a></h2>
+			<p>ISBN: 1594203075 READ: 2011-09-09 RATING: 8/10</p>
+			<p>You have a finite amount of willpower that becomes depleted as you use it. Two traits that consistently predict “positive outcomes” in life: intelligence and self-control. Most major problems, personal and social, center on failure of self-control. When people were asked about their failings, a lack of self-control was at the top of the list. So let's talk about self-control....</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Power of Full Engagement - by Jim Loehr and Tony Schwartz" data-date="2011-09-03">
+		<a href="/book/PowerOfFullEngagement"><img src="/images/124x187.gif" data-echo="/images/PowerOfFullEngagement.gif" alt="Power of Full Engagement - by Jim Loehr and Tony Schwartz" /></a>
+		<figcaption>
+			<h2><a href="/book/PowerOfFullEngagement">Power of Full Engagement - by Jim Loehr and Tony Schwartz</a></h2>
+			<p>ISBN: 0743226755 READ: 2011-09-03 RATING: 8/10</p>
+			<p>The authors worked with the best athletes and executives for years, and found that the best ones knew how to push themselves, then recuperate, push, recuperate. Take this same approach to your emotional, mental, physical, and even spiritual life, and it's a powerful metaphor. Think of sprints, not marathons. Be fully in whatever you're in, then give time to recuperate. But push futher each time, past your comfort zone, like a good exercise plan.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Moonwalking with Einstein - by Joshua Foer" data-date="2011-06-18">
+		<a href="/book/MoonwalkingEinstein"><img src="/images/124x187.gif" data-echo="/images/MoonwalkingEinstein.gif" alt="Moonwalking with Einstein - by Joshua Foer" /></a>
+		<figcaption>
+			<h2><a href="/book/MoonwalkingEinstein">Moonwalking with Einstein - by Joshua Foer</a></h2>
+			<p>ISBN: 159420229X READ: 2011-06-18 RATING: 8/10</p>
+			<p>For those fascinated with memory. Riveting page-turner about a journalist (with no particularly good memory) who went to cover a memory championship event. Intrigued and befriending some competitors, he starts practicing, and a year later wins the U.S. memory championship event himself.  Inspiring dive into the subject of memorization.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Practicing Mind - by Thomas Sterner" data-date="2011-05-27">
+		<a href="/book/PracticingMind"><img src="/images/124x187.gif" data-echo="/images/PracticingMind.gif" alt="Practicing Mind - by Thomas Sterner" /></a>
+		<figcaption>
+			<h2><a href="/book/PracticingMind">Practicing Mind - by Thomas Sterner</a></h2>
+			<p>ISBN: 0977657205 READ: 2011-05-27 RATING: 8/10</p>
+			<p>Great simple philosophy: Life itself is one long practice session. Everything in life worth achieving requires practice. Practice is not just for artistic or athletic skill, but practicing patience, practicing communication, practicing anything you do in life.  The process/practice itself is the real goal, not the outcome.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Seeking Wisdom - by Peter Bevelin" data-date="2011-01-03">
+		<a href="/book/SeekingWisdom"><img src="/images/124x187.gif" data-echo="/images/SeekingWisdom.gif" alt="Seeking Wisdom - by Peter Bevelin" /></a>
+		<figcaption>
+			<h2><a href="/book/SeekingWisdom">Seeking Wisdom - by Peter Bevelin</a></h2>
+			<p>ISBN: 1578644283 READ: 2011-01-03 RATING: 8/10</p>
+			<p>A great overview of the lessons of Charlie Munger (partner of Warren Buffett) - and his approach to checklists of multi-disciplinary models to guide clear thinking. Main point: if you can just avoid mistakes, you're doing better than most. So it's a catalog of the most common or important mistakes. Focused on investing, but can be applied to life.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Mindset - by Carol Dweck" data-date="2010-11-27">
+		<a href="/book/Mindset"><img src="/images/124x187.gif" data-echo="/images/Mindset.gif" alt="Mindset - by Carol Dweck" /></a>
+		<figcaption>
+			<h2><a href="/book/Mindset">Mindset - by Carol Dweck</a></h2>
+			<p>ISBN: 0345472322 READ: 2010-11-27 RATING: 8/10</p>
+			<p>Crucial distinction: People in a “fixed” mindset believe that you *are* great or flawed. People in a “growth” mindset believe your greatness (or flaws) are because of your actions. The fixed mindset is very harmful in every area of life (work, art, relationships, business, etc.) We get our initial mindset from our environment. When parents say, “You are great,” instead of ”You did great work,” they accidently create the “fixed” mindset.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Art and Fear - by David Bayles and Ted Orland" data-date="2010-11-23">
+		<a href="/book/ArtAndFear"><img src="/images/124x187.gif" data-echo="/images/ArtAndFear.gif" alt="Art and Fear - by David Bayles and Ted Orland" /></a>
+		<figcaption>
+			<h2><a href="/book/ArtAndFear">Art and Fear - by David Bayles and Ted Orland</a></h2>
+			<p>ISBN: 0961454733 READ: 2010-11-23 RATING: 8/10</p>
+			<p>For artists and musicians only: beautiful insights into the creative process.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Start Small, Stay Small - by Rob Walling and Mike Taber" data-date="2010-11-16">
+		<a href="/book/StartSmallStaySmall"><img src="/images/124x187.gif" data-echo="/images/StartSmallStaySmall.gif" alt="Start Small, Stay Small - by Rob Walling and Mike Taber" /></a>
+		<figcaption>
+			<h2><a href="/book/StartSmallStaySmall">Start Small, Stay Small - by Rob Walling and Mike Taber</a></h2>
+			<p>ISBN: 0615373968 READ: 2010-11-16 RATING: 8/10</p>
+			<p>Great how-to guide about being a micropreneur: an entrepreneur running many small but profitable businesses.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="On Writing - by Stephen King" data-date="2010-05-05">
+		<a href="/book/OnWriting"><img src="/images/124x187.gif" data-echo="/images/OnWriting.gif" alt="On Writing - by Stephen King" /></a>
+		<figcaption>
+			<h2><a href="/book/OnWriting">On Writing - by Stephen King</a></h2>
+			<p>ISBN: 0743455967 READ: 2010-05-05 RATING: 8/10</p>
+			<p>Great thoughts about writing (mostly books) from one of the most successful writers ever. Oddly doubles as an autobiography, telling many stories about his life from childhood.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Geography of Bliss - by Eric Weiner" data-date="2010-01-20">
+		<a href="/book/GeographyOfBliss"><img src="/images/124x187.gif" data-echo="/images/GeographyOfBliss.gif" alt="The Geography of Bliss - by Eric Weiner" /></a>
+		<figcaption>
+			<h2><a href="/book/GeographyOfBliss">The Geography of Bliss - by Eric Weiner</a></h2>
+			<p>ISBN: 044669889X READ: 2010-01-20 RATING: 8/10</p>
+			<p>Cranky NPR reporter dives deep into Iceland, Bhutan, Qatar, Holland, Switzerland, Thailand, India and Moldova to find out why people are happy (or not) in each. So beautifully written with astounding insights into culture and happiness. Amazing. Been thinking about it for weeks afterwards.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Investor's Manifesto - by William J. Bernstein" data-date="2009-11-12">
+		<a href="/book/InvestorsManifesto"><img src="/images/124x187.gif" data-echo="/images/InvestorsManifesto.gif" alt="The Investor's Manifesto - by William J. Bernstein" /></a>
+		<figcaption>
+			<h2><a href="/book/InvestorsManifesto">The Investor's Manifesto - by William J. Bernstein</a></h2>
+			<p>ISBN: 0470505141 READ: 2009-11-12 RATING: 8/10</p>
+			<p>Absolutely my favorite author and advisor on the subject of investing. Anyone with any money to invest (or already invested) please read this book. Such clear thinking, using only facts, and using numbers not guesses. Modern portfolio theory: use passive indexes of the entire market, no speculation, no stock picking, and avoid the entire fee-sucking financial industry.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="How We Decide - by Jonah Lehrer" data-date="2009-11-10">
+		<a href="/book/HowWeDecide"><img src="/images/124x187.gif" data-echo="/images/HowWeDecide.gif" alt="How We Decide - by Jonah Lehrer" /></a>
+		<figcaption>
+			<h2><a href="/book/HowWeDecide">How We Decide - by Jonah Lehrer</a></h2>
+			<p>ISBN: 0618620117 READ: 2009-11-10 RATING: 8/10</p>
+			<p>Brilliant book with one clear message: our emotional brain is faster and usually smarter than our logical brain. Our emotions are trained by years of logic and experience, retaining it all for real wisdom. Many decisions are better made by going with the gut feeling. Gets a little too technical with deep brain/neuro/cortex talk, but brings it back to usable points.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Sum: Forty Tales from the Afterlives - by David Eagleman" data-date="2009-10-04">
+		<a href="/book/Sum"><img src="/images/124x187.gif" data-echo="/images/Sum.gif" alt="Sum: Forty Tales from the Afterlives - by David Eagleman" /></a>
+		<figcaption>
+			<h2><a href="/book/Sum">Sum: Forty Tales from the Afterlives - by David Eagleman</a></h2>
+			<p>ISBN: 0307377342 READ: 2009-10-04 RATING: 8/10</p>
+			<p>Fiction. Awesomely creative think-piece of 40 different short stories of what happens when you die. To be clear: the author is not pretending this is fact! The framework is inspiring for anyone: coming up with 40 different answers to any one question.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Talent Code - by Daniel Coyle" data-date="2009-08-22">
+		<a href="/book/TalentCode"><img src="/images/124x187.gif" data-echo="/images/TalentCode.gif" alt="The Talent Code - by Daniel Coyle" /></a>
+		<figcaption>
+			<h2><a href="/book/TalentCode">The Talent Code - by Daniel Coyle</a></h2>
+			<p>ISBN: 055380684X READ: 2009-08-22 RATING: 8/10</p>
+			<p>A great book showing that deep practice - (struggling in certain targeted ways - operating at the edges of your ability, where you make mistakes - experiences where you're forced to slow down, make errors, and correct them) - is what really makes you improve at anything.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Ignore Everybody - by Hugh MacLeod" data-date="2009-06-28">
+		<a href="/book/IgnoreEverybody"><img src="/images/124x187.gif" data-echo="/images/IgnoreEverybody.gif" alt="Ignore Everybody - by Hugh MacLeod" /></a>
+		<figcaption>
+			<h2><a href="/book/IgnoreEverybody">Ignore Everybody - by Hugh MacLeod</a></h2>
+			<p>ISBN: 159184259X READ: 2009-06-28 RATING: 8/10</p>
+			<p>Brilliant succinct wisdom on creativity from an artist. Seth Godin says, "Hugh harangues and encourages and pushes and won't sit still until you, like him, are unwilling to settle."  I highly recommend this to all musicians, artists, and entrepreneurs.  Even those that prefer not to read much.  :-)</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Tribes - by Seth Godin" data-date="2008-11-17">
+		<a href="/book/Tribes"><img src="/images/124x187.gif" data-echo="/images/Tribes.gif" alt="Tribes - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/Tribes">Tribes - by Seth Godin</a></h2>
+			<p>ISBN: 1591842336 READ: 2008-11-17 RATING: 8/10</p>
+			<p>Inspiring look at what it takes to organize and mobilize groups of people.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="How to Talk to Anyone - by Leil Lowndes" data-date="2008-09-12">
+		<a href="/book/HowToTalkToAnyone"><img src="/images/124x187.gif" data-echo="/images/HowToTalkToAnyone.gif" alt="How to Talk to Anyone - by Leil Lowndes" /></a>
+		<figcaption>
+			<h2><a href="/book/HowToTalkToAnyone">How to Talk to Anyone - by Leil Lowndes</a></h2>
+			<p>ISBN: 007141858X READ: 2008-09-12 RATING: 8/10</p>
+			<p>Wonderful considerate book about conversational people skills. (Warning: it’s written in an extremely flowery style, but try to see past that to get to the good stuff.) Gives specific instructions that are really useful for people who are not naturals.  Just do what this book says, and people will warm up to you.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Brain Rules - by John Medina" data-date="2008-08-26">
+		<a href="/book/BrainRules"><img src="/images/124x187.gif" data-echo="/images/BrainRules.gif" alt="Brain Rules - by John Medina" /></a>
+		<figcaption>
+			<h2><a href="/book/BrainRules">Brain Rules - by John Medina</a></h2>
+			<p>ISBN: 0979777704 READ: 2008-08-26 RATING: 8/10</p>
+			<p>New scientific insights into why our brains work this way, and how to use what we now know to learn or work better.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="You, Inc -  The Art of Selling Yourself - by Harry Beckwith" data-date="2008-07-26">
+		<a href="/book/YouInc"><img src="/images/124x187.gif" data-echo="/images/YouInc.gif" alt="You, Inc -  The Art of Selling Yourself - by Harry Beckwith" /></a>
+		<figcaption>
+			<h2><a href="/book/YouInc">You, Inc -  The Art of Selling Yourself - by Harry Beckwith</a></h2>
+			<p>ISBN: 0446578215 READ: 2008-07-26 RATING: 8/10</p>
+			<p>One of my favorite authors, and a massive inspiration for my e-book. This is his newest, but read anything he’s done. It’s all top-notch insights on making life easier by being more considerate, whether you call that marketing or just life.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="How to Get Rich - by Felix Dennis" data-date="2008-06-18">
+		<a href="/book/HowToGetRich"><img src="/images/124x187.gif" data-echo="/images/HowToGetRich.gif" alt="How to Get Rich - by Felix Dennis" /></a>
+		<figcaption>
+			<h2><a href="/book/HowToGetRich">How to Get Rich - by Felix Dennis</a></h2>
+			<p>ISBN: 1591842050 READ: 2008-06-18 RATING: 8/10</p>
+			<p>Shockingly honest thoughts from a filthy rich bastard.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The Innovator's Solution - by Clayton Christensen" data-date="2006-09-21">
+		<a href="/book/InnovatorsSolution"><img src="/images/124x187.gif" data-echo="/images/InnovatorsSolution.gif" alt="The Innovator's Solution - by Clayton Christensen" /></a>
+		<figcaption>
+			<h2><a href="/book/InnovatorsSolution">The Innovator's Solution - by Clayton Christensen</a></h2>
+			<p>ISBN: 1578518520 READ: 2006-09-21 RATING: 8/10</p>
+			<p>Required reading for business-owners and investors. Shows how technology improves faster than people's ability to use it, so when someone says a technology is “not good enough”, add “yet” and prepare for disruption.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Small is the New Big - by Seth Godin" data-date="2006-09-08">
+		<a href="/book/SmallIsTheNewBig"><img src="/images/124x187.gif" data-echo="/images/SmallIsTheNewBig.gif" alt="Small is the New Big - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/SmallIsTheNewBig">Small is the New Big - by Seth Godin</a></h2>
+			<p>ISBN: 1591841267 READ: 2006-09-08 RATING: 8/10</p>
+			<p>I’m a massive fan and disciple. A collection of his short insightful posts from his blog, all thought-provoking and inspiring for anybody marketing anything, even music.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="Getting Things Done - by David Allen" data-date="2005-04-30">
+		<a href="/book/GettingThingsDone"><img src="/images/124x187.gif" data-echo="/images/GettingThingsDone.gif" alt="Getting Things Done - by David Allen" /></a>
+		<figcaption>
+			<h2><a href="/book/GettingThingsDone">Getting Things Done - by David Allen</a></h2>
+			<p>ISBN: 0142000280 READ: 2005-04-30 RATING: 8/10</p>
+			<p>Classic book with near-cult following. How to manage every last itty bitty tiny thing in your life. Keep your inbox empty.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="8" data-title="The 48 Laws of Power - by Robert Greene and Joost Elffers" data-date="2003-05-06">
+		<a href="/book/48LawsOfPower"><img src="/images/124x187.gif" data-echo="/images/48LawsOfPower.gif" alt="The 48 Laws of Power - by Robert Greene and Joost Elffers" /></a>
+		<figcaption>
+			<h2><a href="/book/48LawsOfPower">The 48 Laws of Power - by Robert Greene and Joost Elffers</a></h2>
+			<p>ISBN: 0140280197 READ: 2003-05-06 RATING: 8/10</p>
+			<p>Warning: some think this book is pure evil. But power exists, so it can only help to understand it better, even if you choose not to wield it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Road Less Traveled - by M. Scott Peck" data-date="2016-10-26">
+		<a href="/book/RoadLessTraveled"><img src="/images/124x187.gif" data-echo="/images/RoadLessTraveled.gif" alt="The Road Less Traveled - by M. Scott Peck" /></a>
+		<figcaption>
+			<h2><a href="/book/RoadLessTraveled">The Road Less Traveled - by M. Scott Peck</a></h2>
+			<p>ISBN: 0743238257 READ: 2016-10-26 RATING: 7/10</p>
+			<p>Profound truths and bold opinions on discipline, life, and love, written by a psychiatrist in 1978. It's been a best-seller all these years for a good reason.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Grit - by Angela Duckworth" data-date="2016-09-10">
+		<a href="/book/Grit"><img src="/images/124x187.gif" data-echo="/images/Grit.gif" alt="Grit - by Angela Duckworth" /></a>
+		<figcaption>
+			<h2><a href="/book/Grit">Grit - by Angela Duckworth</a></h2>
+			<p>ISBN: 1501111108 READ: 2016-09-10 RATING: 7/10</p>
+			<p>Grit is her word for persistence, focus, endurance, and constant improvement. Great thoughts on this point. If interested in it, also read the books here about deliberate practice.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="How to Talk So Kids Will Listen & Listen So Kids Will Talk - by Adele Fabe and Elaine Mazlish" data-date="2016-08-17">
+		<a href="/book/TalkListenKids"><img src="/images/124x187.gif" data-echo="/images/TalkListenKids.gif" alt="How to Talk So Kids Will Listen & Listen So Kids Will Talk - by Adele Fabe and Elaine Mazlish" /></a>
+		<figcaption>
+			<h2><a href="/book/TalkListenKids">How to Talk So Kids Will Listen & Listen So Kids Will Talk - by Adele Fabe and Elaine Mazlish</a></h2>
+			<p>ISBN: 1451663889 READ: 2016-08-17 RATING: 7/10</p>
+			<p>Great thoughts on acknowledging kids' feelings.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Gardener and the Carpenter - by Alison Gopnik" data-date="2016-08-10">
+		<a href="/book/GardenerCarpenter"><img src="/images/124x187.gif" data-echo="/images/GardenerCarpenter.gif" alt="The Gardener and the Carpenter - by Alison Gopnik" /></a>
+		<figcaption>
+			<h2><a href="/book/GardenerCarpenter">The Gardener and the Carpenter - by Alison Gopnik</a></h2>
+			<p>ISBN: 0374229708 READ: 2016-08-10 RATING: 7/10</p>
+			<p>Great philosophy of parenting.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Inevitable - by Kevin Kelly" data-date="2016-06-30">
+		<a href="/book/Inevitable"><img src="/images/124x187.gif" data-echo="/images/Inevitable.gif" alt="The Inevitable - by Kevin Kelly" /></a>
+		<figcaption>
+			<h2><a href="/book/Inevitable">The Inevitable - by Kevin Kelly</a></h2>
+			<p>ISBN: 0525428089 READ: 2016-06-30 RATING: 7/10</p>
+			<p>What are today's technologies inevitably going to lead to? Great predictions. Half of it was super-inspiring, painting a vision of the future that made me want to jump on it. Half felt like “well, duh, obviously!” maybe because I'm already deep in it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Peak: Secrets from the New Science of Expertise - by Anders Ericsson" data-date="2016-05-20">
+		<a href="/book/Peak"><img src="/images/124x187.gif" data-echo="/images/Peak.gif" alt="Peak: Secrets from the New Science of Expertise - by Anders Ericsson" /></a>
+		<figcaption>
+			<h2><a href="/book/Peak">Peak: Secrets from the New Science of Expertise - by Anders Ericsson</a></h2>
+			<p>ISBN: 0544456238 READ: 2016-05-20 RATING: 7/10</p>
+			<p>After being quoted in many books, the guy who coined “deliberate practice”, and spent his career studying just that, finally writes his own take on it. But I've already loved “The Talent Code”, “The Little Book of Talent”, “Moonwalking with Einstein”, “Talent is Overrated”, and “Little Bets”, which are all about this same field. So I didn't get much new out of it, but if you haven't already read those, maybe start here at the horse's mouth.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Deep Work - by Cal Newport" data-date="2016-04-10">
+		<a href="/book/DeepWork"><img src="/images/124x187.gif" data-echo="/images/DeepWork.gif" alt="Deep Work - by Cal Newport" /></a>
+		<figcaption>
+			<h2><a href="/book/DeepWork">Deep Work - by Cal Newport</a></h2>
+			<p>ISBN: 1455586692 READ: 2016-04-10 RATING: 7/10</p>
+			<p>Crucial subject, dear to me: shutting out distractions for deep productive concentrated work. No huge surprises but great supporting thoughts. I liked the point of considering the downside of the internet, instead of only the positives.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Geography of Time - by Robert Levine" data-date="2014-08-03">
+		<a href="/book/GeographyOfTime"><img src="/images/124x187.gif" data-echo="/images/GeographyOfTime.gif" alt="Geography of Time - by Robert Levine" /></a>
+		<figcaption>
+			<h2><a href="/book/GeographyOfTime">Geography of Time - by Robert Levine</a></h2>
+			<p>ISBN: 0465026427 READ: 2014-08-03 RATING: 7/10</p>
+			<p>Interesting look at how different cultures consider time in different ways.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="How to Learn a Foreign Language - by Paul Pimsleur" data-date="2014-06-05">
+		<a href="/book/LearnForeignLanguage"><img src="/images/124x187.gif" data-echo="/images/LearnForeignLanguage.gif" alt="How to Learn a Foreign Language - by Paul Pimsleur" /></a>
+		<figcaption>
+			<h2><a href="/book/LearnForeignLanguage">How to Learn a Foreign Language - by Paul Pimsleur</a></h2>
+			<p>ISBN: 1442369027 READ: 2014-06-05 RATING: 7/10</p>
+			<p>Short, punchy, incredibly insightful and useful book about learning another language, especially for a first-timer. I've read a few books on the subject now, but this is the only one that spoke directly to my issues. Especially loved his points on the importance of sounds over words. Hint: a language that is written but not spoken is called a dead language.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Man's Search for Meaning - by Viktor Frankl" data-date="2014-06-04">
+		<a href="/book/MSfM"><img src="/images/124x187.gif" data-echo="/images/MSfM.gif" alt="Man's Search for Meaning - by Viktor Frankl" /></a>
+		<figcaption>
+			<h2><a href="/book/MSfM">Man's Search for Meaning - by Viktor Frankl</a></h2>
+			<p>ISBN: 080701429X READ: 2014-06-04 RATING: 7/10</p>
+			<p>Powerful, deep, etc. First half describes life inside Auschwitz. Second half has powerful succinctly-said insights into the universal struggle. There's a reason this book has sold a billion copies.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Choose Yourself! - by James Altucher" data-date="2014-04-10">
+		<a href="/book/ChooseYourself"><img src="/images/124x187.gif" data-echo="/images/ChooseYourself.gif" alt="Choose Yourself! - by James Altucher" /></a>
+		<figcaption>
+			<h2><a href="/book/ChooseYourself">Choose Yourself! - by James Altucher</a></h2>
+			<p>ISBN: 1490313370 READ: 2014-04-10 RATING: 7/10</p>
+			<p>Anyone who likes my writing will probably LOVE his writing. We've got a very similar style and approach. I was smiling most of the way through, reading things I could have (and wish I would have) written myself. His vulnerability is so endearing.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="No B.S. Time Management for Entrepreneurs - by Dan S. Kennedy" data-date="2012-10-05">
+		<a href="/book/NoBSTime"><img src="/images/124x187.gif" data-echo="/images/NoBSTime.gif" alt="No B.S. Time Management for Entrepreneurs - by Dan S. Kennedy" /></a>
+		<figcaption>
+			<h2><a href="/book/NoBSTime">No B.S. Time Management for Entrepreneurs - by Dan S. Kennedy</a></h2>
+			<p>ISBN: 1599185091 READ: 2012-10-05 RATING: 7/10</p>
+			<p>Repeated message: Your time is precious. Know its value and don't work for less. Defend it against time-vampires. Be hard to reach. Make every minute count. Do only the valuable tasks. Good conventional wisdom.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Power of Habit - by Charles Duhigg" data-date="2012-03-01">
+		<a href="/book/PowerOfHabit"><img src="/images/124x187.gif" data-echo="/images/PowerOfHabit.gif" alt="The Power of Habit - by Charles Duhigg" /></a>
+		<figcaption>
+			<h2><a href="/book/PowerOfHabit">The Power of Habit - by Charles Duhigg</a></h2>
+			<p>ISBN: 1400069289 READ: 2012-03-01 RATING: 7/10</p>
+			<p>Great dissection and analysis of what creates habits, and the power of changing just one of three steps in the habit loop.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Passionate Programmer - by Chad Fowler" data-date="2012-01-15">
+		<a href="/book/PassionateProgrammer"><img src="/images/124x187.gif" data-echo="/images/PassionateProgrammer.gif" alt="The Passionate Programmer - by Chad Fowler" /></a>
+		<figcaption>
+			<h2><a href="/book/PassionateProgrammer">The Passionate Programmer - by Chad Fowler</a></h2>
+			<p>ISBN: 1934356344 READ: 2012-01-15 RATING: 7/10</p>
+			<p>Wonderful book about the art, craft, and passion of being a great computer programmer. Loved the analogies to being a musician: sight-reading, being the worst member of the band, understanding new styles of music, practicing just for improvement, etc.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Fail-Safe Investing - by Harry Browne" data-date="2011-04-21">
+		<a href="/book/FailSafeInvesting"><img src="/images/124x187.gif" data-echo="/images/FailSafeInvesting.gif" alt="Fail-Safe Investing - by Harry Browne" /></a>
+		<figcaption>
+			<h2><a href="/book/FailSafeInvesting">Fail-Safe Investing - by Harry Browne</a></h2>
+			<p>ISBN: 031226321X READ: 2011-04-21 RATING: 7/10</p>
+			<p>Its main point is the “Permanent Portfolio” - a beautiful simple idea to have 25% of your savings each in investments that do well during boom (stocks), bust (bonds), inflation (gold), deflation (cash).  Then just rebalance when they get too far out of 25% each.  No predicting the future.  No worrying about the news.  Just 25% each and rebalance.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Poke the Box - by Seth Godin" data-date="2011-03-15">
+		<a href="/book/PokeTheBox"><img src="/images/124x187.gif" data-echo="/images/PokeTheBox.gif" alt="Poke the Box - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/PokeTheBox">Poke the Box - by Seth Godin</a></h2>
+			<p>ISBN: 1936719002 READ: 2011-03-15 RATING: 7/10</p>
+			<p>Awesome short manifesto about getting into the habit of starting things.  Inspiring as hell.  Go go go!</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The 4-Hour Body - by Tim Ferriss" data-date="2010-12-18">
+		<a href="/book/4HourBody"><img src="/images/124x187.gif" data-echo="/images/4HourBody.gif" alt="The 4-Hour Body - by Tim Ferriss" /></a>
+		<figcaption>
+			<h2><a href="/book/4HourBody">The 4-Hour Body - by Tim Ferriss</a></h2>
+			<p>ISBN: 030746363X READ: 2010-12-18 RATING: 7/10</p>
+			<p>Amazing book for anyone wanting to improve their body. Core concept is the “minimum effective dose”: the smallest dose that will produce a desired outcome. Anything beyond that is wasteful. This documents Tim's years-long pursuit of the minimum effective dose of everything, from weight loss to muscle-building. Related subjects include orgasm, sleep, and medical tourism.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Cognitive Surplus - by Clay Shirky" data-date="2010-12-10">
+		<a href="/book/CognitiveSurplus"><img src="/images/124x187.gif" data-echo="/images/CognitiveSurplus.gif" alt="Cognitive Surplus - by Clay Shirky" /></a>
+		<figcaption>
+			<h2><a href="/book/CognitiveSurplus">Cognitive Surplus - by Clay Shirky</a></h2>
+			<p>ISBN: 1594202532 READ: 2010-12-10 RATING: 7/10</p>
+			<p>I always love Clay Shirky's insights into the internet culture. This is about how all the spare time people are using to add to Wikipedia, create YouTube videos or LOLCats, is previously time they were passively watching TV. Perhaps passive watching was a temporary habit that lasted 80 years, and now we're going back to a more participatory culture?</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Hackers & Painters - by Paul Graham" data-date="2010-08-20">
+		<a href="/book/HackersPainters"><img src="/images/124x187.gif" data-echo="/images/HackersPainters.gif" alt="Hackers & Painters - by Paul Graham" /></a>
+		<figcaption>
+			<h2><a href="/book/HackersPainters">Hackers & Painters - by Paul Graham</a></h2>
+			<p>ISBN: 1449389554 READ: 2010-08-20 RATING: 7/10</p>
+			<p>A collection of essays from one of the best. Loosely about intelligence, entrepreneurship, programming, and questioning norms. Many brilliant ideas and insights.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Confessions of a Public Speaker - by Scott Berkun" data-date="2010-06-28">
+		<a href="/book/ConfessionsPublicSpeaker"><img src="/images/124x187.gif" data-echo="/images/ConfessionsPublicSpeaker.gif" alt="Confessions of a Public Speaker - by Scott Berkun" /></a>
+		<figcaption>
+			<h2><a href="/book/ConfessionsPublicSpeaker">Confessions of a Public Speaker - by Scott Berkun</a></h2>
+			<p>ISBN: 0596801998 READ: 2010-06-28 RATING: 7/10</p>
+			<p>Best book on public speaking.  A must-read if you do this at all.  Great concrete advice and personal tales.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="I Will Teach You To Be Rich - by Ramit Sethi" data-date="2010-03-23">
+		<a href="/book/IWillTeachYouToBeRich"><img src="/images/124x187.gif" data-echo="/images/IWillTeachYouToBeRich.gif" alt="I Will Teach You To Be Rich - by Ramit Sethi" /></a>
+		<figcaption>
+			<h2><a href="/book/IWillTeachYouToBeRich">I Will Teach You To Be Rich - by Ramit Sethi</a></h2>
+			<p>ISBN: 0761147489 READ: 2010-03-23 RATING: 7/10</p>
+			<p>An amazing book about consumer finance and a healthy approach to managing your money. If you are age 18-35, this is a must-read!  My notes are scarce, so get the book.  Even if over 35, you might find some good tips on lowering your fees on various services, and a good reminder of good savings practices.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Why Smart People Make Big Money Mistakes - Gilovich and Belsky" data-date="2009-10-19">
+		<a href="/book/BigMoneyMistakes"><img src="/images/124x187.gif" data-echo="/images/BigMoneyMistakes.gif" alt="Why Smart People Make Big Money Mistakes - Gilovich and Belsky" /></a>
+		<figcaption>
+			<h2><a href="/book/BigMoneyMistakes">Why Smart People Make Big Money Mistakes - Gilovich and Belsky</a></h2>
+			<p>ISBN: 0684859386 READ: 2009-10-19 RATING: 7/10</p>
+			<p>My favorite genre of book lately: clear examples of bugs in our brain: where our intuition is wrong. But this one focuses just on money issues. Loss aversion. Sunk cost fallacy. Confirmation bias. Anchoring. Etc. I love this stuff.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="What Would Google Do?  -  by Jeff Jarvis" data-date="2009-03-05">
+		<a href="/book/WhatWouldGoogleDo"><img src="/images/124x187.gif" data-echo="/images/WhatWouldGoogleDo.gif" alt="What Would Google Do?  -  by Jeff Jarvis" /></a>
+		<figcaption>
+			<h2><a href="/book/WhatWouldGoogleDo">What Would Google Do?  -  by Jeff Jarvis</a></h2>
+			<p>ISBN: 0061709719 READ: 2009-03-05 RATING: 7/10</p>
+			<p>Great think-piece about lessons learned from Google's approach to things, and how they might approach different industries like airlines, real estate, education, etc.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="CrowdSourcing - by Jeff Howe" data-date="2008-08-27">
+		<a href="/book/Crowdsourcing"><img src="/images/124x187.gif" data-echo="/images/Crowdsourcing.gif" alt="CrowdSourcing - by Jeff Howe" /></a>
+		<figcaption>
+			<h2><a href="/book/Crowdsourcing">CrowdSourcing - by Jeff Howe</a></h2>
+			<p>ISBN: 0307396207 READ: 2008-08-27 RATING: 7/10</p>
+			<p>Great look at a different way of getting a project done: not outsourcing it to a person, but developing a system where thousands of people can contribute a little bit.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Magic of Thinking Big - by David Schwartz" data-date="2008-07-26">
+		<a href="/book/MagicOfThinkingBig"><img src="/images/124x187.gif" data-echo="/images/MagicOfThinkingBig.gif" alt="The Magic of Thinking Big - by David Schwartz" /></a>
+		<figcaption>
+			<h2><a href="/book/MagicOfThinkingBig">The Magic of Thinking Big - by David Schwartz</a></h2>
+			<p>ISBN: 0671646788 READ: 2008-07-26 RATING: 7/10</p>
+			<p>A classic self-help book. Exactly what you'd expect. But very good.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="The Art of Learning - by Josh Waitzkin" data-date="2008-05-30">
+		<a href="/book/ArtOfLearning"><img src="/images/124x187.gif" data-echo="/images/ArtOfLearning.gif" alt="The Art of Learning - by Josh Waitzkin" /></a>
+		<figcaption>
+			<h2><a href="/book/ArtOfLearning">The Art of Learning - by Josh Waitzkin</a></h2>
+			<p>ISBN: 0743277457 READ: 2008-05-30 RATING: 7/10</p>
+			<p>Chess master becomes Tai Chi master, realizes his real genius is learning, and shares his insights and stories.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Wikinomics - by Don Tapscott and Anthony Williams" data-date="2008-04-23">
+		<a href="/book/Wikinomics"><img src="/images/124x187.gif" data-echo="/images/Wikinomics.gif" alt="Wikinomics - by Don Tapscott and Anthony Williams" /></a>
+		<figcaption>
+			<h2><a href="/book/Wikinomics">Wikinomics - by Don Tapscott and Anthony Williams</a></h2>
+			<p>ISBN: 1591841933 READ: 2008-04-23 RATING: 7/10</p>
+			<p>Lessons learned from Wikipedia can be applied to most other businesses. How can you harness the spare-time or self-interest of thousands to build something better for everyone?</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Meatball Sundae - by Seth Godin" data-date="2007-12-30">
+		<a href="/book/MeatballSundae"><img src="/images/124x187.gif" data-echo="/images/MeatballSundae.gif" alt="Meatball Sundae - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/MeatballSundae">Meatball Sundae - by Seth Godin</a></h2>
+			<p>ISBN: 1591841747 READ: 2007-12-30 RATING: 7/10</p>
+			<p>Instead of asking how to use the new internet tools to support your existing business, ask how you can change your business to take best advantage of the new tools.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="7" data-title="Don't Make Me Think - by Steve Krug" data-date="2007-08-08">
+		<a href="/book/DontMakeMeThink"><img src="/images/124x187.gif" data-echo="/images/DontMakeMeThink.gif" alt="Don't Make Me Think - by Steve Krug" /></a>
+		<figcaption>
+			<h2><a href="/book/DontMakeMeThink">Don't Make Me Think - by Steve Krug</a></h2>
+			<p>ISBN: 0321344758 READ: 2007-08-08 RATING: 7/10</p>
+			<p>The classic book of web usability. Required reading for anyone who makes websites.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Nobody Wants to Read Your Sh*t - by Steven Pressfield" data-date="2016-07-28">
+		<a href="/book/NobodyWants"><img src="/images/124x187.gif" data-echo="/images/NobodyWants.gif" alt="Nobody Wants to Read Your Sh*t - by Steven Pressfield" /></a>
+		<figcaption>
+			<h2><a href="/book/NobodyWants">Nobody Wants to Read Your Sh*t - by Steven Pressfield</a></h2>
+			<p>ISBN: 1936891492 READ: 2016-07-28 RATING: 6/10</p>
+			<p>About the technique of writing stories. Good for what it is, but note it's not part of the War of Art series.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Only Investment Guide You'll Ever Need - by Andrew Tobias" data-date="2016-05-02">
+		<a href="/book/OnlyInvestmentGuide"><img src="/images/124x187.gif" data-echo="/images/OnlyInvestmentGuide.gif" alt="The Only Investment Guide You'll Ever Need - by Andrew Tobias" /></a>
+		<figcaption>
+			<h2><a href="/book/OnlyInvestmentGuide">The Only Investment Guide You'll Ever Need - by Andrew Tobias</a></h2>
+			<p>ISBN: 0544781937 READ: 2016-05-02 RATING: 6/10</p>
+			<p>Hm. Highly recommended, so maybe you'll love it. I've read many like this, so I only got a few good ideas from it. I preferred “The Smartest Investment Book You'll Ever Read” also here in my book list, for more punch per page.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Living Beautifully with Uncertainty and Change - by Pema Chödrön" data-date="2016-04-20">
+		<a href="/book/LivingBeautifully"><img src="/images/124x187.gif" data-echo="/images/LivingBeautifully.gif" alt="Living Beautifully with Uncertainty and Change - by Pema Chödrön" /></a>
+		<figcaption>
+			<h2><a href="/book/LivingBeautifully">Living Beautifully with Uncertainty and Change - by Pema Chödrön</a></h2>
+			<p>ISBN: 1611802725 READ: 2016-04-20 RATING: 6/10</p>
+			<p>Everything she writes is wonderful. All a similar theme. See the other books here for other (maybe better) examples.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Germany: Unraveling an Enigma - by Greg Nees" data-date="2016-02-10">
+		<a href="/book/GermanyEnigma"><img src="/images/124x187.gif" data-echo="/images/GermanyEnigma.gif" alt="Germany: Unraveling an Enigma - by Greg Nees" /></a>
+		<figcaption>
+			<h2><a href="/book/GermanyEnigma">Germany: Unraveling an Enigma - by Greg Nees</a></h2>
+			<p>ISBN: 1877864757 READ: 2016-02-10 RATING: 6/10</p>
+			<p>Written by an American who's lived in Germany for 20 years. Published in 2000, (and so probably written a couple years before), it's a little dated. The Berlin Wall was a fresh memory. So I'm assuming the current (for then) observations have changed a bit. But the historical perspective helped explain some core aspects to the culture.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Give and Take - by Adam M. Grant" data-date="2014-02-10">
+		<a href="/book/GiveAndTake"><img src="/images/124x187.gif" data-echo="/images/GiveAndTake.gif" alt="Give and Take - by Adam M. Grant" /></a>
+		<figcaption>
+			<h2><a href="/book/GiveAndTake">Give and Take - by Adam M. Grant</a></h2>
+			<p>ISBN: 0143124986 READ: 2014-02-10 RATING: 6/10</p>
+			<p>If you feel you are too generous, or too greedy, or are wary and insist on reciprocation, consider reading this research-based look at the subject of these different personality types.  Counter-intuitive findings.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Bed of Procrustes - by Nassim Nicholas Taleb" data-date="2014-01-15">
+		<a href="/book/BedOfProcrustes"><img src="/images/124x187.gif" data-echo="/images/BedOfProcrustes.gif" alt="The Bed of Procrustes - by Nassim Nicholas Taleb" /></a>
+		<figcaption>
+			<h2><a href="/book/BedOfProcrustes">The Bed of Procrustes - by Nassim Nicholas Taleb</a></h2>
+			<p>ISBN: 1400069971 READ: 2014-01-15 RATING: 6/10</p>
+			<p>I'm thrilled if I get a few counter-intuitive thought-provoking ideas from any source.  This book is filled with his usual cocktail party sprezzatura bravado, but refreshingly succinct, minus his usual blowhard explanations of his superior scholarly approach to life.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Making Ideas Happen - by Scott Belsky" data-date="2013-12-20">
+		<a href="/book/MakingIdeasHappen"><img src="/images/124x187.gif" data-echo="/images/MakingIdeasHappen.gif" alt="Making Ideas Happen - by Scott Belsky" /></a>
+		<figcaption>
+			<h2><a href="/book/MakingIdeasHappen">Making Ideas Happen - by Scott Belsky</a></h2>
+			<p>ISBN: 1591844118 READ: 2013-12-20 RATING: 6/10</p>
+			<p>The full title - “Making Ideas Happen: Overcoming the Obstacles Between Vision and Reality” - describes its contents perfectly.  Great book on that subject.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="A Short History of Nearly Everything - by Bill Bryson" data-date="2013-08-25">
+		<a href="/book/ShortHistoryNE"><img src="/images/124x187.gif" data-echo="/images/ShortHistoryNE.gif" alt="A Short History of Nearly Everything - by Bill Bryson" /></a>
+		<figcaption>
+			<h2><a href="/book/ShortHistoryNE">A Short History of Nearly Everything - by Bill Bryson</a></h2>
+			<p>ISBN: 0767908171 READ: 2013-08-25 RATING: 6/10</p>
+			<p>Fun read of everything from the big bang to tectonic plates to the evolution of early man.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Ikigai - by Sebastian Marshall" data-date="2013-07-06">
+		<a href="/book/Ikigai"><img src="/images/124x187.gif" data-echo="/images/Ikigai.gif" alt="Ikigai - by Sebastian Marshall" /></a>
+		<figcaption>
+			<h2><a href="/book/Ikigai">Ikigai - by Sebastian Marshall</a></h2>
+			<p>ISBN: B006M9T8NI READ: 2013-07-06 RATING: 6/10</p>
+			<p>Essays on history, power, self-discipline, negotiation, and the hustle. I especially liked his philosophy on luck, building universally valuable skills, and producing/shipping something from even fleeting interests.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Wired for Story - by Lisa Cron" data-date="2012-11-18">
+		<a href="/book/WiredForStory"><img src="/images/124x187.gif" data-echo="/images/WiredForStory.gif" alt="Wired for Story - by Lisa Cron" /></a>
+		<figcaption>
+			<h2><a href="/book/WiredForStory">Wired for Story - by Lisa Cron</a></h2>
+			<p>ISBN: 1607742454 READ: 2012-11-18 RATING: 6/10</p>
+			<p>If you've read other books on how to write a great story, this probably won't hold much new for you. But this was my first book on this subject, and I loved it. Changed the way I pay attention to movies and novels. Makes me want to write a novel.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Pragmatic Programmer - by Andy Hunt and David Thomas" data-date="2012-09-27">
+		<a href="/book/PragmaticProgrammer"><img src="/images/124x187.gif" data-echo="/images/PragmaticProgrammer.gif" alt="Pragmatic Programmer - by Andy Hunt and David Thomas" /></a>
+		<figcaption>
+			<h2><a href="/book/PragmaticProgrammer">Pragmatic Programmer - by Andy Hunt and David Thomas</a></h2>
+			<p>ISBN: 020161622X READ: 2012-09-27 RATING: 6/10</p>
+			<p>Classic book for computer programmers. I read it first in 2003 before I was taking book notes, so I read it again now to take notes. Great wisdom in here. Amazing to see how much of its advice was adopted as norms by Ruby on Rails.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Meditations - by Marcus Aurelius - translation by C Scot Hicks and David V Hicks" data-date="2012-02-04">
+		<a href="/book/Meditations"><img src="/images/124x187.gif" data-echo="/images/Meditations.gif" alt="Meditations - by Marcus Aurelius - translation by C Scot Hicks and David V Hicks" /></a>
+		<figcaption>
+			<h2><a href="/book/Meditations">Meditations - by Marcus Aurelius - translation by C Scot Hicks and David V Hicks</a></h2>
+			<p>ISBN: 0743233832 READ: 2012-02-04 RATING: 6/10</p>
+			<p>A true classic, filled with stoic wisdom mostly about being your best rational self, doing good for its own sake, and not letting other people upset you.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="You Are Not So Smart - by David McRaney" data-date="2011-11-15">
+		<a href="/book/NotSoSmart"><img src="/images/124x187.gif" data-echo="/images/NotSoSmart.gif" alt="You Are Not So Smart - by David McRaney" /></a>
+		<figcaption>
+			<h2><a href="/book/NotSoSmart">You Are Not So Smart - by David McRaney</a></h2>
+			<p>ISBN: 1592406599 READ: 2011-11-15 RATING: 6/10</p>
+			<p>Great summary of 46 cognitive biases. Much of it covered in other books like Predictably Irrational, but if you haven't read those, this is a great starting book. Otherwise, just a good reminder, and worth reading.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Lean Startup - by Eric Ries" data-date="2011-10-23">
+		<a href="/book/LeanStartup"><img src="/images/124x187.gif" data-echo="/images/LeanStartup.gif" alt="The Lean Startup - by Eric Ries" /></a>
+		<figcaption>
+			<h2><a href="/book/LeanStartup">The Lean Startup - by Eric Ries</a></h2>
+			<p>ISBN: 0307887898 READ: 2011-10-23 RATING: 6/10</p>
+			<p>The methodology here is the one I recommend the most. The stuff I preach is like a cute casual intro to the real deal: the Lean Startup methodology. (As an aside: this book is the one that pushed my book out of the #1 slot on Amazon's Entrepreneur charts. Quite an honor.)</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Making a Good Brain Great - by Daniel G. Amen" data-date="2010-07-28">
+		<a href="/book/GoodBrainGreat"><img src="/images/124x187.gif" data-echo="/images/GoodBrainGreat.gif" alt="Making a Good Brain Great - by Daniel G. Amen" /></a>
+		<figcaption>
+			<h2><a href="/book/GoodBrainGreat">Making a Good Brain Great - by Daniel G. Amen</a></h2>
+			<p>ISBN: 1400082099 READ: 2010-07-28 RATING: 6/10</p>
+			<p>About the care of the physical brain - the goo in your skull - from a doctor who scans brains and has linked specific behavior to brain chemistry.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Business Stripped Bare - by Richard Branson" data-date="2010-02-17">
+		<a href="/book/BusinessStrippedBare"><img src="/images/124x187.gif" data-echo="/images/BusinessStrippedBare.gif" alt="Business Stripped Bare - by Richard Branson" /></a>
+		<figcaption>
+			<h2><a href="/book/BusinessStrippedBare">Business Stripped Bare - by Richard Branson</a></h2>
+			<p>ISBN: 1905264429 READ: 2010-02-17 RATING: 6/10</p>
+			<p>A real and specific description of the inner workings of the Virgin companies. Every entrepreneur, investor, and manager should appreciate this detailed account of practices, philosophies and stories from the core.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Talent Is Overrated - by Geoff Colvin" data-date="2009-11-16">
+		<a href="/book/TalentIsOverrated"><img src="/images/124x187.gif" data-echo="/images/TalentIsOverrated.gif" alt="Talent Is Overrated - by Geoff Colvin" /></a>
+		<figcaption>
+			<h2><a href="/book/TalentIsOverrated">Talent Is Overrated - by Geoff Colvin</a></h2>
+			<p>ISBN: 1591842247 READ: 2009-11-16 RATING: 6/10</p>
+			<p>Talent is not innate - it comes from thousands of hours of deliberate practice: focused improving of your shortcomings. That's it. If you can get past the first 20% of the book that just asks questions, the next 60% is quite good.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Never Eat Alone - by Keith Ferrazzi and Tahl Raz" data-date="2009-07-26">
+		<a href="/book/NeverEatAlone"><img src="/images/124x187.gif" data-echo="/images/NeverEatAlone.gif" alt="Never Eat Alone - by Keith Ferrazzi and Tahl Raz" /></a>
+		<figcaption>
+			<h2><a href="/book/NeverEatAlone">Never Eat Alone - by Keith Ferrazzi and Tahl Raz</a></h2>
+			<p>ISBN: 0385512058 READ: 2009-07-26 RATING: 6/10</p>
+			<p>A good book that's mostly about networking, but also some general business smarts. Definitely read if you need more work being social.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Overachievement - by John Eliot" data-date="2009-07-04">
+		<a href="/book/Overachievement"><img src="/images/124x187.gif" data-echo="/images/Overachievement.gif" alt="Overachievement - by John Eliot" /></a>
+		<figcaption>
+			<h2><a href="/book/Overachievement">Overachievement - by John Eliot</a></h2>
+			<p>ISBN: 1591841313 READ: 2009-07-04 RATING: 6/10</p>
+			<p>Performance coach, with a bent towards sports, surgery, and executive performance, gives his thoughts on being a top performer.  The key is the "Trusting Mindset": like a squirrel runs across a telephone wire.  Just doing it, without thought, because you've trained yourself plenty until that point.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The How of Happiness - by Sonja Lyubomirsky" data-date="2009-06-01">
+		<a href="/book/HowOfHappiness"><img src="/images/124x187.gif" data-echo="/images/HowOfHappiness.gif" alt="The How of Happiness - by Sonja Lyubomirsky" /></a>
+		<figcaption>
+			<h2><a href="/book/HowOfHappiness">The How of Happiness - by Sonja Lyubomirsky</a></h2>
+			<p>ISBN: 159420148X READ: 2009-06-01 RATING: 6/10</p>
+			<p>Since I loved Stumbling on Happiness, I was prepared to love this, but the big difference is that Stumbling on Happiness showed tests and experiments to prove their points, whereas this book only presents conclusions. Maybe equally accurate but less convincing.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Culture Code - by Clotaire Rapaille" data-date="2008-11-01">
+		<a href="/book/CultureCode"><img src="/images/124x187.gif" data-echo="/images/CultureCode.gif" alt="The Culture Code - by Clotaire Rapaille" /></a>
+		<figcaption>
+			<h2><a href="/book/CultureCode">The Culture Code - by Clotaire Rapaille</a></h2>
+			<p>ISBN: 0767920570 READ: 2008-11-01 RATING: 6/10</p>
+			<p>Weird look at how different cultures (mostly Europe versus U.S. in this book) see things differently. Example: British luxury is about detachment whereas U.S. luxury is about rank.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Four Pillars of Investing - by William Bernstein" data-date="2008-06-07">
+		<a href="/book/FourPillarsOfInvesting"><img src="/images/124x187.gif" data-echo="/images/FourPillarsOfInvesting.gif" alt="The Four Pillars of Investing - by William Bernstein" /></a>
+		<figcaption>
+			<h2><a href="/book/FourPillarsOfInvesting">The Four Pillars of Investing - by William Bernstein</a></h2>
+			<p>ISBN: 0071385290 READ: 2008-06-07 RATING: 6/10</p>
+			<p>If you've already read and loved The Smartest Investment Book You'll Ever Read, above, then read this more in-depth book next.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Here Comes Everybody - by Clay Shirky" data-date="2008-04-06">
+		<a href="/book/HereComesEverybody"><img src="/images/124x187.gif" data-echo="/images/HereComesEverybody.gif" alt="Here Comes Everybody - by Clay Shirky" /></a>
+		<figcaption>
+			<h2><a href="/book/HereComesEverybody">Here Comes Everybody - by Clay Shirky</a></h2>
+			<p>ISBN: 1594201536 READ: 2008-04-06 RATING: 6/10</p>
+			<p>Like Wikinomics and Crowdsourcing, required reading if interested in harnessing the collective power of people online.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="The Culting of Brands - by Douglas Atkin" data-date="2008-02-08">
+		<a href="/book/CultingOfBrands"><img src="/images/124x187.gif" data-echo="/images/CultingOfBrands.gif" alt="The Culting of Brands - by Douglas Atkin" /></a>
+		<figcaption>
+			<h2><a href="/book/CultingOfBrands">The Culting of Brands - by Douglas Atkin</a></h2>
+			<p>ISBN: 1591840961 READ: 2008-02-08 RATING: 6/10</p>
+			<p>Unique fascinating dissection of cults and why they work. Then how to apply those lessons to marketing your business.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Execution - by Larry Bossidy and Ram Charan" data-date="2007-02-12">
+		<a href="/book/Execution"><img src="/images/124x187.gif" data-echo="/images/Execution.gif" alt="Execution - by Larry Bossidy and Ram Charan" /></a>
+		<figcaption>
+			<h2><a href="/book/Execution">Execution - by Larry Bossidy and Ram Charan</a></h2>
+			<p>ISBN: 0609610570 READ: 2007-02-12 RATING: 6/10</p>
+			<p>Great in-depth look at the dirty discipline of getting things done in a large organization.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="6" data-title="Maximum Achievement - by Brian Tracy" data-date="2006-11-12">
+		<a href="/book/MaximumAchievement"><img src="/images/124x187.gif" data-echo="/images/MaximumAchievement.gif" alt="Maximum Achievement - by Brian Tracy" /></a>
+		<figcaption>
+			<h2><a href="/book/MaximumAchievement">Maximum Achievement - by Brian Tracy</a></h2>
+			<p>ISBN: 0684803313 READ: 2006-11-12 RATING: 6/10</p>
+			<p>A classic self-help book. Exactly what you'd expect. I don't agree with all of it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="How I Found Freedom in an Unfree World - by Harry Browne" data-date="2016-01-03">
+		<a href="/book/FoundFreedomUnfree"><img src="/images/124x187.gif" data-echo="/images/FoundFreedomUnfree.gif" alt="How I Found Freedom in an Unfree World - by Harry Browne" /></a>
+		<figcaption>
+			<h2><a href="/book/FoundFreedomUnfree">How I Found Freedom in an Unfree World - by Harry Browne</a></h2>
+			<p>ISBN: 0965603679 READ: 2016-01-03 RATING: 5/10</p>
+			<p>Some fun "fist in the air" thoughts on freedom, from 1973. Includes related thoughts on parenting and honesty.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Sense of Style - by Steven Pinker" data-date="2015-09-01">
+		<a href="/book/SenseOfStyle"><img src="/images/124x187.gif" data-echo="/images/SenseOfStyle.gif" alt="The Sense of Style - by Steven Pinker" /></a>
+		<figcaption>
+			<h2><a href="/book/SenseOfStyle">The Sense of Style - by Steven Pinker</a></h2>
+			<p>ISBN: 0143127799 READ: 2015-09-01 RATING: 5/10</p>
+			<p>Advice on being a better writer. But compare to the book “On Writing Well”, also listed here. That one is punchy and immediately useful. This one is a more verbose, in-depth analysis of the use of language. Also useful, but, well, I wish it was shorter.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="How Adam Smith Can Change Your Life - by Russ Roberts" data-date="2015-05-07">
+		<a href="/book/AdamSmith"><img src="/images/124x187.gif" data-echo="/images/AdamSmith.gif" alt="How Adam Smith Can Change Your Life - by Russ Roberts" /></a>
+		<figcaption>
+			<h2><a href="/book/AdamSmith">How Adam Smith Can Change Your Life - by Russ Roberts</a></h2>
+			<p>ISBN: 1591846846 READ: 2015-05-07 RATING: 5/10</p>
+			<p>Adam Smith wrote “Theory of Moral Sentiments” in the 1700s. Now Russ puts it into modern language and times. Main point is that our morality comes from imagining being judged by our fellow man.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Daily Rituals: How Artists Work - by Mason Currey" data-date="2014-08-15">
+		<a href="/book/DailyRituals"><img src="/images/124x187.gif" data-echo="/images/DailyRituals.gif" alt="Daily Rituals: How Artists Work - by Mason Currey" /></a>
+		<figcaption>
+			<h2><a href="/book/DailyRituals">Daily Rituals: How Artists Work - by Mason Currey</a></h2>
+			<p>ISBN: 0307273601 READ: 2014-08-15 RATING: 5/10</p>
+			<p>Collections of the creative routines of famous writers, artists, musicians, and scientists.  Some interesting insights, but mostly reinforcing proof that it's important to keep a daily routine to put aside time for your creative work.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Story of French - by Jean-Benoit Nadeau and Julie Barlow" data-date="2014-02-02">
+		<a href="/book/StoryOfFrench"><img src="/images/124x187.gif" data-echo="/images/StoryOfFrench.gif" alt="The Story of French - by Jean-Benoit Nadeau and Julie Barlow" /></a>
+		<figcaption>
+			<h2><a href="/book/StoryOfFrench">The Story of French - by Jean-Benoit Nadeau and Julie Barlow</a></h2>
+			<p>ISBN: 0312341849 READ: 2014-02-02 RATING: 5/10</p>
+			<p>Just an interesting history and present look at the French language. I had no idea what an influence French was on English, and didn't understand its role in current Africa. Makes me want to learn French.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Island - by Aldous Huxley" data-date="2013-12-14">
+		<a href="/book/Island"><img src="/images/124x187.gif" data-echo="/images/Island.gif" alt="Island - by Aldous Huxley" /></a>
+		<figcaption>
+			<h2><a href="/book/Island">Island - by Aldous Huxley</a></h2>
+			<p>ISBN: 0061561797 READ: 2013-12-14 RATING: 5/10</p>
+			<p>This book totally changed my life at a key moment, when I was 22. It made me quit my job and pursue a life of variety. Some great ideas inside, especially the ones about family and healthy child-rearing. I just re-read it now, 22 years later, and it didn't hit me as hard as it did back then, maybe because I've internalized its philosophies so completely.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Ready for Anything - by David Allen" data-date="2013-11-28">
+		<a href="/book/ReadyForAnything"><img src="/images/124x187.gif" data-echo="/images/ReadyForAnything.gif" alt="Ready for Anything - by David Allen" /></a>
+		<figcaption>
+			<h2><a href="/book/ReadyForAnything">Ready for Anything - by David Allen</a></h2>
+			<p>ISBN: 0143034545 READ: 2013-11-28 RATING: 5/10</p>
+			<p>I read this in 2004, before Getting Things Done (same author), and liked it more, because it's more philosophical than instructional.  It made a big impact on me then.  I was just re-reading now for a little refresher.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Starting Strength - by Mark Rippetoe" data-date="2013-11-01">
+		<a href="/book/StartingStrength"><img src="/images/124x187.gif" data-echo="/images/StartingStrength.gif" alt="Starting Strength - by Mark Rippetoe" /></a>
+		<figcaption>
+			<h2><a href="/book/StartingStrength">Starting Strength - by Mark Rippetoe</a></h2>
+			<p>ISBN: 0982522738 READ: 2013-11-01 RATING: 5/10</p>
+			<p>For those who ever considered getting fit, this is the way to do it, and the best book on the subject. Not sure if I should put this in my book list, because it's not something you read, but something you do.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Now Habit - by Neil Fiore" data-date="2013-04-05">
+		<a href="/book/NowHabit"><img src="/images/124x187.gif" data-echo="/images/NowHabit.gif" alt="The Now Habit - by Neil Fiore" /></a>
+		<figcaption>
+			<h2><a href="/book/NowHabit">The Now Habit - by Neil Fiore</a></h2>
+			<p>ISBN: 1585425524 READ: 2013-04-05 RATING: 5/10</p>
+			<p>Good book with insights and advice on overcoming procrastination.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Meditation for Beginners - by Jack Kornfield" data-date="2012-01-12">
+		<a href="/book/MeditationForBeginners"><img src="/images/124x187.gif" data-echo="/images/MeditationForBeginners.gif" alt="Meditation for Beginners - by Jack Kornfield" /></a>
+		<figcaption>
+			<h2><a href="/book/MeditationForBeginners">Meditation for Beginners - by Jack Kornfield</a></h2>
+			<p>ISBN: 1591799422 READ: 2012-01-12 RATING: 5/10</p>
+			<p>Just some nice thoughts on meditation.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="A Gift to My Children - by Jim Rogers" data-date="2011-07-15">
+		<a href="/book/GiftToMyChildren"><img src="/images/124x187.gif" data-echo="/images/GiftToMyChildren.gif" alt="A Gift to My Children - by Jim Rogers" /></a>
+		<figcaption>
+			<h2><a href="/book/GiftToMyChildren">A Gift to My Children - by Jim Rogers</a></h2>
+			<p>ISBN: 1400067545 READ: 2011-07-15 RATING: 5/10</p>
+			<p>A nice short book of unconventional wisdom, mostly about investing.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Linchpin - by Seth Godin" data-date="2010-12-11">
+		<a href="/book/Linchpin"><img src="/images/124x187.gif" data-echo="/images/Linchpin.gif" alt="Linchpin - by Seth Godin" /></a>
+		<figcaption>
+			<h2><a href="/book/Linchpin">Linchpin - by Seth Godin</a></h2>
+			<p>ISBN: 1591843162 READ: 2010-12-11 RATING: 5/10</p>
+			<p>For someone who has a job at a company, I would call this essential reading with my highest recommendation.  Since I haven't had a job since 1992, I couldn't apply many of his great points to my life.  Still I loved his reminder of the value of the brilliant workers instead of systemized workers.  The opposite of E-Myth (another book reviewed here).</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Selfish Gene - by Richard Dawkins" data-date="2010-09-18">
+		<a href="/book/SelfishGene"><img src="/images/124x187.gif" data-echo="/images/SelfishGene.gif" alt="The Selfish Gene - by Richard Dawkins" /></a>
+		<figcaption>
+			<h2><a href="/book/SelfishGene">The Selfish Gene - by Richard Dawkins</a></h2>
+			<p>ISBN: 0199291152 READ: 2010-09-18 RATING: 5/10</p>
+			<p>About evolution and the theory of natural selection, proposing the idea that it's not creatures that are looking to replicate, but individual genes.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Nudge - by Richard Thaler and Cass Sunstein" data-date="2010-08-15">
+		<a href="/book/Nudge"><img src="/images/124x187.gif" data-echo="/images/Nudge.gif" alt="Nudge - by Richard Thaler and Cass Sunstein" /></a>
+		<figcaption>
+			<h2><a href="/book/Nudge">Nudge - by Richard Thaler and Cass Sunstein</a></h2>
+			<p>ISBN: 014311526X READ: 2010-08-15 RATING: 5/10</p>
+			<p>Introducing the idea of Libertarian Paternalism: influencing people's behavior for their own benefit, without forbidding any options or significantly changing their economic incentives.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Being Logical: A Guide to Good Thinking - by D.Q. McInerny" data-date="2010-03-15">
+		<a href="/book/BeingLogical"><img src="/images/124x187.gif" data-echo="/images/BeingLogical.gif" alt="Being Logical: A Guide to Good Thinking - by D.Q. McInerny" /></a>
+		<figcaption>
+			<h2><a href="/book/BeingLogical">Being Logical: A Guide to Good Thinking - by D.Q. McInerny</a></h2>
+			<p>ISBN: 0812971159 READ: 2010-03-15 RATING: 5/10</p>
+			<p>World getting too fuzzy and unreasonable? Watching too much TV? A good book on logic is a great antidote. I'd never read one before, so I don't know how to compare it to others, but I really loved the clear thinking and deep insights here.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Pomodoro Technique Illustrated - by Staffan Nöteberg" data-date="2010-01-11">
+		<a href="/book/Pomodoro"><img src="/images/124x187.gif" data-echo="/images/Pomodoro.gif" alt="Pomodoro Technique Illustrated - by Staffan Nöteberg" /></a>
+		<figcaption>
+			<h2><a href="/book/Pomodoro">Pomodoro Technique Illustrated - by Staffan Nöteberg</a></h2>
+			<p>ISBN: 1934356506 READ: 2010-01-11 RATING: 5/10</p>
+			<p>Pretty cool technique of working in 25-minute chunks. Better to start with a simple article about it, then read the book after if you love it. I do, so far.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Pragmatic Thinking and Learning - by Andy Hunt" data-date="2009-11-03">
+		<a href="/book/PragmaticThinking"><img src="/images/124x187.gif" data-echo="/images/PragmaticThinking.gif" alt="Pragmatic Thinking and Learning - by Andy Hunt" /></a>
+		<figcaption>
+			<h2><a href="/book/PragmaticThinking">Pragmatic Thinking and Learning - by Andy Hunt</a></h2>
+			<p>ISBN: 1934356050 READ: 2009-11-03 RATING: 5/10</p>
+			<p>A great curated collection of facts about how to learn effectively and think clearly. Since it's written by a programmer, it makes many computer analogies that fellow programmers will appreciate. Non-programmers might feel a little left out.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Great Formula - by Mark Joyner" data-date="2009-06-06">
+		<a href="/book/GreatFormula"><img src="/images/124x187.gif" data-echo="/images/GreatFormula.gif" alt="The Great Formula - by Mark Joyner" /></a>
+		<figcaption>
+			<h2><a href="/book/GreatFormula">The Great Formula - by Mark Joyner</a></h2>
+			<p>ISBN: 0471778230 READ: 2009-06-06 RATING: 5/10</p>
+			<p>Create an irresistable offer. Present it to people who need it. Sell them more afterwards. Lots of examples of this.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Outliers: The Story of Success - by Malcolm Gladwell" data-date="2009-04-23">
+		<a href="/book/Outliers"><img src="/images/124x187.gif" data-echo="/images/Outliers.gif" alt="Outliers: The Story of Success - by Malcolm Gladwell" /></a>
+		<figcaption>
+			<h2><a href="/book/Outliers">Outliers: The Story of Success - by Malcolm Gladwell</a></h2>
+			<p>ISBN: 0316017922 READ: 2009-04-23 RATING: 5/10</p>
+			<p>Deep study of why some people are so much more successful. Often due to circumstances and early opportunities, but really comes down to the fact that it takes about 10,000 hours of hard work to master something.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Lucky Or Smart? - by Bo Peabody" data-date="2009-04-23">
+		<a href="/book/LuckyOrSmart"><img src="/images/124x187.gif" data-echo="/images/LuckyOrSmart.gif" alt="Lucky Or Smart? - by Bo Peabody" /></a>
+		<figcaption>
+			<h2><a href="/book/LuckyOrSmart">Lucky Or Smart? - by Bo Peabody</a></h2>
+			<p>ISBN: 1439210101 READ: 2009-04-23 RATING: 5/10</p>
+			<p>Tiny book by an incredibly successful serial entrepreneur telling his tales and lessons learned.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The China Study - by Campbell and Campbell" data-date="2009-04-23">
+		<a href="/book/ChinaStudy"><img src="/images/124x187.gif" data-echo="/images/ChinaStudy.gif" alt="The China Study - by Campbell and Campbell" /></a>
+		<figcaption>
+			<h2><a href="/book/ChinaStudy">The China Study - by Campbell and Campbell</a></h2>
+			<p>ISBN: 1932100660 READ: 2009-04-23 RATING: 5/10</p>
+			<p>Biggest study ever on the effects of diet on health. The multiple health benefits of plant-based foods, and dangers of animal-based foods, including all types of meat, dairy and eggs.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Power of Less - by Leo Babuta" data-date="2009-01-21">
+		<a href="/book/PowerOfLess"><img src="/images/124x187.gif" data-echo="/images/PowerOfLess.gif" alt="The Power of Less - by Leo Babuta" /></a>
+		<figcaption>
+			<h2><a href="/book/PowerOfLess">The Power of Less - by Leo Babuta</a></h2>
+			<p>ISBN: 1401309704 READ: 2009-01-21 RATING: 5/10</p>
+			<p>Identify the essential. Eliminate the rest. Set limitations. Become incredibly effective. Written by someone who's been successfully living this way for years.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Cut to the Chase - by Stuart Levine" data-date="2008-07-26">
+		<a href="/book/CutToTheChase"><img src="/images/124x187.gif" data-echo="/images/CutToTheChase.gif" alt="Cut to the Chase - by Stuart Levine" /></a>
+		<figcaption>
+			<h2><a href="/book/CutToTheChase">Cut to the Chase - by Stuart Levine</a></h2>
+			<p>ISBN: 0385516207 READ: 2008-07-26 RATING: 5/10</p>
+			<p>Tips on more effective communication.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="Know-How - by Ram Charan with Geri Willigan" data-date="2007-02-12">
+		<a href="/book/KnowHow"><img src="/images/124x187.gif" data-echo="/images/KnowHow.gif" alt="Know-How - by Ram Charan with Geri Willigan" /></a>
+		<figcaption>
+			<h2><a href="/book/KnowHow">Know-How - by Ram Charan with Geri Willigan</a></h2>
+			<p>ISBN: 0307341518 READ: 2007-02-12 RATING: 5/10</p>
+			<p>Acquired expertise in big business. Subtitle: 8 Skills That Separate People Who Perform from Those Who Don't.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="5" data-title="The Art of Project Management - Scott Berkun" data-date="2006-11-19">
+		<a href="/book/ProjectManagement"><img src="/images/124x187.gif" data-echo="/images/ProjectManagement.gif" alt="The Art of Project Management - Scott Berkun" /></a>
+		<figcaption>
+			<h2><a href="/book/ProjectManagement">The Art of Project Management - Scott Berkun</a></h2>
+			<p>ISBN: 0596007868 READ: 2006-11-19 RATING: 5/10</p>
+			<p>The best book on how to oversee projects to completion.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Mindware: Tools for Smart Thinking - by Richard Nisbett" data-date="2016-02-07">
+		<a href="/book/Mindware"><img src="/images/124x187.gif" data-echo="/images/Mindware.gif" alt="Mindware: Tools for Smart Thinking - by Richard Nisbett" /></a>
+		<figcaption>
+			<h2><a href="/book/Mindware">Mindware: Tools for Smart Thinking - by Richard Nisbett</a></h2>
+			<p>ISBN: 0374112673 READ: 2016-02-07 RATING: 4/10</p>
+			<p>Damn I wanted to like this. And even looking at my notes, I see there are some good points about clear thinking, especially by keeping context in mind. But maybe something in his writing style put me off. Not sure why. Found it very hard to finish. </p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Never Let Go - by Dan John" data-date="2014-08-22">
+		<a href="/book/NeverLetGo"><img src="/images/124x187.gif" data-echo="/images/NeverLetGo.gif" alt="Never Let Go - by Dan John" /></a>
+		<figcaption>
+			<h2><a href="/book/NeverLetGo">Never Let Go - by Dan John</a></h2>
+			<p>ISBN: 1931046387 READ: 2014-08-22 RATING: 4/10</p>
+			<p>Some thoughts and advice on weight lifting and strength training.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="In Pursuit of Silence - by George Prochnik" data-date="2013-11-13">
+		<a href="/book/PursuitOfSilence"><img src="/images/124x187.gif" data-echo="/images/PursuitOfSilence.gif" alt="In Pursuit of Silence - by George Prochnik" /></a>
+		<figcaption>
+			<h2><a href="/book/PursuitOfSilence">In Pursuit of Silence - by George Prochnik</a></h2>
+			<p>ISBN: 0767931211 READ: 2013-11-13 RATING: 4/10</p>
+			<p>Interesting thoughts and findings on the search for peace and quiet in the modern world.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="The Laws of Subtraction - by Matthew May" data-date="2013-01-09">
+		<a href="/book/LawsOfSubtraction"><img src="/images/124x187.gif" data-echo="/images/LawsOfSubtraction.gif" alt="The Laws of Subtraction - by Matthew May" /></a>
+		<figcaption>
+			<h2><a href="/book/LawsOfSubtraction">The Laws of Subtraction - by Matthew May</a></h2>
+			<p>ISBN: 0071795618 READ: 2013-01-09 RATING: 4/10</p>
+			<p>I'm biased. I'm in it. This is a subject I live. So I flipped through a little fast, thinking, “Yep. I know. Got it. Living it. Yep.”  But for those who need some minimalist inspiration, this has some great thoughts in it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Drop Dead Healthy - by A. J. Jacobs" data-date="2012-05-22">
+		<a href="/book/DropDeadHealthy"><img src="/images/124x187.gif" data-echo="/images/DropDeadHealthy.gif" alt="Drop Dead Healthy - by A. J. Jacobs" /></a>
+		<figcaption>
+			<h2><a href="/book/DropDeadHealthy">Drop Dead Healthy - by A. J. Jacobs</a></h2>
+			<p>ISBN: 141659907X READ: 2012-05-22 RATING: 4/10</p>
+			<p>Funny and informative book by the always-brilliant A.J. Jacobs - about trying every health remedy and suggestion. Some surprising ones are effective.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Little Bets - by Peter Sims" data-date="2011-05-10">
+		<a href="/book/LittleBets"><img src="/images/124x187.gif" data-echo="/images/LittleBets.gif" alt="Little Bets - by Peter Sims" /></a>
+		<figcaption>
+			<h2><a href="/book/LittleBets">Little Bets - by Peter Sims</a></h2>
+			<p>ISBN: 1439170428 READ: 2011-05-10 RATING: 4/10</p>
+			<p>Examples of the fact that much success or creativity comes from trying many things, failing fast, getting feedback, trying more things, and deliberate practice.  Stories from Pixar, Chris Rock, Silicon Valley, Frank Gehry.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="One Simple Idea - by Stephen Key" data-date="2011-04-29">
+		<a href="/book/OneSimpleIdea"><img src="/images/124x187.gif" data-echo="/images/OneSimpleIdea.gif" alt="One Simple Idea - by Stephen Key" /></a>
+		<figcaption>
+			<h2><a href="/book/OneSimpleIdea">One Simple Idea - by Stephen Key</a></h2>
+			<p>ISBN: 0071756159 READ: 2011-04-29 RATING: 4/10</p>
+			<p>Good introduction into the world of licensing your ideas to companies that manufacture products.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Focus - by Leo Babauta" data-date="2011-01-17">
+		<a href="/book/Focus"><img src="/images/124x187.gif" data-echo="/images/Focus.gif" alt="Focus - by Leo Babauta" /></a>
+		<figcaption>
+			<h2><a href="/book/Focus">Focus - by Leo Babauta</a></h2>
+			<p>ISBN: 1434103072 READ: 2011-01-17 RATING: 4/10</p>
+			<p>Nice short reminder of the importance of solitude and focus. Single-tasking. Only doing your most important things, and let the rest go.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="The Upside of Irrationality - by Dan Ariely" data-date="2010-07-05">
+		<a href="/book/UpsideOfIrrationality"><img src="/images/124x187.gif" data-echo="/images/UpsideOfIrrationality.gif" alt="The Upside of Irrationality - by Dan Ariely" /></a>
+		<figcaption>
+			<h2><a href="/book/UpsideOfIrrationality">The Upside of Irrationality - by Dan Ariely</a></h2>
+			<p>ISBN: 0061995037 READ: 2010-07-05 RATING: 4/10</p>
+			<p>First read his amazing book “Predictably Irrational.”  But if you read and loved it, then this is a continuation with some more examples - mostly organizational.  He also catharticly details his own painful injuries in every chapter.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="The Profit Zone - by Adrian Slywotzky" data-date="2009-10-14">
+		<a href="/book/ProfitZone"><img src="/images/124x187.gif" data-echo="/images/ProfitZone.gif" alt="The Profit Zone - by Adrian Slywotzky" /></a>
+		<figcaption>
+			<h2><a href="/book/ProfitZone">The Profit Zone - by Adrian Slywotzky</a></h2>
+			<p>ISBN: 0812933044 READ: 2009-10-14 RATING: 4/10</p>
+			<p>Dryer but deeper prequel to the great “Art of Profitability” book, also recommended here. Start with that one. Only read this if that one fascinated you.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Speaking of India - by Craig Sorti" data-date="2008-09-30">
+		<a href="/book/SpeakingOfIndia"><img src="/images/124x187.gif" data-echo="/images/SpeakingOfIndia.gif" alt="Speaking of India - by Craig Sorti" /></a>
+		<figcaption>
+			<h2><a href="/book/SpeakingOfIndia">Speaking of India - by Craig Sorti</a></h2>
+			<p>ISBN: 1931930341 READ: 2008-09-30 RATING: 4/10</p>
+			<p>Required reading for anyone doing business in India, with detailed analysis of cultural and communication differences. Example: in India a lack of emphatic “yes!” means “no”. Teaches Westerners to adapt to this.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="4" data-title="Richard Branson - Losing My Virginity" data-date="2008-06-01">
+		<a href="/book/RichardBranson"><img src="/images/124x187.gif" data-echo="/images/RichardBranson.gif" alt="Richard Branson - Losing My Virginity" /></a>
+		<figcaption>
+			<h2><a href="/book/RichardBranson">Richard Branson - Losing My Virginity</a></h2>
+			<p>ISBN: 0812932293 READ: 2008-06-01 RATING: 4/10</p>
+			<p>Autobiography of his life from childhood through 2004. Interesting how he was always over-leveraged and how that drove him forward. Amazing how he negotiated Necker Island from £3 million down to £180k.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Leading an Inspired Life - by Jim Rohn" data-date="2016-08-24">
+		<a href="/book/InspiredLife"><img src="/images/124x187.gif" data-echo="/images/InspiredLife.gif" alt="Leading an Inspired Life - by Jim Rohn" /></a>
+		<figcaption>
+			<h2><a href="/book/InspiredLife">Leading an Inspired Life - by Jim Rohn</a></h2>
+			<p>ISBN: 1555254594 READ: 2016-08-24 RATING: 3/10</p>
+			<p>Great beginning. Absolutely adored the opening of this book, about discipline. Loved it so much it made me jump out of bed and go work for a few hours in the middle of the night, totally inspired. But then the rest of the book was ridiculously generic, with the occasional great sentence. Still, worth getting for that first chapter alone.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="And Never Stop Dancing - by Gordon Livingston" data-date="2016-08-03">
+		<a href="/book/NeverStopDancing"><img src="/images/124x187.gif" data-echo="/images/NeverStopDancing.gif" alt="And Never Stop Dancing - by Gordon Livingston" /></a>
+		<figcaption>
+			<h2><a href="/book/NeverStopDancing">And Never Stop Dancing - by Gordon Livingston</a></h2>
+			<p>ISBN: 0738212490 READ: 2016-08-03 RATING: 3/10</p>
+			<p>His other book, “Too Soon Old, Too Late Smart” was brilliant. Read that one. This is the weak sequel. Skip this one.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="The Drunkard's Walk: How Randomness Rules Our Lives - by Leonard Mlodinow" data-date="2016-04-12">
+		<a href="/book/Drunkard"><img src="/images/124x187.gif" data-echo="/images/Drunkard.gif" alt="The Drunkard's Walk: How Randomness Rules Our Lives - by Leonard Mlodinow" /></a>
+		<figcaption>
+			<h2><a href="/book/Drunkard">The Drunkard's Walk: How Randomness Rules Our Lives - by Leonard Mlodinow</a></h2>
+			<p>ISBN: 9780307275172 READ: 2016-04-12 RATING: 3/10</p>
+			<p>I thought it was about the philosophy of randomness, but turned out to be about the math of probability. Might read again some day when in the mood for that.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Simple Rules: How to Thrive in a Complex World - by Donald Sull" data-date="2016-03-20">
+		<a href="/book/SimpleRules"><img src="/images/124x187.gif" data-echo="/images/SimpleRules.gif" alt="Simple Rules: How to Thrive in a Complex World - by Donald Sull" /></a>
+		<figcaption>
+			<h2><a href="/book/SimpleRules">Simple Rules: How to Thrive in a Complex World - by Donald Sull</a></h2>
+			<p>ISBN: 0544409906 READ: 2016-03-20 RATING: 3/10</p>
+			<p>Not a book that gives you simple rules. Instead it's on the meta-topic of simple rules. Gives examples from medicine, crime, gambling, investing, etc.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Quirkology - by Richard Wiseman" data-date="2016-03-02">
+		<a href="/book/Quirkology"><img src="/images/124x187.gif" data-echo="/images/Quirkology.gif" alt="Quirkology - by Richard Wiseman" /></a>
+		<figcaption>
+			<h2><a href="/book/Quirkology">Quirkology - by Richard Wiseman</a></h2>
+			<p>ISBN: 0465090796 READ: 2016-03-02 RATING: 3/10</p>
+			<p>Cute stories about surprising research on curious aspects of everyday life. Many heard before in others books here.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Writing Tools - by Roy Peter Clark" data-date="2015-11-05">
+		<a href="/book/WritingTools"><img src="/images/124x187.gif" data-echo="/images/WritingTools.gif" alt="Writing Tools - by Roy Peter Clark" /></a>
+		<figcaption>
+			<h2><a href="/book/WritingTools">Writing Tools - by Roy Peter Clark</a></h2>
+			<p>ISBN: 0316014990 READ: 2015-11-05 RATING: 3/10</p>
+			<p>Otherwise a good book about writing technique, but unfortunately I found myself wincing at the author's writing style!  It strongly violated my favorite Elmore Leonard suggestion: “If it sounds like writing, rewrite it.”  Read “On Writing Well” instead.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="A More Beautiful Question - by Warren Berger" data-date="2015-07-07">
+		<a href="/book/MoreBeautifulQuestion"><img src="/images/124x187.gif" data-echo="/images/MoreBeautifulQuestion.gif" alt="A More Beautiful Question - by Warren Berger" /></a>
+		<figcaption>
+			<h2><a href="/book/MoreBeautifulQuestion">A More Beautiful Question - by Warren Berger</a></h2>
+			<p>ISBN: 1620401452 READ: 2015-07-07 RATING: 3/10</p>
+			<p>A fine book, but maybe because I've been around professional creatives instead of corporate-types for most of my life, I already knew this subject too well, so it wasn't very useful to me.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Make It Stick - by Peter Brown" data-date="2014-12-20">
+		<a href="/book/MakeItStick"><img src="/images/124x187.gif" data-echo="/images/MakeItStick.gif" alt="Make It Stick - by Peter Brown" /></a>
+		<figcaption>
+			<h2><a href="/book/MakeItStick">Make It Stick - by Peter Brown</a></h2>
+			<p>ISBN: 0674729013 READ: 2014-12-20 RATING: 3/10</p>
+			<p>Great core point: that effortful learning - not easy - is more effective. Also the importance of self-testing as a learning tool.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="The Power of No - by James and Claudia Altucher" data-date="2014-11-01">
+		<a href="/book/PowerOfNo"><img src="/images/124x187.gif" data-echo="/images/PowerOfNo.gif" alt="The Power of No - by James and Claudia Altucher" /></a>
+		<figcaption>
+			<h2><a href="/book/PowerOfNo">The Power of No - by James and Claudia Altucher</a></h2>
+			<p>ISBN: 1401945872 READ: 2014-11-01 RATING: 3/10</p>
+			<p>Quite scattered book, but inside the mess was a nice reminder of the importance of saying no to anything that doesn't serve you well.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="How to Learn and Memorize French Vocabulary - by Anthony Metivier" data-date="2014-04-08">
+		<a href="/book/MemorizeFrench"><img src="/images/124x187.gif" data-echo="/images/MemorizeFrench.gif" alt="How to Learn and Memorize French Vocabulary - by Anthony Metivier" /></a>
+		<figcaption>
+			<h2><a href="/book/MemorizeFrench">How to Learn and Memorize French Vocabulary - by Anthony Metivier</a></h2>
+			<p>ISBN: 1482667002 READ: 2014-04-08 RATING: 3/10</p>
+			<p>Only interesting if you haven't read anything else about the “loci” / “memory palace” method of memorization.  Had almost nothing to do with French.  Obviously made from copy-n-paste with his other books about German, Spanish, Russian, etc.  Just change a few words, and voila!  New ebook.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="The Checklist Manifesto - by Atul Gawande" data-date="2011-12-25">
+		<a href="/book/ChecklistManifesto"><img src="/images/124x187.gif" data-echo="/images/ChecklistManifesto.gif" alt="The Checklist Manifesto - by Atul Gawande" /></a>
+		<figcaption>
+			<h2><a href="/book/ChecklistManifesto">The Checklist Manifesto - by Atul Gawande</a></h2>
+			<p>ISBN: 0312430000 READ: 2011-12-25 RATING: 3/10</p>
+			<p>Like Malcom Gladwell, a book that could and should have been an article, but puffed up with 200 pages of supporting stories, mostly great detailed tales of his surgeon experiences where a checklist would have come in handy. Here's the book in one sentence: You should make checklists for any complex procedures or decisions.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Hiring Smart - by Pierre Mornell" data-date="2011-08-07">
+		<a href="/book/HiringSmart"><img src="/images/124x187.gif" data-echo="/images/HiringSmart.gif" alt="Hiring Smart - by Pierre Mornell" /></a>
+		<figcaption>
+			<h2><a href="/book/HiringSmart">Hiring Smart - by Pierre Mornell</a></h2>
+			<p>ISBN: 1580085148 READ: 2011-08-07 RATING: 3/10</p>
+			<p>Good advice on hiring. No big surprises, but some useful tips.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Discover Your Inner Economist - by Tyler Cowen" data-date="2009-10-19">
+		<a href="/book/InnerEconomist"><img src="/images/124x187.gif" data-echo="/images/InnerEconomist.gif" alt="Discover Your Inner Economist - by Tyler Cowen" /></a>
+		<figcaption>
+			<h2><a href="/book/InnerEconomist">Discover Your Inner Economist - by Tyler Cowen</a></h2>
+			<p>ISBN: 0452289637 READ: 2009-10-19 RATING: 3/10</p>
+			<p>The book title is misleading. It ends up being mostly the author's recommendations for the transactions of life. When to give to charity, what restaurants to choose, what insurance to buy, etc. He makes a rational case for these, that is often very interesting, but still feels like just his opinion.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Causing a Scene - by Charlie Todd" data-date="2009-08-18">
+		<a href="/book/CausingAScene"><img src="/images/124x187.gif" data-echo="/images/CausingAScene.gif" alt="Causing a Scene - by Charlie Todd" /></a>
+		<figcaption>
+			<h2><a href="/book/CausingAScene">Causing a Scene - by Charlie Todd</a></h2>
+			<p>ISBN: 006170363X READ: 2009-08-18 RATING: 3/10</p>
+			<p>Fun tales from the guy that invented Improv Everywhere. Not really educational as much as just fun, and I'm a huge fan of their “missions”.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Born to Run - by Christopher McDougall" data-date="2009-06-21">
+		<a href="/book/BornToRun"><img src="/images/124x187.gif" data-echo="/images/BornToRun.gif" alt="Born to Run - by Christopher McDougall" /></a>
+		<figcaption>
+			<h2><a href="/book/BornToRun">Born to Run - by Christopher McDougall</a></h2>
+			<p>ISBN: 0307266303 READ: 2009-06-21 RATING: 3/10</p>
+			<p>Gripping story of a man who was trying to find out why his feet hurt while running. This led him to the story of the Tarahumara Indians of Mexico's Copper Canyon, the greatest distance runners in the world. If you like running, you'll love this book! My favorite quote: "No wonder your feet are so sensitive. They’re self-correcting devices. Covering your feet with cushioned shoes is like turning off your smoke alarms."</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="How to be a Billionaire - by Martin Fridson" data-date="2009-04-23">
+		<a href="/book/HowToBeABillionaire"><img src="/images/124x187.gif" data-echo="/images/HowToBeABillionaire.gif" alt="How to be a Billionaire - by Martin Fridson" /></a>
+		<figcaption>
+			<h2><a href="/book/HowToBeABillionaire">How to be a Billionaire - by Martin Fridson</a></h2>
+			<p>ISBN: 0471416177 READ: 2009-04-23 RATING: 3/10</p>
+			<p>Biographical look at billionaires from the last 200 years, and lessons learned from how they did it. Some lessons aren't really applicable to the rest of us, like changing government laws to protect your monopoly. But some are.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Enough - by John Bogle" data-date="2009-04-23">
+		<a href="/book/Enough"><img src="/images/124x187.gif" data-echo="/images/Enough.gif" alt="Enough - by John Bogle" /></a>
+		<figcaption>
+			<h2><a href="/book/Enough">Enough - by John Bogle</a></h2>
+			<p>ISBN: 0470398515 READ: 2009-04-23 RATING: 3/10</p>
+			<p>Legendary investor, now 80, looks back with long-view wisdom on investing, living, and giving.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Management of the Absurd - by Richard Farson" data-date="2009-04-14">
+		<a href="/book/ManagementOfTheAbsurd"><img src="/images/124x187.gif" data-echo="/images/ManagementOfTheAbsurd.gif" alt="Management of the Absurd - by Richard Farson" /></a>
+		<figcaption>
+			<h2><a href="/book/ManagementOfTheAbsurd">Management of the Absurd - by Richard Farson</a></h2>
+			<p>ISBN: 0684830442 READ: 2009-04-14 RATING: 3/10</p>
+			<p>Counter-intuitive lessons about management. Highly recommended for managers and leaders, but also teachers and parents.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Reality Check - by Guy Kawasaki" data-date="2009-03-08">
+		<a href="/book/RealityCheck"><img src="/images/124x187.gif" data-echo="/images/RealityCheck.gif" alt="Reality Check - by Guy Kawasaki" /></a>
+		<figcaption>
+			<h2><a href="/book/RealityCheck">Reality Check - by Guy Kawasaki</a></h2>
+			<p>ISBN: 1591842239 READ: 2009-03-08 RATING: 3/10</p>
+			<p>Great collection of essays about entrepreneurship from his blog at blog.guykawasaki.com</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Fooled by Randomness - by Nassim Nicholas Taleb" data-date="2008-04-05">
+		<a href="/book/FooledByRandomness"><img src="/images/124x187.gif" data-echo="/images/FooledByRandomness.gif" alt="Fooled by Randomness - by Nassim Nicholas Taleb" /></a>
+		<figcaption>
+			<h2><a href="/book/FooledByRandomness">Fooled by Randomness - by Nassim Nicholas Taleb</a></h2>
+			<p>ISBN: 1400067936 READ: 2008-04-05 RATING: 3/10</p>
+			<p>Mr Black Swan sure does love the sound of his own voice. Interesting thoughts on investing and misjudging randomness inside lots of blather.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="The Obsolete Employee - by Michael Russer" data-date="2007-10-01">
+		<a href="/book/ObsoleteEmployee"><img src="/images/124x187.gif" data-echo="/images/ObsoleteEmployee.gif" alt="The Obsolete Employee - by Michael Russer" /></a>
+		<figcaption>
+			<h2><a href="/book/ObsoleteEmployee">The Obsolete Employee - by Michael Russer</a></h2>
+			<p>ISBN: 0966248465 READ: 2007-10-01 RATING: 3/10</p>
+			<p>How to run a company without employees, but with a loose network of work-from-home freelance agents. Very instructive, but also good perspective like how until the industrial revolution, there were no employees: everyone was freelance.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="3" data-title="Secrets of the Millionaire Mind - by T. Harv Ecker" data-date="2007-06-12">
+		<a href="/book/MillionaireMind"><img src="/images/124x187.gif" data-echo="/images/MillionaireMind.gif" alt="Secrets of the Millionaire Mind - by T. Harv Ecker" /></a>
+		<figcaption>
+			<h2><a href="/book/MillionaireMind">Secrets of the Millionaire Mind - by T. Harv Ecker</a></h2>
+			<p>ISBN: 0060763280 READ: 2007-06-12 RATING: 3/10</p>
+			<p>If you suspect that your mindset is holding you back from making more money, read this. Identifies and dissolves the mental baggage we've built up that believes money is evil and those who have it are greedy.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="The Future of Almost Everything - by Patrick Dixon" data-date="2015-10-10">
+		<a href="/book/FutureAlmostEverything"><img src="/images/124x187.gif" data-echo="/images/FutureAlmostEverything.gif" alt="The Future of Almost Everything - by Patrick Dixon" /></a>
+		<figcaption>
+			<h2><a href="/book/FutureAlmostEverything">The Future of Almost Everything - by Patrick Dixon</a></h2>
+			<p>ISBN: 1781254974 READ: 2015-10-10 RATING: 2/10</p>
+			<p>On the plus-side, he's focused on future predictions that are most likely to happen. On the down-side, that means there are no big surprises. An interesting read, but not much I needed to take notes on.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Wilde in America - by David M. Friedman" data-date="2015-09-20">
+		<a href="/book/WildeInAmerica"><img src="/images/124x187.gif" data-echo="/images/WildeInAmerica.gif" alt="Wilde in America - by David M. Friedman" /></a>
+		<figcaption>
+			<h2><a href="/book/WildeInAmerica">Wilde in America - by David M. Friedman</a></h2>
+			<p>ISBN: 0393063178 READ: 2015-09-20 RATING: 2/10</p>
+			<p>A fine biography of Oscar Wilde's unique approach to America. Best quote: “Other Europeans came to learn about America; Wilde came so America could learn about him.”</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Complexity: A Guided Tour - by Melanie Mitchell" data-date="2014-09-01">
+		<a href="/book/Complexity"><img src="/images/124x187.gif" data-echo="/images/Complexity.gif" alt="Complexity: A Guided Tour - by Melanie Mitchell" /></a>
+		<figcaption>
+			<h2><a href="/book/Complexity">Complexity: A Guided Tour - by Melanie Mitchell</a></h2>
+			<p>ISBN: 0199798109 READ: 2014-09-01 RATING: 2/10</p>
+			<p>Great for what it is. I'm embarrassed to admit most of it went over my head. I'm not interested enough in the subject to give it my full concentration. I might read it again some day when it's more applicable to my life.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Your Memory - by Kenneth L. Higbee" data-date="2014-04-11">
+		<a href="/book/YourMemory"><img src="/images/124x187.gif" data-echo="/images/YourMemory.gif" alt="Your Memory - by Kenneth L. Higbee" /></a>
+		<figcaption>
+			<h2><a href="/book/YourMemory">Your Memory - by Kenneth L. Higbee</a></h2>
+			<p>ISBN: 1569246297 READ: 2014-04-11 RATING: 2/10</p>
+			<p>Read the book “Moonwalking With Einstein” instead.  Most of the same info, but this is more academic than entertaining.  Written for students taking exams.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="The Philosophical Baby - by Alison Gopnik" data-date="2013-11-21">
+		<a href="/book/PhilosophicalBaby"><img src="/images/124x187.gif" data-echo="/images/PhilosophicalBaby.gif" alt="The Philosophical Baby - by Alison Gopnik" /></a>
+		<figcaption>
+			<h2><a href="/book/PhilosophicalBaby">The Philosophical Baby - by Alison Gopnik</a></h2>
+			<p>ISBN: 0312429843 READ: 2013-11-21 RATING: 2/10</p>
+			<p>A good friend highly recommended this as one of his favorite books on baby-hood.  I just didn't connect with it, after a few attempts.  You may love it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Hire With Your Head - by Lou Adler" data-date="2010-12-15">
+		<a href="/book/HireWithYourHead"><img src="/images/124x187.gif" data-echo="/images/HireWithYourHead.gif" alt="Hire With Your Head - by Lou Adler" /></a>
+		<figcaption>
+			<h2><a href="/book/HireWithYourHead">Hire With Your Head - by Lou Adler</a></h2>
+			<p>ISBN: 0470128356 READ: 2010-12-15 RATING: 2/10</p>
+			<p>Great advice on hiring, but insanely repetitive.  Maybe this was an editing mistake - that the exact same points are made over and over and over and over - often with the exact same words, sentences, even paragraphs.  But those key points are great.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="The Pleasures and Sorrows of Work - by Alain De Botton" data-date="2010-12-12">
+		<a href="/book/PleasuresAndSorrowsOfWork"><img src="/images/124x187.gif" data-echo="/images/PleasuresAndSorrowsOfWork.gif" alt="The Pleasures and Sorrows of Work - by Alain De Botton" /></a>
+		<figcaption>
+			<h2><a href="/book/PleasuresAndSorrowsOfWork">The Pleasures and Sorrows of Work - by Alain De Botton</a></h2>
+			<p>ISBN: 0307277259 READ: 2010-12-12 RATING: 2/10</p>
+			<p>Thoughtful rambling observations on different lines of work. Personal tales of his time spent observing different industries like fishing, counseling, shipyards, or walking along electric towers.  Some tangential insights along the way.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Born Standing Up - by Steve Martin" data-date="2010-01-09">
+		<a href="/book/BornStandingUp"><img src="/images/124x187.gif" data-echo="/images/BornStandingUp.gif" alt="Born Standing Up - by Steve Martin" /></a>
+		<figcaption>
+			<h2><a href="/book/BornStandingUp">Born Standing Up - by Steve Martin</a></h2>
+			<p>ISBN: 1416553657 READ: 2010-01-09 RATING: 2/10</p>
+			<p>A simple autobiography of his early years.  Interesting tale, though no usable lessons for me.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Committed - by Elizabeth Gilbert" data-date="2010-01-07">
+		<a href="/book/Committed"><img src="/images/124x187.gif" data-echo="/images/Committed.gif" alt="Committed - by Elizabeth Gilbert" /></a>
+		<figcaption>
+			<h2><a href="/book/Committed">Committed - by Elizabeth Gilbert</a></h2>
+			<p>ISBN: 0670021652 READ: 2010-01-07 RATING: 2/10</p>
+			<p>If listening to someone think out loud about marriage for 12 hours interests you, you will like this. Since I was newly engaged, I did.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="What the Dog Saw - by Malcolm Gladwell" data-date="2009-12-05">
+		<a href="/book/WhatTheDogSaw"><img src="/images/124x187.gif" data-echo="/images/WhatTheDogSaw.gif" alt="What the Dog Saw - by Malcolm Gladwell" /></a>
+		<figcaption>
+			<h2><a href="/book/WhatTheDogSaw">What the Dog Saw - by Malcolm Gladwell</a></h2>
+			<p>ISBN: 0316075841 READ: 2009-12-05 RATING: 2/10</p>
+			<p>A pretty-good collection of his articles from the past few years.  While most are somewhat interesting, it felt a little like surfing the net or TV.  Lots of “huh”, but no lasting insights.  More entertainment than education.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="China Road - by Rob Gifford" data-date="2009-06-02">
+		<a href="/book/ChinaRoad"><img src="/images/124x187.gif" data-echo="/images/ChinaRoad.gif" alt="China Road - by Rob Gifford" /></a>
+		<figcaption>
+			<h2><a href="/book/ChinaRoad">China Road - by Rob Gifford</a></h2>
+			<p>ISBN: 0812975243 READ: 2009-06-02 RATING: 2/10</p>
+			<p>Not a business book, unless you want to understand China a bit more. Journalist who's worked in China for 10 years decides to move back to London, but takes one last cross-country trip and gets first-time insights into rural Chinese life and how the country has changed.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="2" data-title="Hot Commodities - by Jim Rogers" data-date="2008-08-11">
+		<a href="/book/HotCommodities"><img src="/images/124x187.gif" data-echo="/images/HotCommodities.gif" alt="Hot Commodities - by Jim Rogers" /></a>
+		<figcaption>
+			<h2><a href="/book/HotCommodities">Hot Commodities - by Jim Rogers</a></h2>
+			<p>ISBN: 0812973712 READ: 2008-08-11 RATING: 2/10</p>
+			<p>Very specific book about understanding the commodity markets.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Me, Inc. - by Gene Simmons" data-date="2015-05-01">
+		<a href="/book/MeInc"><img src="/images/124x187.gif" data-echo="/images/MeInc.gif" alt="Me, Inc. - by Gene Simmons" /></a>
+		<figcaption>
+			<h2><a href="/book/MeInc">Me, Inc. - by Gene Simmons</a></h2>
+			<p>ISBN: 0062322613 READ: 2015-05-01 RATING: 1/10</p>
+			<p>I shouldn't have read this.  I believed someone else's rave review about it.  Slightly interesting to hear the quick thoughts of someone who's hyper-focused on money.  But that's all.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Bird by Bird - by Anne Lamott" data-date="2013-11-11">
+		<a href="/book/BirdByBird"><img src="/images/124x187.gif" data-echo="/images/BirdByBird.gif" alt="Bird by Bird - by Anne Lamott" /></a>
+		<figcaption>
+			<h2><a href="/book/BirdByBird">Bird by Bird - by Anne Lamott</a></h2>
+			<p>ISBN: 0385480016 READ: 2013-11-11 RATING: 1/10</p>
+			<p>So many people love this book, but it just wasn't my style. Aiming to be funny and describing a crazy mindset, but I couldn't relate to either. Mostly about writing novels.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Program or Be Programmed - by Douglas Rushkoff and Leland Purvis" data-date="2011-07-20">
+		<a href="/book/PgOrBPg"><img src="/images/124x187.gif" data-echo="/images/PgOrBPg.gif" alt="Program or Be Programmed - by Douglas Rushkoff and Leland Purvis" /></a>
+		<figcaption>
+			<h2><a href="/book/PgOrBPg">Program or Be Programmed - by Douglas Rushkoff and Leland Purvis</a></h2>
+			<p>ISBN: 1935928155 READ: 2011-07-20 RATING: 1/10</p>
+			<p>Maybe I'm just too immersed in this, but everything said here seems to be the most conventional wisdom - nothing I haven't heard.  Shame, because I thought it was going to be about teaching the lay-person the importance of programming.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="The Four Filters Invention of Warren Buffett and Charlie Munger - by Bud Labitan" data-date="2011-01-21">
+		<a href="/book/FourFilters"><img src="/images/124x187.gif" data-echo="/images/FourFilters.gif" alt="The Four Filters Invention of Warren Buffett and Charlie Munger - by Bud Labitan" /></a>
+		<figcaption>
+			<h2><a href="/book/FourFilters">The Four Filters Invention of Warren Buffett and Charlie Munger - by Bud Labitan</a></h2>
+			<p>ISBN: 0615241298 READ: 2011-01-21 RATING: 1/10</p>
+			<p>Another overview of the investment approach of Warren Buffett and Charlie Munger.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="What I Talk About When I Talk About Running - by Haruki Murakami" data-date="2010-12-27">
+		<a href="/book/TalkAboutRunning"><img src="/images/124x187.gif" data-echo="/images/TalkAboutRunning.gif" alt="What I Talk About When I Talk About Running - by Haruki Murakami" /></a>
+		<figcaption>
+			<h2><a href="/book/TalkAboutRunning">What I Talk About When I Talk About Running - by Haruki Murakami</a></h2>
+			<p>ISBN: 0307389839 READ: 2010-12-27 RATING: 1/10</p>
+			<p>This novelist runs every day, including many marathons. This book is his thoughts about running and how it relates to other things in work and life.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Confessions of a Serial Entrepreneur - by Stuart Skorman" data-date="2010-12-24">
+		<a href="/book/SerialEntrepreneur"><img src="/images/124x187.gif" data-echo="/images/SerialEntrepreneur.gif" alt="Confessions of a Serial Entrepreneur - by Stuart Skorman" /></a>
+		<figcaption>
+			<h2><a href="/book/SerialEntrepreneur">Confessions of a Serial Entrepreneur - by Stuart Skorman</a></h2>
+			<p>ISBN: 0787987328 READ: 2010-12-24 RATING: 1/10</p>
+			<p>Personal tales, almost an autobiography, of someone who created a wide range of businesses, both successful and not.  Some insights along the way, but not many surprising ones.  I'd recommend “How to Get Rich” by Felix Dennis instead, also reviewed on this website.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Life Without Lawyers - by Philip K. Howard" data-date="2010-04-24">
+		<a href="/book/LifeWithoutLawyers"><img src="/images/124x187.gif" data-echo="/images/LifeWithoutLawyers.gif" alt="Life Without Lawyers - by Philip K. Howard" /></a>
+		<figcaption>
+			<h2><a href="/book/LifeWithoutLawyers">Life Without Lawyers - by Philip K. Howard</a></h2>
+			<p>ISBN: 0393065669 READ: 2010-04-24 RATING: 1/10</p>
+			<p>I really liked his TED talk (search ted.com), and this book elaborates on the idea.  Makes a good point, but should just be a long article - not a whole book.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="The Productive Programmer - by Neal Ford" data-date="2009-11-01">
+		<a href="/book/ProductiveProgrammer"><img src="/images/124x187.gif" data-echo="/images/ProductiveProgrammer.gif" alt="The Productive Programmer - by Neal Ford" /></a>
+		<figcaption>
+			<h2><a href="/book/ProductiveProgrammer">The Productive Programmer - by Neal Ford</a></h2>
+			<p>ISBN: 0596519788 READ: 2009-11-01 RATING: 1/10</p>
+			<p>I thought it was going to be more general or philosophical tips, but seemed to be more about IDE-specific tips instead.  Then it crashed my Kindle (and still does). Oh well.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Crash Proof 2.0 - by Peter Schiff" data-date="2009-10-25">
+		<a href="/book/CrashProof"><img src="/images/124x187.gif" data-echo="/images/CrashProof.gif" alt="Crash Proof 2.0 - by Peter Schiff" /></a>
+		<figcaption>
+			<h2><a href="/book/CrashProof">Crash Proof 2.0 - by Peter Schiff</a></h2>
+			<p>ISBN: 047047453X READ: 2009-10-25 RATING: 1/10</p>
+			<p>Opinion on what to do if the dollar crashes, as the author is strongly speculating that it will. I highly recommend reading the Investor's Manifesto after or instead of this, for a strictly fact-based non-speculative approach instead.  But still this is interesting to hear this point of view.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Rapt - by Winifred Gallagher" data-date="2009-07-26">
+		<a href="/book/Rapt"><img src="/images/124x187.gif" data-echo="/images/Rapt.gif" alt="Rapt - by Winifred Gallagher" /></a>
+		<figcaption>
+			<h2><a href="/book/Rapt">Rapt - by Winifred Gallagher</a></h2>
+			<p>ISBN: 1594202109 READ: 2009-07-26 RATING: 1/10</p>
+			<p>Well-intentioned book I couldn't stomach because of her awkwardly flowerly writing style. Also I've read a lot about focus and flow, so this was mostly a repeat covered better in other books.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Radical Honesty - by Brad Blanton" data-date="2009-06-20">
+		<a href="/book/RadicalHonesty"><img src="/images/124x187.gif" data-echo="/images/RadicalHonesty.gif" alt="Radical Honesty - by Brad Blanton" /></a>
+		<figcaption>
+			<h2><a href="/book/RadicalHonesty">Radical Honesty - by Brad Blanton</a></h2>
+			<p>ISBN: 0970693842 READ: 2009-06-20 RATING: 1/10</p>
+			<p>First read the great article in Esquire magazine: http://www.esquire.com/features/honesty0707  This book just elaborates on that philosophy.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="A Bull in China - by Jim Rogers" data-date="2008-08-06">
+		<a href="/book/BullInChina"><img src="/images/124x187.gif" data-echo="/images/BullInChina.gif" alt="A Bull in China - by Jim Rogers" /></a>
+		<figcaption>
+			<h2><a href="/book/BullInChina">A Bull in China - by Jim Rogers</a></h2>
+			<p>ISBN: 1400066166 READ: 2008-08-06 RATING: 1/10</p>
+			<p>Very specific book about investing in China's stock market.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="1" data-title="Founders at Work - by Jessica Livingston" data-date="2008-02-12">
+		<a href="/book/FoundersAtWork"><img src="/images/124x187.gif" data-echo="/images/FoundersAtWork.gif" alt="Founders at Work - by Jessica Livingston" /></a>
+		<figcaption>
+			<h2><a href="/book/FoundersAtWork">Founders at Work - by Jessica Livingston</a></h2>
+			<p>ISBN: 1430210788 READ: 2008-02-12 RATING: 1/10</p>
+			<p>Long in-depth interviews with company founders, telling their tales of how they started. Lots of stories with a few usable gems.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="0" data-title="Seeing What Others Don't - by Gary Klein" data-date="2014-11-10">
+		<a href="/book/SeeingWhatOthersDont"><img src="/images/124x187.gif" data-echo="/images/SeeingWhatOthersDont.gif" alt="Seeing What Others Don't - by Gary Klein" /></a>
+		<figcaption>
+			<h2><a href="/book/SeeingWhatOthersDont">Seeing What Others Don't - by Gary Klein</a></h2>
+			<p>ISBN: 1610392515 READ: 2014-11-10 RATING: 0/10</p>
+			<p>I really wanted to like this book, but couldn't stomach the writing style. Instead of presenting his conclusions, you have to slog forever through his tales of how he went about his research, and how he felt about each step along the way to writing this book. I couldn't finish it.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="0" data-title="Flex: Do Something Different - by Ben Fletcher and Karen Pine" data-date="2014-09-15">
+		<a href="/book/DoSomethingDifferent"><img src="/images/124x187.gif" data-echo="/images/DoSomethingDifferent.gif" alt="Flex: Do Something Different - by Ben Fletcher and Karen Pine" /></a>
+		<figcaption>
+			<h2><a href="/book/DoSomethingDifferent">Flex: Do Something Different - by Ben Fletcher and Karen Pine</a></h2>
+			<p>ISBN: 1907396543 READ: 2014-09-15 RATING: 0/10</p>
+			<p>I give the basic idea a 9-out-of-10 rating: that we shouldn't declare and hold to a personality type (“I'm an introvert! I'm adventurous!”), but rather should adapt to the situation. Halfway through the book I gave up because I got the idea and didn't like the writing style.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="0" data-title="Cambodia's Curse - by Joel Brinkley" data-date="2011-10-05">
+		<a href="/book/CambodiaCurse"><img src="/images/124x187.gif" data-echo="/images/CambodiaCurse.gif" alt="Cambodia's Curse - by Joel Brinkley" /></a>
+		<figcaption>
+			<h2><a href="/book/CambodiaCurse">Cambodia's Curse - by Joel Brinkley</a></h2>
+			<p>ISBN: 1586487876 READ: 2011-10-05 RATING: 0/10</p>
+			<p>Cambodia's political history from 1978 to 2009 or so. Appalling, horrible, infuriating, disgusting, etc. I hated this book. I was hoping to learn more about Cambodia and its culture, but this only gives chapter after chapter detailing the horrible things the people in goverment did, and nothing else. No bright side. No other insights. Just horror.</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="0" data-title="Conspiracy of the Rich - Robert Kiyosaki" data-date="2009-11-24">
+		<a href="/book/ConspiracyOfTheRich"><img src="/images/124x187.gif" data-echo="/images/ConspiracyOfTheRich.gif" alt="Conspiracy of the Rich - Robert Kiyosaki" /></a>
+		<figcaption>
+			<h2><a href="/book/ConspiracyOfTheRich">Conspiracy of the Rich - Robert Kiyosaki</a></h2>
+			<p>ISBN: 0446559806 READ: 2009-11-24 RATING: 0/10</p>
+			<p>Yet another Rich Dad book shat out for the usual audience of those who don't read. Often so bad it hurts, but with the occasional useful sentence. He always seems to go out of his way to avoid giving any usable info - only generalities. Does he care? Is he trying to write great books? Are these things just machine-generated or something?</p>
+		</figcaption>
+	</figure>
+	<figure class="abook" data-rating="0" data-title="The Think Big Manifesto - by Michael Port and Mina Samuels" data-date="2009-05-12">
+		<a href="/book/ThinkBigManifesto"><img src="/images/124x187.gif" data-echo="/images/ThinkBigManifesto.gif" alt="The Think Big Manifesto - by Michael Port and Mina Samuels" /></a>
+		<figcaption>
+			<h2><a href="/book/ThinkBigManifesto">The Think Big Manifesto - by Michael Port and Mina Samuels</a></h2>
+			<p>ISBN: 0470432373 READ: 2009-05-12 RATING: 0/10</p>
+			<p>One of the few books I've actively disliked. Ever read the introduction to a book? Where they say “what you hold in your hands here is something that could change the world”, and blah blah blah? I kept reading, wondering when the introduction was going to be over. Over halfway through the book, I realized this was it: just broad general encouraging unuseful nothings for the entire book.</p>
+		</figcaption>
+	</figure>
+</section>
+
+<script>
+function getBooks() {
+	var books = [];
+	var nl = document.querySelectorAll('figure.abook');
+	var len = nl.length;
+	for (var i = 0; i < len; i++) {
+		books[i] = nl[i];
+	}
+	return books;
+}
+
+function by(propName) {
+	return function(obj1, obj2) {
+		var v1 = obj1.getAttribute('data-' + propName);
+		var v2 = obj2.getAttribute('data-' + propName);
+		if (propName === 'rating') {
+			v1 = parseInt(v1);
+			v2 = parseInt(v2);
+		} else if (propName === 'title') {
+			/* because sorted high-to-low by default, flip for title */
+			var tmp = v2;
+			v2 = v1;
+			v1 = tmp;
+		}
+		if (v1 > v2) { return -1; }
+		else if (v1 < v2) { return 1; }
+		else { return 0; }
+	}
+}
+
+function showBooks(books) {
+	var len = books.length, nu = document.createElement('section');
+	nu.id = 'allbooks';
+	for(var i = 0; i < len; i++) {
+		nu.appendChild(books[i]);
+	}
+	document.getElementById('content').replaceChild(nu, document.getElementById('allbooks'));
+}
+
+function changeIfMatch(reg, str) {
+	var matches = reg.exec(str);
+	if(matches) {
+		var books = getBooks();
+		books.sort(by(matches[1]));
+		showBooks(books);
+	}
+}
+
+function sortBooks(event) {
+	if(event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+	var target = event.target || window.event.srcElement;
+	changeIfMatch(/^sort-(rating|title|date)$/, target.id);
+}
+
+if(location.search) {
+	changeIfMatch(/\?sort=(rating|title|date)$/, location.search);
+}
+
+var sorters = document.getElementById('sorters');
+if(sorters.addEventListener) {
+	sorters.addEventListener('click', sortBooks, false);
+} else {
+	sorters.attachEvent('onclick', sortBooks);
+}
+
+
+
+/*! echo.js v1.7.0 | (c) 2015 @toddmotto | https://github.com/toddmotto/echo */
+(function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		define(function() {
+			return factory(root);
+		});
+	} else if (typeof exports === 'object') {
+		module.exports = factory;
+	} else {
+		root.echo = factory(root);
+	}
+})(this, function (root) {
+	'use strict';
+	var echo = {};
+	var callback = function () {};
+	var offset, poll, delay, useDebounce, unload;
+
+	var isHidden = function (element) {
+		return (element.offsetParent === null);
+	};
+	
+	var inView = function (element, view) {
+		if (isHidden(element)) {
+			return false;
+		}
+
+		var box = element.getBoundingClientRect();
+		return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+	};
+
+	var debounceOrThrottle = function () {
+		if(!useDebounce && !!poll) {
+			return;
+		}
+		clearTimeout(poll);
+		poll = setTimeout(function(){
+			echo.render();
+			poll = null;
+		}, delay);
+	};
+
+	echo.init = function (opts) {
+		opts = opts || {};
+		var offsetAll = opts.offset || 0;
+		var offsetVertical = opts.offsetVertical || offsetAll;
+		var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+		var optionToInt = function (opt, fallback) {
+			return parseInt(opt || fallback, 10);
+		};
+		offset = {
+			t: optionToInt(opts.offsetTop, offsetVertical),
+			b: optionToInt(opts.offsetBottom, offsetVertical),
+			l: optionToInt(opts.offsetLeft, offsetHorizontal),
+			r: optionToInt(opts.offsetRight, offsetHorizontal)
+		};
+		delay = optionToInt(opts.throttle, 250);
+		useDebounce = opts.debounce !== false;
+		unload = !!opts.unload;
+		callback = opts.callback || callback;
+		echo.render();
+		if (document.addEventListener) {
+			root.addEventListener('scroll', debounceOrThrottle, false);
+			root.addEventListener('load', debounceOrThrottle, false);
+		} else {
+			root.attachEvent('onscroll', debounceOrThrottle);
+			root.attachEvent('onload', debounceOrThrottle);
+		}
+	};
+
+	echo.render = function () {
+		var nodes = document.querySelectorAll('img[data-echo], [data-echo-background]');
+		var length = nodes.length;
+		var src, elem;
+		var view = {
+			l: 0 - offset.l,
+			t: 0 - offset.t,
+			b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+			r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+		};
+		for (var i = 0; i < length; i++) {
+			elem = nodes[i];
+			if (inView(elem, view)) {
+
+				if (unload) {
+					elem.setAttribute('data-echo-placeholder', elem.src);
+				}
+
+				if (elem.getAttribute('data-echo-background') !== null) {
+					elem.style.backgroundImage = "url(" + elem.getAttribute('data-echo-background') + ")";
+				}
+				else {
+					elem.src = elem.getAttribute('data-echo');
+				}
+
+				if (!unload) {
+					elem.removeAttribute('data-echo');
+					elem.removeAttribute('data-echo-background');
+				}
+
+				callback(elem, 'load');
+			}
+			else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+
+				if (elem.getAttribute('data-echo-background') !== null) {
+					elem.style.backgroundImage = "url(" + src + ")";
+				}
+				else {
+					elem.src = src;
+				}
+
+				elem.removeAttribute('data-echo-placeholder');
+				callback(elem, 'unload');
+			}
+		}
+		if (!length) {
+			echo.detach();
+		}
+	};
+
+	echo.detach = function () {
+		if (document.removeEventListener) {
+			root.removeEventListener('scroll', debounceOrThrottle);
+		} else {
+			root.detachEvent('onscroll', debounceOrThrottle);
+		}
+		clearTimeout(poll);
+	};
+
+	return echo;
+
+});
+
+echo.init({
+	offset: 100,
+	throttle: 250,
+	unload: false
+});
+</script>
+
+</div>
+</body>
+</html>

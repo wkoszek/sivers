@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: Boomers Rock</title>
+<meta name="description" content="Derek Sivers: Why passion is overrated, plasticity, career capital, culture, and more.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: Boomers Rock">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2015-10-boomers">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Why passion is overrated, plasticity, career capital, culture, and more.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: Boomers Rock">
+<meta name="twitter:description" content="Why passion is overrated, plasticity, career capital, culture, and more.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → Boomers Rock</h1>
+	<h4>Why passion is overrated, plasticity, career capital, culture, and more.</h4>
+	<p class="postdate">Date: 2015-10</p>
+	<h2>Download: <a href="https://sivers.org/file/2015-10-DerekSivers-BoomersRock.mp3">audio (mp3)</a></h2>
+	<p>Link: <a href="http://www.boomersrock.us/podcast/br_0052_derek_sivers_show_51-anything-want/">http://www.boomersrock.us/podcast/br_0052_derek_sivers_show_51-anything-want/</a></p>
+</header>
+<hr>
+
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Today we have a very good friend of mine from New Zealand. Joining us all the way from New Zealand, Derek Sivers will be with us. Derek Sivers has a very very interesting story. We're going to talk about entrepreneurship and having a dream and moving forwards and some tips from a man who has been there and done it. He created a mammoth business that he never envisioned happening, it's a very very interesting story. Let me give you a quick little bio here: after making a living as a professional musician, Derek Sivers went looking for ways to sell his own CD online and ended up creating a company called CD Baby. Once the largest seller of independent music on the web, with over 100 million in sales, for over 150,000 musician clients. In 2008 Derek sold CD Baby for a nice pile, we don't need to go into the numbers. But since 2008 Derek has traveled the world and stayed busy creating and nurturing and creating endeavors, he's written a book called Anything You Want. It's very good, were going to talk about this a lot, because it really will help. It helped me, I read this book quite a while ago and it's a really good primer for you, if you're going to try to be an entrepreneur, and as I say all the time on the show, where all about transition. Where all about getting better in empowerment and the next thing you're doing and do and never being afraid to try it. And without much further ado I want to bring my friend in from New Zealand, Derek Sivers. Derek, welcome back to the show.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks Tom, that is the most energetic intro I've heard in a long time, I love it!
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+I want to make you laugh man!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Love it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Hey buddy, so you're in New Zealand, I'm in Michigan. How is things?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I'm from Chicago originally. I grew up in Chicago from '76 to '87, when I went off to music school. Yeah, after I sold my company in 2008 I realized I was such an American boy that lived the first 40 years of my life in the US, so I wanted to challenge myself to live the next 40 out. So, lived in Singapore for two and a half years, I think that's maybe where you and I first met. And then moved to New Zealand a couple years ago. And I'll probably move somewhere else in a few years. And yeah, that's why I'm here.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+How do you like that? How is New Zealand? I'd love to get there some time, I've heard magical wonderful things about it. Tell us a little bit about it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It's great! I mean it's, honestly, for anybody thinking of vacationing here I actually kind of recommend against it. I came here for my first time for vacation in 2004. And it's so far and it's so expensive, I mean that tickets to fly here are like $3000 round-trip. And then once you get here everything is pretty expensive. And really, it's not that different from, a cross between California and Alaska. So it's really nothing you can't see at home, but you'll spend a ton of money doing it. All that said, it's a great place to live. Because it's kind of like Montana or something in a way, it's very untouched, pure, untainted nature. It's really a wonderful place to live.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+So the Chamber of Commerce is just loving the comments that you just made, so it will throw them some love for that one. But hey, that's cool man. So that is the thing everybody, when we bring our guests in here, our experts, we're all about the love, we're all about sharing the honesty. This is good educational, fun stuff that we do here, and that's why we do this radio program. So Derek, let's talk about your story a little bit. Give everybody a little bit of a background of CD Baby, and what happens with all of that phenomenon. And then we'll go in into some more tips that you have to to help people get that dream happening. Then tell us about your dream. How did that occur?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure. To give a little context, I didn't even mean to start a business. I didn't want to start a business. I know some people go and pursue this thing, they want to be a startup entrepreneur, they want to be a rich or something like that. And that's why they're doing it. But for me, it was the opposite.
+</p><p>
+I was actually a full-time musician. I was just making my living doing gigs, playing on records, producing records, touring, all that kind of stuff. That was my full-time living. I was living in Woodstock, New York and I actually bought my house with the money I made touring, and I was living the musicians dream. So I didn't want anything to distract me from my musician's life.
+</p><p>
+I just had a little website where I was selling my CD. But this was back in 1997, there was no PayPal yet, Amazon was just a bookstore. If you were a musician trying to sell your CD somewhere, there was just literally nowhere on the internet that would sell it for you. It was a very different world. So I just created my own little website to sell my CD. But then pretty soon friends started calling me saying "hey man, could you sell my CD to that thing?" It's like "yeah, no problem." So on my band's website I put up a couple of my friends' CDs for sale, on my band's site. And they were telling their fans to go to my site to get it. But then I started getting calls from strangers like "hey man, my friend Dave said you could sell my CD", I'm like "sure, no problem. Any friend of Dave's is a friend of mine." So I was doing it as a favor. But then I started getting so many people asking me to do this thing that I just decided to make it into its own website, its own little business that I was doing on the side. And then yeah, that thing just grew and grew and grew, and till it became the largest seller of independent music on the web. Yeah that was 10 years of my life, from 1998 to 2008.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Does that story still blow your mind?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, I like how natural it was. I think you meet a lot of entrepreneurs that have a big dream or an idea, and they're trying to get the world to believe in this thing, or trying to convince the world to buy their thing. Or to sign up to their service. As for me, I felt it was the opposite. I wasn't trying to do this thing, I was honestly just making myself a public servant in a way. And the world was asking me to do this thing and so I said okay. You know what I mean? It feels very natural.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+It's interesting to talk to you about this, because as we continue to grow our radio program and what we're doing, and I have to tell you that since the last time I spoke to you I took one of my bucket list items in my life, at 56 years old, never ever playing music Derek, I told my wife, I finally convinced her, I said "you know, I always wanted to learn how to play the drums." I found somebody to teach me, I'm taking lessons. It's very very hard, because I've never been a musician. But I have a drum kit, I practiced daily as much as I can. And I enjoy it. And I think it's very very good for people. It's good for your brain health, and that's one of the reasons I wanted to do it. I want to get your opinion on that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Absolutely! I am such a believer in in that. By the way, did you see the movie Whiplash?
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+I did. I did. My drum instructor told me. It was awesome!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh my God! My heart was just racing in that final scene, when the kid's on stage and ignoring what his teacher said. Oh my God, what a great movie! Anyway. Yeah, I'm so all about that, that honestly, I'm glad you brought this up, it's a subject most people don't want to talk about. You know, even in the way that you introduced me saying I'm in New Zealand, that's the other reason I'm here. Or maybe even the main reason that I'm traveling the world is…
+</p><p>
+I was 40 years old and spent the first 40 years of my life in the US, and I am so American. I never really had dreams of living around the world. But then it's almost like I noticed that I was so immersed in my own culture that I felt like, there is that saying that fish don't know they're in water. Like if you ask a fish "hey, how is the water?" they say "what's water? I don't see any water, what are you talking about?" If you're so immersed in something, you can't even see it. And so I realized, just through the tiniest little bit of traveling, that I don't even know what my own culture is. They're just things that I think of is just being true. And it's not until you leave America and immerse yourself in another culture that you find out that those true things are actually just an opinion. It's just one way of looking at the world.
+</p><p>
+So, kind of like you taking up drums, I just wanted to take up another perspective on the world, just to keep my brain growing and stretching and not plateauing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+<em>(after commercial)</em>:
+Welcome back to the Boomers Rock radio talk show. We're all about transition and our guest today is Derek Sivers. Derek Sivers is the author of Anything You Want, plus he started the business, the phenomenon CD Baby, which he sold. He started the business just because it needed to get done. It happens a lot with business where you find the need and you just get out there and you make it happen. And so that's what Derek did. He's also got a big TED presence. So if you haven't been on the Internet, if you ever heard what TED is, and I can't imagine anyone has not, if you google Derek, if you just put his name in and TED, you're going to find the most phenomenal video ever. And we'll you about that in the second. But I want to finish the thread we were talking with Derek about immerse in culture. I find that very fascinating. Derek, can you bring that up and finish that thought please?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. I just find that when you read about the plasticity of the brain, you know you talk about you taking up drums, the brain is more plastic than we realize. It's more elastic, you can constantly grow and change at any age. And a lot of people really just get stuck in their ways, that actually makes me wonder about this thing we call aging and how much of that is self-inflicted. By people just getting stuck in their ways.
+</p><p>
+I find a lot of people, probably not your listeners, but a lot of other people think of that teens and their 20s as the years that they defined who they were. And ever since the age of 30 or so, it's just "you know, this is who I am. This is how I like my eggs. This is me. This is my team, this is where I live. This is my skill set, this is what I do. That's that." And I wanted to challenge that.
+</p><p>
+I just felt I was in this surprisingly free situation where I was 40, just sold my company, wasn't married, had no kids, I was just free to make some major changes. Actually, my first impulse was to keep doing what I had already been doing. The day after I sold CD Baby, I initially started my next company. But then I realized: hold on that will just keep me going on the same trajectory, I really want to shake things up and change my brain and expand it and see the world from a different point of view.
+</p><p>
+Traveling is not required to do that, but for me it just made sense. One way to change your brain is to just move to a different part of the world where everything is different, and people have different beliefs, and look at the world from a different perspective.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Yeah the culture change and… I love that you brought up plasticity, because it's one of my top three things: plasticity, neurogenesis, not to get too sciency here everybody, but these are three things that I find that are very very important. Myelin is the insulator for the nerves in your body and it's very important to understand what that is. We won't go into the depth of it, I have neuroscientists that come on and talk about all this kind of stuff. Plasticity is absolutely, it's the habit, is the route, it's the way we do things. It's like me getting my left hand to work on these drumsticks, I mean it's like I'm working this drumstick thing. So I know it's the plasticity and I'm really glad that you brought that up Derek, because that's what it is. So the neurogenesis, you're continually growing, maturing and changing. It's been the last 15, 20 years that we've had the technology that can help us understand that. It actually is true that your brain can change. We just didn't have the tools sciencewise to do these things. That's why I find it very very fascinating.
+</p><p>
+That is the thing everybody, as Derek was saying, you get on this, I call it the carousel of the life, where you are on it for 30 years and you get off and you're all dizzy. You look in the mirror, you don't recognize yourself, it's like "who the heck is that?" You know, you look at your spouse or your significant other and the kids are grown and you don't like yourself, you don't like your spouse. So what's we got to do, we got to change, we got to have a culture shift, a mind shift, we've got to change our plasticity. We've got to change our habits
+</p><p>
+You've been doing that, you worked on your book and you've titled it Anything You Want. What does that mean to you, anything you want? Because I have other questions I want to talk about with growing and getting better, but what does that mean? What does that title mean?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know Seth Godin, right?
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Oh yeah. Oh yeah. For sure.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so Seth is one of my heroes. The truth is, I never ever wanted to write a book. People, for years has asked me to write a book and I just said "no, I'm not into it." But then Seth Godin said "I'm starting a new publishing company and I want you to be my first author." What can you say to that but yes? So I just wrote the contents of the book and Seth Godin then actually named it
+</p><p>
+From an outside perspective, I'm just mean living my life, everything feels normal and sensible to me, because these are my believes that I'm living by. But he felt like, compared to most scenarios, my attitude towards business was more of like personal expression. That I don't distinguish much between business and personal, maybe it's my musician point of view, but I don't see making a company as of that different from making the band. Or writing software is not that different from writing a song. So I guess that philosophy kind of comes out in my writing a bit, this idea that your business is where you get to make your own little personal utopia, and you can make it anything you want.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+For sure. I have to tell you that I actually met Seth at a seminar that I went to earlier this year, and he was coming out of the hotel as I was going in early early morning and he was probably going out for his walk. The guy is a great speaker. Phenomenal. If you haven't heard of him everybody, you really want to look up Seth Godin and find some of his books, because he's a great writer he's got some really cool stuff out there. And I would love to get him on the radio program at some point. Maybe you could help me out with that one there. Derek Sivers is our guest, so maybe Derek could help me with that. Derek, let's talk more about Anything You Want, because those are the things that we really need to do as we transition, as we get off that carousel as I mentioned, there has got to be something out there that we're good at, that's we like to do, that we find invigorating, that empowers us, that we get passionate about. It's just finding that thing. And I think that people diminish their, especially as we get older as you said, at 30 years old you think your fixed in your ways, and we know better now. But you have all this experience as you've grown and you've had your family and your doing all these things, take some of that experience, how do we get people to think about those passionate things that they do? How would you like to get that spark going for people?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I think there is actually a big overemphasis on the subject of passion. Nothing against passion, but I think when you're talking about your career or starting a business or something like that, your passion is not really the point. What's more the point is what the world needs from you and what the world values from you.
+</p><p>
+So follow your passion is bad advice, because it turns out that passion is usually something that comes later, after you build an expertise in something. The classic example is the kid who is forced by the parents to take music lessons, but doesn't really want to, but you say "no, you have to do it anyway for at least one year." But then after about eight months of grumbling and doing scales, pretty soon it's starting to get fun and then you develop a passion for something, because you're getting good at it and now doing the words are starting to come.
+</p><p>
+So I think it's the same thing with what you follow in your career path, or even starting a new business, that it's not always the most passionate fun thing at first, but if you're doing something valuable, that people are opening their wallets for and wanting to pay you for, and saying "yes, I need this" and asking you to do that, then that's really the greatest contribution to the world. And I think that passion will follow.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<em>(after commercial break):</em>
+Derek Sivers is with us, and we were talking about passion, and Derek was calling me out on the passion thing and I love it! Because he's just that kind of guy. And, you know, sometimes you just have to kind of step back and go "you know what? That's a really good perception of what I was trying to explain, I get tied up, and sometimes tongue-tied and hey, that's fine! That's why we bring experts in here. So Derek, thank you for empowering me and enlightening me, I'm going to start using that a little bit more, it's not so much the passion but it's the value. Let's continue to talk about that, that was great!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, one of my favorite subjects, favorite ideas I heard in the last few years came from a brilliant little book called So Good They Can't Ignore You. It's by Cal Newport. So Good They Can't Ignore You. And I love it so much that I actually wrote a whole article about it on my site, if you go to sivers.org/career. I wrote an article about what I love about this book and why I think a lot of people should read it.
+</p><p>
+So he coined the term "career capital", you know capital, like money. The value that you build up over your career. What a lot of people mistakenly do is after building up a lot of capital in one field, say you been working in a certain industry or field for 20 years and they say "well my real passion is to teach yoga" and so what they do is, they quit their job at the law firm or something and then they open a yoga studio with no experience, in the place where they have no career capital and no built up contacts. They say "but I'm following my passion! Now I'm running a yoga studio!" But it often fails when people do that kind of leap.
+</p><p>
+Instead, what he says after studying many people's careers, both successful and not, the ones that worked best were the ones where people cashed in their career capital.
+</p><p>
+Say that you been working at a law firm for 20 years and you've got a lot of contacts in that field, instead of just quitting, and therefore throwing away your career capital, instead you spend it. Meaning, you open your yoga studio on the side for example, and you start tapping your existing client base to slowly bring in clients into your yoga studio, or maybe you partner with somebody that has a yoga studio at first. And so now you're silent partner, you're just the investor and eventually you get more involved, and eventually you buy out your partner and now it's your yoga studio. That's a way of building your career capital in one field more deliberately, instead of just throwing away what you've built up in another. You know what I mean?
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Sure, absolutely. I'm thinking that's the same exact thing that I've been doing. My wife Sandy's been helping and we've been in our careers. We still are. And we're doing the media enterprise on the side, writing books, doing a radio talk show. And we're getting close to starting season five here. And it's one of those things where you have to just slowly get better at things. And people were starting to make comments about. Like "how long have you been doing this? It's like you're pretty good at this stuff." And as you continue to just push the boulder, as Jim Collins would say in Good to Great, if you keep pushing the stone and you keep trying to get better and better, you will get better. I jotted down when you were talking about that career capital, tapping the mine. Because you could be in the mine and you could be digging and mining that gold and digging and digging, looking for that diamond and it might be 2 inches away from you and you don't even know it. And all you've got to do is just keep tapping the wall, right? What do you think about that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It's a great metaphor, I love it. It's true. You never know when you're going to crack through. I think Seth Godin wrote a book called The Dip. It's about that kind of thing that we often quit right before we should. If you stick it out through the dip, he calls it, like the hard part, the reward is on the other side.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Yeah, there is a good other book that I read, it's called Three Feet from Gold and it's a parable about the same type of thing. That is the whole thing everybody, so you take that career capital, as Derek is talking about and you utilize that, those talents. Let's segway into something that I'm going to pull from the book, you have in Anything You Want "success comes from persistently improving and inventing, not from persistently promoting what's not working." What did you mean by that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+We all hear the lesson that persistence is key. "Persistence, persistence, that's what did it, my success was because of persistence." But I think we've accidentally made the wrong definition of persistence. I think that a lot of us accidentally think that persistence means doing the same thing. I met a lot of people, they start up businesses that aren't going well. They're like "hey man, nobody wants my thing, but I'm persisting, I'm out there just doing it every day, I'm persisting."
+</p><p>
+But that's not the key. The key is not keep doing the same thing that's not working. Instead persistently trying things. You try different approaches all the time and if something isn't clicking with people, you have to be quick to let it go, quick to change. Say you have an idea for a book and your pitching at around to a bunch of different publishers and nobody's biting, well then try a different book idea, you know? It's about trying different things, not just sticking with one and getting stuck on it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Isn't that what life's about? It's like starting to play the drums at 56, knowing diddly crap about music at all and struggling. And my drum instructor is 67 years old and the guy's like my drill sergeant. He's kind of calm down, Derek you'd probably like this guy, Mike, and he was screaming at me and he was like "no, no, no!" I mean, I'm just learning notes, quarter notes and eighth notes and eighth note rests, you know what I'm talking about. The very very very rudimentary basic stuff. But you know what? You're right, it's been a few months now and it's starting to come. It's slow, but you know what? Sometimes that persistent practice, that passionate practice is the fun part about it. Because I learned that going back to school later in life, that it took me nine years to finish my undergrad and graduate work, in my 40s. And it was challenging. But that's where you get the confidence. That's the whole thing. That's where you get that career capital, you get that confidence to try these new things. And so I'm all about that kind of stuff, man. I'm all about, like if you go to the gym, and the gym is packed, and I got to get my routine. Oh darn it! Dude, so what? Go out there and try something different. You might like it. What's your take on that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, I love it. I just realized as you were describing this, the difference between the practicing music metaphor, where yes, actually the thing that you do to get better is doing the exact same thing over and over again, until you master this. That's different than say the entrepreneurial or creative pursuits. Where, in the music business, the songwriters I met that were not doing well where the ones who just wrote one song, and they were pitching that one that song all around Nashville, LA, New York and nobody was into it, but they just kept pitching that one song forever. Those songwriters would often fail. The successful ones I met were the ones that just were writing two or three songs every single week. They had a catalog of hundreds of songs. And then occasionally, once every year or two, one of those songs would become a hit. So yeah, be more like the latter when you're doing creative things that you need the world to get into. You need to keep trying different things, not the same thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Derek Sivers is with us today everyone, and Derek is an entrepreneur and he's a worldly guy who has been around and can help us try to break through and have a different type of mindset. Let's talk about the mindset, we've got a couple of minutes before we go to break. I want to set this up for the final segment of the show, because I want to make sure we get here. Fixed mindset versus growth mindset. Set up our fourth, final segment coming up here, Derek. What does that mean? What is fixed mindset versus growth mindset? You've got a minute.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, Carol Dweck is this brilliant researcher that wrote a book called Mindset, that summarizes what she found. But in all of her studies she's found that, kind of like we have introvert versus extravert, it's a different way of seeing the world. People who have a fixed mindset are the ones who say things like "I'm just no good at math" or "hey, you're just a real natural singer". The growth mindset says that nothing is fixed, that everything is something that can be learned. And the only reason you're good at something or not good is because you've been practicing at it, or not.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Love it! That's exactly where we want to go when we come back from break everyone, with Derek Sivers, our final segment. Please stick around, because we're going to talk more about mindset. Fixed mindset, growth mindset, why that matters, how it can help us, how the book was so influential for me personally, and I'm sure for Derek. You're listening to the Boomers Rock radio talk show with Derek Sivers. We'll be right back.
+</p><p>
+<em>(after commerical break)</em>: Welcome back to the Boomers Rock radio talk show. Thank you so much for joining us today everyone. Email: tom@boomersrock.us, website: boomersrock.us, like us, like family, like collective, you know you've heard me say that. Derek Sivers is our guest. Derek, how do people find you, get your books, your website, can you share all that information please?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. I mean, at this point in my life, pretty much everything I do is free and out in the open. I'm really not selling anything. So if you go to my website, it's just sivers.org and everything I do is free and out in the open their. I guess the only thing that's for sale is, Penguin Portfolio is releasing my book Anything You Want, is coming out on September 15th, 2015. Which is the kind of stuff that we're talking about here. Everything else is just wide open and free on my site. I highly recommend, if you are the kind of person that has listened this far into the radio show, send me an email, because I like people that like this show. You're my kind of people. <a href="/contact">So email me</a>. I answer every single email I get, I enjoyed doing it. So feel free to ask me anything. 
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+He does, and believe me, the first time I had Derek on the show, it's been about a year or so, maybe longer, it was interesting because I sent him one of my books. When you send a book to New Zealand, it takes like forever to get there. But I did send Derek an email, because I had to read his book, and I stumbled across his articles or something, and it was very interesting. And he answered the email, and he came on the radio program and now we're friends, and it's great, and he's absolutely a super cool guy. He and I were talking about Carol Dweck and mindset, and fixed and growth mindset, but before we go there, during our quick break here we were talking about having fun in life. And why, why people would do these drudgery things, and why we stick with it. Let's try to blend in the fun with fixed and growth mindset. Can we do that, Derek?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure, we'll find a way.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+So yeah, you got the fixed mindset, you kind of started to illuminate everybody about that. Back up a little bit, talk about that a little bit. And then why it's so much more fun to have the growth mindset.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so the fixed mindset, almost anybody listening to this will say "no, I don't have a fixed mindset, you know, I have a growth mindset. Yeah, I believe in growth." I mean, anybody will say that, right? But Carol Dweck, the author of the book, she pointed out that even in her years of research about this, as she's writing the book, she still realized that she was stuck in a fixed mindset about many things, like "my husband just isn't good at cleaning" or "I'm just a naturally good writer". She said, we're really taken by this idea that you just either are something or you aren't something, and this is just who I am. Can't help that, can't help the way I feel.
+</p><p>
+But her point was that studies show that yes you can, you can change to who you are, your whole identity, your skill sets, all of it, if you see it as flexible. If you get into the growth mindset that believes that everything is just a matter of practice, then you can be anything you want, you can change any of your skills and your situation. I think it's just a fascinating point that you just can't drive home enough, it changes everything if you really get into.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+I like to use this metaphor: you have the little boy and there is the big pile of pony dungs sitting there. And you know, you could look at this like "oh God, I got that, here we go... oh, always me, look at that" or you could have the growth mindset of "I know there is a pony in there somewhere, and I'm gonna dig it, and I'm gonna find that pony!" That's one of the ones that my parents would use with me. You've got on your website a blog post called Getting out of a bad place. And I'd like to have you share a little bit about that. What is that all about?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, that was funny actually, it's about the only blog post of mine I ever regret posting, kind of. I usually don't get too personal personal on my site. But yeah, that was just like after a breakup and after, you know, we have a low points in life and I realized that in those lowest points I was calling friends for advice and I was feeling very open to friends' advice because I was feeling so low. And then I realized that I was actually feeling more open than I had in a long time, I spend a lot of my life feeling quite smugly successful. My friends asked me for advice, I don't ask other people advice, I'm the know it all, you know? And I realized wow, this is a benefit of having a low point in your life. That's when you're feeling low you're actually more open to input than ever, and I felt that I was learning more than ever. Because I was listening more than ever. And so suddenly I realized wow, this is really cool! I really kind of like being in a bad place like this, it's good for learning.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+It's absolutely a great, great thoughts there, because when you push yourself in that vulnerable state, is good because stress is good. To a point. Not all the time, but having stress in your life is not a bad thing, you know we always want to eliminate stress. You know what? You really don't because it helps you become more resilient. I had doctors on here, we've talked about resilience. And I'd like to get your opinion on that Derek. You've been through a lot in your life. You've been way up high in the mountain and I know that extreme wealth can bring a lot of issues and problems. I've trained various successful very wealthy people when I was just doing personal training. And it was very good for me to see that early in my training career, five or six years ago, because there was a lot of baggage that came a long with this. Let's talk a bit about that and a little bit about the resilience. How did you deal with the success and becoming resilient with success?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay. I've been living my life, since I was a teenager, a certain philosophy, I don't even know if I would call it a philosophy, it was just kind of the way that I saw the world and the way I was living. And just a few years ago I found this book about the ancient Greek philosophy of stoicism. It's a brilliant book called A Guide to the Good Life. If you are on my website, I have a list of book recommendations and I always put this book at the very top of the list, because it made such a huge difference for me.
+</p><p>
+The philosophy of stoicism is all about not getting acclimated to comfort, and in fact continuing to challenge your comfort zone so that don't get too used to it. Occasionally putting yourself into intentional hardships to make sure that you're not getting weakened by your comfort. I think this is so crucial.
+</p><p>
+I think maybe because as a teenager I wanted so badly to be a famous musician, and I knew that this is something that everybody wants, but only one out of a million get it. So kind of like an Olympic gymnast or something, I knew I was going to have to train harder and be more focused than everybody else. And so through all my teens and 20s I just continued to challenge myself as hard as I could, and threw myself into ridiculously difficult situations to test and challenge myself.
+</p><p>
+I'm guessing that's what that movie Whiplash is about, right? Like the teacher in the movie Whiplash has the belief that his students will only grow through the stressors that he gives them. In fact, while you were talking about eliminating stress, I remember that Tony Robbins introduced a words, I actually never looked it up in the dictionary to make sure it actually means this, but he said there is a difference between distress and eustress. He said that eustress is a word that means a positive stressor, like a tight deadline for a creative project, can be a positive stressor.
+</p><p>
+In fact there is a great quote from Leonard Bernstein, it said "great achievements required to things: a plan and not quite enough time." I love that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+We got about a minute before we got to wrap this thing, Derek. What kind of advice would you like to leave people with one minute?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh gosh.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Tough one!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I think, the thing that's made the biggest difference in my life in the last few years is to take something that you think of as just a fact about yourself, like "I am just this kind of a person" or "this is just something I'm good at, or something I'm not good at" and flip it around to: say yes to the things that you used to say no to and, conversely, to say no to the things that you used to say yes to. And just try being a different version of yourself. I think it's so good for your brain, your self-identity, how you see yourself and even how you see your future, and your ability to do new things.
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+See, that is the thing about trying new things everybody, and that's where we're at with this radio program. We want to bring these experts and who have this positivity, who have the experience and can try to help just plant that seed. Because that's how we are all about. We're not here to preach, we're here to share good information. I really would like you to think about going out and checking out Derek's book Anything You Want. And it's out, and you can get it again and again and again and read it over and over. It's one of those types of books that you can really grab a lot out of. Derek Sivers has been our guest. I want to thank you so much Derek, for giving us the time today. Thank you so much.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks!
+</p>
+</blockquote>
+<blockquote>
+<cite>Tom:</cite>
+<p>
+Always remember: before you can share love with others you must love yourself first. That's the key thing here on the Boomers Rock radio talk show, loving yourself first is the only way to success. Thanks again to my pal Derek Sivers for coming on the radio program with us, all the way from New Zealand. It was awesome.
+</p>
+</blockquote>
+
+<footer>
+© 2015 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

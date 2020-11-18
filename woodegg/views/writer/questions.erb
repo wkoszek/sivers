@@ -1,0 +1,14 @@
+<h1><%= @country_name %> Questions TO-DO</h1>
+
+<% @topicnest.each do |topic, subtopics| %>
+  <h2><%= topic %></h2>
+  <% subtopics.each do |subtopic, questions| %>
+    <h3><%= subtopic %></h3>
+    <ul>
+    <% questions.each do |q| %>
+      <li><a href="/write/question/<%= q.id %>"><%= q.question %></a></li>
+    <% end %>
+    </ul>
+  <% end %>
+<% end %>
+

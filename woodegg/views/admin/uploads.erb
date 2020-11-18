@@ -1,0 +1,23 @@
+<h1>Uploads</h1>
+
+<table>
+	<tr>
+		<td>date</td>
+		<td>researcher</td>
+		<td>filename (click for details)</td>
+		<td>missing info?</td>
+		<td>transcription?</td>
+		<td>download URL</td>
+	</tr>
+<% @uploads.each do |u| %>
+	<tr>
+		<td><%= u.created_at %></td>
+		<td><a href="/researcher/<%= u.researcher_id %>"><%=h @rnames[u.researcher_id] %></a></td>
+		<td><a href="/upload/<%= u.id %>"><%= u.our_filename %></a></td>
+		<td><%= (u.missing_info?) ? 'MISSING INFO!' : 'ok' %></td>
+		<td><%= u.status %></td>
+		<td><a href="<%= u.url %>">link</a></td>
+	</tr>
+<% end %>
+</table>
+

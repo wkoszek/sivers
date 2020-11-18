@@ -1,0 +1,35 @@
+<article>
+
+<header>
+	<div class="group">
+		<hgroup id="summaryslogan">
+			<h1>Entrepreneur’s Guides to Asia</h1>
+		</hgroup>
+	</div>
+</header>
+
+<section id="information">
+	<div class="group">
+		<h2>16 books with insights and instructions for starting business in 16 countries.</h2>
+	</div>
+</section>
+
+<section id="countries">
+	<div class="group">
+		<h2 id="countryprompt">Pick a country:</h2>
+	</div>
+	<ul id="countrylist">
+<% @countries.each do |k,v| %>
+	<li class="group"><a href="/<%= k.downcase %>" class="<%= k.downcase %>" title="<%= @cc_title[k] %>"><span class="countryname"><%= @cc_title[k] %></span></a></li>
+<% end %>
+	</ul>
+</section>
+
+<section>
+<h1>Want to Help?</h1>
+<h3>We are hiring immediately. If you would like to help make the 2014 edition, <a href="/help">click here</a>.</h3>
+</section>
+
+</article>
+
+

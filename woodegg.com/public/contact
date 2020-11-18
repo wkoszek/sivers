@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Contact | Wood Egg</title>
+<meta name="description" content="Entrepreneur's Guides to Asia: Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="keywords" content="Entrepeneur, Guide, Book, Asia, Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="author" content="Wood Egg LLC"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/20150527.css" type="text/css" media="screen" />
+</head>
+<body id="contact">
+
+<nav>
+  <a href="/">Wood Egg</a>
+  <ul>
+    <li><a href="https://data.woodegg.com/">login/register</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/contact">contact</a></li>
+  </ul>
+</nav>
+
+<section id="pagehead">
+  <h1>Contact</h1>
+</section>
+
+<section id="content">
+<div class="vcard">
+	<h3 class="name">Wood Egg LLC</h3>
+	<div>30 Duxton Road #02-00</div>
+	<div>Singapore 089494</div>
+	<div>Singapore</div>
+	<h3 class="name">Derek Sivers</h3>
+	<div><span class="title">Founder / Owner</span></div>
+	<div><a href="mailto:derek@sivers.org"><span class="email">derek@sivers.org</span></a></div>
+	<a href="https://sivers.org/"><img alt="Derek Sivers" width="200" height="200" src="/images/DerekSivers-20141119-200.jpg"></a>
+</div>
+</section>
+
+</body>
+</html>
+

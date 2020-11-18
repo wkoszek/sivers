@@ -1,0 +1,75 @@
+@import "settings";
+@import "foundation";
+
+body {
+	@extend .row;
+}
+
+#content a {
+	text-decoration: underline;
+}
+
+#pagehead {
+	background: rgb(128, 140, 104) url('/images/article-header.png') no-repeat 0 80%;
+	color: rgb(245, 245, 245);
+	border-bottom: 1px rgb(75, 110, 75) solid;
+	min-height: 80px;
+	padding: 0.25em;
+	h1 {
+		color: #fff;
+	}
+}
+
+#subhead {
+	background: rgb(244, 238, 231);
+	padding: 0.25em;
+	h1, h2 {
+		color: rgb(119, 31, 0);
+	}
+	margin-bottom: 1em;
+}
+
+#bookinfo, #salescopy, body#aboutpage #content, body#help #content, body#contact #content {
+	@extend .columns;
+	li {
+		margin-bottom: 0.75em;
+	}
+}
+#bookinfo {
+	@extend .medium-4;
+	padding-left: 0;
+	margin-bottom: 2em;
+	ul {
+		list-style-type: none;
+		margin: 0;
+	}
+}
+#salescopy {
+	@extend .medium-8;
+}
+
+body#aboutpage #content, body#help #content, body#contact #content {
+	@extend .large-8;
+	@extend .large-centered;
+}
+
+#salescopy, body#aboutpage #content, body#help #content, body#contact #content {
+	font-family: Georgia, serif;
+}
+
+body#a div#oth div.label-input-pair, body#a form#proofform {
+	@extend .large-4;
+}
+div.submit-button > input, form#proofform > input {
+	@extend .button;
+	@extend .small;
+	@extend .success;
+}
+#logoutbutton > input {
+	@extend .button;
+	float: right;
+}
+div.alert {
+	@extend .panel;
+	@extend .callout;
+}

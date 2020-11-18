@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>It’s all who you know? | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: When you hear, “It’s all who you know,” it sounds so intimidating - like you need to be a former roommate of Mark Zuckerburg, cousins with Richard Branson, and dating Taylor Swift.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/boring">
+<link rel="next" href="https://sivers.org/hi">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="It’s all who you know? | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/xn">
+<meta property="og:image" content="https://sivers.org/images/people-per-week.gif">
+<meta property="og:description" content="When you hear, “It’s all who you know,” it sounds so intimidating - like you need to be a former roommate of Mark Zuckerburg, cousins with Richard Branson, and dating Taylor Swift.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="It’s all who you know? | Derek Sivers">
+<meta name="twitter:description" content="When you hear, “It’s all who you know,” it sounds so intimidating - like you need to be a former roommate of Mark Zuckerburg, cousins with Richard Branson, and dating Taylor Swift.">
+<meta name="twitter:image" content="https://sivers.org/images/people-per-week.gif">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>It’s all who you know?</h1>
+<p class="postdate">2013-02-11</p>
+</header>
+
+<p>
+	When you hear, “It’s all who you know,” it sounds so intimidating - like you need to be a former roommate of Mark Zuckerburg, cousins with Richard Branson, and dating Taylor Swift.
+</p><p>
+	But simply contacting a stranger can lead to a worldwide network of connections.
+</p><p>
+	When I was 18, at <a href="http://berklee.edu/">Berklee College of Music</a>, we had a guest speaker named <a href="http://www.spiritmusicgroup.com/About/Meet-the-Team/Mark-Fried">Mark Fried</a>, who was an executive at <a href="http://www.bmi.com/">BMI</a> - a big music company in New York City.
+</p><p>
+	He walked into the classroom just before class began, and I heard him ask the teacher, “Oh, I thought we were going to have food.”
+</p><p>
+	The teacher said, “Oh, no, sorry, I thought you ate already! Didn’t you have lunch?”
+</p><p>
+	Mark said, “Damn. No. And it’s a two hour class. Oh well.”
+</p><p>
+	Hearing this, I quickly ran out of the room and called the local pizza place, asking them to deliver three large pizzas to classroom #115.
+</p><p>
+	45 minutes later, the pizzas showed up.
+	I gave one to Mark and shared two with the class.
+</p><p>
+	He smiled at me and said, “Good move. I owe you one. Here’s my card. Call me any time, and let me know how I can help. When you come to New York City, I’ll be happy to meet up.”
+</p><p>
+	For the next two years, I took him up on that, sending him my new songs for feedback, and he’d tell me his insights and advice about the music industry.
+</p><p>
+	When I told Mark I wanted to move to New York, he said, “Send me your resume, and I’ll find you a job.”
+</p><p>
+	Sure enough, a few weeks later, I got a call in my dorm room from Julie Gengo at <a href="http://www.warnerchappell.com/">Warner/Chappell Music Publishing</a>, saying, “We need someone to run our tape room, and Mark Fried said we should hire you. Can you start Monday?”
+</p><p>
+	Just like that, I was in.
+</p><p>
+	Because I was working inside Warner Brothers, it was easy to meet everybody in the New York City music scene.
+	Every person I met connected me to many more.
+	A few years later, it was no problem to move to Los Angeles, because I now had a huge network in LA, through one degree of separation.
+</p><p>
+	Now it’s grown worldwide.
+	Whether I’m visiting Iceland, Shanghai, Rio, Japan, or Silicon Valley, I’ve got a wonderful network of connections to call on, and people worldwide who can call on me anytime.
+	Usually we know eachother loosely - having only traded a couple emails - but those quickly turn into real friendships.
+</p><p>
+	All because I bought a pizza for a stranger.
+</p>
+
+<h2>
+	Surrounded by success
+</h2>
+<p>
+	Soon after arriving in New York, I was surrounded by successful people.
+	I was only 20 years old, but <strong>I learned so much from watching how people become successful, hearing their stories, philosophies, and mistakes.</strong>
+	Opportunities were everywhere.
+	(A chance recommendation from my roommate got me a gig touring the world, <a href="/sakamoto">playing guitar for Ryuichi Sakamoto</a>.)
+</p><p>
+	These people shaped the way I see the world.
+<strong>
+	The people you surround yourself with don’t just open doors. They change the way you think, and change your self-image of your capabilities!
+</strong>
+</p><p>
+	When you’re surrounded by successful people, it feels so easy, it’s obvious.
+	Their attitude and actions rub off on you.
+</p><p>
+	But I meet so many people that feel that success is so far away, so impossible to imagine, that they act accordingly, aim low, and complete the self-defeating circle.
+</p><p>
+	I know much of success is luck, but I never realized how much the mindset of success comes from who you know.
+</p><p>
+	Luckily, who you know is <a href="/ppweek">up to you</a>, not luck.
+</p>
+
+<h2>
+	No need to be in the big city
+</h2>
+<p>
+	I used to advise ambitious people to move to the big city, where everything is happening.
+	And it’s still true that it offers some benefits.
+</p><p>
+<strong>
+	But now “where everything is happening” is online.
+	And the way to be there is to create something that adds to it.
+</strong>
+</p><p>
+	Most of the fascinating and successful people I know now are people I met online.
+	I see something they’ve done, or they see something I’ve done, one of us sends the other an email, and that’s it.
+	A few emails, maybe a phone call, and we’re friends.
+</p><p>
+	What’s even more fascinating is finding out that the super-connectors, the people who know everybody and everybody knows, are often physically remote.
+</p><p>
+	The reasons they’re so connected are:
+</p>
+<ol><li>
+	because they keep creating great stuff and posting it online, which gets the attention of their peers, so soon “everyone” knows who they are
+</li><li>
+	because they reach out to say hello to the people they admire
+</li></ol>
+<p>
+	So if it seems that there’s an uncrossable canyon between you and your heroes, don’t forget that all it takes is one connection to catch your rope, so you can shimmy across.
+	And you can do this from anywhere by creating great stuff online, and reaching out to potential friends.
+</p><p>
+	No need to attend Harvard with Mark Zuckerburg.
+	No need to become a cousin of Richard Branson.
+	And no need to date Taylor Swift.
+</p><p>
+<em>
+	(See? There are three things you can cross off your TO-DO list now.)
+</em>
+</p>
+<img src="/images/people-per-week.gif" />
+
+<footer>
+© 2013 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/boring" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/hi" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

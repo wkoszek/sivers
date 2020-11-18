@@ -1,0 +1,54 @@
+#!/usr/bin/env ruby
+require 'pg'
+require 'gengo'
+require 'json'
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+pub = db.exec("SELECT v FROM core.configs WHERE k='gengo_public'")[0]['v']
+pri = db.exec("SELECT v FROM core.configs WHERE k='gengo_private'")[0]['v']
+GG = Gengo::API.new(public_key: pub, private_key: pri, sandbox: false)
+
+# get un-imported translation_orders
+res = db.exec("SELECT * FROM core.translation_orders WHERE finished_at IS NULL ORDER BY id")
+res.each do |translation_order|
+
+	# check on that order
+	order = GG.jobs_in_order(translation_order['id'])['response']['order']
+
+	# next translation_order unless all the jobs in this order are reviewable
+	job_ids = order['jobs_reviewable'].map(&:to_i)
+	continue unless job_ids.size == order['total_jobs'].to_i
+
+	# new empty array of text to review afterwards
+	reviews = []
+
+	# get each job
+	job_ids.each do |job_id|
+		puts "getting job #{job_id}"
+		job = GG.getTranslationJob(id: job_id)['response']['job']
+		
+		# update database with translated text
+		# (dynamic query: column to update is lang of the translation order)
+		sql = 'UPDATE core.translations SET %s=$1 WHERE code=$2' % translation_order['lang']
+		db.exec_params(sql, [job['body_tgt'], job['custom_data']])
+
+		# add to array of things to review afterwards:
+		reviews << {id: job_id, en: job['body_src'], tx: job['body_tgt']}
+	end
+
+	# database updated, now review:
+	reviews.each {|r| puts "%d\n%s\n%s" % [r[:id], r[:en], r[:tx]] }
+	print "\nLOOK OK? Type 'ok' if so: "
+	raise 'problem' unless 'ok' == STDIN.gets.strip
+
+	# approve translations
+	job_ids.each do |job_id|
+		puts "approving job #{job_id}"
+		GG.updateTranslationJob(id: job_id, action: 'approve')
+	end
+
+	# mark translation_order as finished
+	db.exec_params("UPDATE core.translation_orders SET finished_at=NOW() WHERE id=$1",
+		[translation_order['id']])
+end
+

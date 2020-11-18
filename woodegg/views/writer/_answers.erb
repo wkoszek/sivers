@@ -1,0 +1,14 @@
+<h3>Answers:</h3>
+<ul>
+<% @answers.each do |a| %>
+	<li>
+	<strong><%= '%s %d:' % [Date::MONTHNAMES[a.started_at.month], a.started_at.year] %></strong><br>
+	<%= a.answer.to_html %>
+	<% if a.sources.size > 1 %>
+		<p><strong>Sources:</strong></p>
+		<%= a.sources.to_html %>
+	<% end %>
+	<br /><hr /><br />
+	</li>
+<% end %>
+</ul>

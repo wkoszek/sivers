@@ -1,0 +1,25 @@
+<section id="people">
+<h1><%=h @pagetitle %></h1>
+<table>
+	<tr><th>go</th><th>name</th><th>email</th><th>checked_by</th><th>checked_at</th></tr>
+<% @people.each do |person| %>
+	<tr>
+		<td><a href="/person/<%= person[:id] %>"><%= person[:id] %></a></td>
+		<td><%=h person[:name] %></td>
+		<td><%=h person[:email] %></td>
+		<td><%= @kyp[person[:checked_by]] %></td>
+		<td><%=h person[:checked_at] %><button data-pid="<%= person[:id] %>">x</button></td>
+	</tr>
+<% end %>
+</table>
+</section>
+<script>
+document.getElementById('people').addEventListener('click', function(e) {
+	var pid = e.target.getAttribute('data-pid');
+	if(pid === null) { return; }
+	var xhr = new XMLHttpRequest();
+	xhr.open('delete', '/kykyc/' + pid, true);
+	xhr.send();
+	e.target.parentNode.innerHTML = '';
+}, false);
+</script>

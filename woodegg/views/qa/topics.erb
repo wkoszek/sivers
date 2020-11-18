@@ -1,0 +1,7 @@
+<h1><%= @country_name %></h1>
+<p>Click a topic...</p>
+<ul>
+<% @topics.each do |t| %>
+	<li><a href="/qa/<%= @country_code %>/<%= t.id %>"><%= t.topic %></a></li>
+<% end %>
+</ul>

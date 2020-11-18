@@ -1,0 +1,27 @@
+<h1>Formatting:</h1>
+<div class="row">
+
+<div class="span8">
+<textarea id="mdraw" rows="120">
+<%=h @markdowntut %>
+</textarea>
+</div>
+
+<div id="markup" class="span6">
+</div>
+
+</div>
+
+<script>
+var converter = new Showdown.converter();
+function showPreview(text) {
+	document.getElementById('markup').innerHTML = converter.makeHtml(text);
+}
+document.getElementById('mdraw').addEventListener('keyup', function(e) {
+	showPreview(this.value);
+}, false);
+window.onload = function() {
+	showPreview(document.getElementById('mdraw').value);
+};
+</script>
+

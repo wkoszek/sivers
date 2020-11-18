@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wood Egg <%= @pagetitle %></title>
+<meta name="author" content="Wood Egg LLC"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/2014.css" type="text/css" media="screen" />
+<script src="/components/modernizr/modernizr.js"></script>
+</head>
+<body id="a">
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name"><h1><a href="http://woodegg.com/" title="Wood Egg Entrepreneur’s Guides to Asia" class="coname">Wood Egg</a></h1></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>MENU</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li><a href="http://woodegg.com/about" title="About Wood Egg">About</a></li>
+      <li><a href="https://woodegg.com/a/signup">Register Your Book</a></li>
+      <li><a href="http://woodegg.com/help">Want to Help?</a></li>
+      <li><a href="http://woodegg.com/contact" title="Contact Wood Egg">Contact</a></li>
+    </ul>
+  </section>
+</nav>
+
+<section id="pagehead">
+<% if @person %>
+<form id="logoutbutton" action="https://woodegg.com/a/logout" method="post"><input type="submit" name="logout" value="logout"></form>
+<% end %>
+<h1>Your Wood Egg account</h1>
+</section>
+
+<section id="content">
+<%= yield %>
+</section>
+
+<script src="/components/jquery/jquery.js"></script>
+<script src="/components/foundation/js/vendor/fastclick.js"></script>
+<script src="/components/foundation/js/foundation.min.js"></script>
+<script src="/components/foundation/js/foundation.topbar.js"></script>
+<script> $(document).foundation(); </script>
+</body>
+</html>
+

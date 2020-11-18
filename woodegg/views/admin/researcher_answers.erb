@@ -1,0 +1,11 @@
+<h1><%= @pagetitle %></h1>
+
+<p><a href="/researcher/<%= @researcher.id %>">researcher page</a></p>
+
+<% @answers.each do |a| %>
+	<% q = @question_for_answers[a.id] %>
+	<h3><%= q.question %> <span class="small">(<a href="/question/<%= q.id %>">go</a>)</span></h3>
+	<p><%= a.answer %></p>
+	<p>(<a href="/answer/<%= a.id %>">go</a>)</p>
+	<hr>
+<% end %>

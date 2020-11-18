@@ -1,0 +1,20 @@
+<h2><%= @pagetitle %></h2>
+
+<table>
+<tr><td>writer</td><td>finished</td><td>open</td><td>limbo</td></tr>
+<% @active.each do |writer| %>
+	<tr>
+	<td><a href="/writer/<%= writer.id %>"><img src="/images/200/writer-<%= writer.id %>.jpg" width="200" height="200"> <%= writer.name %></a></td>
+	<td><a href="/writer/<%= writer.id %>/essays/unpaid"><%= writer.essays_unpaid_count %></a></td>
+	<td><a href="/writer/<%= writer.id %>/essays/unfinished"><%= writer.essays_unfinished_count %></a></td>
+	<td><a href="/writer/<%= writer.id %>/essays/unjudged"><%= writer.essays_unjudged_count %></a></td>
+	</tr>
+<% end %>
+</table>
+
+<h3>old:</h3>
+<ul>
+<% @inactive.each do |writer| %>
+	<li><a href="/writer/<%= writer.id %>"><%= writer.name %></a></li>
+<% end %>
+</ul>

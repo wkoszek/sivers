@@ -1,0 +1,83 @@
+<section id="project">
+<h1><%= @project[:progress] %>: <%=h @project[:title] %></h1>
+
+<% if @project[:progress] == 'created' %>
+	<h2>Describe your project in detail, so we can give you a quote on it.</h2>
+	<p>You can continue to update it until we make a quote for it. (We’ll email you when we do.)</p>
+	<form action="/project/<%= @project[:id] %>" method="post">
+		<label for="p_title">title:</label>
+		<input id="p_title" name="title" value="<%=h @project[:title] %>">
+		<label for="p_description">description:</label>
+		<textarea id="p_description" name="description"><%=h @project[:description] %></textarea>
+		<input type="submit" value="update">
+	</form>
+<% else %>
+	<% if @project[:progress] == 'quoted' %>
+		<h3>Do you approve of the quote, below?</h3>
+		<form action="/project/<%= @project[:id] %>/approve" method="post">
+			<input type="submit" value="YES">
+		</form>
+		<p>If not, we need a reason:</p>
+		<form action="/project/<%= @project[:id] %>/refuse" method="post">
+			<textarea name="reason"></textarea>
+			<input type="submit" value="NO">
+		</form>
+	<% end %>
+	<h2>Project facts:</h2>
+	<dl>
+		<dt>title</dt>
+		<dd><%=h @project[:title] %></dd>
+		<dt>description</dt>
+		<dd><%=h @project[:description] %></dd>
+		<dt>status</dt>
+		<dd><%= @project[:progress] %></dd>
+		<dt>created at</dt>
+		<dd><%= @project[:created_at] %></dd>
+		<dt>quoted at</dt>
+		<dd><%= @project[:quoted_at] %></dd>
+<% if @project[:quoted_money] %>
+		<dt>quoted amount:</dt>
+		<dd><%= '%0.2f %s' % [@project[:quoted_money][:amount], @project[:quoted_money][:currency]] %></dd>
+<% end %>
+		<dt>approved at</dt>
+		<dd><%= @project[:approved_at] %></dd>
+		<dt>started at</dt>
+		<dd><%= @project[:started_at] %></dd>
+		<dt>finished at</dt>
+		<dd><%= @project[:finished_at] %></dd>
+<% if @project[:final_money] %>
+		<dt>final amount:</dt>
+		<dd><%= '%0.2f %s' % [@project[:final_money][:amount], @project[:final_money][:currency]] %></dd>
+<% end %>
+	</dl>
+<% if @project[:notes] %>
+	<h3>Comments:</h3>
+	<ul>
+	<% @project[:notes].each do |note| %><li>
+<%= erb(:_note, {locals: {note: note}, layout: false}) %>
+	</li><% end %>
+	</ul>
+<% end %>
+	<h3>Comment on the project?</h3>
+	<form action="/project/<%= @project[:id] %>/notes" method="post">
+		<textarea name="note"></textarea>
+		<input type="submit" value="add comment">
+	</form>
+<% if @project[:tasks] %>
+	<h2>Tasks:</h2>
+	<ol>
+	<% @project[:tasks].each do |task| %>
+		<li>
+			<a href="/project/<%= @project[:id] %>/task/<%= task[:id] %>">go</a> :
+			<strong><%=h task[:title] %></strong>: <%=h task[:description] %>
+			<br>created at: <%= task[:created_at] %>
+			<br>started at: <%= task[:started_at] %>
+			<br>finished at: <%= task[:finished_at] %>
+			<br>Worker: <%=h(task[:worker][:name]) if task[:worker] %>
+		</li>
+	<% end %>
+	</ol>
+<% end %>
+<% end %>
+
+</section>

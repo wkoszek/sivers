@@ -1,0 +1,32 @@
+<table>
+	<tr><td>researcher:</td><td><a href="/researcher/<%= @upload.researcher_id %>"><%=h @researcher.name %></a></td></tr>
+	<tr><td>date:</td><td><%= @upload.created_at %></td></tr>
+	<tr><td>our filename:</td><td><%= @upload.our_filename %></td></tr>
+	<tr><td>their filename:</td><td><%= @upload.their_filename %></td></tr>
+	<tr><td>upload status:</td><td><%= @upload.uploaded_status %><%= @downlink %></td></tr>
+	<tr><td>file type:</td><td><%= @upload.mime_type %></td></tr>
+	<tr><td>file size:</td><td><%= '%.1f Mb' % (@upload.bytes / 1000000) %></td></tr>
+	<tr><td>duration: (H:m:s)</td><td><%= @upload.duration %></td></tr>
+</table>
+
+<hr>
+
+<h3>update description and transcription:</h3>
+<form action="/upload/<%= @upload.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="status_field">Transcription Status:</label>
+	<select id="status_field" name="status">
+	<% @status_options.each do |s| %>
+		<% it = (s == @upload.status.to_s) ? ' selected' : '' %>
+		<option value="<%= s %>"<%= it %>><%= s %></option>
+	<% end %>
+	</select>
+
+	<label for="notes_field">DESCRIPTION: (who is interviewed? subjects discussed?)</label>
+	<textarea name="notes" id="notes_field"><%=h @upload.notes %></textarea>
+
+	<label for="transcription_field">TRANSCRIPTION: (Paste full transcription, if you have it. If none needed, write “none”.)</label>
+	<textarea name="transcription" id="transcription_field"><%=h @upload.transcription %></textarea>
+	<br>
+	<input type="submit" value="UPDATE">
+</form>
+

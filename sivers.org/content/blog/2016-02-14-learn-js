@@ -1,0 +1,88 @@
+<!-- How to learn JavaScript -->
+<p>
+	Since I’ve <a href="/prog">mentioned</a> that I recently learned JavaScript, people have asked me how and what I recommend.
+	So here’s my experience and best advice for 2016.
+</p><h3>
+	Learn plain JavaScript
+</h3><p>
+	First, it’s important to <strong>learn plain JavaScript</strong>.
+</p><p>
+	Don’t depend on jQuery, CoffeeScript, or any other library of shortcuts.
+	JavaScript will be around for many years, while libraries and frameworks come and go every year.
+</p><h3>
+	How to begin
+</h3><p>
+	Don’t just learn from little bits of tutorials, tips, or tricks online.
+	Instead, you want a real foundation and solid understanding.
+	Then all your future learning will be so much faster.
+</p><p><strong>
+	Start with the book:
+“<a href="http://shop.oreilly.com/product/0636920010906.do">Head First HTML5 Programming</a>”.
+</strong></p><p>
+	It’s a great introduction with a fun teaching style, which is important to get you familiar with something so new.
+	Just read through it quickly in a couple days, before your deeper learning begins.
+	(You must get the paper book or PDF, because the detailed pictures are necessary.)
+</p><p><strong>
+	Do <a href="http://www.freecodecamp.com/">Free Code Camp</a>.
+</strong></p><p>
+	Someone who had 600 JavaScript learners <a href="https://news.ycombinator.com/item?id=11048409">said</a> Free Code Camp had the best results.
+	Do it at the same time as you’re reading the books.
+	Learning sticks better when coming through different senses.
+</p><h3>
+	Now get deep
+</h3><p><strong>
+	Simultaneously begin the huge but awesome book:
+“<a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html">Professional JavaScript for Web Developers, 3rd Edition - by Nicholas Zakas</a>”.
+</strong></p><p>
+	It’s the ultimate tutorial.
+	It takes the time to explain everything thoroughly, and covers everything.
+<strong>
+	By the time you’re done with this one book, you’ll know as much as most people who call themselves JavaScript programmers.
+</strong></p><h3>
+	Make it stick
+</h3><p>
+	I highly recommend you <strong>write down every new thing you learn</strong>, ideally into a flashcard program, <a href="/srs">like this</a>.
+	It’s a lot to digest, so you’ll have to remind yourself of what you’ve learned, or you’ll immediately forget.
+</p><h3>
+	Reinforce it
+</h3><p>
+	Afterwards, if you want to solidify what you’ve learned, quickly read through a few more books like these:
+</p><ul>
+<li><a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts - by Douglas Crockford</a></li>
+<li><a href="http://shop.oreilly.com/product/9780596806149.do">JavaScript Cookbook - by Shelley Powers</a></li>
+<li><a href="http://effectivejs.com/">Effective JavaScript - by David Herman</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920028857.do">Functional JavaScript - by Michael Fogus</a></li>
+</ul><p>
+	<strong>These books will go faster</strong>, now that you’re fluent.
+	Play around with the examples.
+	There will be no huge surprises.
+	You’re just enhancing what you know.
+</p><h3>
+	Avoid the shortcuts
+</h3><p>
+	When solving a problem, everyone will point you to some pre-made solution.
+	“Use jQuery! Use Backbone! Use this library and save yourself some typing!”
+</p><p><strong>
+	But no!
+	Not yet!
+	Do it the hard way.
+	Solve everything yourself with plain JavaScript.
+</strong>
+	It’s the best way to learn.
+</p><h3>
+	What next?
+</h3><p>
+	If you had a web app in mind, start building it now.
+	(OK, you can use shortcuts.)
+</p><p>
+	If you had an iPhone or Android app in mind, learn <a href="https://facebook.github.io/react-native/">React Native</a>.
+</p><p>
+	If you want a good-paying job, you can <a href="/gethired">get hired</a> almost anywhere.
+	Since you know the real JavaScript foundations more than most people, you’re very valuable.
+	You can quickly learn whatever framework they’re using.
+</p><h3>
+	Any other suggestions?
+	What worked for you?
+</h3><p>
+	Please share any other suggestions or experiences, here:
+</p>

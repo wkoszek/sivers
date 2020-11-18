@@ -1,0 +1,13 @@
+<h1><%= @country_name %> Questions</h1>
+<% @topics.each do |t| %>
+  <h2><%= t.topic %></h2>
+  <% t.subtopics.shuffle.each do |st| %>
+    <h3><%= st.subtopic %></h3>
+    <ul>
+    <% st.questions_for_country(@ccode).each do |q| %>
+      <li><a href="/qa/question/<%= q.id %>"><%= q.question %></a></li>
+    <% end %>
+    </ul>
+  <% end %>
+<% end %>
+

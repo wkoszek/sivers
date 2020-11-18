@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why are you doing? | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: The most important thing in life is to know why you are doing what you’re doing.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/openbsd">
+<link rel="next" href="https://sivers.org/tilt">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Why are you doing? | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/why">
+<meta property="og:image" content="https://sivers.org/images/kids-raft.jpg">
+<meta property="og:description" content="The most important thing in life is to know why you are doing what you’re doing.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Why are you doing? | Derek Sivers">
+<meta name="twitter:description" content="The most important thing in life is to know why you are doing what you’re doing.">
+<meta name="twitter:image" content="https://sivers.org/images/kids-raft.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Why are you doing?</h1>
+<p class="postdate">2016-09-05</p>
+</header>
+
+<p>
+	The most important thing in life is to know why you are doing what you’re doing.
+</p><p>
+	Most people don’t know.
+	They just go with the flow.
+</p><p>
+	Social norms are really powerful.
+	The inputs that influence you are really powerful.
+	A great video, talk, or book can convince you that you should be acting and thinking like that.
+</p><p>
+	But the worst thing in life would be a death-bed regret that you’ve spent your life pursuing what someone said you should want, instead of what you really want.
+</p><p>
+	For example, if you really want to make a lot of money, you need to admit that.
+</p><p>
+	If you really want to be famous, you need to pursue that.
+</p><p>
+	If you really want freedom and no responsibilities, or to learn as much as possible, or whatever else, you need to realize it and embrace it.
+</p><p>
+	But whatever you decide, you need to <strong>optimize</strong> for that, and be willing to <strong>let go</strong> of the others.
+</p><p>
+	You can’t diffuse your energy, trying to do a little bit of everything, or you’ll always be in <strong>conflict</strong> with yourself.
+</p><p>
+	For example, one way to make money is to take on a lot of responsibility, which means letting go of some freedoms.
+</p><p>
+	One way to get famous is to let others make more money, while you take the spotlight.
+</p><p>
+	I learned this living in Los Angeles, when I was friends with some famous Hollywood actors, and realized they’re not as rich as you’d think.
+	The richest people in Hollywood are the ones you’ve never heard of, because they’ve optimized their career for money.
+	They know others are willing to take less money in return for more fame, so they profit from the other side of that deal.
+</p><p>
+	Maybe the most important thing to you is learning, or creating, or giving.
+	Maybe it’s how <strong>many</strong> people’s lives you can influence.
+	Maybe it’s how <strong>deeply</strong> you can influence just a few people’s lives.
+</p><p>
+	Once you realize it and admit it, you need to <strong>pursue</strong> it.
+</p><p>
+	Like if you want freedom, then you own a business but delegate all the work.
+	You won’t be learning or creating or giving as much as you could with a different strategy, but that’s OK.
+	You know freedom is what you’re after.
+</p><p>
+<strong>
+	Sometimes your best strategy is counter-intuitive.
+</strong>
+	Like if you have a high paying job, but realize that charitable giving is what matters most to you, then the best strategy is not to quit your job and go hang mosquito nets in Africa, but actually to keep your job and make as much money as you can, while spending it on hiring hundreds of people in Africa to hang thousands of mosquito nets.
+	(Unless your goal is more about looking charitable, instead of actually being charitable.
+	Then admit that to yourself, too.)
+</p><p>
+	But whatever you choose, brace yourself, because people are always going to tell you you’re <a href="/wrong">wrong</a>.
+</p><p>
+	That’s why you need to know why you’re doing what you’re doing.
+	Know it in advance.
+	Use it as your compass and optimize your life around it.
+	Let the other goals be secondary.
+</p><p>
+	So when those decision moments come, you can choose the value that you already know matters most to you.
+</p>
+<img src="/images/kids-raft.jpg">
+<p class="small"><em>
+(This is a variation on an old post, called “<a href="/grade">How do you grade yourself?</a>”.)
+</em></p>
+
+<footer>
+© 2016 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/openbsd" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/tilt" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

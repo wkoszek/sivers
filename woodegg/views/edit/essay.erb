@@ -1,0 +1,53 @@
+<h2><%= h @question %></h2>
+
+<div class="row">
+<div id="contentform" class="span6">
+<form action="/edit/essay/<%= @essay.id %>" method="post"><input type="hidden" name="_method" value="put">
+<textarea id="essaycontent" name="content" rows="<%= @rows %>"><%= h @content %></textarea>
+<br><input type="submit" name="submit" value="SAVE" class="btn-large btn-info">
+<input type="submit" name="submit" value="save + mark FINISHED + then STOP" class="btn-large btn-danger">
+<input type="submit" name="submit" value="save + mark FINISHED + then DO NEXT" class="btn-large btn-success">
+</form>
+</div>
+
+<div id="markup" class="span6">
+</div>
+</div>
+
+<hr>
+
+<a href="#research" id="seeresearch">See research?</a>
+
+<div class="row" id="research">
+<dl class="span12">
+<% @answers.each do |a| %>
+	<dt><%= a.started_at.to_s[0,10] %></dt>
+	<dd><%=h a.answer %></dd>
+<% end %>
+</dl>
+</div>
+
+<script>
+// Markdown preview
+var converter = new Showdown.converter();
+function showPreview(text) {
+	document.getElementById('markup').innerHTML = converter.makeHtml(text);
+}
+document.getElementById('essaycontent').addEventListener('keyup', function(e) {
+	showPreview(this.value);
+}, false);
+
+// See research
+var research = document.getElementById('research');
+var seeresearch = document.getElementById('seeresearch');
+seeresearch.addEventListener('click', function(e) {
+	research.style.display = 'block';
+	seeresearch.style.display = 'none';
+}, false);
+
+// Init both
+window.onload = function() {
+	showPreview(document.getElementById('essaycontent').value);
+	research.style.display = 'none';
+};
+</script>

@@ -1,0 +1,20 @@
+<form action="/test_essay/<%= @te.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="notes_field">our notes:</label>
+	<textarea name="notes" id="notes_field"><%=h @te.notes %></textarea>
+	<input type="submit" name="submit" value="update notes">
+</form>
+
+<h4><a href="/question/<%= @q.id %>"><%=h @q.question %></a></h4>
+<h3>Test Essay by <a href="/person/<%= @p.id %>/test_essays"><%= @p.name %></a></h3>
+<p>
+<%= @te.content.to_html %>
+</p>
+
+<h2>Research Answers:</h2>
+<ul>
+<% @as.each do |a| %>
+	<li><a href="/answer/<%= a.id %>">Answer #<%= a.id %></a>:<br>
+	<%= a.answer %></li>
+<% end %>
+</ul>
+

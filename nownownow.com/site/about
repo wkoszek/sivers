@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>about nownownow.com</title>
+<meta name="description" content="about nownownow.com and the /now page movement">
+<meta name="author" content="Derek Sivers">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:100,400,600,800" rel="stylesheet" type="text/css">
+<style type="text/css">
+body { font-family: "Open Sans", sans-serif; font-size: 20px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
+a {color: #5337DC;}
+li a:visited {color: #633;}
+h1 { color: rgba(0, 0, 0, 0.75); margin-bottom: 15px; font-size: 40px; font-weight: 600 !important; }
+h2 { margin-top: 2em; }
+h2, small { font-family: sans-serif; color: #900; }
+small { display: block; line-height: 2em; font-size: 16px; }
+ul { margin: 1em 0 0 0; padding: 0; }
+li { font-size: 18px; list-style-type: none; margin-bottom: 5px; }
+</style>
+<meta property="og:title" content="about nownownow.com">
+<meta name="twitter:title" content="about nownownow.com">
+<meta property="og:description" content="about nownownow.com and the /now page movement">
+<meta name="twitter:description" content="about nownownow.com and the /now page movement">
+<meta property="og:image" content="http://nownownow.com/images/nowclock.jpg">
+<meta name="twitter:image" content="http://nownownow.com/images/nowclock.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nownownow">
+<meta name="twitter:creator" content="@nownownow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://nownownow.com/about">
+</head>
+<body>
+<section id="content">
+
+<h1>about <a href="/">nownownow.com</a></h1>
+
+<p>
+If anything here is unclear, please <a href="#who">let me know</a>.
+</p>
+
+<h2 id="what">What is a “now page”?</h2>
+<p>
+Most websites have a link that says “<strong>about</strong>”.
+It goes to a page that tells you something about the background of this person or business.
+For short, people just call it an “about page”.
+</p><p>
+Most websites have a link that says “<strong>contact</strong>”.
+It goes to a page that tells you how to contact this person or business.
+For short, people just call it a “contact page”.
+</p><p>
+So a website with a link that says “<strong>now</strong>”
+goes to a page that tells you <strong>what this person is focused on at this point in their life.</strong>
+For short, we call it a “now page”.
+</p><p>
+See examples by browsing <a href="/">nownownow.com</a>.
+</p><p>
+Although it’s normal to make the web address “/now”, just like it’s usually “/about” and “/contact” in those other examples, the URL could be anything.
+</p>
+
+
+<h2 id="social">Don’t Twitter and Facebook updates do that?</h2>
+<p>
+No.
+If I wonder how someone is doing these days, it doesn’t help me to see that they went on vacation last week, are upset about something in the news, or even got a new job.
+That’s not the big picture.
+</p><p>
+Think of <strong>what you’d tell a friend you hadn’t seen in a year</strong>.
+</p><p>
+Like, “Still living in Dallas, though considering moving to Austin. Working at ABC. Really getting into cycling. The kids are age 3 and 6. I’m reading a lot of Pema Chödrön, and listening to  a lot of jazz piano especially Brad Mehldau. I’ve stopped taking on web design clients, since I’d rather keep improving my back-end database work.”
+</p><p>
+That’s what a now page is for.
+You can’t get that big picture from any other outlets I’m aware of.
+</p>
+
+
+<h2 id="why">Why do I need a now page?</h2>
+<p>
+If you’re not already feeling that this would be very useful to you, then you don’t need one.
+</p><p>
+If you don’t already have your own website, with an “about” page that’s about you personally, then this isn’t for you.
+</p><p>
+This isn’t for marketing or attention.
+It will not benefit you in any business way.
+</p><p>
+It’s useful <strong>for the same reason an “about” page is useful on your site</strong>: because people on your site want to know more about you.
+</p><p>
+Besides answering the common question, “What are you up to these days?”, those who have a now page say it’s a good reminder of their priorities.
+By publicly showing what you are focused on now, it helps you say no to other requests.
+</p><p>
+<em>“A few days ago I added my now page and felt an immediate since of relief from pitch emails that ignored the fact that I said explicitly on my site that my team and I can’t handle unsolicited pitches. Simple idea. Big impact.”</em> — <a href="http://nerdzach.com/now/">Zach Ware</a>
+</p><p>
+<em>“Any time I’m in something that kind of feels useful or fun, but isn’t clearly aligned with my bigger goals, I pull up my now page and ask ‘Is it on there? Should I add it?’ Most of the time the answer is no, and I move on. Sometimes its yes, and when it is, at least it’s an intentional priority shift.”</em> — <a href="http://practicingdeveloper.com/now/">Gregory Brown</a>
+</p>
+
+
+<h2 id="whatnow">So what is nownownow.com?</h2>
+<p>
+After a few people added a /now page to their site — (<a href="http://sivers.org/nowff">see original story</a>) — <a href="http://gregalbritton.com/now">Greg Albritton</a> suggested we keep <strong>a collection of everyone that has a /now page</strong>.
+</p><p>
+That’s all this is.
+It’s not a business.
+It’s not social media.
+</p><p>
+<a href="http://sivers.org/now3">See the announcement and story here</a>.
+</p>
+
+
+<h2 id="hownow">How do I get listed on nownownow.com?</h2>
+<p>
+<strong>If you already have your own website with a /now page on it</strong>, as described and defined above, just email the URL to me at <a href="mailto:derek@sivers.org">derek@sivers.org</a>.
+After you do, I’ll email you back with a link to log in and answer a few questions, which, when done, will create a profile page for you.
+</p><p>
+If not, <a href="#how">see below</a>.
+</p>
+
+
+<h2 id="how">How do I make a now page?</h2>
+<p>
+<strong>If you already have a website, but don’t have a /now page</strong>, just add a new page.
+If you’re using WordPress, look for “Pages” on the left, and choose “Add New”.
+Give it a “permalink” of /now.
+(Sorry I can’t help with tech support.)
+</p><p>
+Write something about what you’re doing now, and publish.
+Once it’s online, email me the URL.
+</p><p>
+<strong>If you don’t have a website</strong>, but have been meaning to get one, create a free one at <a href="https://wordpress.com/">wordpress.com</a>.
+Before you announce it, I highly recommend getting your own domain name at <a href="https://www.hover.com/">hover.com</a>.
+Point your domain to your WordPress blog, and use that.
+(Again, sorry I can’t help with tech support, but this is very common stuff, so anyone else can.)
+</p><p>
+A new service called <strong><a href="https://ournows.com/">Our/Nows</a></strong> has set up just to help you make a /now page, without your own website.
+</p>
+
+
+<h2 id="biz">Can we add our business here?</h2>
+<p>
+No.
+Browsing <a href="/">nownownow.com</a> is only interesting because you get a glimpse into people’s lives and how they focus.
+</p><p>
+If it became full of businesses, it would lose its appeal, and I’d probably just shut down this site.
+</p><p>
+If you have a business website that is really just you, <a href="http://www.shakespeareconsultant.com/now/">like this example</a>, then that’s OK.
+But other than that, I won’t be adding business sites.
+</p>
+
+
+<h2 id="add">You know what this needs? …</h2>
+<p>
+Please tell me.
+I’m here as a public servant, taking requests.
+</p><p>
+Or just make something first, and let me know.
+No need to ask my permission.
+</p><p>
+Some people have done some cool things with this already, like <a href="https://github.com/haroldtreen/query-nownownow">this query tool</a>, <a href="http://cm-506211.silk.co/">this map</a> and <a href="http://nownownow.herokuapp.com/">this word cloud</a>.
+</p>
+
+
+<h2 id="who">Who is behind this?</h2>
+<p>
+<a href="http://sivers.org/">Derek Sivers</a>.
+That’s me.
+</p><p>
+I’m just doing this because people have asked me to.
+Email me at <a href="mailto:derek@sivers.org">derek@sivers.org</a> with any questions or suggestions.
+</p>
+
+
+</section>
+</body>
+</html>
+

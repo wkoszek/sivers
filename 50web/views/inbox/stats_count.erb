@@ -1,0 +1,14 @@
+<section id="stats">
+
+<h2>Stat key count:</h2>
+<table>
+<% @stats.each do |s| %>
+	<tr>
+		<td><a href="/stats/<%= s[:name] %>"><%= s[:name] %></a></td>
+		<td><%= s[:count] %></td>
+	</tr>
+<% end %>
+</table>
+
+</section>
+

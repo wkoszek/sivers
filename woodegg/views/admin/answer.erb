@@ -1,0 +1,28 @@
+<h4>Researcher: <a href="/researcher/<%= @researcher.id %>"><%= @researcher.name %></a></h4>
+<h3><a href="/question/<%= @question.id %>"><%= @question.question %></a></h3>
+
+<form action="/answer/<%= @answer.id %>" method="post"><input type="hidden" name="_method" value="put">
+
+<div class="row">
+	<div class="columns small-4">
+<label for="started_at">started_at:</label>
+<input type="text" name="started_at" id="started_at" value="<%= @answer.started_at %>"><br>
+	</div>
+	<div class="columns small-4">
+<label for="finished_at">finished_at:</label>
+<input type="text" name="finished_at" id="finished_at" value="<%= @answer.finished_at %>"><br>
+	</div>
+	<div class="columns small-4">
+<label for="payable">payable:</label>
+<input type="text" name="payable" id="payable" value="<%= @answer.payable %>"><br>
+	</div>
+</div>
+
+<label for="answer">answer:</label>
+<textarea name="answer" id="answer"><%= @answer.answer %></textarea><br>
+
+<label for="sources">sources:</label>
+<textarea name="sources" id="sources"><%= @answer.sources %></textarea><br>
+
+<input type="submit" name="submit" value="update">
+</form>

@@ -1,0 +1,17 @@
+<h4><a href="/question/<%= @q.id %>"><%=h @q.question %></a></h4>
+<h3>Test Essay by <a href="/person/<%= @p.id %>/test_essays"><%= @p.name %></a></h3>
+
+<form action="/test_essay/<%= @te.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="notes_field">our notes:</label>
+	<textarea name="notes" id="notes_field"><%=h @te.notes %></textarea>
+	<hr>
+	<label for="content_field">content:</label>
+	<textarea name="content" id="content_field"><%=h @te.content %></textarea>
+	<input type="submit" name="submit" value="update">
+</form>
+
+<h2>Preview:</h2>
+<p>
+<%= @html %>
+</p>
+

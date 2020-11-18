@@ -1,0 +1,17 @@
+<h1>Interviews</h1>
+
+<p>
+	Click each title to read the transcript, download the MP3, or visit their website.
+</p><p>
+	Or <a href="/file/DerekSivers-49-Interviews.zip">click here to download all 49 interviews</a> as a huge 2GB zip file with 49 MP3s inside.
+	(That’s 41 hours of me talking.)
+</p>
+
+<hr>
+<% @interviews.each do |p| %>
+	<div class="interview_summary spacer">
+		<h2><a href="/<%= p[:url] %>"><%=h p[:title] %></a> <span class="small">(date: <%= p[:date] %>)</span></h2>
+		<p><%= p[:subhead] %></p>
+	</div>
+<% end %>
+

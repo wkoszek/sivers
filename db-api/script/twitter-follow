@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+# PURPOSE: follow people who gave me their Twitter URL
+require 'pg'
+require 'json'
+require 'twitter'
+
+# only run this on the live server
+exit unless 'sivers.org' == %x{hostname}.strip
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+
+# a PostgreSQL function does the hard work of figuring out whose
+# peeps.urls have twitter.com but are not in peeps.stats.twitter
+res = db.exec('SELECT js FROM peeps.twitter_unfollowed()')
+twits = JSON.parse(res[0]['js'], symbolize_names: true)
+exit if twits.size == 0
+
+# configs to connect to Twitter client
+ck = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.ck'")[0]['v']
+cs = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.cs'")[0]['v']
+at = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.at'")[0]['v']
+as = db.exec("SELECT v FROM core.configs WHERE k='twitter.sivers.as'")[0]['v']
+tw = Twitter::REST::Client.new do |config|
+	config.consumer_key = ck
+	config.consumer_secret = cs
+	config.access_token = at
+	config.access_token_secret = as
+end
+
+# Twitter API only seems to allow 7 new follows at once before rate-limiting
+twits[0,6].each do |t|
+	print t
+	begin
+		# follow this person on Twitter
+		u = tw.follow(t[:twitter])
+		if u.instance_of?(Array) && u[0].instance_of?(Twitter::User)
+			# if successful, save id in stats
+			res = db.exec_params('SELECT status FROM peeps.add_stat($1, $2, $3)',
+				[t[:person_id], 'twitter', '%d = %s' % [u[0].id, t[:twitter]]])
+			unless res[0]['status'] == '200'
+				puts " STAT TROUBLE"
+			end
+		else
+			puts " FOLLOW TROUBLE"
+		end
+	rescue => e
+		print e.class
+		puts e.message
+	end
+end
+

@@ -1,0 +1,9 @@
+<h1>Unfinished Answers</h1>
+
+<% @answers.each do |a| %>
+	<p><%= a.started_at %></p>
+	<p><%= a.finished_at %></p>
+	<p><%= a.answer %></p>
+	<p><%= a.sources %></p>
+	<hr>
+<% end %>

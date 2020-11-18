@@ -1,0 +1,104 @@
+#!/usr/bin/env ruby
+# USAGE: eeps 2015-12-31-outgoing_email.erb
+require 'pg'
+require 'json'
+require 'erb'
+require 'time'
+require 'net/smtp'
+
+infile = ARGV[0] || raise('USAGE: eeps /path/to/one-template.erb')
+outfile = infile.gsub(/erb$/, 'log')
+
+template = File.read(infile).strip
+template << %{\n\n--
+Derek Sivers  derek@sivers.org  https://sivers.org/
+Change your list settings here: https://sivers.org/list/<%= @id %>/<%= @lopass %>
+}
+
+# INPUT: ERB template, person's info from database, optional test email address
+# OUTPUT: hash{ :id, :email, :subject, :body, :msgid}
+def parse_template(template, listitem, test_email = nil)
+	@id, @email, @address, @lopass = listitem
+	@email = test_email if test_email
+	parsedlines = ERB.new(template).result.split("\n\n")
+	parsed = {id: @id, email: @email}
+	parsed[:subject] = parsedlines.shift
+	parsed[:body] = parsedlines.join("\n\n")
+	parsed[:msgid] = ('%s.%d@sivers.org' % [Time.now.strftime('%Y%m%d%H%M%S'), @id])
+	parsed
+end
+
+# INPUT: hash{:email, :subject, :body, :msgid}
+# OUTPUT: array of hashes with '_id', 'email', 'status', 'reject_reason'
+def send_one(parsed)
+	msg = <<MSG
+From: Derek Sivers <derek@sivers.org>
+To: #{parsed[:email]}
+Subject: #{parsed[:subject]}
+Date: #{Time.now.rfc2822}
+Message-Id: #{parsed[:msgid]}
+Content-Type: text/plain; charset=utf-8
+
+#{parsed[:body]}
+MSG
+	Net::SMTP.start('localhost', 25) do |smtp|
+		smtp.send_message msg, 'derek@sivers.org', parsed[:email]
+	end
+end
+
+# in case a list_loop crashes and I have to start again,
+# read the log to get the person_ids already emailed
+def already_emailed(outfile)
+	if File.file?(outfile)
+		File.readlines(outfile).map {|line| line.split("\t")[1].to_i }
+	else
+		[]
+	end
+end
+
+# sends to list (or 5 test emails) and logs it
+# LOG FORMAT:time, person id, email
+def list_loop(list, template, outfile, test_email = nil)
+	list = list[0,5] if test_email
+	ids_to_skip = already_emailed(outfile)
+	File.open(outfile, 'a') do |f|
+		list.each do |listitem|
+			person_id = listitem[0]
+			next if ids_to_skip.include? person_id
+			begin
+				parsed = parse_template(template, listitem, test_email)
+				send_one(parsed)
+				logline = [
+					Time.now.strftime('%Y-%m-%d %H:%M:%S'),
+					parsed[:id],
+					parsed[:email]].join("\t")
+				puts logline
+				f.puts logline unless test_email
+			rescue
+				f.puts "FAILED: #{person_id}"
+			end
+		end
+	end
+	puts "\n\nDONE! LOG FILE:\n#{outfile}" unless test_email
+end
+
+print "WHERE "
+k = STDIN.gets.strip
+
+print "WHERE #{k} = "
+v = STDIN.gets.strip
+
+db = PG::Connection.new(dbname: 'd50b', user: 'd50b')
+res = db.exec_params('SELECT js FROM peeps.ieal_where($1, $2)', [k, v])
+list = JSON.parse(res[0]['js'], symbolize_names: true)
+
+print "#{list.size} people. Test email: "
+test_email = STDIN.gets.strip
+exit unless /\A\S+@\S+\.\S+\Z/ === test_email
+
+list_loop(list, template, outfile, test_email)
+
+print "\nCheck #{test_email}. To confirm, type # of people, above. "
+exit unless list.size == STDIN.gets.to_i
+list_loop(list, template, outfile)
+

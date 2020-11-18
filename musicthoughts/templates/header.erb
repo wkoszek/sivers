@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="<%= @lang %>" dir="<%= @dir %>">
+<head>
+<meta charset="utf-8">
+<title><%= @pagetitle %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<% @rel_alternate.each do |l, u| -%>
+<link rel="alternate" hreflang="<%= l %>" href="<%= u %>" />
+<% end -%>
+</head>
+<body id="<%= @bodyid %>">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/"><%= @t.musicthoughts %></a></h1>
+<h2><%= @t.musicthoughts_slogan %></h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new"><%= @t.new %></a></li>
+	<li><a href="/authors"><%= @t.authors %></a></li>
+	<li><a href="/contributors"><%= @t.contributors %></a></li>
+	<li><a href="/t/<%= @rand_id %>"><%= @t.random_thought %></a></li>
+	<li><a href="/search"><%= @t.search %></a></li>
+	<li><a href="/about"><%= @t.about %></a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+

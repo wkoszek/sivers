@@ -1,0 +1,20 @@
+<p>By <a href="/writer/<%= @writer.id %>"><%=h @writer.name %></a>
+Started: <%= @essay.started_at %> &nbsp; 
+Finished: <%= @essay.finished_at %> &nbsp;
+Remaining: <%= @unjudged_count %>
+</p>
+
+<form action="/essay/<%= @essay.id %>/judge" method="post"><input type="hidden" name="_method" value="put">
+	<input type="submit" name="payable" value="yes" class="success">
+	<label for="reason">… or give a complete reason for refusing. This will be emailed to the writer:</label>
+	<textarea name="reason" id="reason"></textarea>
+	  &nbsp; 
+	<input type="submit" name="payable" value="no" class="alert">
+</form>
+
+<h3><%=h @question.question %> <span class="small">(<a href="/question/<%= @question.id %>">go</a>)</span></h3>
+
+<h4>Essay: <span class="small">(<a href="/essay/<%= @essay.id %>">edit</a>)</span></h4>
+<div id="essaycontent">
+<%= @html %>
+</div>

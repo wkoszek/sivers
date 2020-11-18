@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to send personalized emails | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: I think the single most common question I’ve been asked over the years is “What do you use to send out your personalized emails?”">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/sprezzatura">
+<link rel="next" href="https://sivers.org/drama">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="How to send personalized emails | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/emailer">
+<meta property="og:image" content="https://sivers.org/images/wonkakids.png">
+<meta property="og:description" content="I think the single most common question I’ve been asked over the years is “What do you use to send out your personalized emails?”">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="How to send personalized emails | Derek Sivers">
+<meta name="twitter:description" content="I think the single most common question I’ve been asked over the years is “What do you use to send out your personalized emails?”">
+<meta name="twitter:image" content="https://sivers.org/images/wonkakids.png">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>How to send personalized emails</h1>
+<p class="postdate">2009-08-31</p>
+</header>
+
+<p>
+I think the single most common question I’ve been asked over the years is “<strong>What do you use to send out your personalized emails?</strong>”
+</p><p>
+It’s <strong>a short little PHP script, run on the command-line, directly on your webserver</strong>.  The script and simple instructions are below.
+</p><p>
+Sorry I can’t play tech-support for everyone, so for anything here you don’t understand yet, please ask your web-hosting company how to do this for your site. (This page is at <strong><a href="/emailer">sivers.org/emailer</a></strong>.)
+</p>
+
+
+<h2>1. Keep your list in a spreadsheet</h2>
+<p>
+It’s important that you do it with <strong>email address in column A</strong> and <strong>name in column B</strong> like this:
+<br /><img src="/images/wonkakids.png">
+</p>
+
+<h2>2. Save as tab-delimited text</h2>
+<p>
+Under “Save As...”, every spreadsheet program has an option to save as plain text, with the columns separated with a “tab” character. For this example, <strong>name it list.txt</strong>.  Upload it to your server.
+</p>
+
+<h2>3. Here’s the PHP script that does it</h2>
+<pre>
+&lt;?php
+$from = &quot;Willy Wonka &lt;willy@wonka.com&gt;&quot;;
+foreach(file(’list.txt’) as $line)
+    {
+    list($email, $name) = explode(&quot;\t&quot;, $line);
+    list($firstname) = explode(’ ’, $name);
+    $subject = &quot;Hi $firstname! The chocolate is all yours.&quot;;
+    $body = &quot;Hi $firstname - 
+
+Those other kids are awful. You deserve it all. Come and get it.
+
+--
+Willy Wonka - willy@wonka.com - http://wonka.com
+&quot;;
+    mail($email, $subject, $body, $from);
+    print &quot;$email sent\n&quot;;
+    }
+?&gt;
+</pre>
+<p><strong>Look at it slowly</strong>, even if you don’t know PHP. It’s pretty self-explanatory.</p>
+<ol>
+<li>It goes through each line of your list.txt file</li>
+<li>Breaks each line into $email and $name, separated by tab (\t)</li>
+<li>Breaks the name into words, taking the first one as $firstname</li>
+<li>Merges $firstname into the subject and body of the mail</li>
+<li>Emails it, using the customized $email, $subject and $body</li>
+</ol>
+<p>Obviously, <strong>replace the $from, $subject, and $body</strong> for your own needs. Save it as <strong>mailer.php</strong>. Then upload it to your server.</p>
+
+<h2>4. Log in to the command-line on your server</h2>
+<p>
+This is the part your web-hosting company will have to tell you how to do. Using <a href="http://www.osxterminal.com/">Terminal</a> on Mac, or <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> on Windows, SSH into your server’s command-line.
+</p>
+
+<h2>5. Run it!</h2>
+<p>
+On the command-line, where the <strong>mailer.php</strong> and <strong>list.txt</strong> files are, just type:<pre><strong>php mailer.php
+</strong></pre>
+... and everyone will be sent a customized email.
+</p>
+
+<footer>
+© 2009 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/sprezzatura" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/drama" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

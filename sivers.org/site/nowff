@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The /now page movement | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: People often ask me what I’m doing now.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/relax">
+<link rel="next" href="https://sivers.org/now3">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="The /now page movement | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/nowff">
+<meta property="og:image" content="https://sivers.org/images/nowclock.jpg">
+<meta property="og:description" content="People often ask me what I’m doing now.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="The /now page movement | Derek Sivers">
+<meta name="twitter:description" content="People often ask me what I’m doing now.">
+<meta name="twitter:image" content="https://sivers.org/images/nowclock.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>The /now page movement</h1>
+<p class="postdate">2015-10-21</p>
+</header>
+
+<p>
+	People often ask me what I’m doing now.
+</p><p>
+	Each time I would type out a reply, describing where I’m at, what I’m focused on, and what I’m not.
+</p><p>
+	So earlier this year I added a <a href="/now">/now</a> page to my site:
+<strong><a href="/now">sivers.org/now</a></strong>
+</p><p>
+	A simple link.
+	Easy to remember.
+	Easy to type.
+</p><p>
+	It’s a nice reminder for myself, when I’m feeling unfocused.
+	A public declaration of priorities.
+</p><p>
+	(If I’m doing something that’s not on my list, is it something I want to add, or something I want to stop?)
+</p><p>
+	It helps me <a href="/no2">say no</a>, too.
+	When I decline invitations, I point them to that page to let them know it’s not personal.
+</p><p>
+	Anyway, <strong>today</strong> the brilliant Gregory Brown announced that <strong>he added <a href="http://practicingdeveloper.com/now/">a /now page</a> to his site!</strong>
+</p><p>
+	I re-tweeted his announcement, and <strong>within hours, 8 more people made a /now page!</strong>
+</p>
+<ul>
+<li><a href="http://mikevial.com/now/">mikevial.com/now</a></li>
+<li><a href="http://www.theubergeekgirl.com/now/">theubergeekgirl.com/now</a></li>
+<li><a href="http://blitzprog.org/now">blitzprog.org/now</a></li>
+<li><a href="http://www.notkindacool.com/now/">notkindacool.com/now</a></li>
+<li><a href="http://www.marclittlemore.com/now/">marclittlemore.com/now</a></li>
+<li><a href="https://marcjenkins.co.uk/now/">marcjenkins.co.uk/now</a></li>
+<li><a href="http://lewiswalsh.com/now/">lewiswalsh.com/now</a></li>
+<li><a href="http://garrickvanburen.com/now/">garrickvanburen.com/now</a></li>
+</ul>
+<p>
+	I love it!
+	I wish <em>everyone</em> had one!
+</p><p>
+	<strong>If you make a /now page on your site, please add the URL in the body of a comment, below.</strong>
+	Use the full http:// URL, so it will be a clickable link.
+</p>
+<h3>Update: all /now pages listed at <a href="http://nownownow.com/">nownownow.com</a></h3>
+<p>
+	(You do get what’s going on here, don’t you?
+	Gregory Brown has <a href="/ff">started a movement</a>!)
+☺
+</p>
+<a href="http://nownownow.com/"><img src="/images/nowclock.jpg"></a>
+
+<footer>
+© 2015 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/relax" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/now3" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

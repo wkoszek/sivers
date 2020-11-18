@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Über MusicThoughts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/musicthoughts-201602.css" />
+<link rel="alternate" hreflang="en" href="http://musicthoughts.com/about" />
+<link rel="alternate" hreflang="es" href="http://es.musicthoughts.com/about" />
+<link rel="alternate" hreflang="fr" href="http://fr.musicthoughts.com/about" />
+<link rel="alternate" hreflang="it" href="http://it.musicthoughts.com/about" />
+<link rel="alternate" hreflang="pt" href="http://pt.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ru" href="http://ru.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ar" href="http://ar.musicthoughts.com/about" />
+<link rel="alternate" hreflang="ja" href="http://ja.musicthoughts.com/about" />
+<link rel="alternate" hreflang="zh" href="http://zh.musicthoughts.com/about" />
+</head>
+<body id="about">
+<div id="page">
+
+<header id="bighead">
+<hgroup>
+<h1><a href="/">MusicThoughts</a></h1>
+<h2>Ein ruhiger Ort um über Musik nachzudenken</h2>
+</hgroup>
+
+<nav id="nav">
+<ul>
+	<li><a href="/new">neu</a></li>
+	<li><a href="/authors">Autoren</a></li>
+	<li><a href="/contributors">Mitwirkende</a></li>
+	<li><a href="/t/16">Zufälliger Gedanke</a></li>
+	<li><a href="/search">Suche</a></li>
+	<li><a href="/about">Über</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="content">
+
+<a href="http://sivers.org/"><img src="/css/DerekSivers-20141119-200.jpg"></a>
+<p>
+Mein Name ist Derek Sivers.
+</p><p>
+Ich bin ein Musiker seit 1984 und ein professioneller Musiker seit 13 Jahren.
+</p><p>
+1998 gründete ich cdbaby.com und hostbaby.com
+</p><p>
+1999 gründete ich musicthoughts.com, weil ich es liebte, wie mich die Gedanken von anderen Musikern über das, wie sie Musik machen, inspirierten, meine eigene Musik zu machen.
+</p><p>
+Sie können auch der <a href="https://groups.yahoo.com/neo/groups/musicthoughts/info">musicthoughts E-Mail-Liste</a> beitreten, um mit anderen Musikern zu reden.
+</p><p>
+musicthoughts.com ist eine komplett kostenlose nichtkommerzielle-Seite, die nur für Ihre Inspiration da ist.
+</p><p>
+Wenn Sie eine Idee dafür haben, was sie noch sein könnte, bitte <a href="http://sivers.org/#follow">kontaktieren Sie mich</a>.
+</p><p>
+Alle meine neuen Projekte sind auf <a href="http://sivers.org/">sivers.org</a>
+</p>
+
+</section>
+
+<footer id="bigfoot">
+<nav id="langforms">
+<ul>
+	<li><a href="http://musicthoughts.com/about">English</a></li>
+	<li><a href="http://es.musicthoughts.com/about">Español</a></li>
+	<li><a href="http://fr.musicthoughts.com/about">Français</a></li>
+	<li><a href="http://it.musicthoughts.com/about">Italiano</a></li>
+	<li><a href="http://pt.musicthoughts.com/about">Português</a></li>
+	<li><a href="http://ru.musicthoughts.com/about">Русский</a></li>
+	<li><a href="http://ar.musicthoughts.com/about">العربية</a></li>
+	<li><a href="http://ja.musicthoughts.com/about">日本語</a></li>
+	<li><a href="http://zh.musicthoughts.com/about">中文</a></li>
+</ul>
+</nav>
+
+<blockquote cite="/t/2392">
+	<q>Viele Dinge lassen sich schneller tun, indem man nur ein Ding auf einmal tut.</q>
+	<cite><a href="/t/2392">Wolfgang Amadeus Mozart</a></cite>
+</blockquote>
+
+
+</footer>
+
+</div>
+</body>
+</html>
+

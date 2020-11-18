@@ -1,0 +1,121 @@
+<section id="home">
+
+<% if @unknowns_count[:count] > 0 %>
+	<h2>Unknowns: <a href="/unknown"><%= @unknowns_count[:count] %></a></h2>
+<% end %>
+
+<% @unopened_email_count.each do |profile, cat_counts| %>
+	<h2><%= profile %></h2>
+	<ul>
+	<% cat_counts.each do |category, num| %>
+		<li>
+			<form action="/next_unopened" method="post">
+				<input type="hidden" name="profile" value="<%= profile %>">
+				<input type="hidden" name="category" value="<%= category %>">
+				<input type="submit" value="<%= category %>">
+				(<a href="/unopened?profile=<%= profile %>&amp;category=<%= category %>"><%= num %></a>)
+			</form>
+		</li>
+	<% end %>
+	</ul>
+<% end %>
+
+<% if @open_emails.count > 0 %>
+	<h2>open emails:</h2>
+	<ul>
+	<% @open_emails.each do |email| %>
+		<li><a href="/email/<%= email[:id] %>"><%= email[:subject] %></a> <em>(opened by <%= email[:name] %>)</em></li>
+	<% end %>
+	</ul>
+<% end %>
+
+<!-- id, handle, person_id, message, name -->
+<% if @tweets.count > 0 %>
+<h2>tweets unseen</h2>
+<ul id="unseen">
+<% @tweets.each do |t| %>
+	<% a1 = t[:person_id].nil? ? '' : ('<a href="/person/%d">' % [t[:person_id]]) %>
+	<% a2 = t[:person_id].nil? ? '' : '</a>' %>
+	<li id="<%= t[:id] %>">
+		<button>✓</button>
+		<%= h(t[:message]).gsub(/(http\S*)/, '<a href="\1">\1</a>') %>
+		— <%= a1 %><%= h(t[:name]) %><%= a2 %>
+		<a href="https://twitter.com/<%= t[:handle] %>/status/<%= t[:id] %>">🐦</a>
+		<button>r</button>
+	</li>
+<% end %>
+</ul>
+<script>
+function tweetSeenAPI(id) {
+	var xhr = new XMLHttpRequest();
+	var url = '/tweet/' + id + '/seen.json'
+	xhr.open('post', url, true);
+	xhr.send();
+}
+function tweetReplyAPI(id, message) {
+	var xhr = new XMLHttpRequest();
+	var url = '/tweet/' + id + '/reply.json'
+	xhr.open('post', url, true);
+	var data = new FormData();
+	data.append('message', message);
+	xhr.send(data);
+}
+function tweetSeen(li) {
+	return function() {
+		tweetSeenAPI(li.id);
+		this.removeEventListener('click', arguments.callee, false);
+		document.getElementById('unseen').removeChild(li);
+	};
+}
+function tweetReply(li) {
+	return function() {
+		var id = li.id;
+		var form = document.getElementById('form-' + id);
+		var message = document.getElementById('input-' + id).value;
+		tweetReplyAPI(id, message);
+		li.removeChild(form);
+	};
+}
+function replyForm(li) {
+	var id = li.id;
+	var form = document.createElement('form');
+	form.id = 'form-' + id;
+	var input = document.createElement('input');
+	input.id = 'input-' + id;
+	form.appendChild(input);
+	var but = document.createElement('button');
+	but.innerHTML = 'reply';
+	but.addEventListener('click', tweetReply(li), false);
+	form.appendChild(but);
+	return form;
+}
+function showReply(li) {
+	return function() {
+		this.removeEventListener('click', arguments.callee, false);
+		li.appendChild(replyForm(li));
+	};
+}
+var lis = document.getElementById('unseen').getElementsByTagName('li');
+var i, l=lis.length, li, butts;
+for(i = 0; i < l; i++) {
+	li = lis[i];
+	butts = li.getElementsByTagName('button');
+	butts[0].addEventListener('click', tweetSeen(li), false);
+	butts[1].addEventListener('click', showReply(li), false);
+}
+</script>
+<% end %>
+
+
+<h2>inspector</h2>
+<table>
+<% @inspect.each do |r| %>
+	<tr>
+	<td><%= r[:schema_name] %></td>
+	<td><%= r[:table_name] %></td>
+	<td><a href="/inspector/<%= r[:schema_name] %>/<%= r[:table_name] %>"><%= r[:count] %></a></td>
+	</tr>
+<% end %>
+</table>
+
+</section>

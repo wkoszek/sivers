@@ -1,0 +1,11 @@
+<h1><%= @pagetitle %></h1>
+
+<p><a href="/writer/<%= @writer.id %>">writer page</a></p>
+
+<% @essays.each do |x| %>
+	<% q = @question_for_essays[x.id] %>
+	<h3><%= q.question %> <span class="small">(<a href="/question/<%= q.id %>">go</a>)</span></h3>
+	<%= Kramdown::Document.new(x.content).to_html %>
+	<p>(<a href="/essay/<%= x.id %>">go</a>)</p>
+	<hr>
+<% end %>

@@ -1,0 +1,18 @@
+<section id="login">
+
+<h1>log in</h1>
+
+<form action="/login" method="post" name="login">
+	<label for="email">your email address:</label>
+	<input id="email" type="email" name="email" placeholder="email">
+	<label for="password">your password:</label>
+	<input id="password" type="password" name="password" placeholder="password">
+	<input type="submit" value="log in">
+</form>
+<script>
+document.login.email.focus();
+</script>
+
+<p>Or you can <a href="/getpass">get a new password</a>.</p>
+
+</section>

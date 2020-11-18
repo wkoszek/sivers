@@ -1,0 +1,40 @@
+<h2><%= @pagetitle %></h2>
+
+<div class="row">
+<div class="small-4 columns">
+<img src="/images/200/editor-<%= @editor.id %>.jpg" width="200" height="200" alt="<%= @editor.name %>">
+</div>
+<div class="small-8 columns">
+<a href="<%= @person_url %>">Person page for <%= @editor.name %></a>
+<form action="/editor/<%= @editor.id %>" method="post"><input type="hidden" name="_method" value="put">
+	<label for="bio">bio:</label>
+	<textarea name="bio" id="bio"><%= @editor.bio %></textarea><br>
+<input type="submit" name="submit" value="update">
+</form>
+</div>
+</div>
+
+<div class="row">
+<div class="small-4 columns">
+<h2>Essays:</h2>
+<table>
+<tr>
+	<td>Edited:</td>
+	<td><a href="/editor/<%= @editor.id %>/essays/done"><%= @editor.done_count %></a></td>
+</tr>
+<tr>
+	<td>Unedited:</td>
+	<td><a href="/editor/<%= @editor.id %>/essays/todo"><%= @editor.todo_count %></a></td>
+</tr>
+</table>
+
+</div>
+<div class="small-8 columns">
+<h2>Books:</h2>
+<ul>
+<% @editor.books.each do |b| %>
+	<li><a href="/book/<%= b.id %>"><%= b.short_title %></a></li>
+<% end %>
+</ul>
+</div>
+</div>

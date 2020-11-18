@@ -1,0 +1,438 @@
+require 'erb'
+require 'date'
+require 'rss'
+require_relative 'toc.rb'
+
+def template(name)
+	ERB.new(File.read("templates/#{name}.erb"), nil, '<>').result
+end
+
+def h(str)
+	ERB::Util.html_escape(str)
+end
+
+class String
+	def autolink
+		self.gsub(/(http\S*)/, '<a href="\1">\1</a>')
+	end
+end
+
+def write_if_changed(filepath, contents)
+	if File.exist?(filepath)
+		old_contents = File.read(filepath).strip
+		return unless contents.strip != old_contents
+	end
+	File.open(filepath, 'w') {|f| f.puts contents }
+end
+
+# if it has <img>, return last one. false if not.
+def get_img(txt)
+	r = %r{<img.*src="([^"]+)"}
+	res = txt.scan(r).pop
+	return false unless res
+	img = res.pop
+	(img.start_with? 'http') ? img : 'https://sivers.org' + img
+end
+
+# if it has youtube URLs, get image from last one. false if not.
+def get_youtube_img(txt)
+	r = %r{www.youtube(-nocookie)?.com/(embed/|watch\?v=)([^"]+)}
+	res = txt.scan(r).pop
+	return false unless res
+	'http://img.youtube.com/vi/%s/0.jpg' % res.pop
+end
+
+def get_image(txt)
+	fallback_img = 'https://sivers.org/images/DerekSivers-20141119-400.jpg'
+	get_img(txt) || get_youtube_img(txt) || fallback_img
+end
+
+# get first <p> or <h> text. strip newlines, quotes, and tags
+def get_description(txt)
+	r = %r{<(p|h[1-4])>(.+?)</(p|h[1-4])>}m
+	m = r.match(txt)
+	return 'Writer, entrepreneur, avid student of life. I make useful things, and share what I learn.' unless m
+	m[2].gsub(/[\r\n\t"]/, '').strip.gsub(%r{</?[^>]+?>}, '')
+end
+
+# returns hash with bits gleaned from filename
+def parse_filename(fullpath)
+	filename = File.basename(fullpath)
+	if m = /\A([0-9]{4}-[0-9]{2}-[0-9]{2})-(\S+)\Z/.match(filename) # yyyy-mm-dd-url
+		{all: m[0], date: m[1], url: m[2], year: m[1][0,4]}
+	elsif m = /\A([0-9]{4}-[0-9]{2})-(\S+)\Z/.match(filename) # yyyy-mm-url
+		{all: m[0], month: m[1], url: m[2], year: m[1][0,4]}
+	elsif m = /\A(\d{4}-\d{2}-\d{2})/.match(filename) # yyyy-mm-dd+?
+		{all: m[0], date: m[1]}
+	else
+		raise "#{fullpath} doesn't match pattern"
+	end
+end
+
+# some blog posts link to "Articles"/blog, but some link to a book page
+def parent_for(uri)
+	case
+	when AYW.include?(uri)
+		'“<a href="/a" rel="tag">Anything You Want</a>”'
+	when MusicBookTOC.include?(uri)
+		'“<a href="/m" rel="tag">Marketing Your Music</a>”'
+	else
+		'<a href="/blog" rel="tag">Articles</a>'
+	end
+end
+
+# hash to cache uri => title for each blog post
+titlecache = {}
+
+desc "build site/ from content/ and templates/"
+task :make do
+	# collection of all URLs, for making Sitemap
+	@urls = []
+	# set prev1 and next1 to nil, because universal header checks for them
+	@prev1 = @next1 = nil
+
+	########## READ, PARSE, AND WRITE BLOG POSTS
+	@blogs = []
+	# going through files this way, instead of the usual ".each", to get next1 and prev1
+	filez = Dir['content/blog/20*'].sort
+	filezmax = filez.size - 1
+	(0..filezmax).each do |i|
+		infile = filez[i]
+		@prev1 = (i == 0) ? nil : parse_filename(filez[i - 1])[:url]
+		@next1 = (i == filezmax) ? nil : parse_filename(filez[i + 1])[:url]
+		pf = parse_filename(infile)
+		@date = pf[:date]
+		@url = pf[:url]
+		@parent = parent_for(@url)
+		@year = pf[:year]
+		lines = File.readlines(infile)
+		/<!--\s+(.+)\s+-->/.match lines.shift
+		@title = $1
+		titlecache[@url] = @title
+		@body = lines.join('')
+		@pagetitle = "#{@title} | Derek Sivers"
+		@pageimage = get_image(@body)
+		@pagedescription = get_description(@body)
+		@bodyid = 'oneblog'
+
+		# merge with templates and WRITE file
+		html = template('header')
+		html << template('blog')
+		html << template('comments')
+		html << template('footer')
+		write_if_changed("site/#{@url}", html)
+
+		# save to array for later use in index and home page
+		@blogs << {date: @date, url: @url, title: @title, html: @body}
+		@urls << @url
+	end
+	# set prev1 and next1 to nil (again), because universal header checks for them
+	@prev1 = @next1 = nil
+
+
+	########## WRITE BLOG INDEX PAGE
+	@blogs.reverse!
+	@pagetitle = 'Derek Sivers Blog'
+	@pageimage = get_image('')
+	@pagedescription = 'all blog posts from 1999 until now'
+	@url = 'blog'
+	@bodyid = 'bloglist'
+	html = template('header')
+	html << template('bloglist')
+	html << template('footer')
+	write_if_changed("site/#{@url}", html)
+
+
+	########## WRITE BLOG RSS/ATOM FEED
+	atom = RSS::Maker.make('atom') do |f|
+		f.channel.about = 'https://sivers.org/en.atom'
+		f.channel.author = 'Derek Sivers'
+		f.channel.title = 'Derek Sivers'
+		f.channel.updated = Time.now.to_s
+		@blogs[0,20].each do |r|
+			f.items.new_item do |e|
+				e.link = 'https://sivers.org/' + r[:url]
+				e.updated = DateTime.parse(r[:date]).to_s
+				e.title = r[:title]
+				e.content.type = 'html'
+				# convert relative links to full links
+				e.content.content = r[:html].gsub('href="/', 'href="https://sivers.org/')
+			end
+		end
+	end
+	write_if_changed('site/en.atom', atom.to_s)
+
+
+	########## WRITE BOOK INDEX FROM TOC
+	@mtoc = []
+	MusicBook.each do |s|
+		@mtoc << {
+			title: s.keys[0],
+			pages: s.values[0].map {|uri| {url: uri, title: titlecache[uri]} }
+		}
+	end
+	@pagetitle = 'Marketing Your Music'
+	@pageimage = get_image(template('m'))
+	@pagedescription = 'How to Call Attention to Your Music'
+	@url = 'm'
+	@bodyid = 'm'
+	html = template('header')
+	html << template('m')
+	html << template('footer')
+	write_if_changed('site/m', html)
+
+
+	########## READ, PARSE, AND WRITE PRESENTATIONS
+	@presentations = []
+	Dir['content/presentations/20*'].each do |infile|
+		pf = parse_filename(infile)
+		@month = pf[:month]
+		@url = pf[:url]
+		@year = pf[:year]
+		lines = File.readlines(infile)
+		/<!-- TITLE: (.+)\s+-->/.match lines.shift
+		@title = $1
+		/<!-- SUBTITLE: (.+)\s+-->/.match lines.shift
+		@subhead = $1
+		/<!-- MINUTES: ([0-9]+)\s+-->/.match lines.shift
+		@minutes = $1
+		@body = lines.join('')
+		@pagetitle = "#{@title} | Derek Sivers"
+		@pageimage = get_image(@body)
+		@pagedescription = get_description(@body)
+		@bodyid = 'prez'
+
+		# merge with templates and WRITE file
+		html = template('header')
+		html << template('prez')
+		html << template('comments')
+		html << template('footer')
+		write_if_changed("site/#{@url}", html)
+
+		# save to array for later use in index
+		@presentations << {date: @month, url: @url, title: @title, minutes: @minutes, subhead: @subhead}
+		@urls << @url
+	end
+
+
+	########## WRITE PRESENTATIONS INDEX PAGE
+	@presentations.sort_by!{|x| x[:date]}
+	@presentations.reverse!
+	@pagetitle = 'Derek Sivers Presentations'
+	@pageimage = get_image('')
+	@pagedescription = 'TED talks, conference talks, and presentations'
+	@bodyid = @url = 'presentations'
+	html = template('header')
+	html << template('presentations')
+	html << template('footer')
+	write_if_changed("site/#{@url}", html)
+
+
+
+	########## READ, PARSE, AND WRITE INTERVIEWS
+	@interviews = []
+	linkext = {'mp3' => 'audio (mp3)', 'mp4' => 'video (mp4)'}
+	linkformat = '<a href="https://sivers.org/file/%s">%s</a>'
+	Dir['content/interviews/20*'].each do |infile|
+		pf = parse_filename(infile)
+		@month = pf[:month]
+		@url = pf[:all]  # uses entire filename for url
+		@year = pf[:year]
+		lines = File.readlines(infile)
+		# required headers:
+		/<!-- TITLE: (.+) -->/.match lines.shift
+		@title = $1
+		/<!-- SUBTITLE: (.+) -->/.match lines.shift
+		@subhead = $1
+		# optional headers:
+		@link = false
+		@downloads = []
+		line = lines.shift
+		until line.strip == '' do
+			m = /<!-- ([A-Z]+): (.+) -->/.match line
+			case m[1]
+			when 'URL' then @link = m[2]
+			when 'DOWNLOAD' then @downloads << (linkformat % [m[2], linkext[m[2][-3..-1]]])
+			end
+			line = lines.shift
+		end
+		@body = lines.join('')
+		@pagetitle = "Derek Sivers INTERVIEW: #{@title}"
+		@pageimage = get_image('')
+		@pagedescription = @subhead.gsub('"', '')
+		@bodyid = 'interview'
+
+		# merge with templates and WRITE file
+		html = template('header')
+		html << template('interview')
+		html << template('comments')
+		html << template('footer')
+		write_if_changed("site/#{@url}", html)
+
+		# save to array for later use in index
+		@interviews << {date: @month, url: @url, title: @title, subhead: @subhead}
+		@urls << @url
+	end
+
+
+	########## WRITE INTERVIEWS INDEX PAGE
+	@interviews.sort_by!{|x| x[:url]}
+	@interviews.reverse!
+	@pagetitle = 'Derek Sivers Interviews'
+	@pageimage = get_image('')
+	@pagedescription = 'over 50 interviews with Derek, if you’re into that kind of thing'
+	@bodyid = 'interviews'
+	@url = 'i'
+	html = template('header')
+	html << template('interviews')
+	html << template('footer')
+	write_if_changed("site/#{@url}", html)
+
+
+	########## READ, PARSE, AND WRITE BOOK NOTES
+	@books = []
+	Dir['content/books/20*'].each do |infile|
+		pf = parse_filename(infile)
+		@date = pf[:date]
+		@uri = pf[:url]
+		lines = File.readlines(infile)
+		/^TITLE: (.+)$/.match lines.shift
+		@title = $1
+		/^ISBN: (\w+)$/.match lines.shift
+		@isbn = $1
+		/^RATING: (\d+)$/.match lines.shift
+		@rating = $1
+		/^SUMMARY: (.+)$/.match lines.shift
+		@summary = $1
+		lines.shift	# the line that says 'NOTES:'
+		@notes = lines.join('').gsub("\n", "<br>\n")
+		@pagetitle = "#{@title} | Derek Sivers"
+		@pageimage = get_image(template('book'))
+		@pagedescription = @summary.gsub('"', '')
+		@bodyid = 'onebook'
+		@url = 'book/%s' % @uri
+
+		# merge with templates and WRITE file
+		html = template('header')
+		html << template('book')
+		html << template('footer')
+		write_if_changed("site/#{@url}", html)
+
+		# save to array for later use in index and home page
+		@books << {date: @date, url: @url, uri: @uri, title: @title, isbn: @isbn, rating: @rating, summary: @summary}
+		@urls << @url
+	end
+
+
+	########## WRITE BOOKS INDEX PAGE
+	# sivers.org/book = top rated at top
+	@books.sort_by!{|x| '%02d%s%s' % [x[:rating], x[:date], x[:url]]}
+	@books.reverse!
+	@pagetitle = 'BOOKS | Derek Sivers'
+	@pageimage = get_image('<img src="/images/bookstand.jpg">')
+	@pagedescription = 'over 200 book summaries with detailed notes for each'
+	@bodyid = 'booklist'
+	@url = 'book'
+	html = template('header')
+	html << template('booklist')
+	html << template('footer')
+	write_if_changed('site/book/home', html)
+	# sivers.org/book/new = newest at top (for auto-RSS followers)
+	@books.sort_by!{|x| '%s%02d%s' % [x[:date], x[:rating], x[:url]]}
+	@books.reverse!
+	@url = 'book/new'
+	html = template('header')
+	html << template('booklist')
+	html << template('footer')
+	write_if_changed("site/#{@url}", html)
+
+
+
+	########## READ AND PARSE TWEETS
+	@tweets = []
+	Dir['content/tweets/20*'].sort.each do |infile|
+		pf = parse_filename(infile) #	(a at end means favorite)
+		date = pf[:date]
+		d = Date.parse(date)
+		tweet = ERB::Util.html_escape(File.read(infile).strip).autolink
+		# save to array for later use in index and home page
+		@tweets << {date: date, show_date: d.strftime('%B %-d'), show_year: d.strftime('%B %-d, %Y'), tweet: tweet}
+	end
+
+
+	########## WRITE TWEETS INDEX PAGE
+	@tweets.reverse!
+	@pagetitle = 'Derek Sivers Tweets'
+	@pageimage = get_image('')
+	@pagedescription = 'an archive of all tweets from 2007 til now'
+	@bodyid = @url = 'tweets'
+	html = template('header')
+	html << template('tweets')
+	html << template('footer')
+	write_if_changed("site/#{@url}", html)
+
+
+	########## WRITE HOME PAGE
+	@new_blogs = @blogs[0,6]
+	@new_tweets = @tweets[0,6]
+	@pagetitle = 'Derek Sivers'
+	@pageimage = get_image('')
+	@pagedescription = get_description('')
+	@bodyid = 'home'
+	@url = ''
+	html = template('header')
+	html << template('home')
+	html << template('footer')
+	write_if_changed('site/home', html)
+
+
+	########## READ, PARSE, WRITE STATIC PAGES
+	Dir['content/pages/*'].each do |infile|
+
+		# PARSE. Filename: uri
+		@url = @bodyid = File.basename(infile)
+		lines = File.readlines(infile)
+		/<!--\s+(.+)\s+-->/.match lines.shift
+		@title = $1
+		body = lines.join('')
+		@pagetitle = "#{@title} | Derek Sivers"
+		@pageimage = get_image(body)
+		@pagedescription = get_description(body)
+
+		# merge with templates and WRITE file
+		html = template('header')
+		html << body
+		html << template('footer')
+		write_if_changed("site/#{@url}", html)
+		@urls << @url
+	end
+
+	########## SITEMAP
+	# TODO: instead of "today", have file-parsers, above, note maximum date of blog/tweets/interview/book/presentations
+	today = Time.new.strftime('%Y-%m-%d')
+	xml = <<XML
+<?xml version="1.0" encoding="utf-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://sivers.org/</loc><lastmod>#{today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://sivers.org/blog</loc><lastmod>#{today}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+<url><loc>https://sivers.org/tweets</loc><lastmod>#{today}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+<url><loc>https://sivers.org/i</loc><lastmod>#{today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://sivers.org/book</loc><lastmod>#{today}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://sivers.org/presentations</loc><lastmod>#{today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+XML
+	@urls.sort.each do |u|
+		xml << "<url><loc>https://sivers.org/#{u}</loc></url>\n"
+	end
+	xml << '</urlset>'
+	write_if_changed('site/sitemap.xml', html)
+ 
+end	 # task :make
+
+desc 'make a new tweet'
+task :tweet do
+	filename = Time.now.strftime('%Y-%m-%d-00')
+	system "vim content/tweets/#{filename}"
+end
+
+task :default => [:make]
+

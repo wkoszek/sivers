@@ -1,0 +1,147 @@
+Route{
+  api = "lat.get_concepts",
+  method = "GET",
+  url = "/concepts",
+}
+Route{
+  api = "lat.get_concept",
+  args = {"id"},
+  method = "GET",
+  url = "/concepts/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.get_concepts",
+  args = {"ids"},
+  method = "GET",
+  url = "/concepts/multi",
+  params = {"ids"},
+  note = "array of concept IDs"
+}
+Route{
+  api = "lat.create_concept",
+  args = {"title", "concept"},
+  method = "POST",
+  url = "/concepts",
+  params = {"title", "concept"},
+}
+Route{
+  api = "lat.update_concept",
+  args = {"id", "title", "concept"},
+  method = "PUT",
+  url = "/concepts/([0-9]+)",
+  captures = {"id"},
+  params = {"title", "concept"},
+}
+Route{
+  api = "lat.delete_concept",
+  args = {"id"},
+  method = "DELETE",
+  url = "/concepts/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.tag_concept",
+  args = {"id", "tag"},
+  method = "POST",
+  url = "/concepts/([0-9]+)/tags",
+  captures = {"id"},
+  params = {"tag"},
+}
+Route{
+  api = "lat.untag_concept",
+  args = {"concept_id", "tag_id"},
+  method = "DELETE",
+  url = "/concepts/([0-9]+)/tags/([0-9]+)",
+  captures = {"concept_id", "tag_id"},
+}
+Route{
+  api = "lat.get_url",
+  args = {"id"},
+  method = "GET",
+  url = "/urls/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.add_url",
+  args = {"concept_id", "url", "notes"},
+  method = "POST",
+  url = "/concepts/([0-9]+)/urls",
+  captures = {"concept_id"},
+  params = {"url", "notes"},
+}
+Route{
+  api = "lat.update_url",
+  args = {"id", "url", "notes"},
+  method = "PUT",
+  url = "/urls/([0-9]+)",
+  captures = {"id"},
+  params = {"url", "notes"},
+}
+Route{
+  api = "lat.delete_url",
+  args = {"id"},
+  method = "DELETE",
+  url = "/urls/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.tags",
+  method = "GET",
+  url = "/tags",
+}
+Route{
+  api = "lat.concepts_tagged",
+  args = {"tag"},
+  method = "GET",
+  url = "/concepts/tagged",
+  params = {"tag"},
+  note = "returns array of concepts or empty array if none found"
+}
+Route{
+  api = "lat.untagged_concepts",
+  method = "GET",
+  url = "/concepts/untagged",
+  note = "returns array of concepts or empty array if none found"
+}
+Route{
+  api = "lat.get_pairings",
+  method = "GET",
+  url = "/pairings",
+}
+Route{
+  api = "lat.get_pairing",
+  args = {"id"},
+  method = "GET",
+  url = "/pairings/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.create_pairing",
+  method = "POST",
+  url = "/pairings",
+  note = "randomly generated"
+}
+Route{
+  api = "lat.update_pairing",
+  args = {"id", "thoughts"},
+  method = "PUT",
+  url = "/pairings/([0-9]+)",
+  captures = {"id"},
+  params = {"thoughts"},
+}
+Route{
+  api = "lat.delete_pairing",
+  args = {"id"},
+  method = "DELETE",
+  url = "/pairings/([0-9]+)",
+  captures = {"id"},
+}
+Route{
+  api = "lat.tag_pairing",
+  args = {"id", "tag"},
+  method = "POST",
+  url = "/pairings/([0-9]+)/tags",
+  captures = {"id"},
+  params = {"tag"},
+}

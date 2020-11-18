@@ -1,0 +1,37 @@
+<section id="atkeys">
+	<h2>attribute keys:</h2>
+<table>
+<% @atkeys.each do |x| %>
+	<tr><td>
+	<strong><%= x[:atkey] %></strong>
+	</td><td>
+	<input type="text" name="description" value="<%=h x[:description] %>">
+	</td></tr>
+<% end %>
+</table>
+</section>
+
+<section id="inkeys">
+	<h2>interest keys:</h2>
+	<form action="/interest" method="post" name="interestform">
+		<input type="text" name="interest">
+		<input type="submit" value="create new">
+	</form>
+<table>
+<% @inkeys.each do |x| %>
+	<tr><td>
+	<form action="/interest/<%= x[:inkey] %>/delete" method="post"><input type="submit" value="x"></form>
+	<strong><%= x[:inkey] %></strong>
+	</td><td>
+	<form action="/interest/<%= x[:inkey] %>/update" method="post">
+	<input type="text" name="description" value="<%=h x[:description] %>" size="30">
+	<input type="submit" value="update description"></form>
+	</td></tr>
+<% end %>
+</table>
+</section>
+
+<script>
+document.interestform.interest.focus();
+</script>
+

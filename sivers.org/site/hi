@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Human Intervention as a Competitive Advantage | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: The listening algorithm">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/xn">
+<link rel="next" href="https://sivers.org/ebert2">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Human Intervention as a Competitive Advantage | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/hi">
+<meta property="og:image" content="https://sivers.org/images/carrying_crate.png">
+<meta property="og:description" content="The listening algorithm">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Human Intervention as a Competitive Advantage | Derek Sivers">
+<meta name="twitter:description" content="The listening algorithm">
+<meta name="twitter:image" content="https://sivers.org/images/carrying_crate.png">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Human Intervention as a Competitive Advantage</h1>
+<p class="postdate">2013-03-21</p>
+</header>
+
+<h2>
+	The listening algorithm
+</h2>
+<p>
+	A year after I started CD Baby, when it was still just me in my bedroom, the CEO and VP of a hugely-funded Silicon Valley online music company contacted me, saying they wanted to fly out to New York to meet me.
+	I said OK, and we met a week later for dinner.
+</p><p>
+	Dinner was a lot of blah blah blah smalltalk, and I wondered what they really wanted.
+	Then they finally got to the real point:
+</p><p>
+	“The reason we flew out to meet you is because we’ve been looking at many music recommendation engines, and the one that’s powering cdbaby.com is one of the best we’ve found.
+	Could you tell us a little something about the algorithms and data points you’re using?”
+</p><p>
+	Uh...
+	I was confused, and asked what they meant.
+</p><p>
+	They said, “The music recommendations on your site don’t seem to be sales-driven like Amazon.
+	The music-matching algorithm comes up with incredible recommendations.
+	What software are you using for that?”
+</p><p>
+	Ah! I get it.
+	I smiled and pointed to my ear.
+</p><p>
+	“No software.
+<strong>
+	I just listen to everything that comes in, and recommend other good stuff like it.”
+</strong>
+</p><p>
+	Now they looked confused.
+<strong>
+	“But how will that scale?
+</strong>
+	You can’t just listen to every single album!
+	What will you do when you start getting a hundred albums a day?”
+</p><p>
+	I said, “Maybe hire someone just to listen.
+	I don’t know.
+	I’m not there yet.
+	I’ll worry about it then.”
+</p><p>
+	And that’s what I did.
+	When we were getting a hundred albums a day, it became someone’s full-time job to listen to every new arrival and do the internal recommendations.
+</p>
+
+<h2>
+	Minimizing or Maximizing?
+</h2>
+<p>
+<strong>
+	When everyone else is trying to automate everything, using a little human intervention can be a competitive advantage.
+</strong>
+</p><p>
+	The problem is when business owners see it as a cost, instead of an opportunity.
+<strong>
+	Trying to minimize costs, instead of maximize income, quality, loyalty, happiness, connection, and all those other wonderful things that come from real human attention.
+</strong>
+</p><p>
+	You can buy a fancy phone routing system, so people have to listen to 9 options, choose option 5, then listen to 6 more options...
+</p><p>
+	... or ...
+</p><p>
+	You can hire a charming person to pick up the phone on the first ring, and make a great impression.
+</p><p>
+<strong>
+	Which one do you think will win you new fans?
+</strong>
+</p><p>
+	You can put rules into your online forms, so if someone puts a dash in their phone number, or writes “coming soon” as their URL, it tells them they’re wrong and makes them do it over again....
+</p><p>
+	... or ...
+</p><p>
+	You can have new submissions be checked-over quickly by a real person.
+	It’s worth the 10 seconds of human effort, to <strong>keep the end-user experience easy</strong> but the internal data correct.
+</p><p>
+	It’s fun for techies to try to find the tech solution to everything, but don’t forget that even a tiny touch from a real person can be the best algorithm, and a massive business maximizer.
+</p>
+
+<h2>
+	Who should do the work?
+</h2>
+<p>
+	I understand the mindset.
+	It’s saying, “By having our software and our users do most of the work, we can keep our business efficient and scalable.”
+</p><p>
+	But if you want them to pay you, if you want to be more valuable, you have to <a href="http://www.paulgraham.com/schlep.html">take on more of that work</a>.
+</p><p>
+	I meet so many entrepreneurs who are convinced their thing will be as big as Facebook, so they can’t afford to have a personal touch for all those billions of users that are going to start flowing through their app.
+</p><p>
+	But by removing all human contact, they’re making their app less valuable.
+	They’ll never get big enough for “how does it scale?” to matter.
+</p>
+<img src="/images/carrying_crate.png">
+
+<footer>
+© 2013 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/xn" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/ebert2" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Writer, entrepreneur, avid student of life. I make useful things, and share what I learn.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Writer, entrepreneur, avid student of life. I make useful things, and share what I learn.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers">
+<meta name="twitter:description" content="Writer, entrepreneur, avid student of life. I make useful things, and share what I learn.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="home">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<section id="aboutme">
+<h2>
+	Me in 10 seconds
+</h2>
+<p>
+	I’ve been a <a href="/music">musician</a>, <a href="http://artificialrecords.com/">producer</a>, <a href="http://professionalpests.com/">circus performer</a>, <a href="/a">entrepreneur</a>, <a href="/presentations">TED speaker</a>, and <a href="/we14">book publisher</a>.
+</p><p>
+	I started <a href="http://www.cdbaby.com/">CDBaby</a> and <a href="http://www.hostbaby.com/">HostBaby</a>, until I felt <a href="/done">done</a>, then <a href="/trust">gave them away</a>.
+	My <a href="/a">audio/book about it</a> tells you everything I learned in one hour.
+</p><p>
+	Now I’m a <a href="/blog">writer</a>, <a href="https://code.sivers.org/">programmer</a>, and <a href="/book">student</a>.
+</p><p>
+	I’m fascinated with the usable psychology of self-improvement, business, philosophy, and <a href="/book/WhenCulturesCollide">culture</a>.
+	I love finding a <a href="/counter">different point of view</a>.
+</p><p>
+	<a href="http://typelogic.com/intj.html">INTJ</a>,
+	minimalist,
+	<a href="/soso">solitary socialite</a>,
+	and a very <a href="/slow">slow thinker</a>.
+</p><p>
+	California native.
+	I now <a href="/local">live</a> in <a href="/here">New Zealand</a> and <a href="/singapore">Singapore</a>.
+</p><p>
+	Deeply happy and <a href="/drama">anti-drama</a>, my favorite fable is <a href="/horses">塞翁失马</a>.
+</p><p>
+	Here’s <a href="/now">what I’m doing now</a>.
+</p>
+</section>
+
+
+<section id="contact">
+<h2>Contact</h2>
+<p>
+	Please read <a href="/contact">why you should contact me</a>, then introduce yourself.
+</p>
+</section>
+
+
+<section id="newestarticles">
+<h2>Newest Articles <small><a href="/blog">see all</a></small></h2>
+<ul>
+	<li><a href="/quit">Quitting something you love</a></li>
+	<li><a href="/soso">Solitary Socialite</a></li>
+	<li><a href="/faq">Frequently Asked Questions</a></li>
+	<li><a href="/balance">How to do what you love and make good money</a></li>
+	<li><a href="/tilt">Tilting my mirror (motivation is delicate)</a></li>
+	<li><a href="/why">Why are you doing?</a></li>
+</ul>
+</section>
+
+<section id="popularposts">
+<h2>Popular Articles <small><a href="/blog">see all</a></small></h2>
+<ul>
+	<li><a href="/ff">Leadership Lessons from Dancing Guy</a></li>
+	<li><a href="/hellyeah">No yes. Either HELL YEAH or no.</a></li>
+	<li><a href="/multiply">Ideas are just a multiplier of execution</a></li>
+	<li><a href="/itunes">The day Steve Jobs dissed me in a keynote</a></li>
+	<li><a href="/trust">Why I gave away my company to charity</a></li>
+	<li><a href="/local">You don’t have to be local</a></li>
+	<li><a href="/drama">Kurt Vonnegut explains drama</a></li>
+	<li><a href="/full">What if you didn’t need money or attention?</a></li>
+	<li><a href="/up2you">Nobody’s going to help you. Does that encourage you or discourage you?</a></li>
+	<li><a href="/obvious">Obvious to you. Amazing to others.</a></li>
+</ul>
+</section>
+
+<section id="interviews">
+<h2>Interviews</h2>
+<p>Through 2015, I got personal and poured my heart into <a href="/i">40 hours of interviews</a>.</p>
+<p>Each one has an MP3 you can download, or a transcript if you prefer to read.</p>
+</section>
+
+<section id="companies">
+<h2>Projects <small><a href="/projects">see all projects</a></small></h2>
+<dl>
+	<dt><a href="/book">Book Notes</a></dt>
+	<dd>detailed notes from the last 230+ books I’ve read</dd>
+	<dt><a href="http://nownownow.com/">Now Now Now</a></dt>
+	<dd>a collection of sites that have a “what I’m doing now” page</dd>
+	<dt><a href="http://musicthoughts.com/">MusicThoughts</a></dt>
+	<dd>inspiring quotes about music, translated into Español, Français, Deutsch, Italiano, Português, Русский, العربية, 日本語, and 中文</dd>
+	<dt><a href="https://code.sivers.org/sivers.org/">sivers.org</a></dt>
+	<dd>the hand-crafted Ruby code that makes this site</dd>
+</dl>
+</section>
+
+<section id="mybooks">
+<h2>Books</h2>
+<dl>
+	<dt><a href="/a">Anything You Want</a></dt>
+	<dd>Tales from my CD Baby experience: Entrepreneur lessons learned from starting, building, and selling CD Baby.</dd>
+	<dt><a href="/pdf">Marketing Your Music</a></dt>
+	<dd>Free e-book for musicians about promoting your music and navigating the music industry.</dd>
+	<dt><a href="https://woodegg.com/">Wood Egg Startup Guides</a></dt>
+	<dd>20 books about starting a business in Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, and Vietnam.</dd>
+</dl>
+</section>
+
+<section id="videos">
+<h2>Videos</h2>
+<dl>
+	<dt><a href="http://www.ted.com/speakers/derek_sivers">TED (ted.com)</a></dt>
+	<dd>3 short talks from the TED Conference.</dd>
+	<dt><a href="/anything">Anything You Want</a></dt>
+	<dd>7 short animations from my book “Anything You Want”.</dd>
+	<dt><a href="/wds">Uncommon Sense</a></dt>
+	<dd>Entrepreneur lessons learned from starting, building, and selling CD Baby.</dd>
+	<dt><a href="/presentations">Conference Presentations</a></dt>
+	<dd>Talks from other conferences, all subjects.</dd>
+</dl>
+</section>
+
+<section id="photos">
+<h2>Photos <small>(click for big)</small></h2>
+<a href="/images/DerekSivers-20141119-1450.jpg"><img src="/images/DerekSivers-20141119-100.jpg" alt="Derek Sivers" title="© 2014 Derek Sivers"/></a>
+<a href="/images/DerekSivers-20141209a-1853.jpg"><img src="/images/DerekSivers-20141209a-100.jpg" alt="Derek Sivers" title="© 2014 Pat Shepherd - patshepherd.co.nz" /></a>
+<a href="/images/DerekSivers-20141209b-2333.jpg"><img src="/images/DerekSivers-20141209b-100.jpg" alt="Derek Sivers" title="© 2014 Pat Shepherd - patshepherd.co.nz" /></a>
+<a href="/images/DerekSivers-20141209c-1556.jpg"><img src="/images/DerekSivers-20141209c-100.jpg" alt="Derek Sivers" title="© 2014 Pat Shepherd - patshepherd.co.nz" /></a>
+</section>
+
+<section id="tweets">
+<h2>Tweets <small><a href="/tweets">see all tweets</a></small></h2>
+<dl id="tweetlist">
+	<dt>January 26</dt>
+	<dd>Spent 55 hours this month learning Esperanto. Built these tools to help: <a href="https://github.com/sivers/langdb">https://github.com/sivers/langdb</a> Usable for any language. Enjoy.</dd>
+	<dt>January 18</dt>
+	<dd>So excited about what I&#39;m doing now : <a href="https://sivers.org/now">https://sivers.org/now</a>  Learning so much.</dd>
+	<dt>December 30</dt>
+	<dd>Quitting something you love: <a href="https://sivers.org/quit">https://sivers.org/quit</a></dd>
+	<dt>December 29</dt>
+	<dd>What I&#39;m doing now : <a href="https://sivers.org/now">https://sivers.org/now</a> (updated today)</dd>
+	<dt>December 27</dt>
+	<dd>I&#39;m a solitary socialite : <a href="https://sivers.org/soso">https://sivers.org/soso</a></dd>
+	<dt>December 25</dt>
+	<dd>Spent 2 riveted hours tonight doing <a href="http://lernu.net/en/kurso/nakamura">http://lernu.net/en/kurso/nakamura</a> section 1. First time with Esperanto ever. What a cool language!</dd>
+</dl>
+</section>
+
+<section id="search">
+<h2>Search</h2>
+<form action="https://www.google.com/search" method="get">
+	<label for="q">Search sivers.org for anything:</label>
+	<input type="text" name="q" value="">
+	<input type="hidden" name="sitesearch" value="sivers.org">
+	<input type="submit" value="search">
+</form>
+</section>
+
+</div>
+</body>
+</html>

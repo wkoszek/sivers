@@ -1,0 +1,104 @@
+Sketch for a REST API for Wood Egg:
+
+GET	/countries
+GET	/countries/:cc
+GET	/countries/:cc/books
+GET	/countries/:cc/questions	(nested by topic/subtopic)
+
+GET	/stats				grid + howmany
+GET	/stats/:cc/:stat		people with that code + country
+GET	/people/:id/stats
+POST	/people/:id/stats		:key, :value
+DELETE	/stats/:id
+
+GET	/researchers
+POST	/researchers			:person_id
+GET	/researchers/:id
+PUT	/researchers/:id
+DELETE	/researchers/:id
+GET	/researchers/:id/books
+POST	/researchers/:id/books		:book_id
+DELETE	/researchers/:id/books/:book_id
+GET	/researchers/:id/questions
+GET	/researchers/:id/questions/unanswered
+GET	/researchers/:id/questions/answered
+GET	/researchers/:id/answers
+POST	/researchers/:id/answers
+GET	/researchers/:id/answers/unfinished
+GET	/researchers/:id/answers/finished
+GET	/researchers/:id/answers/unjudged
+GET	/researchers/:id/answers/judged
+
+GET	/writers
+POST	/writers			:person_id
+GET	/writers/:id
+PUT	/writers/:id
+DELETE	/writers/:id
+GET	/writers/:id/books
+POST	/writers/:id/books		:book_id
+DELETE	/writers/:id/books/:book_id
+GET	/writers/:id/questions
+GET	/writers/:id/questions/unfinished
+GET	/writers/:id/questions/finished
+GET	/writers/:id/essays
+POST	/writers/:id/essays
+GET	/writers/:id/essays/unfinished
+GET	/writers/:id/essays/finished
+GET	/writers/:id/essays/unjudged
+GET	/writers/:id/essays/judged
+
+GET	/editors
+POST	/editors			:person_id
+GET	/editors/:id
+PUT	/editors/:id
+DELETE	/editors/:id
+GET	/editors/:id/books
+POST	/editors/:id/books		:book_id
+DELETE	/editors/:id/books/:book_id
+GET	/editors/:id/essays
+GET	/editors/:id/essays/unedited
+GET	/editors/:id/essays/edited
+
+GET	/customers
+POST	/customers			:person_id
+GET	/customers/:id
+PUT	/customers/:id
+DELETE	/customers/:id
+GET	/customers/:id/books
+POST	/customers/:id/books		:book_id
+DELETE	/customers/:id/books/:book_id
+
+GET	/topics
+GET	/topics/:id			(includes subtopics)
+GET	/topics/:id/template_questions
+GET	/subtopics
+GET	/subtopics/:id			(includes template_questions)
+GET	/subtopics/:id/questions/:cc
+
+GET	/template_questions
+POST	/template_questions
+GET	/template_questions/:id
+PUT	/template_questions/:id
+DELETE	/template_questions/:id
+GET	/template_questions/:id/questions
+GET	/template_questions/:id/answers
+
+GET	/questions
+POST	/questions
+GET	/questions/:id
+PUT	/questions/:id
+DELETE	/questions/:id
+GET	/questions/:id/answers
+GET	/questions/:id/essays
+GET	/questions/:id/tidbits
+
+GET	/answers
+POST	/answers
+GET	/answers/:id
+PUT	/answers/:id
+DELETE	/answers/:id
+GET	/answers/unfinished
+GET	/answers/unjudged
+
+## TODO: essays, books, tidbits, tags
+

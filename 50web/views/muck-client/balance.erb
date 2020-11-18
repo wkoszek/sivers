@@ -1,0 +1,28 @@
+<section id="balance">
+
+<% if @payments.size > 0 %>
+<h1>Your Payments</h1>
+<ul>
+<% @payments.each do |payment| %>
+	<li>id: <%= payment[:id] %><br>
+	date: <%= payment[:created_at] %><br>
+	amount: $<%= payment[:money][:amount] %><%= payment[:money][:currency] %><br>
+	details: <%=h payment[:notes] %>
+	</li>
+<% end %>
+</ul>
+<% end %>
+
+<h1>Add $20 USD balance</h1>
+
+<form action="/balance" method="POST">
+<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+	data-key="<%= @stripe_pub %>"
+	data-amount="2000"
+	data-name="Muckwork"
+	data-description="pay $20 USD"
+	data-locale="auto">
+</script>
+</form>
+
+</section>

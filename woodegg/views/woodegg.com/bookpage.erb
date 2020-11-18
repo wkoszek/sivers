@@ -1,0 +1,44 @@
+<section id="pagehead">
+  <h1><%= @book.short_title %></h1>
+</section>
+
+<section id="subhead">
+  <h2><%= @book.sub_title %></h2>
+</section>
+
+<section id="content">
+
+<div id="bookinfo">
+  <img src="/images/we14/we14cover-<%= @ccode %>-200.jpg" alt="<%= @booktitle %>" />
+  <ul>
+    <li><strong>Book Title:</strong> <%= @book.short_title%></li>
+    <li><strong>Subtitle:</strong> <%= @book.sub_title %></li>
+    <li><strong>Release Date:</strong> 2014-01-01</li>
+    <li><strong>ISBN:</strong> <%= @book.isbn %></li>
+    <li><strong>Pages:</strong> <%= @book.pages %></li>
+    <li><strong>Publisher:</strong> Wood Egg LLC</li>
+    <li><strong>Authors:</strong> <a href="http://sivers.org/">Derek Sivers</a> &amp; <%= @writers %></li>
+  </ul>
+  <h3>Buy now:</h3>
+  <ul>
+    <li><strong><a href="https://leanpub.com/<%= @book.leanpub %>/purchases/new">leanpub.com</a></strong> (PDF ★set your price★)</li>
+<% Countries.amazon_domains.each do |domain,price| %>
+    <li><a href="https://www.<%= domain %>/dp/<%= @book.asin %>?tag=sivers-20"><%= domain %></a> (<%= price %>)</li>
+<% end %>
+  </ul>
+</div>
+
+<div id="salescopy">
+<%= @salescopy %>
+</div>
+
+</section>
+
+<hr>
+
+<section id="toc">
+<h1>Contents</h1>
+
+<%= @questions %>
+
+</section>

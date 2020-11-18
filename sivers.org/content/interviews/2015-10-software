@@ -1,0 +1,677 @@
+<!-- TITLE: Software Engineering Daily -->
+<!-- SUBTITLE: Tech, programming, and creativity with Jeff Meyerson -->
+<!-- URL: http://softwareengineeringdaily.com/2015/10/14/creativity-and-engineering-with-derek-sivers/ -->
+<!-- DOWNLOAD: 2015-10-DerekSivers-Software.mp3 -->
+
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Derek Sivers is a programmer, a writer and a businessman. He's created several companies and products, including CD Baby which became the largest seller of independent music online. Derek, welcome to Software Engineering Daily.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks Jeff.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So as we were talking before the show, you mentioned that people often have you on their podcast and all they ever want to talk about is entrepreneurship and starting a business. And you were willing to come on the podcast to talk about software. And this was actually something that came to my mind when I was starting to podcast, I would listen to a lot of podcasts, even podcasts that market themselves as software podcasts. And sometimes they would be about starting businesses. So I guess I want to ask you: was there some point in time where these two things, entrepreneurship and writing software got conflated?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, everybody has their own personal take on this, but for me I often felt like programming is what I was really doing and really loving, and it was also making a business. But say for example when somebody would say to me "why don't you just hire someone else to do the programming?" I'd say "well, that's like going to the songwriter in a band saying why don't you just hire somebody else to make your songs for you." It's like no, this is the whole point. Programming is what I really love doing, to me the programming is like the most purely creative side of things. This is where the real invention happens. Especially for an online business, this is the most creative part. Everything else is kind of selling and marketing and communicating and all that. But God, I would never give up the programming.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Is it hard to communicate that to non-programmers?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. Sometimes even to other programmers. In fact, just last night I was out to dinner with a friend and a friend of hers walked by and she said "hey Rose, how's it going?" and they're just making chit chat for a minute and then Rose asked me "what do you do?", and I said that I'm a programmer. And she said "oh, what are you programming?" And I said "I'm working on diving into some Postgres database stuff", and she went "yuk!" and she said she does Ruby on Rails. It came out because she was talking about the yoga and I said actually, I think my life is very tranquil. I sit there all day long just programming, and it's a really beautiful and tranquil. And she says "that sounds really stressful!" And it's funny that even though she's also a programmer, to her programming is something that is stressful, it's a work, it's difficult, whereas to me programming is like the ultimate peaceful meditation.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+The she mention what stressed her out about programming?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No, in fact I didn't even really notice the difference until after she walked away, like five minutes later. Then my friend that I was having dinner with said "isn't it funny that to her programming is something stressful?" She was actually the one that pointed it out, after the fact. No, it was just a short conversation, but it did show me that there are some programmers that do think of programming as just work, just drudgery, just necessity, something you do for money.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay, so I can think of a certain dichotomy of two types of work that I've done. And the one type of work is like working for the man and having a deliverable and having a date you have to finish it by and that is stressful. Or doing it in computer science academia. But there is a separate thing, and this is maybe what you're referring to, this tranquility. Because I think a lot of people don't actually experienced this. When you're working on your own project and exploring whatever the heck you want to, that's when you get that tranquility.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+True. And the last time I had the job was 1992. I quit my last job in 1992, ever since then I've only been self-employed, just doing my own things. And in fact now that I sold my company a few years ago, sorry this is like a weird to say, but I have more money that I'm going to be able to spend in my lifetime, so I have to constantly remind myself this because I've got to make sure that I'm not doing anything for the money anymore. Everything I do now has to be for intrinsic reasons, just because it's interesting to me. So yeah, to me programming is like the answer to that question: if you had all the money in the world what would you spend your time doing? To me, programming.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Yeah. When you are working for somebody else, was that a programming job?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No. I was 22 years old, I was working in the tape room at Warner Brothers Music in New York City.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay, interesting. You really don't have any association of programming with the corporate stress that sometimes is imposed on other programmers.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Do you think that, as programmers, we have an obligation to create new things? I know a lot of people who are young programmers and I think this is actually an epidemic. I know all these young programmers who go home from work and they just watch Netflix, or play video games. And it's appalling to me, and I don't know if that's overly judgmental, but I'm like "why do you not have this insistent internal need to create something?" We've got this new art form that's been around 30 years, you have these rare people that have learned the skills and they're like just squandering their time.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so this is an interesting comparison between programming and creativity. A lot of people don't think of programming as creative. I think that's the biggest misconception I think a lot of outsiders have. They think of programming as drudge work, it's almost like working in a factory but with your fingertips or something. To me it's pure creativity. And therefore, there is some amazing books about the creative struggle that I think a lot of programmers would appreciate.
+</p><p>
+The one to start with is called The <a href="/book/WarOfArt">War of Art</a>, by Steven Pressfield, and he's a novelist. He wrote the book The Legend of Bagger Vance, which then got turned into a Will Smith movie. So he's written a few novels that were quite successful. But my favorite thing about him is that he writes about the creative struggle. He's got a series of three little books. The first one is the <a href="/book/WarOfArt">War of Art</a>, the second one was called <a href="/book/DoTheWork">Do the Work</a> and the third one was called <a href="/book/TurningPro">Turning Pro</a>. So this is all by Steven Pressfield. I highly recommend all three. Each one is just a little 90 minute read.
+</p><p>
+What he does is he personifies the creative struggle by calling it The Resistance, almost like Satan. It's like "The Resistance is what will make you just decide that you suddenly need to go watch some TV or play video games instead of doing this thing if you know you should be doing." And The Resistance is the thing that's when you're 90% done with a project, it will tell you "hmm, maybe I'll just go explore this other avenue instead", because it's scary putting your ass on the line and actually launching something and calling it complete and releasing it to the world. So The Resistance is the thing that makes us continue to dabble instead of ever launching in.
+</p><p>
+I think a lot of programmers would appreciate these books because I think it addresses that kind of stuff you're talking about. Where it's like "hey, you've got these amazing skills to like go independent worlds and turn nothing into everything and creates realities which your fingertips", and yet people who have these skills will just eat their chips and watch TV. I don't get it either.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+You mentioned non-programmers, not identifying programming as this creative activity. But the thing that affects even programmers? Do you think there is an infliction of programmers where they don't realize what they're doing is creative?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh absolutely! Yeah. Oh yeah, I see what you mean, because I said non-programmers think of it as factory work. Absolutely! Well, I find that in India for example. My wife is from India so I have family in India. In fact I have an Indian passport since I was married to somebody who was born there, I am now an overseas citizen of India. So I spent some time there and it's amazing that the programming culture in India, it's kind of like programming, that's just some drudge work you do for money, you don't do it for fun. This isn't something creative, this is an something enjoyable, it's just. To go get a job at a big factory house in your program C++ or Java, and that's just what you do. It's not seen as anything creative at all. Because I guess in that world it isn't. It's just "here, making these tests pass, and go find the bugs in this code."
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Yeah, it's fascinating and kind of tragic. So you mentioned Pressfield and The Resistance. Another author that both you and I appreciate is Seth Godin. He actually writes a lot about Pressfield, he quotes Pressfield and The Resistance. And Seth Godin's version of The Resistance is the lizard brain, which is like this kind of basal, primordial instinct that is preventing you from doing your best work, often times because of shame. He articulates it as all the things that make you at a really low level, like afraid, in an evolutionary sense, like maybe you're going to end up starving or you're going to end up as a social outcast or you're never going to find somebody who loves you, these are all these things that are connected to what he calls the lizard brain, what Pressfield calls The Resistance. But I think that there is a large volume of other things that Seth Godin talks about that are applicable to programmers. And I'm pretty sure you've read a lot of Seth Godin stuff, so I'm curious what things you think would be good takeaways for programmers.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Honestly I think it's the same stuff we just said with the Steven Pressfield books. I love Seth, in fact he's the one who published my book. I never intended to write a book but then he asked me to. And when Seth Godin asks you to do something that say yes. So yeah, I think 10 years ago he made a name for himself as an author writing on the subject of marketing. And I think over the last 10 years he has kind of morphed in talking more about this, the bigger struggle of putting your ass on the line and doing something daring and launching things and having the bravery to release something and sign your name to it. And so I think honestly he has been influenced by the Steven Pressfield books a lot.
+</p><p>
+For anybody listening who hasn't read any of these, I'd say start with those, all three of the Steven Pressfield books. <a href="/book/WarOfArt">War of Art</a>, <a href="/book/DoTheWork">Do the Work</a> and <a href="/book/TurningPro">Turning Pro</a>. And then work backwards through Seth Godin's books, because the most recent ones are about the general creative struggle, feeling you have something you need to offer to the world and knowing what you can be doing and having the bravery to do that instead of staying meek and laying low. His more recent books are about that. But as you work backwards, his older books are more about marketing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So you have written some about the struggles of maintaining creative productivity, and we're kind of having a conversation around that. How do you stay productive as a programmer, and as an artist? Particularly because you've made your money, you don't have the fiscal imperative. Where do you derive the creative energy, the juices from?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I love that you ask this. The phrase that often comes to mind, I don't know where I heard it first, but I think of it all the time, it says this: "creativity never comes to you, she'll only meet you halfway."
+</p><p>
+We all know that feeling: you're sitting there with some vague idea, or something that you want to do. It's almost too much to wrap your head around, it's too big... maybe I'll just... check my email again... or watch TV, or something. And in those moments I think I'm just not inspired right now. I don't want to... and I think okay, I know what'll happen if I just fucking sit down and start typing. Just type, create the first database table or whatever it is, just begin. And if you just start, and you're maybe half an hour into it, then the inspiration starts to show up and she meets you halfway. I really like that idea. And it's come true every time.
+</p><p>
+This even happened two nights ago, where I was trying to wrap my head around some big new thing I was doing, and I was just feeling so stuck that I found that I was just distracting myself in every way possible. And finally, at 7 PM I was like "grumble grumble grumble grumble let me just type this out..." Next thing I knew it was like 1 AM and I was just on such a roll. It was such a great feeling. I made myself go to bed at 1 AM because I knew I have this tendency to wake up at six or seven, no matter what time I go to sleep. So I made myself go to sleep, but I was on such a good roll. And it was funny that I had to remember that just nine hours ago I was feeling like I couldn't do this, and now I can't stop.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+You know, that kind of surprises me, because I thought you were going to say "and then I got up from the computer and I went for a run" or "I got up from the computer and I drank a cup of water and the read The Design of Small Things" or whatever the book is called. But I was surprise you just kind of, you sat there and focused on it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. Just begin. I think anything else you do, if you think "maybe I need to meditate" or "maybe I need to go on the run" or "maybe I need to clear my head" or "maybe I just need to call a friend." No, just shut up and begin. Just start fucking working. Like, begin! Start! Everything else is just distraction!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Interesting. Well, so speaking of distractions, I think there are two schools of thought. One school of thought is like you can be productive working on a bunch of different tasks were working on a bunch of different products, projects. And this other school of thought is that you should serialize your things and focus completely on one small thing at a time. So, I'm curious if you have any thoughts on that. How do you choose one project and commit to it? Or do you just thrash around and do a bunch of things at the ones and then just see what comes out of the soup?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I definitely do one thing at the time. I've tried to do this more habits based thing. My friend Tynan wrote a book called <a href="/book/SuperhumanByHabit">Superhuman by Habit</a>, which is an amazing book on the subject of making habits that run your life like giving yourself the habit of exercise, or the habit of eating healthy, or the habit of practicing a language for an hour a day, or whatever it may be. And I get the benefit of that, but I just find that I just tend to get so into one thing at a time that I'll just discover some new way of letting my PostgreSQL database and handle all of the business logic instead of keeping it too wrapped up in Ruby around it. Suddenly I'll just get a really into that idea and I want to do nothing else for months. I just have this time, like last December through April or May, where that's one thing I just said, like moving more of my business logic into the Postgres database itself and learning the PL/pgSQL language that's built into the database. I get so into that idea, Jeff, that was just all I did from 7 AM to 1 AM, seven days a week for like five months straight. I would just bounce out of bed, sometimes at like 4:30 in the morning. I would like just wake up and go right back to the terminal where I left off the night before. I was just so into that one thing. And then I was in the point where I finished that and then I said "yeah, okay I think I'm done with that for a while."
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay, so as a case study in this creative interest. How did that interest, specifically in Postgres evolve? How did you get obsessively wrapped up in Postgres? And where did that lead to?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I've always liked SQL. I learned it early on, before I even really learned programming, I think back in 1997/98. I was just starting to do my very first dynamic websites. Everything was just static html, but that I built this little online store called CD Baby that was starting to take off, and I was still cutting and pasting everything by hand in the little desktop application called FileMaker Pro. And finally somebody told me "you know, there are databases that will sit on your server and do that stuff automatically." And I went "oh my God, really?" Because I was spending hours a day cutting and pasting, cutting and pasting and pasting things off of emails into forms. And when somebody told me that there were server-side databases I went "oh my God!" And so I had to learn this SQL language to manage them.
+</p><p>
+I mean there were no object relational managers then, right? In order to learn your database you have to learn this language. And because my database was just the core to everything I was doing I learned SQL well enough, not the deep stuff and the advanced SQL, but the basic levels. I learned it well enough that it just became the way that I think about things.
+</p><p>
+Even when I'm just sitting on an airplane and suddenly have a new business idea, one of the first things I do is just open up a text file and I start typing "CREATE TABLE gigs, CREATE TABLE calendar entries, CREATE TABLE attendees_of_gigs". And that became the way that I would think about structure and data. Everything else was secondary, the language around it, the UI, everything else. The core of everything was just the database. So SQL was just the way I think.
+</p><p>
+So when Rails got popular in 2004, I already loved the Ruby language, I've been using Ruby for couple years before Rails came out.  Which was kind of cute, because actually somebody in my Ruby community told me... I had mentioned to somebody that I really love Ruby, I just wish there was a way to use it on the web. And they said "there is this guy in Denmark that's working on the web framework." And I emailed him, I was like "hi David, my friend told me you're working on a web framework that uses Ruby. Anything you could share with me?" And he said "well, not yet, later." And that was David that wrote Rails. So I was an early adopter of Rails, I loved it right away. But I hated the way that it used Active Record to take away all this SQL and it replaced it with this silly Ruby code. I just want to use the SQL! So that was always a conflict.
+</p><p>
+In fact, you can see that there is a popular, notorious article I wrote in 2007 called something like <a href="/rails2php">seven reasons I switched back to PHP after two years on Rails</a>. And it was just something that I posted on a little O'Reilly blog I had at the time that nobody read. I posted it, it was literally on my birthday. I got an email from somebody saying "hey, I heard that you switch back to PHP from Rails, could you tell me why?" And it was like the fifth person that had asked me in two months, so I just decided instead of continuing to just answering this question by email, I'm just going to write a blog post about it. So I posted this blog, went to sleep and in the morning I woke up and it was like front page of Slashdot and Reddit and all these sites, hundreds of commenters were calling me the biggest idiot to walk the earth and "people like you are the problem, you're obviously a complete moron, you have no idea what you're talking about!" People get really upset that I would threaten their years of learning Rails as if it was not the most precious thing they had ever done.
+</p><p>
+Anyway, that's one of the things that I said even back then, in 2007, was that I didn't like the fact that Rails was hiding the SQL from me. I really like just typing the SQL commands. So finally, I'm just giving a little context, after all this, what's finally did it for me wast this
+</p><p>
+Rich Hickey, the inventor of Clojure, did a keynote speech at RailsConf 2014 or something. I think if you search it on YouTube it's called <a href="https://www.youtube.com/watch?v=rI8tNMsozo0">simple made easy</a>. Or something like that. He's actually done to talk twice, once at a Clojure conference, once on the Rails Conference, and I think <a href="https://www.youtube.com/watch?v=rI8tNMsozo0">the one at the Rails Conference</a> actually a little better. He's edited it a little more tightly. Especially if you have a little any Ruby experience it'll hit home a little more for you.
+</p><p>
+Point is he defines simplicity versus complexity as something that is objective, not subjective. He went and found the original etymology, the origin of the word simple means a single thing, like an unconnected thing. It is a single thing, whereas complicated comes from complex, which means to be intertwined with other things. Where things are intertwined together, like braided. In fact, I think it comes from the word complect, which means to braid things together. So he said this is something that we can look at our software objectively, saying is this simple, meaning is it's not a reliance on other things is it complected, where it tied together with other things?
+</p><p>
+And he said "notice that this is nothing to do with hard or easy. Best things that are simple can be very hard. You might have to spend a lot of extra work to learn a new language that is not familiar to you in order to make your system very simple."
+</p><p>
+He said, and this is what I love, "for anybody that's done anything with Rails or even Node Packaging systems, he used the example of gem install hairball." He said "you can type one very easy thing, it is very easy to install a big giant complicated massive code into your application, that not everything in your application is completely bound to this extremely complicated thing, but boy that was easy for you! So I really want to separate this idea of easy from simple and complicated. Let's forget about whether something is easy or hard, do a little bit of extra work necessary..."
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So how do ORMs fit into this? How did you feel like Active Record was complecting things?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You'll see there is a series of slides in his talk. On the left side he says these are simple things, on the right side he says these are complicated things. On the left he would write maps a.k.a. hashes, those are simple. The associative data structure that we all know with keys and values. On the right we have objects and classes. That is an unnecessary complication. He said "I think a lot of people use objects and classes when they could just be using the simple map or hash."
+</p><p>
+He kind of kept doing this for lots of different data structures and things we using programming, analyzing them as being either simple or complicated. And then lastly, at the very last ORM, then he wrote OMG. ORMs are one of the most complicated, complex, ridiculously over-engineered things you could ever use. It wraps all this ridiculous amount of layering around something that is basically just turning into simple SQL strings and sending it to the database. Of course, that just hit home for me.
+</p><p>
+So I'm giving a long answer to your question, but I guess for years and years and years, what I'm getting at, as I've felt this disconnect between "I just want to use SQL", I speak that language. It's a very simple language. So after seeing this Rich Hickey talk, to me that was like the final straw. I saw SQL as something that was not necessarily easy, but it sure is simple. Because if I'm un-complecting my business logic, my data logic, that would mean that right now everything was kind of written twice. Like I have the database but I was treating it as dumb storage. And then I was writing a whole bunch of Ruby code around it that contained all of the business logic. But then what if I decide to switch from Ruby to JavaScript, or from JavaScript to Elixir or something? I'm going to have to rewrite all of that language. That, by definition, is complected, because now I am tying together my database and my surrounding code in this way that it could be simple.
+</p><p>
+And what is the simple way? The simple way is to just <a href="/pg">have that data logic in your database itself</a>. So now that is by definition simple, it is one thing. It is just the database knows that you can't mark a project as closed if it hasn't been opened yet.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Is this like heretical to some of the Rails best practices?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Absolutely! I mean not to say that one is a right or wrong. So all of this, by the way, anybody if you're interested in this stuff I'm talking about, I wrote a book in-depth blog post about it at <a href="/pg">sivers.org/pg</a>
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+And that will be in the show notes too.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Cool. So if you look at the comments below that, of course it's like hundreds of people telling me I'm an absolute idiot, I'm a raging idiot, I have no idea what I'm talking about. But I find that a lot of people that are saying that our people that were burned in the past by Oracle, or MS SQL or something like that. They say "aaah! We dealt with this in the 90s! And there is vendor lock-in and database something something, so never again!"
+</p><p>
+But I think that Postgres, it's open source, it's amazing, it can do so much more than people tend to do with it. A lot of people treat it as dumb storage, but it has a great functional, functional meaning working, language built into it, that PL/pgSQL language built into it that can handle so much of this logic that we are writing all this code around the database to do it could just be built right into the database itself. And I just love the fact that if you put it in the database itself then it's un-complected, it's untied.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So if I understand this right, the way that you architect Rails applications is: you get an idea for the application, the end to end user experience and then you write the database queries first, and then you just write very dumb simple front and logic that supports those complex database queries. Is that correct?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so to be fair I don't use Rails anymore. So I think...
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+What framework do you use these days?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right now I'm using Sinatra, but actually I'm thinking of switching to a combination of Elixir and Elm. Elixir for the API backend and Elm for the front-end. But this is what I love, when you're keeping most of the logic in the database itself, the front end can, because it's uncomplected, it's no longer...
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay so this is like a question of modularity, it's not a question of simplifying the front-end logic. Well I guess those two fit together.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No. Oh God, no, the front-end logic becomes extremely simple because then almost everything that comes in the front-end, you just pass it to database. No more logic around it needed, no matter what language the front-end. If you're using Express with JavaScript or Erlang-Cowboy framework or a Warp and Haskell, or whatever you may decide to use on your front-end, you just toss the incoming parameters to the database and it knows what to do. And you just get JSON back and display it to the user and that's it. You're free to switch languages pretty freely because all the important stuff is in the database itself.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay. But another question around modularity, or maybe this is more a question of your database identities. Since you kind of grew up in the SQL world, how do you feel about non-relational databases?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I played within a bit, but by the time I played with them I had already had 10 years with my Postgres database. I forgot to give you this crucial context, since 1997 I've switched languages a few times. I started out in PHP, rewrote everything in Rails, switched back to PHP, now started doing everything in JavaScript, now kind of doing a Ruby/Sinatra thing, thinking to switching to Elixir and Elm. But meanwhile I had the exact same Postgres database since 1997. I mean, the person ID number 2 in my database is the person that got inserted there back in 1997, my very first customer. Person ID number 1 is me. I have this basically a legacy database that I'm working with, that I'm not going to dump and give up and switch to Mongo or something, because my existing database works.
+</p><p>
+But then, as time goes on, you keep seeing all of these benchmarks that show that actually Mongo is actually no faster. In fact, Postgres has this hstore-type thing built in, so if you want a non-relational datastore, Postgres has that built in and in fact it's faster than MongoDB. And all this stuff that just made me feel like I'm ready to double down on this technology, meaning Postgres, so that I can be not so connected to the other technologies.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Sure. I think that a lot of is the, and maybe I'll get scathed in the comments for this, but I think that a lot of the motivation for using Mongo or some other JSON database is the fact that you just get to speaking JSON to the database. And that's the motivation for JavaScript JSON everywhere, you know, unilingual... but if you grew up with Postgres then that's a switching cost to you, that's not an advantage.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right! Right, right. Maybe if I was really just starting out the brand-new today in 2015 and having to look at the whole field of things and where to start out, yeah, I might go that way.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So is there a project that you're working on right now? Or are you kind of just fiddling around and the writing you kinds of queries and stuff? What kind of stuff are you working on?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh both. I mean, I'm working towards a web app idea I have called MuckWork. But also I've written this whole kind of email inbox system that I wrote myself in the backend to manage all of my contacts. <a href="https://code.sivers.org/">Everything I do is open source</a>.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Why did you do that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Just because I want to, you know? I find it interesting.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Very interesting. What are the shortcomings of the systems that you would have access to otherwise?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh boy. Well, I don't like the cloud. I don't like the idea of keeping all of my crucial contacts and absolutely precious information that and keeping on somebody else's stuff in some mystery computer I don't have access to offline. So I really like having everything in my own database.
+</p><p>
+So like when you and I are emailing about doing this interview, that was all in my own email system that I wrote in my Postgres database. So when Jeff Meyerson emails me it comes in as person 43625 and the email number 839128, whatever, get sorted into the database and save there, so I have a permanent history of all of our communications and your URLs and all that stuff. And to me this is like... I'm very long-term focused. I'm 46 now, and like I said I've been using the same Postgres database since 1997. I'll probably keep using this database for the next 20 years. This is everybody I know, and everybody I ever communicated with. I have a permanent archive here. And it's not sitting in Gmail's servers, you know? If, whatever, they thought I was logging in from a bad IP address and they would shut me out of my account or something, you know? I find it important to keep my data on my servers in my database and end of my control. So yeah, that's one thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+I think that that's a reasonable fear.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well yeah, it happens to be the story of a friend of mine he told me a couple of days ago. He has a seven-year-old kid and for the last seven years is been taking pictures of his kid and putting them all up onto, I think Google+, or maybe it was just Google Images or something like that, one of those Google products for sharing, maybe it was Picasa or something like that. Point is, you also had a Google Apps account and he decided to kind of merge everything together so he's using its own domain with Google Apps and he decided to merge together his old Gmail account that he's had for seven years with his Google Apps account. And it says "okay, do you want to merge these together? Okay ta ta ta ta ta, done! It is merged." And all of a sudden, Jeff,  all of his photos are gone.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+No way!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+He's like "where are my photos?" And they said "oh, well you merged your two accounts so… they're gone."
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Just disappeared into the ether?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Gone. And he's emailed support a few times and even escalated. They said "sorry, after you merged your account, it did ask you at one point, it did ask you if you understand the implications of emerging accounts, and you clicked yes. So yes, sorry those photos are gone." And that was it. He trusted the cloud. And assumed of course is Google, they'll keep his photos there. But you know, they're all gone.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+I feel like for a very long time Google was like bulletproof, they had all the edge cases worked out. You could never lose any data. But I feel like there is an increasing sense that there is, I don't know if they are losing talent or they've been doing too many things or something, but there are little places in the seams where you're like: the seams are splitting, and the quality is degrading just a little bit. People are talking about if Google is going the way of Microsoft or whatever. But people don't generally talk about the consequences of that. And I think that's one of the consequences is like: well what happened to Windows over time? It became kind of not the best anymore. What if that happens to Gmail? Or Google Drive?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right! Yes!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Holy crap, if I lost the ability of consistently use Gmail, and the SLA is like three days to get back my account if they screw something up. That's like three days offline, can't do anything. These are like single points of failure for our lives.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. I love when, I forget who this was, somebody at some conference I was at recently, they called cloud computing, they said "let's just call it what it is: let's call it clown computing. I'm then up with my data in the clown. I'm going to give all of my severe business logic and the things that are crucial to my company, has put it all in the clown. Let's give it to the clown." And he said "let's just call it what it is, because we don't know where it is. It's not trustable. Why do you trust the clown?" There is something to that, right?
+</p><p>
+I don't want to sound like a complete paranoid mofo, but these edge cases do happen just occasionally enough. To me, it's a core philosophy. I don't trust anybody with anything. I guess we have to kind of trust the banks with our money a little bit. But even then.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay, but what if you're running a business. Like running a big business these days, and the standard operating procedure is to put your stuff in the cloud. For no other reason than security, and I think the ID that these companies are considerably better at security, at keeping up with security, at patching stuff quickly, than an individual can be maintaining their own servers, do you disagree with that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I don't know. I mean honestly, since I don't work at a company and I never have, I just don't think about it. I'm not being prescriptional, I'm not saying that's what I'm doing is what others should do. I'm just saying for me, I'm a Linux geek, I built my own servers, I don't even run Linux, I run OpenBSD on my servers and install it myself. I'm not even using a DigitalOcean/Linode type virtual Xen node. I have a dedicated one use server sitting in the data center, and that's mine. And I installed OpenBSD on it, and that's my fucking server and nobody else has access to it, you know? Because this is me. I have a little fileserver spread around the world in three different places, and every night before bed I backup everything to three different countries. Because I can. That took me no effort, it was just kind of fun. Obviously, this is not what everybody on earth should be doing, but this works for me.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+That's fascinating. I didn't want to touch on CD Baby too much, because you've got over that so much in other interviews, and I've listened to them and people know the story, the business side story of CD Baby. But I am curious a bit is there are any interesting engineering stories you can tell from your time working at CD Baby. You started his business, you scaled it up to hundred million in revenue or something like that, a lot of money, a lot of stuff going on. Are there any interesting engineering stories you can share with the listeners?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Good question. I think a lot of times the challenge was to get things as bare and simple as can be. Like, speaking of Rails versus Sinatra versus other things, sometimes you realize that the framework you're using, even if you wrote it yourself, can be doing lots of extra crap around what's actually necessary.
+</p><p>
+Like say for example, you visit a typical blog in 2015 - a new site. You just want to read an article, and that article is basically six paragraphs, is how many bytes? 1015 bytes, that's all you actually want. But in order to get that you go to these sites that are pulling in things from five different content distribution networks and all this JavaScript and all these ads and things sliding onto the screen and the article is loaded dynamically with JavaScript and you just think wow, no wonder you need a whole data farm just to serve all that up, whereas if you would have just had just played the damn article then you wouldn't have needed so many servers and so much IT to just give me that little six paragraphs I wanted.
+</p><p>
+So I think at CD Baby we were constantly working with that, trying to streamline things as much as possible, because I think the whole site, even with all those users and everything was really just two servers. I had a little one use server that was the front-end Web server and then a two use server next to it, with a cross connect ethernet, that was just a database. And that's it. I just had to dedicated servers that ran everything. So when I hear people needing to fire up a 50 instances on AWS or whatever, I can't relate. Because my site was pretty popular and two servers could handle everything.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Did you just minimize that transactions that users were able to perform at the website?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I just minimized everything, like you even optimize your SQL calls and make sure you're not putting any unnecessary stress on the server, you make the SQL calls like the minimum necessary information to grab from the server. You optimize those, you use the explain query to make sure that it's optimized. Front-end, you just dish things up as soon as possible without relying on any unnecessary JavaScript and stuff like that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p> 
+Is that still like a realistic approach today, because you seem movement towards these real-time apps, where you've got every little transaction you have with the application goes and communicates with the database and do something and gives feedback to you. There is just all this interactivity. Is there still a place for these types of very narrow applications that do things in a simple fashion?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, you have to ask yourself what's really needed for you, right? Even on my sivers.org site, again, I'm not being prescriptive, I don't care about other people, I just find out what works for me. And I try to share what I've learned so that if somebody finds that it also works for them, then good.
+</p><p>
+Same thing with that PostgreSQL stuff we were talking about earlier, all I ever said on my website was this is working really well for me. Like in this way of doing things has been incredibly streamlined, incredibly successful, this works really well for me.
+</p><p>
+And I feel sometimes with tech stuff, people get so religious and cultish about the things that they love. I feel the conversation often goes like this: I'll publicly say "this is something I like", and then the world replies with "no, you're wrong! That's not what I like!" I'm like "I didn't say you should like it. I'm just saying I like it."
+</p><p>
+So if you look at my sivers.org website, it may not be the prettiest thing, but man that thing is just, it is bare-bones. If you do view source, I don't even have an external stylesheet anymore, I just found the bare minimum CSS that was necessary to style the page so you could read it and I just inlined it right in the header, just one less http call that your browser needs to do when you read my site, it makes it load a little bit faster, in milliseconds, whatever.
+</p><p>
+It's fun to kind of look at anything you're doing and eliminate any crap around. I just get really nerdy about this stuff. Like even URLs. It's funny to me when people have these long URLs that are like fourhourworkweek.com/2015/10/31/things-you-must-do-to-...  and all these letters and I think...
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Hey listen, you're talking to softwareengineeringdaily.com. The thing's like, it's 2015, a lot of domain names are taken. You can do with the Warby Parker approach and have the extremely long name, which is what I chose Software Engineering Daily.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay to be fair, I'm not talking about the domain name.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Okay yeah, you're not talking about the domain name.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No, the long URLs. You don't actually need hundred and 93 characters to uniquely refer to that article. You could have just called it...  well, your unique ID, unless you have over 1 trillion articles that you've written, you can refer to it in just 4 to 6 letters. A combination of 4 to 6 letters can uniquely identify that document on your Web server. You don't need these long silly nested URLs that WordPress does by default.
+</p><p>
+Anyway, I'm sorry, I just geek out about this stuff. It's fun. It's a hobby. I mean, I just had to recently admit that, to me, programming in a hobby, not a profession. Because if I was really looking at it just as a means to an end, then yeah, the people that say that I should just hire another programmer to get done what I need done, I guess that's rational. Except, this is just what I love doing. So I do this stuff just for my own enjoyment and hopefully I'm making things that will be useful to other people.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So I want to begin to close off. I want to talk some about a post that you made in 2010. <a href="/loss">A post about loss, where you recounted 2007 being a very difficult year</a>. And I'm sure there are a lot of listeners are going through the loss of a job, or the loss of a relationship or something difficult. Many people are going through difficult problems. Can you talk a bit about what happened in 2007 and what was so difficult and what you've learned during that difficult time?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. 2007 was like the worst year ever for me. I ended up cutting these chapters out of my book, but there were going to be a couple of chapters what I kind of vented about how bad things turns with CD Baby in the last year before I sold it. It got really really awful.
+</p><p>
+So I think what I've learned is that, for one, time heals everything. If you would've think back 10 years ago, think back to you in 2005, and what was really upsetting you at the time. And imagine that back in 2005 you would have written down all of the major major problems you were facing at the time in 2005. And you were to go back now, 10 years later, and look at what you wrote down, you'd just kind of laugh and think it was kind of cute and quaint, because you're like yeah of course all of that stuff worked itself out.
+</p><p>
+And so I like the fact that I'm 46 now, and I've been alive for a while, a long enough to see that things tend to just work themselves out. And I know at the time, when you're smack in the middle of it sometimes it can just feel overwhelming. But you just got to kind of zoom out a bit and just realize everything just tends to work itself out, so you do what you can.
+</p><p>
+But more recently, I think what I've learned is this idea of doing what needs to be done no matter how you're feeling. Because i think a lot of it is  especially kind of a bit of a millennial thing or a GEN Y thing like this idea of "hey man, I want to do my passion, I want to do what I love. I'm not in the mood to do this thing or that thing. I just want to do what I feel like." Whereas I think maybe, go back a couple generations there was more of this "coming out of the depression" sense, you just do what needs to be done, it doesn't matter how you're feeling. So I think there is something healthy that. Especially when you're feeling really down and just really bummed out or angry about a situation, it can be tempting to just wallow in that. But I think instead, if you just go through the motions of what needs to be done, like you still need to do your dishes and pay your bills.
+</p><p>
+And even work-wise, kind of like we said way back at the beginning of the conversation, when you're not inspired and something feels overwhelming, but you just sit down and start typing anyway. Obviously, I don't feel like doing this right now, and I'm literally screaming at the idea of doing this, because it's so frustrating. But I'm just going to sit down and keep typing and keep typing and I know that it'll work itself out so I think that work-wise it's like that sometimes.
+</p><p>
+Say, if you were just fired and you know that what you need to do is to update your skills and you've got to get up to speed with all the JavaScript stuff that's happening right now in 2015. You may not want to, you may think that JavaScript is stupid and ugly and "see, look at that itty-bitty books called The Good Parts. See, that just proves that this language sucks!" It's like okay, you can kick and scream, but sit down and learn your JavaScript. This is something you need to know.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So I take it you don't believe in writer's block?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, it exists. But you work your way through it. I mean writer's block is that kind of resistance...
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+So how do you continue to... Oh, The Resistance, right. Okay, how do you continue to be creative? When you're stressed out, when you have something that is depressing you, how do you maintain creativity?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I think, same things as I just said, you just start working and inspiration shall only come to meet you halfway. You have to start without inspiration. You just have to just begin. You just start working on this thing, in my case, go create your database tables, go start writing those functions. Maybe some people work from the UI backwards, just start creating this thing, just add the barest simplest functions to it. Make it start to work, make a few unit tests and then it's like "okay, wait hold on, now that I got that unit tested, maybe I could have this… Oh okay", and suddenly inspiration will come to meet you halfway. And man, I find it even that when I'm depressed or angry, you just start working and you keep working and the clouds blow over.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+What is the most counterintuitive thing that you've learned in life?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Wow. We might have to edit that, I don't know. There are so many. But they've become…
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+I guess once they become a life lesson they become intuitive.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right! Exactly. I feel like you're not really learning something unless you're surprised, right? So the first time you hear something, especially if it's a fact and it's really surprising, then it's counterintuitive. It's like "whoa, that goes against what I thought was true", and those are the moments you're learning something. But then it becomes your new reality, you know? And then it sits in your bigger picture of reality.
+</p><p>
+So I think that I am constantly seeking out those moments, almost daily, trying to pick up books on Amazon that go against what I know. Even this morning when I woke up I've been learning this Elm programming language that's kind of like Haskell but compiles into JavaScript.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+It's really growing in popularity.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, it's really interesting, because I've always wanted to learn Haskell just in theory. I hear people talking about the benefits of Haskell. And just never really got around to it, maybe just because I couldn't find any practical use for it, it would've always been some little geeky thing I knew just for fun. Although, that's what Ruby was when I first learned it, it was just like this fun little shell scripting language I learned for fun, and then later somebody wrote a web framework for.
+</p><p>
+Yeah, I've always wanted to learn Haskell and that because the couple books on it, but just never got really into it. And then somebody described Elm as kind of like Haskell purely for web development, and I went "oooh, that's immediately useful." Yeah, I've just been starting to learn that. It's a very different way of doing things that I'm used to and it is to me very counterintuitive so yeah, sorry I couldn't just pick out one, the most counterintuitive thing, I think you just keep learning new ones every day
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Is there an engineer that you admire the most?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh man, those open-source guys that are out there, contributing to everything and have created these great things that the world uses for free. Names that come to mind are TJ Holowaychuk that made Express. One time before I learned JavaScript I went to a conference and they put us up in housing and I was rooming with this guy named Isaac that told me he wrote npm, and at that time since I didn't know JavaScript yes, I was like "oh okay, what's npm?" And later I found out it's like "oh my God! Isaac, that wrote npm, that was my roommate! Oh my God, that dude is amazing!"
+</p><p>
+And yet, these people, I can't even remember their names right now, but these people that you've seen that have contributed to, they co wrote JPEG and they co wrote all of these libraries that exist in every Linux box in the world and they just did this in their spare time while they have a day job doing other things.
+</p><p>
+There are seriously times that I think that's if I run out of web app ideas a little entrepreneurial type ideas I would be very happy just spending a couple decades just contributing to open source projects. I love those guys that do that so well.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Well that's great. Well Derek Sivers, thanks for coming out to Software Engineering Daily, it's been enlightening talking to you.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks Jeff! And hey, I got to tell you one last thing before we go, back when I was a musician when you just run into strangers, you know want airplanes or whatever, and people are like "so what do you do?" I found that if I would say that I'm musician that I would get a whole bunch of stupid questions like "what kind of music do you do? Any hits that we know? Oh hey, do you play Freebird?" Once I started to learn a little bit of programming I tried, just as an experiment when people would say what do you do, I would say that I'm a programmer. And what I loved about saying that is that it would shut up all conversation, they would go "oh… oh" and they would have nothing to reply to that. Unless they were also a programmer, and then we could talk tech! And they would say "oh really? What are you programming?" Like now were sitting there talking about programming, and I love it.
+</p><p>
+So the point is, I love talking to programmers. In fact, my eyes light up when I get an email in my inbox with other programmers, and we can sit and talk tech. So yeah, that's the reason I wanted to, and your show. The reason I do these things, obviously I'm not here to promote anything, I wasn't pitching something, I mostly do it for the people I meet. So yeah, if you made it all the way through this interview <a href="/contact">send me an email</a>. Just send me an email, say hi, I love talking to fellow programmers. So ask me anything, I answer every email.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Quick question: did you ever try programming music? Like using a digital audio workstation or anything?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Well it is fun! I love it!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know, I've seen these languages also that are music-making languages. These people are basically using Haskell or Lisp to compose music on the fly, and I can't imagine what's rabbit hole I would dive into if I got into that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Yeah, I mean the digital audio workstations are cool, just because it's like a really robust IDE and… Anyway, it's getting off topic. If you ever get an itch to scratch for music again I really recommend diving into that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I'm almost scared of it. You know, when somebody says "hey, you should check out Game of Thrones", I'm like man…
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Right. "Hey, you should check out heroin."
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right! if I watched one of those things, man you just made me waste 98 hours of my life, so I worry about getting into like programming music. Oh man, you think two things I love and combined them, I'm kind of scared that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+Well, thanks for your time Derek, I had a real pleasure talking to you.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Thanks Jeff!
+</p>
+</blockquote>
+<blockquote>
+<cite>Jeff:</cite>
+<p>
+All right, talk to you soon.
+</p>
+</blockquote>

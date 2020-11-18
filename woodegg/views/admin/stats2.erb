@@ -1,0 +1,7 @@
+<h1><%= @pagetitle %></h1>
+
+<ul>
+<% @people.each do |p| %>
+	<li><a href="<%= @person_url_d % p.id %>"><%=h p.name %></a></li>
+<% end %>
+</ul>

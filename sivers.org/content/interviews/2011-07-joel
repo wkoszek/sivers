@@ -1,0 +1,514 @@
+<!-- TITLE: Mitch Joel - Six Pixels of Separation -->
+<!-- SUBTITLE: Great 50-minute conversation about a variety of things.  -->
+<!-- URL: http://www.twistimage.com/podcast/archives/spos-263---anything-you-want-with-derek-sivers/ -->
+<!-- DOWNLOAD: 2011-07-DerekSivers-MitchJoel.mp3 -->
+
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Welcome to episode number 263 of Six Pixels of Separation, the Twist Image podcast. My name is Mitch Joel and it's Sunday, July 24, 2011. I'm really excited about this conversation. Enjoy the show.
+So who are you and what do you do?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh just like that, huh?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+That's how we roll man.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+All right. Who am I? My name is Derek Sivers. What do I do? I talk to Mitch.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+You code. So Derek, you created CD Baby, you've created a viral sensation with your video about how to create a viral sensation for TED.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Right. How meta.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+And you just wrote a great book called:
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Anything You Want.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Actually, let's start off with the book. What was the spirit of writing the book, what was it that got you excited about doing it? Because I know you're being offered probably over the years, a ton of people have come to you and said: tell the story of CD Baby and how you built this.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, I never planned to. Honestly, I kind of prefer blogging. I like the immediate feedback of just putting something out there for free, one article at the time. And so for years people have been asking me to do a book and I just said "no no no no no, not interested, no way, just to read my blog, I'm cool with that" and then Seth Godin asks me to write a book. And more than that, he called me last year and said "I'm starting a new publishing company, I want you to be one of my first authors" and I said "okay." And just like that my plan completely changed. I'm like, alright I can do a book.  So we went back and forth a few times, at first we thought maybe I would write something that was more like a handbook for musicians and I gave an attempt at that for a month or two and it wasn't going to well. And he said "well, how about we just tell the story of CD Baby?" I said "all right, I can do that."
+</p><p>
+So honestly, I feel almost like I cheated because it was effortless. So many of my friends have spent like a year or two writing a book and say it's harder than they ever imagined. To me it was like, two weeks, just put the whole thing together. It's kind of telling the stories that I've been telling at conferences and stuff like that for the last few years anyway. So I had all of these stories on the tip of my tongue, it was just a matter of putting them all down in one place.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Was it also part of the back story to you and I becoming friends as we met through Seth Godin? So there's all these weird connections. The way Seth positioned the Domino Project, it's not like you get this big chunky contracts from a publisher with all this serious legal stuff that says you have to deliver 80,000 words. Was part of the facility of it the fact that Seth makes it to really "it should only be as long as you think it should be" type of thing?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, I think in that first call... I should ask him some day if I'm allowed to share the contract that he sent me because it is stunningly beautiful. It is the most jaw-droppingly beautiful contract I've ever seen, it is literally one page and it's written in plain English. So much so that I didn't realize that was the real contract. And I said "so when are you gonna send me the contract?" He said "well, you know that thing I sent you a couple weeks ago, that was it." I said "that was the contract?? Oh my God!" So yeah, it really was like he said "look, we're thinking about 15,000 words, they're short little books meant to be read in under 90 minutes and just make it like a conversation, make it personal, there is no advance but we split the profits and go for it." And that was about it, you know, no formalities. In fact I began just on that phone call… I didn't need to wait for the formalities, I trusted him.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Was part of your real spirit in doing this, the fact that when you look at what a book is it can be sort of this daunting thing if you're into blogging and music and all that. But it sounds to me that it almost felt like a good creative expression for your creativity that maybe you weren't sure you wanted to do?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, to be fair, Seth really drove the whole thing. So, I mean if Seth would've called me up and said I want you to write a 2000 page giant book I still would've said "okay." You know, he's just such a role model for me, whatever he said I would've just trusted his judgment and done it. So this was still kind of his vision, this idea of this short little books, that's kind of the Domino Project. And I think he's having a great success with that.
+</p><p>
+It's really funny to read the reviews and so many people saying things like "you know, I don't ordinarily sit down and read a book but it only took me an hour." And people seem to like that. Maybe you and I kind of more use to reading books that take 12 hours or something, but a lot of people aren't.
+</p><p>
+Let's see, as far as a creative expression, to me was more like the end of the little era for me. I feel like in my 10 years of doing CD Baby I did some stuff right and I did a lot of stuff wrong, and I'm kind of intentionally rubbing my nose in the mistakes, you know? To use the old kind of like dog metaphor. I really want to make sure that I really learn from my mistakes. So I'm sharing them publicly, which might even seem almost a little embarrassing, I mean I'm just sitting here just loudly telling everybody all the stuff I did wrong. But I feel that I needed to do that to kind of make sure that I was learning from my mistakes and perhaps be a warning to others, like you know, I hope you don't have the same situation. But I think I just needed to just be done with it. You know, at this point, it's been three years now since I sold the company, and am ready to move on but I had to just kind of do this one last thing of okay, let me just once and for all share everything I learned in 10 years of doing this so that I can just shut up and not tell these stories anymore and move on.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I want to talk a little bit about CD Baby in the sense of: you talk in the book about how you never really had a vision for the company when people asked you, but in thinking about it the vision actually was a big idea, the vision was that there are a lot of independent artists that want to sell their music online and are struggling with it and I can help facilitate that and that's what I'm going to do. And it seems so, to even say that in 2011, it sounds like it's so stupid, you know? But we fail to realize that it really was a radical thing because, one, just the transmission of audio technically wasn't all that obvious back then, two, you weren't even talking about digital transfers originally, it was literally mailing CDs. I mean this was a very different world. And what I'd love to do is go back and, what was that moment when you realize somebody should do this and why isn't someone doing this? Because I think that's a sort of moment marketers and business people are constantly trying to understand, like where people come up with it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It was really just the old scratching your own itch thing, like I wanted to sell my music online, there was no place that would sell it for me. So I was like "ah fuck it, how hard can it be to just go get a stupid credit card merchant account to just do it myself?" So it was really nothing like... it wasn't this feeling of: ooh this is a huge business opportunity. It was really just like: I was just doing it for me, I just needed to get my stuff up and selling online. I thought it was stupid that the big online record stores wouldn't take my account because I wasn't distributed by a major label. So I was like, alright I'll just build one myself then.
+</p><p>
+So it's kind of more like this hacker culture that a lot of Linux programmers and people that do programming for the love of it are often tossing these things together all the time. Like: I want something that will tap into the GPS system of the Singapore buses and tell me how many minutes until my bus arrives. Why doesn't that exists? Ah dammit, I'll make it myself! Hackers are always just throwing these little things together, right? So to me it was like setting up my own credit card merchant account, setting up my own little store was just a little hack because nobody would do it for me. Then it was just my friends just asked me "hey man, can you sell my CD through that thing?" And I honestly hadn't even considered it.
+</p><p>
+So I really wasn't looking at it as a business. It wasn't until my friends asked and I went "oh yeah, I guess I could. Sure. I'll hook you up as a favor, don't worry about it." So then I started getting calls from strangers like "hey man, my friend Dave said you could sell my CD", and I'm like "okay, if you're a friend of Dave's, no problem, I'll hook you up." So I just was hooking up friends as a favor, I still didn't think of it as a business, you know? My business was making music, I was living my dream, I was a professional musician, kind of like making my living by doing gigs and producing records. It's like, I was living my dream come true, I did not want something to get in between me and my music, I didn't want to start a business. But, oh well it happened anyway.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+The trajectory of it in terms of its growth, it's well documented but I'm wondering when you were in the middle of it, one, can you feel it, and two, it seems to me in the book, and this is something I'm living, you and I have talked about this often, you know I've got a bigger enterprise and two offices, do you struggle with this sort of balance of doing the work that you love to do and you just want to be in the middle of it and love it; but then there is the other side where like these business viruses infect you with: oh I need X amount of growth, I have to sell or I have to do this. And in the book I thought you did a better job of it— and I read a ton of books—in really illustrating the struggle that you had. To the point that it even upset the applecart at work in terms of the employees and, you know "this Derek has been very belligerent..."  Can you talk a little bit about that struggle? Because I don't know that many businesspeople and even marketers to really talk about that, and especially the way you did so candidly.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, thanks, I appreciate that. This may sound weird of me to say this, but I'm really happy person and I don't know if it's just genetic or something, I've always just been happy person. Like my natural disposition is happy. But then I was even happier than ever, the fact that I was making a full-time living with my music, right? It's like I was living my dream come true. And then CD Baby started to take off. And I was even happier, because I was really kind of enjoying learning how to make a website and how to make a little system that was satisfying so many people and the money starts to the pour in. I was really really happy.
+</p><p>
+The reason I'm mentioning this because I think a lot of this like really driven business growth, where people are just like "no, we have to push, we have to build our members, we have to this, I need to buy a mansion, I want to buy a Ferrari, I want to double our sales this year!" A lot of it is really driven from dissatisfaction. It's driven from somebody not being happy and needing to push and push and push to be happy.
+</p><p>
+But I was already happy, so it's like I didn't want the business to be bigger, I actively did not want it to grow because to me it felt like, you know, mo' money mo' problems, I'm cool. I don't need more money, I don't need more customers, I'm cool. I was actively trying to slow the growth of the company.
+</p><p>
+So now with that being the context, imagine that some venture capital dude, and imagine that I've got enough money in the bank so that I could have pulled the plug at any moment and not have to work for at least a few years, right? So now imagine that some VC investor dude from Silicon Valley calls up with his slick kind of salesman voice, he's like "hey, we'd like to invest in your company, we could build this, if you get the right kind of growth in this thing…" I was like "no no no no, I don't want to talk to you. Let's not even talk any numbers, I'm just not interested, let's just say goodbye right now, I don't want to talk to you. Bye." And they were so surprised at that, but it's like I was just happy, I didn't want some millions of dollars in venture capital and all of a sudden having investors kind of breathing down my neck telling me to grow my business fast so they can get their investment back. I just didn't want that. Does that help explain a bit?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+It does, and it's funny, I guess the context of me thinking about it is, when I was thinking about the newspaper industry and people are obviously spelling its demise and stuff and I looked at it and said… I had always wished the newspaper publisher would get up on stage in front of the shareholders and say "listen, it is what it is, the world is changing, but if we actually want to innovate and be a real publisher in 2011 it probably looks nothing like our business, I want to move towards that, we're going to have to stop trying to hold all these crazy profits and make more money and more money because we really need to invest in what the future publishing looks like." And I say that half laughing and smirking, but the truth is I don't know that they can do anything else. But the truth is what publisher would do that? And the model is so crazy, like the business model we have. I think you are spot on. It's really about: how much more money did you make, what was your growth over the last year. I always use this analogy, like: Derek, next year I want you to be better looking, I want you to be thinner, I want you to be more fit. It's almost like a disease in business. And again, as a marketer, we feel it every day. Like: I want you to do this ad, but it has to be able to increase sales. Those aren't always things that co-relate so naturally. So I think part of the struggle that I heard you say, I wonder that's a cultural thing for people who are the same ages as, just the way were brought up, it's not all about money; or if it's just the changing of the world. I'd like to hope it is, but I get nervous.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Honestly, I think it's neither. I've learned a lot living in Asia. So, for those of you listening, I moved to Singapore about eight months ago, so I live full-time in Singapore now.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I know it sounds like we're just sitting across from each other.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I know. Thank you Skype! So, there is a different mentality over here. In fact I just got back from a week in Japan, and there is a very different mentality in Japan than there is in China. Vastly different, huge difference! So Japan has this sense of comfort. Japan has been quite wealthy for many generations, so people are not desperate. If there is a wallet on the sidewalk somebody will pick it up and return it with all the money inside to the nearest police station, and not even think for one second about taking the money inside. It's just culturally, like you just don't do that. Part of it is just like, there's just not that sense of desperation. Everybody is doing fine.
+</p><p>
+But China on the other hand, is ruthless and cutthroat. It's all about: how many generations away from poverty are you? And right now China is like zero generations away from poverty. Like they are just getting out of poverty just in our lifetime, right now. So there is this desperation, you know? Imagine like kind of a Oliver Twist… You see a piece of bread you get it. Get to what you can while you can now. We've been broke for generations and now we're finally getting our piece. Just ruthlessly get everything you can.
+</p><p>
+So now I'm talking about countries, right? But, that happens on an individual level too. Some people, just as individuals, have this thing where it's like, whether it's because they're just one or two generations out of poverty they had this intense drive. They need to prove themselves fast, like they're not happy yet. And who knows, maybe it's just that they're really susceptible to advertising and they've read too many biographies of Richard Branson or something. Or they read Inc. magazine and they think that they're not successful until they've made a billion dollars, you know? That whole punchline from The Social Network movie, rights?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+A million dollars isn't cool, a billion dollars is cool.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. It's like, oh shut up! A million dollars is very cool. Sometimes I think it comes from that extreme dissatisfaction which comes from desperation. But if you're just feeling happy and satisfied and if you realize, which sometimes it takes a few generations to realize that passed a decent, comfortable, upper-middle-class level, more money doesn't make you happier. Once you have $1 million, $2 million doesn't make you that much happier. So at a certain point you need to just realize this and kind of stop pushing.
+</p><p>
+And I think that's where some really interesting stuff happens. You know, you look at what some people have done after they've become successful, it's a really telling moment. What did U2 do since 1983? Lots of stuff. They could've just stopped. But they kind of hit this point where they musically have been very inventive and done lots of things. Whether you want to pick a David Bowie or a Paul Simon, whoever your musical heroes may be, it's really interesting to see what some people do after day get to that point of comfort. And now they can do have this freedom to explore and not need to be desperate for sales and whatnot. So I don't know if it's a thing of our time, I think it's definitely a per person kind of thing or a per culture kind of thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I think there would be a cynical person or two who would hear you speak and say: easy for Derek to say, sold his company for 20 million plus. But I like the way you preface this by saying that you were happy by just being in the music industry, by doing what you wanted to do.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Exactly. And it's really important to understand that for the context. Somebody else read my book and send me an email saying: I get the feeling that you were rich to begin with, I can't relate to it, you know my parents grew up on the farm, it's up to me to support my three kids, I need to make lots of money. I can't just "hey man, be cool" like you. That's why I really have to emphasize this, to understand the context of why I was so kind of like chill about my business and not trying to squeeze every last dollar out of it is because I was just happy.
+</p><p>
+I learned when I was like 18 how to live really cheap. Honestly man, still people are shocked. Like I'm a multimillionaire now or whatever, but my place here in Singapore, I furnish the whole place in three hours at IKEA and 2000 bucks, and that's it. It's just like a little two-bedroom apartment. I don't own a car, I don't own a house, I'm just renting a two-bedroom place. That makes me really happy, that the less I own, the happier I am. So I was never filled with a big desire to have expensive things anyway. Still to this day, I only have one pair of pants and one pair of shoes. I'm not kidding either, I'm not trying to…
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+But you do want them?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+About once a week, that's good enough. So we all set our base level. And it's kind of sad to me, we all know these types that, who knows maybe even people listening to this are gonna get offended when I say this, but it's funny when people tell me that they need... "oh well, I need to bring in 200,000 a year, it's just my living expenses" I think 200,000 dollars a year to live?? Like what kind of nine bedroom house with four cars... Like stop it! that's what's kind of sad some people say "I'd love to start my own business, but I can't because I need to make my baseline of 150,000 a year just to pay my living expenses", sorry I'm kind of rambling on this, but it's like a real key point to me.
+</p><p>
+My first major girlfriend in life I was with for like six years from the age of 18 to 24 or something, her parents were classic new England hippies, living on the commune in Vermont and she grew up with no electricity and no TV, eating only food from the garden. And both of her parents only did occasional little odd jobs here and there. Her mom was like a seamstress and her dad was a photographer, they probably made about $1000 a month between the two of them, and that was enough for them to raise a daughter in America, put her through college, she went to Smith College, is very successful now and they only had to bring in like $1000 a month, and they just lived really cheaply. And that made a big impact on me when I was like 18, 19. I look at the whole rat race that people put themselves through, and I looked at them, and I chose that.
+</p><p>
+I can keep my expenses down to like a thousand a month, and therefore I don't need to do anything I don't want to do. So, even musically, I would just take the gigs I wanted to take, and I was living a happy life as a musician, because my expenses were only 1000 bucks a month, you know? And every time somebody says it's inevitable, there like "well yeah, you don't have kids", my role models had a kid and were able to do it. It's like you make that choice, don't pretend that it's inevitable That you have to make $200,000 a year, that's a choice that you made. And if you put yourself in your own jail cell because of it, don't blame everybody else.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+And that is the biggest line that business serves itself, right? There's two things that are happening right now: I can dream about doing this stuff we wanted to versus this client is in front of me offering cold hard cash. And the direction is so obvious if you look at it from that perspective. But it doesn't very rarely lead to creating the company or the business or the concept that was the reason you got into this industry in the first place.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Exactly.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Yeah, it's pretty wild. I want to transition a little bit and talk about... it's a funny story because the way I came to know you, well CD Baby I knew because I was actually in the music industry for a while too, but the way I came to know you is that you became this guy on the mountain that other industries would go to to seek advice. And I'm talking specifically about the book publishing industry. I know a lot of people wanted to get in touch with you and be like: okay, Derek, you took and helped independent people will be very successful in an industry that's very crazy and imploded and sort of killed itself. Please help us with this book industry. So I'm curious. Was that an interesting place for you to be? Did you have guidance for them? What is your perspective on it? Because I know, even to this day, you're very much a wanted advisor.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I have a real problem with people who don't know how to say "I don't know". Like you, I go to a lot of conferences and there is always a lot of panels and there is a moderator asked a whole bunch of panelists like "what's the future of social media?" And everybody starts flapping their damn mouth. But nobody actually knows. Why can't anybody just admit "I don't know." We don't know the future, you don't know what the weather is going to be tomorrow and you don't know what the future's gonna hold. Why can't we just say I don't know?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+You haven't seen me speak recently, but I tell people, I have this big picture of a crystal ball, and I say for everyone who thinks I'm a futurist or has a vision for the future. I'm here to tell you I hate the term futurist, I call myself a presentist. That's my new thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yes. Because that's all we can really talk about. Like you used that word trajectory earlier, I love that word. That yes we can say: here is the current trajectory in the present. But that doesn't mean that it won't all change tomorrow. We don't know what's, whatever, Google or Facebook or somebody is going to announce tomorrow that we have no idea or that something is going to change everything tomorrow. We don't know. And it's funny, especially I picked up a copy of Wired magazine from 1994 or something, and then they are very confidently telling you exactly what the future will be and it's so wrong.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Isn't the answer always flying cars?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Of course, of course. That's coming in Q3. So people ask my advice, and honestly, it can go one of either two ways: either I just say I don't know, I'm sorry I know nothing about books and the book industry and I don't know what tell you. And I just say that, I don't care, I don't feel less about myself by not knowing the answer to the book industry.
+</p><p>
+But, you know what's funny man? I don't know if you get this too. Here is my metaphor for it: somebody comes up to you and says "hey Mitch, I've got this little kind of henhouse, this coup here, there are all these chickens in there and they are just not laying any eggs. I can't find any eggs at all. They've been in there for months and there is no eggs." And first you think like "wow no eggs, I wonder what that could be. Could it be some kind of virus? Could it be something in the water? Could it be the time of the year? Maybe they're not getting enough sunlight." Then you say to the person "I hate to ask you this, but have you looked under the chickens?" And they say "hold on a second… Oh my God! There's eggs under the chickens, I didn't even think about that! Thank you so much!"
+</p><p>
+Like sometimes when people are asking you these consulting questions, it feels like that. It feels like almost insulting to say what you really want to say, like "have you tried asking your customers which new features they would like?", and they are like "oh my God, asking my customers, I never thought about that!" There is so many things, it just seems so obvious. And I almost feel embarrassed to mention it. But people say it helps. I ended up writing a whole essay about this called Obvious to You. Amazing to Others, if you're interested. It's kind of one of my favorite things I've written, it's on my site somewhere. This feeling, our own thoughts feel so obvious to us, but other people's thoughts feel so amazing, like oh my God, how did they come up with that? Once I realized that, I realized "oh, so other people look at me and think that my thoughts are amazing, whereas to me they seem totally obvious." You know which books you've read and where your thoughts come from, but maybe they haven't read the same thing and that's why that the thoughts seem amazing. Boy that was a long wandering answer to a short question.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+No no no, Derek that's why you're here. When you think back to CD Baby, was that part of it? Was it so obvious to you? It's like obviously independent artists will need a place to sell their stuff online. I mean, if you say it now, it's like: "really? It was Derek who did that?"
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I know. I just couldn't believe that nobody else was doing it and, yeah, it was completely obvious. Then even along the way, like how to make it so simple. Like other people try to make things big and enterprisy. You know what I think? It's actually a flaw of a lot of people's business plans, especially these days when they've got role models like Facebook and Apple, that's when people want to be the next Facebook or Apple, they are trying to think so damn big, like how to revolutionize everything or how to please every person on the planet. And because of that they are completely overlooking common sense on how you can, say, make a few thousand people much happier by doing something that a few thousand people need.
+</p><p>
+So I think when I started at CD Baby to me it was like: well here is my musician friends, they need to sell their CD. And other people were looking at them like broke musicians, they don't have any money to pay me to do it and they're not going to sell any albums anyway because they're broke musicians. I'm just going to set up a business plan that will sell Madonna and Miles Davis albums, but not these little broke musicians that have no fans. But they were overlooking that you could do something small and simple that would make thousands of people's lives better in a way that they'd be willing to pay for. You know what I mean? So it's like by not being so ambitious and trying to reach billions you can do something more useful to thousands.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I remember when Chris Anderson's book The Long Tail came out, I looked at the book and we didn't know each other then, and I looked at the book and went "oh, CD Baby", I was like he could have written this book into words: CD Baby.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know what was really redeeming? So I read through that book and I am just sitting there going "yeah duh! I mean, you're describing my business, my life" but he didn't mention CD Baby anywhere in the book. But, you know what? The week after the book came out he was doing an interview NPR, US National Public Radio, and they said "could you give us some examples of the long tail?" And he said "well, I think one of the best examples is CD Baby."  And I was like "yes!" And he just like sat there on NPR describing CD Baby and how kind of was the perfect example to long tail. So I think that was really kind of redeeming. He might not have just known about it yet when he wrote the book, but he did afterwards. And actually Chris and I have become friends and been to a few conferences together and I really admire the way he thinks.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+And he is an interesting guy, and similar to how we know each other, also through that kind of circuit, he's really open to, when he's working on new projects, to get input. Like I know when he was doing Free and I knew he was working on that, and I kept sending him examples. It's amazing how he works in a highly collaborative way, and most people don't see him that way. But he really is. It's sort of interesting as a person that he is like that. I wanted to talk a little bit about the music industry because I think, one, there is a perception of what the music industry is. And I'm wondering when you reflect on it, do you see the role of CD Baby as seeing part of the destruction of what the old-school music industry was or do you see it as part of the actual reinvention of it?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+That's a heavy question. It felt like CD Baby wasn't part of the music industry. Honestly, when I would pick up a billboard magazine or something, I'd looked through it and I... who... what... what the hell are they...  I have no idea who these people are, what you're talking about, like I felt I had nothing to do with the music industry. It felt like the music industry is the one that's talking about, you know, Lady Gaga, stadium sales and Sony's release schedule down by 7% in Q3 or whatever. Which just has nothing at all to do with the life of a musician who is writing some songs and wants some people to hear their songs and wants to play some clubs and make enough ticket sales to get to the next gig.
+</p><p>
+I felt like that was my world, it's kind of this world of musicians, which really has nothing to do with the music industry. It's almost like as different as, say, farming and McDonald's are. So technically someone who's a farmer and somebody who works at the headquarters of McDonald's, somebody could kind of squint and say they are in the same industry, but it's really not. So I felt I was dealing with musicians, that's like working with farmers. Sorry, bad metaphor maybe.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+But let me ask you that question… So how would you answer that question now in reflection? Cause it's a different question now, isn't it?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, I still think that everything I was doing had nothing to do with the rest of the music industry. I think we weren't even a blip on… You know, even near the time that I sold CD Baby, when you could say it was kind of at its peak, I met with one of the heads of Warner Music and I said something about CD Baby and he never even heard of it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Which also speaks to what happens in the music industry.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well, you know what I mean? I'd actually never made that comparison before, but I think that kind of McDonald's and the farming industry are kind of an apt comparison. It's like at that big level, when you talk about the music industry, you are kind of like talking about this Lady Gaga, kind of 50 Cent, all this massive giants millions of sales. And if something is happening way down there at the bottom which of these like musicians selling a few hundred or a few thousand CDs, it just doesn't even show up on their radar at all. I say that CD Baby actually had no effect on the music industry.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+It's pretty dramatic to hear you say that because, you know what I think of the world of MySpace, where I knew because of my friends from the industry, like you had A&R people who are like: I'm a corporate 9-to-5 are now. Why? I don't go to the bars anymore, I can just sit on MySpace all day. And it's true, like, they did. And so it's funny that you say that because while, yes the music industry was about selling one CD to millions of people and you were about selling thousands of CDs to thousands of people, you would think that they would still have a perspective of saying there might be gold in them thar hills.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. You know what? Okay, here is the change that maybe I was in the middle of: all this would've happened with or without CD Baby entirely. The kind of like MP3.com, remember that? And MySpace and CD Baby and all of these together… The big huge change that happened in the late 90s is that, until the kind of mid-late 90s a musician had to keep their focus on the record labels because that was the only way to get out there. So the record labels that spend a lot more time listening to demos and trying to hear pearls in the oysters and listening to gems and trying to find hits.
+</p><p>
+But once all these tools came out like CD Baby and MP3.com and MySpace, all of a sudden it's like any musician can get their music out to the world. It did change the music industry as far as like, now they just had to sit back and see who was doing well because if you were not savvy enough to test your market by putting up some songs on MP3.com and telling your fans to listen to them, and if nobody was listening to them you couldn't even get any fans. The record industry could look at that and go: all right, they're not going to make it.
+</p><p>
+The music industry stopped having to guess who was going to be a success. They just looked at who was already making a success of themselves and then used their big giant industry to take it to the next level, you know what I mean? So it absolutely changed the music industry that way. But it wasn't like CD Baby changed anything, it just was a part of a whole wave of like these Internet tools that musicians could use to get their stuff out into the world. That permanently changed everything.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Do you have any interest anymore in that world?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I never did. I mean, which world are you talking about?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Well no, because... I knew from before the book that you really were a passionate musician and the singer and I knew that even though CD Baby made you become more of a businessperson than maybe a musician that you still have a passion for it, you still actually cared about musicians. I know you're working on two other projects. Do you sort of think about what's next in that industry?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I finally think I've distilled my interests down to one clear distinction. I'm fascinated with music as a process, and I have no interest in music as a product. And it's a huge difference.
+</p><p>
+I'm fascinated with the creative process, the writing, the self-discovery, the creativity, the discipline, the communication, the anthropology, the sociology, the psychology, all that kind of stuff around making music and putting it out into the world. All of that completely fascinates me.
+</p><p>
+The business of Lady Gaga tickets sales and stadiums over whatever? No, no interest whatsoever. So I'm still completely fascinated with like the…
+</p><p>
+I think of it also as a difference between the musician business and the music business. When I hear music business I kind of think "product", when I hear the word musician I think "process". All of my new projects are completely focused on helping musicians.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I have a thought in my brain about, I wonder if Derek thinks about his next CD Baby, but in hearing you speak it sounds like a strange thing to ask.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Are you asking? Like do I think of my next CD Baby?
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+I don't know, I'm sort of putting thoughts out there. I don't know, it seems…
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No, I kind of feel like CD Baby was probably my biggest success. But it was much bigger than I ever wanted it to be. I would've rather it was 10 times smaller. So I think again now if I do something that starts to grow that they, I might actually sell it earlier and just walk away. Because I really didn't enjoy those last few years, it was two big for my taste. That's really what I actually said, I don't know if you know from the book, but Seth Godin is the one that's really kind of gave me that final little nudge to sell it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+"If you care, you'll sell it."
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, like I was asking him. I was like here is my predicament, what do you do? And he was just saying that if you care you need to sell, because you do not want to business to grow and your clients, the musicians, they do want their careers to grow. So you're doing them a disservice by remaining at the helm, you really should sell it. Somebody else would like to make the business bigger and you don't. And that was a great point. And I think I'd like to kind of take that lesson earlier from now on. So I'd love to start things, bring them from zero stage five or something, whatever that may be, and then kind of sell it off earlier. So people that are more ambitious than me and interested in managing more than inventing can run with it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+One of the biggest rookie mistakes you can make as someone who ask so many questions, especially in the music industry and the creative industry is: why did you call your album X? Why did you call your book Y? But, I'm going to make that a rookie mistake, because you called your book Anything You Want. And I found that interesting because when I read it it sounded like one of those books where I'd go "this will teach me how to get anything I want", and it sort of is. But I think the book almost should have been called Anything I Want.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Honestly man, this is where I feel kind of a little… When you asked in the beginning about my… When I told you the book was really more of like Seth's doing that than mine. So even when it comes to the title and the book cover and all that, they picked all of that. They, I mean like Seth and his team of people from the Domino Project. So they pick all of that, I really just wrote the words. And everything else, they did the rest. So they picked the title. And the cover. I'm sorry.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+No, again, knowing you as a person, having great conversations with you, I thought wow that's like a... it was a very Tony Robbins inspirational type of title, which I think works, just the voice in the book sounded a little different.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know, I kind of thought it was, I liked the title The Music of Business.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Oh Yeah, me too actually.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Because, you know it was kind of like a creative approach to the business, you know the music business. Kind of play on the business of music, which is a popular book in the music business. There is a book This Business of Music that's really popular. So I liked that and Seth was just like "eh it's kind of cheesy." You know he's emerged in a world of like book titles and book covers and what works, I was like "okay, you just pick, I know nothing about this."
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+You've taken us on this really fascinating journey in the past couple minutes about where you're at. And I'm just curious, if you want to talk about it, what is your day-to-day life? Do you work on, is it one specific thing? Is it five different things? Because as someone who is following you, I see your essays, your blogging, I see that but is there sort of one thing you're doing? How do you sort of manage your life, your projects professionally?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know what actually? This will be the first time I've ever kind of said this publicly. Tadaa!
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Hold on, let me get an audio for Six Pixels exclusive!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I like the term parallel entrepreneur. Like serial entrepreneur.
+</p><p>
+To me Richard Branson is kind of one person that I can think of where the Virgin Group is his kind of holding company in the middle, and I think there is something of like 180 companies under the Virgin Group. So it's like Virgin Rail, Virgin Cola, Virgin Brides, Virgin Money, Virgin Airline, you know six different Virgin Airlines and Virgin Music and all those kinds of stuff, Virgin Mobile. And so I like the fact that it's like he doesn't work at any of those companies. He's just the guy in the middle, to kind of say: this seems worth doing. Let's do it. I'll fund it, christen it, kind of pick somebody really good to be in charge of it and I'll just peek in every week or two on how it's going. Like just give me a report and I'll give you my thoughts. For the most part he's just kind of the guy in the middle that gets the kind of wave the magic wand and say let's do this, let's do that.
+</p><p>
+So when I think of all these different things I want to do to help musicians, there are lots of projects. And if I were to do them in serial it might take decades and by the time they get around they might be kind of moot. But if I were to find a way to do them in parallel, hmmm now that's exciting to me. But in order to do that you'd have to kind of do it like I just described, I'd have to just be the guy in the middle to say: okay, I will fund this and I will help guide it, mentor it, promoted a bit but somebody else is going to have to run it because I can't run six companies in parallel.
+</p><p>
+So that's a really what I'm working towards. So my day-to-day life is, even if it's gonna take me many years to do it, how can I build my skills to be able to make that happen. So, whether it's improving my programming skills, learning more about some kind of core business concepts were learning to get better at interviewing and hiring or learning to be a better this. I really spent the last three years, ever since I left CD Baby, completely focused on self education and how to get better at this stuff because that's my big vision that I'm working towards.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Awesome! So the book is called Anything You Want, it is without question one of the best 60 minutes they'll ever spend. Derek, I want to thank you so much, because, again, I do know how starved for time you can be. So thank you so much for taking part. Let people know where the easiest place is they can connect to all your great content.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+If you just go to sivers.org. The last thing I want to leave you with is that some of the coolest people I've met over the last couple of years are the people who find me through things like this. Honestly, like somebody who is a fan of the Six Pixels podcast is my kind of person that I'd love to meet. So some of the coolest people I meet are the ones that just drop me an email out of the blue like: hey, I read an article on such and such. So I highly recommend to anybody that made it all the way through this, go to sivers.org and there is a "contact me" page and just send me an email and say hi, because I'd love to hear what other people are working on and feel free to ask any questions or whether. So, I'm very happy to email with anyone.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+It's through the marvels of Seth having this vision that allowed more of the masses to be able to find thinkers like you and what you're doing. And I really, really was appreciative, not only of us meeting and becoming friends, but the book really was one of those game changers this year. So thanks so much for writing it, I really appreciate it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well thanks Mitch, I appreciate it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+And I'll see you soon I hope.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, well I'll see you at one of these conferences. We always do.
+</p>
+</blockquote>
+<blockquote>
+<cite>Mitch:</cite>
+<p>
+Thanks Derek!
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Alright, take care!
+</p>
+</blockquote>

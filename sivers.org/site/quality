@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same word. Different places? Different meanings. | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: I had just moved to Singapore when I met the brilliant Benjamin Joffe.He's a startup consultant and investor from France, who has spent the last 13 years living around Asia — a few years each in Korea, China, and Japan.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/we14">
+<link rel="next" href="https://sivers.org/jp14">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Same word. Different places? Different meanings. | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/quality">
+<meta property="og:image" content="https://woodegg.com/images/we14/we14cover-AA-200.jpg">
+<meta property="og:description" content="I had just moved to Singapore when I met the brilliant Benjamin Joffe.He's a startup consultant and investor from France, who has spent the last 13 years living around Asia — a few years each in Korea, China, and Japan.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Same word. Different places? Different meanings. | Derek Sivers">
+<meta name="twitter:description" content="I had just moved to Singapore when I met the brilliant Benjamin Joffe.He's a startup consultant and investor from France, who has spent the last 13 years living around Asia — a few years each in Korea, China, and Japan.">
+<meta name="twitter:image" content="https://woodegg.com/images/we14/we14cover-AA-200.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Same word. Different places? Different meanings.</h1>
+<p class="postdate">2014-01-16</p>
+</header>
+
+<p>
+	I had just moved to Singapore when I met the brilliant <a href="https://twitter.com/benjaminjoffe">Benjamin Joffe</a>.
+	He's a startup consultant and investor from France, who has spent the last 13 years living around Asia — a few years each in <a href="https://woodegg.com/kr">Korea</a>, <a href="https://woodegg.com/cn">China</a>, and <a href="https://woodegg.com/jp">Japan</a>.
+</p><p>
+	I asked him if he could tell me the most important thing he learned from living in these different countries.
+</p><p>
+	He said, “<strong>Even though we are all using English as a common language, the same word can mean very different things in different places</strong>.”
+</p><p>
+	I looked confused, so he said, “<strong>When I say the word ‘quality’, what do you think it means?</strong>”
+</p><p>
+	I thought and said, “Quality means <strong>it works</strong>.  It’s well-built.  It will last.”
+</p><p>
+	He beamed a big smile and said, “Exactly!  I knew you were going to say that, because you’re American!
+	If you ask almost any American what ‘quality’ means, they’ll say ‘it works’.
+	To you, that’s the definition of the word, but it’s actually just the American definition of the word.
+</p><p>
+	“In <a href="https://woodegg.com/kr">Korea</a>, if I ask almost anyone what quality means, they’ll say, ‘<strong>it’s brand new</strong>’.
+	In Korea, newness is important.
+	Don’t go to Korea trying to emphasize the timeless long-lasting quality of your product.
+	What matters is what’s new.
+</p><p>
+	“In <a href="https://woodegg.com/jp">Japan</a>, if I ask almost anyone what quality means, they’ll say, ‘<strong>it’s perfect - zero defects</strong>’.
+	Japanese culture emphasizes the importance of striving for perfection.
+	I saw a company ship a huge box of their products to Japan, but the shipment was not accepted because the shipping container was dented.
+	Although the items inside were fine, it was no longer a ‘quality’ shipment, since it was no longer perfect.
+</p><p>
+	“In <a href="https://woodegg.com/cn">China</a>, if I ask almost anyone what quality means, they’ll say, ‘<strong>it gives status</strong>’.
+	<a href="http://en.wikipedia.org/wiki/Guanxi">Guanxi</a> is everything - your standing in a personal network - so any item that gives you social status is considered quality.
+	It doesn’t matter if it’s well-built or will last, as long as it raises your social status.”
+</p><p>
+	He waited while I digested this thought.
+</p><p>
+	Then he said, “This is why you can’t just take your brilliant American business idea and go make it happen in any country.
+	‘Quality’ is just one word, but imagine the different cultural meanings of words like ‘music’, ‘romantic’, ‘friends’, or even ‘fun’!”
+</p><p>
+<strong>
+	This conversation is a big reason I started my <a href="https://woodegg.com/">Wood Egg book series</a>.
+</strong>
+	Understanding the different mindsets of different cultures has interested me ever since, so it’s fun to keep diving deeper and deeper into the subject.
+</p><p>
+	Later, I asked a Singaporean friend why high-tech always-online <a href="https://woodegg.com/sg">Singapore</a> has almost no online shopping.
+</p><p>
+	He said, “Shopping is something you go out and do with your friends!
+	A few companies have tried to popularize online shopping in Singapore, but it has never worked.”
+</p><p>
+	When I explained how it would save people a lot of time and money to being able to buy anything at home, without having to go out to the mall, he smiled and said, “What if I came to America and tried to start a company that helped people stay at home and get drunk alone, while sitting at their computer, so that they didn’t need to go out to bars with friends anymore?  Wouldn’t that save them a lot of time and money?”
+</p><p>
+	Touché.
+</p>
+<a href="https://woodegg.com/kh" title="Cambodia 2014"><img src="https://woodegg.com/images/we14/we14cover-KH-200.jpg" alt="Cambodia 2014"></a>
+<a href="https://woodegg.com/cn" title="China 2014"><img src="https://woodegg.com/images/we14/we14cover-CN-200.jpg" alt="China 2014"></a>
+<a href="https://woodegg.com/hk" title="Hong Kong 2014"><img src="https://woodegg.com/images/we14/we14cover-HK-200.jpg" alt="Hong Kong 2014"></a>
+<a href="https://woodegg.com/in" title="India 2014"><img src="https://woodegg.com/images/we14/we14cover-IN-200.jpg" alt="India 2014"></a>
+<a href="https://woodegg.com/id" title="Indonesia 2014"><img src="https://woodegg.com/images/we14/we14cover-ID-200.jpg" alt="Indonesia 2014"></a>
+<a href="https://woodegg.com/jp" title="Japan 2014"><img src="https://woodegg.com/images/we14/we14cover-JP-200.jpg" alt="Japan 2014"></a>
+<a href="https://woodegg.com/kr" title="Korea 2014"><img src="https://woodegg.com/images/we14/we14cover-KR-200.jpg" alt="Korea 2014"></a>
+<a href="https://woodegg.com/my" title="Malaysia 2014"><img src="https://woodegg.com/images/we14/we14cover-MY-200.jpg" alt="Malaysia 2014"></a>
+<a href="https://woodegg.com/mn" title="Mongolia 2014"><img src="https://woodegg.com/images/we14/we14cover-MN-200.jpg" alt="Mongolia 2014"></a>
+<a href="https://woodegg.com/mm" title="Myanmar 2014"><img src="https://woodegg.com/images/we14/we14cover-MM-200.jpg" alt="Myanmar 2014"></a>
+<a href="https://woodegg.com/ph" title="Philippines 2014"><img src="https://woodegg.com/images/we14/we14cover-PH-200.jpg" alt="Philippines 2014"></a>
+<a href="https://woodegg.com/sg" title="Singapore 2014"><img src="https://woodegg.com/images/we14/we14cover-SG-200.jpg" alt="Singapore 2014"></a>
+<a href="https://woodegg.com/lk" title="Sri Lanka 2014"><img src="https://woodegg.com/images/we14/we14cover-LK-200.jpg" alt="Sri Lanka 2014"></a>
+<a href="https://woodegg.com/tw" title="Taiwan 2014"><img src="https://woodegg.com/images/we14/we14cover-TW-200.jpg" alt="Taiwan 2014"></a>
+<a href="https://woodegg.com/th" title="Thailand 2014"><img src="https://woodegg.com/images/we14/we14cover-TH-200.jpg" alt="Thailand 2014"></a>
+<a href="https://woodegg.com/vn" title="Vietnam 2014"><img src="https://woodegg.com/images/we14/we14cover-VN-200.jpg" alt="Vietnam 2014"></a>
+<a href="https://woodegg.com/aa" title="Asia 2014"><img src="https://woodegg.com/images/we14/we14cover-AA-200.jpg" alt="Asia 2014"></a>
+
+
+<footer>
+© 2014 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/we14" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/jp14" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

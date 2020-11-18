@@ -1,0 +1,8 @@
+<h1><%= @pagetitle %></h1>
+<dl>
+<% @answers.each do |a| %>
+	<% warn = (a.payable === false) ? '<div class="alert alert-error">Needs better answer. Please update.</div>' : '' %>
+	<dt><a href="/qa/answer/<%= a.id %>"><%= a.question.question %></a></dt>
+	<dd><%= warn %><%= (h a.answer).gsub("\n", '<br />') %></dd>
+<% end %>
+</dl>

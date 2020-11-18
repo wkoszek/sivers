@@ -1,0 +1,22 @@
+<h1><%= @cname %> Question:</h1>
+<p>Topic: <%= @subtopic.subtopic %></p>
+<h2><%= @question.question %></h2>
+
+<form class="well" action="/qa/answer/<%= @answer.id %>" method="post">
+	<% if @answer.payable === false %>
+	<div class="alert alert-error">Needs better answer. Please update.</div>
+	<% end %>
+	<label for="answer">Answer:</label>
+	<textarea name="answer" id="answer" cols="100" rows="10"><%= @answer.answer %></textarea>
+	<br />
+	<label for="sources">Sources: &nbsp; (where you got the info for your answer)</label>
+	<textarea name="sources" id="sources" cols="100" rows="2"><%= @answer.sources %></textarea>
+	<br />
+<% if @answer.finished? %>
+	<input type="submit" class="btn btn-primary" name="submit" value="UPDATE" />
+<% else %>
+	<input type="submit" class="btn btn-primary" name="submit" value="SAVE" />
+	<input type="submit" class="btn btn-primary" name="submit" value="FINISH" />
+<% end %>
+
+</form>

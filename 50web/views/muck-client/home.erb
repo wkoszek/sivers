@@ -1,0 +1,23 @@
+<section id="home">
+
+<h1>Projects</h1>
+
+<h2>Create a new project:</h2>
+<form action="/projects" method="post">
+	<label for="project_title">project title:</label>
+	<input id="project_title" name="title" value="" placeholder="title">
+	<label for="project_description">project description:</label>
+	<textarea name="description" placeholder="description"></textarea>
+	<br><input type="submit" value="create">
+</form>
+
+<% if @projects.size > 0 %>
+	<h2>Created projects:</h2>
+	<ul>
+	<% @projects.each do |project| %>
+		<li><a href="/project/<%= project[:id] %>"><%=h project[:title] %></a> (<%= project[:progress] %>)</li>
+	<% end %>
+	</ul>
+<% end %>
+
+</section>

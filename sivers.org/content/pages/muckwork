@@ -1,0 +1,35 @@
+<!-- Muckwork -->
+
+<h1><a href="/projects">Projects</a> → Muckwork</h1>
+
+<p>
+Management of remote assistants doing clients’ dirty work.
+</p>
+
+<h3>status: basics built, but need to hire</h3>
+
+<h2>definitions / how it works</h2>
+<p>
+A <strong>client</strong> submits a <strong>project</strong> - something they need done.  They have already made a <strong>payment</strong> so their account has a positive balance.
+</p><p>
+A <strong>manager</strong> breaks it into a TO-DO list: each step called a <strong>task</strong>.  If it's a common project, the manager will pull up a <strong>template</strong> and copy each <strong>template_task</strong> into that project's tasks.
+</p><p>
+The manager shows the tasks and estimated cost to the client for approval.  The client's balance needs to be enough to cover the project before we begin.
+</p><p>
+A <strong>worker</strong>, a person paid for their time, is alerted when there are unassigned tasks to do.  They claim the task if they want, then have to start or finish the task soon, or else the task is unassigned and put back into the pool so that other workers can be alerted.
+</p><p>
+As the worker marks a task as finished, the total number of time spent on that task is multiplied by the worker's rate to create a <strong>charge</strong>, which is subtracted from the client's balance, and a <strong>worker_charge</strong>.  These are separate because sometimes the client will be charged a flate rate for a task, and not billed by the second, but the worker still needs to get paid for their time.
+</p><p>
+When Muckwork pays the worker, we log a <strong>worker_payment</strong>, and the corresponding worker_charges are updated with its worker_payment.id, to mark those worker_charges as paid.
+</p>
+
+<h2>sites</h2>
+<ol><li>
+<strong>muckwork.com</strong> = public static site describing the service, with links to sign up or log in
+</li><li>
+<strong>clients’ login</strong> = sign up, create a new project, see project status, communicate about the tasks, make payment, see payments
+</li><li>
+<strong>workers’ login</strong> = apply to be a worker, see available tasks, claim a task, start a task, communicate about it, complete a task, get payments, see payments
+</li><li>
+<strong>manager’s login</strong> = overview of everything and management of all data
+</li></ol>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lass="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Entrepreneur’s Guides to Asia | Wood Egg</title>
+<meta name="description" content="Entrepreneur's Guides to Asia: Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="keywords" content="Entrepeneur, Guide, Book, Asia, Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="author" content="Wood Egg LLC"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/2014.css" type="text/css" media="screen" />
+<script src="/components/modernizr/modernizr.js"></script>
+</head>
+<body id="homepage">
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name"><h1><a href="/" title="Wood Egg Entrepreneur’s Guides to Asia" class="coname">Wood Egg</a></h1></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>MENU</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li><a href="https://woodegg.com/a/signup">Register Your Book</a></li>
+      <li><a href="/contact" title="Contact Wood Egg">Contact</a></li>
+    </ul>
+  </section>
+</nav>
+
+<section id="pagehead">
+  <h1>Entrepreneur’s Guides to Asia</h1>
+</section>
+
+<section id="subhead">
+  <h2>books on moving to and starting a business in…</h2>
+</section>
+
+<section id="content">
+  <ul id="countrylist" class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+    <li><a href="/kh"><img src="/images/we14/we14cover-KH-200.jpg"></a><br><a href="/kh">→ see Cambodia 2014 book</a></li>
+    <li><a href="/cn"><img src="/images/we14/we14cover-CN-200.jpg"></a><br><a href="/cn">→ see China 2014 book</a></li>
+    <li><a href="/hk"><img src="/images/we14/we14cover-HK-200.jpg"></a><br><a href="/hk">→ see Hong Kong 2014 book</a></li>
+    <li><a href="/in"><img src="/images/we14/we14cover-IN-200.jpg"></a><br><a href="/in">→ see India 2014 book</a></li>
+    <li><a href="/id"><img src="/images/we14/we14cover-ID-200.jpg"></a><br><a href="/id">→ see Indonesia 2014 book</a></li>
+    <li><a href="/jp"><img src="/images/we14/we14cover-JP-200.jpg"></a><br><a href="/jp">→ see Japan 2014 book</a></li>
+    <li><a href="/kr"><img src="/images/we14/we14cover-KR-200.jpg"></a><br><a href="/kr">→ see Korea 2014 book</a></li>
+    <li><a href="/my"><img src="/images/we14/we14cover-MY-200.jpg"></a><br><a href="/my">→ see Malaysia 2014 book</a></li>
+    <li><a href="/mn"><img src="/images/we14/we14cover-MN-200.jpg"></a><br><a href="/mn">→ see Mongolia 2014 book</a></li>
+    <li><a href="/mm"><img src="/images/we14/we14cover-MM-200.jpg"></a><br><a href="/mm">→ see Myanmar 2014 book</a></li>
+    <li><a href="/ph"><img src="/images/we14/we14cover-PH-200.jpg"></a><br><a href="/ph">→ see Philippines 2014 book</a></li>
+    <li><a href="/sg"><img src="/images/we14/we14cover-SG-200.jpg"></a><br><a href="/sg">→ see Singapore 2014 book</a></li>
+    <li><a href="/lk"><img src="/images/we14/we14cover-LK-200.jpg"></a><br><a href="/lk">→ see Sri Lanka 2014 book</a></li>
+    <li><a href="/tw"><img src="/images/we14/we14cover-TW-200.jpg"></a><br><a href="/tw">→ see Taiwan 2014 book</a></li>
+    <li><a href="/th"><img src="/images/we14/we14cover-TH-200.jpg"></a><br><a href="/th">→ see Thailand 2014 book</a></li>
+    <li><a href="/vn"><img src="/images/we14/we14cover-VN-200.jpg"></a><br><a href="/vn">→ see Vietnam 2014 book</a></li>
+  </ul>
+  <h2>… or the massive 4500 page book with all 16 countries:</h2>
+  <a href="/aa"><img src="/images/we14/we14cover-AA-200.jpg"></a><br><a href="/aa">→ see Asia 2014 book</a></li>
+</section>
+
+
+<script src="/components/jquery/jquery.js"></script>
+<script src="/components/foundation/js/vendor/fastclick.js"></script>
+<script src="/components/foundation/js/foundation.min.js"></script>
+<script src="/components/foundation/js/foundation.topbar.js"></script>
+<script> $(document).foundation(); </script>
+</body>
+</html>
+

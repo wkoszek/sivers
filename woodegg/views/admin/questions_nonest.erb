@@ -1,0 +1,7 @@
+<h1><%= @pagetitle %></h1>
+
+<ul>
+<% @questions.each do |q| %>
+	<li><a href="/question/<%= q.id %>"><%= q.question %></a></li>
+<% end %>
+</ul>

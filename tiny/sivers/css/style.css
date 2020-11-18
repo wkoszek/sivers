@@ -1,0 +1,90 @@
+html {
+	color: #000;
+	background-color: #dee8ea;
+	background-image: url(/css/bg_top_grey_blue_lines.jpg);
+	background-repeat: repeat-x;
+	font-family: verdana, sans-serif;
+}
+h1, h2, div#content {
+	font-family: "Century Schoolbook", Georgia, serif;
+}
+h2 {
+	margin: 0 0 10px 0;
+}
+div#content {
+	line-height: 1.6em;
+}
+div#nav h3 {
+	font-size: 1em;
+}
+div#nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+div#nav a:hover {
+	text-decoration: underline;
+}
+address {
+	font-style: normal;
+	font-size: 0.75em;
+}
+h1 {
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+h1 a {
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: normal;
+}
+h2, address {
+	color: #065;
+}
+table.spreadsheet {
+	font-family: verdana, sans-serif;
+	line-height: 1.1em;
+	background-color: #fff;
+	font-size: 0.8em;
+}
+table.spreadsheet th {
+	background-color: #ddd;
+}
+table.spreadsheet td {
+	padding: 4px;
+	border: 1px solid #900;
+}
+@media screen and (max-width: 650px) {
+	div#nav h3 {
+		display: none;
+	}
+}
+@media screen and (min-width: 650px) {
+	div#header {
+		height: 118px;
+		background-image: url(/css/logo.gif);
+		background-repeat: none;
+	}
+	div#header, div#footer, div#content {
+		padding-left: 180px;
+	}
+	div#nav {
+		width: 165px;
+		position: absolute;
+		font-size: 0.8em;
+	}
+	div#nav li {
+		margin-bottom: 1em;
+	}
+	div#nav a {
+		text-decoration: none;
+	}
+	div#content {
+		max-width: 40em;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	address div {
+		display: inline;
+	}
+}

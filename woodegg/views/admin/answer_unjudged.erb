@@ -1,0 +1,24 @@
+<p>By <a href="/researcher/<%= @researcher.id %>"><%=h @researcher.name %></a>
+Started: <%= @answer.started_at %> &nbsp; 
+Finished: <%= @answer.finished_at %> &nbsp;
+Remaining: <%= @unjudged_count %>
+</p>
+
+<form action="/answer/<%= @answer.id %>/judge" method="post"><input type="hidden" name="_method" value="put">
+	<input type="submit" name="payable" value="yes" class="success">
+	  &nbsp; 
+	<input type="submit" name="payable" value="no" class="alert">
+</form>
+
+<h3><%=h @question.question %> <span class="small">(<a href="/question/<%= @question.id %>">go</a>)</span></h3>
+
+<h4>Answer: <span class="small">(<a href="/answer/<%= @answer.id %>">edit</a>)</span></h4>
+<p>
+<%= @answer.answer.to_html %>
+</p>
+
+<h4>Sources:</h4>
+<p>
+<%= @answer.sources.to_html %>
+</p>
+

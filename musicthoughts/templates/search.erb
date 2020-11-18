@@ -1,0 +1,9 @@
+<h1><%= @t.search %></h1>
+
+<form action="https://www.google.com/search" method="get">
+<label for="q"><%= @t.search_intro %></label>
+<input type="text" id="q" name="q" value="" size="10">
+<input type="hidden" name="sitesearch" value="<%= @site2search %>">
+<input type="submit" name="search" class="button" value="<%= @t.search %>">
+</form>
+

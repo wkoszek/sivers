@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: TechZing podcast</title>
+<meta name="description" content="Derek Sivers: Talk with Justin Vincent and Jason Roberts about running CD Baby remotely, programming myself, stories, transparency, and minimalism.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: TechZing podcast">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2010-09-techzing">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Talk with Justin Vincent and Jason Roberts about running CD Baby remotely, programming myself, stories, transparency, and minimalism.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: TechZing podcast">
+<meta name="twitter:description" content="Talk with Justin Vincent and Jason Roberts about running CD Baby remotely, programming myself, stories, transparency, and minimalism.">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → TechZing podcast</h1>
+	<h4>Talk with Justin Vincent and Jason Roberts about running CD Baby remotely, programming myself, stories, transparency, and minimalism.</h4>
+	<p class="postdate">Date: 2010-09</p>
+	<h2>Download: <a href="https://sivers.org/file/2010-09-DerekSivers-TechZing.mp3">audio (mp3)</a></h2>
+	<p>Link: <a href="http://techzinglive.com/page/443/techzing-70-%E2%80%93-derek-sivers-the-sivers-effect">http://techzinglive.com/page/443/techzing-70-%E2%80%93-derek-sivers-the-sivers-effect</a></p>
+</header>
+<hr>
+
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Hi Derek, welcome to the show.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Hi, thanks Justin.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I know both Jason and me have a lot of questions for you. So Jason, how about you get started?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Well, the first post I ever read by Derek was about how he was trying to convert CD Baby from PHP to Rails.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I remember that post.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+That was the first time I came across him because I was, at the time, exploring Rails and PHP and other options. I read his articles with a lot of interest and that generate a lot of flaming and people got really upset especially in the Reaver community at the time. But I found it really interesting that somebody was trying Rails, giving up on going back to PHP. We can get to that later, but that was the very first thing I ever read by Derek, and I found it really interesting. Since then, and not long after that, you see a lot of his post show up on the anchor news on a very regular basis and they almost always would wind up on the front page. The point I think is that anytime someone would see a post from sivers.org, it was voted up. And I termed it the Sivers Effect, it was like, “Oh! Sivers! Boom. Up.” So you kinda came out of nowhere for the past year in terms of having a name among the tech world, and I wonder whether building a name for yourself was a specific goal or was it a side effect of something else.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Building a name wasn’t the goal. I did make this very conscious decision about a year ago, like, summer of 2009, that I was going to start sharing what I’ve learned. It was one of those moments where, it sounds kinda corny but, I was thinking about this death bed, you know, the kind of thoughts, and I’ve learned so much in all those years.
+</p><p>
+Sometimes I tell things to friends over dinner conversation and I realized that there were all these things that I’d learned the hard way that I’d never really written down, but you know, I should be sure on this stuff.
+</p><p>
+But before that, the reason that that was a conscious decision is because for the few years before that, I was very consciously being as invisible as I can be. I think when I was at CD Baby, it was really too much pressure for me. Everybody’s got their own little internal barometer, how much pressure is the right amount for them. For me, having eighty-five employees that were almost all directly reporting to me was not the life I liked. And two hundred fifty thousand musician clients that all kinda knew my name as the CD Baby guy and 2.5 million customers that bought music from me, I just felt a little too public. I was always scared to do any of those location-based stuff, I didn’t ever wanna let anybody know where I was because if I said something like, “Hey, I’m in London!” then all of a sudden, I’d get a hundred emails from people that wanted me to come to their gigs.
+</p><p>
+Previously, I was very consciously invisible; I never wanted anybody to know where I was, I didn’t wanna share my thought because I didn’t wanna have to defend them.
+</p><p>
+Then just like summer of 2009, I thought, “Alright, but you know what? I’ve gotta just share all this stuff I’ve learned, even just for no career reason, no benefit to me.” There are no ads on my site, I don’t need the, you know… Any other site benefits from this, I just feel like it’s the right thing to do to share what I’ve learned so that’s where I seem to kind of come out of nowhere all of a sudden. I just decided to stop being secret.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And Jason, also I think Derek decided to share this stuff but he comes from a position of a lot of success and a lot of experience. So really, it’s just because he’s remarkable and interesting. That’s the reason how the stuff that he’s shared has gone so high with votes.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I’m quite cynical about the attention I get for the stuff I write, because there is this funny aspect that if I was just a guy with an opinion that hadn’t started CD Baby, nobody would listen to me, but the fact that’s like, “Ooh, well, here’s this little article about Rails written by a guy who sold his company.” So all of a sudden, it has more validity somehow which I roll my eyes at it a bit. I don’t take it personally at all.
+</p><p>
+I think that’s the lesson I learned years ago back in 2003 or so, there’s this journalist that launched a really harsh and very personal attack against me because he really wanted me to hire him as a consultant for the company and I just kept refusing him, and finally he just straight up blackmailed me and said, “Look, either you hire me or I’ll call you a scammer.” I said, “Alright, have at it, have fun.” He launched this very kind of like personal attack on me and an ongoing series for years because of all these articles.
+</p><p>
+And part of not taking online criticism too personally -- I don’t know if you guys have heard this word -- “If you read enough negative comments of something you do at a certain point, you just gotta disconnect and realize like, ‘You know what, they don’t know me’.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Oh we definitely have and it’s something that we’ve discussed on our discussion shows a number of times.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+But it’s kinda fun, isn’t it? Anyway, you just realize like, “You know what? They don’t know me.” But then if you’re going to disconnect, you have to disconnect to the praise too. If somebody says really nice things about you online, you also still have to say, “Well, they don’t know me.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You just have to have a thick skin and it essentially goes with the territory of being a public figure -- a web-famous figure.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Not that we’re web-famous. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Sure you are, you’re TechZing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+The one thing that I think might help a little help for us now is we’re so small that the people who would be listening to us feel a little more connected to us. And I think it probably helps if people hear our voices as opposed to just read our words, and that allows people to connect with us more as human beings as opposed to just some guy with an opinion, because you know how easy it is to read a piece of some blog post and get really irritated by it. And if you actually heard a person who you kind of had gotten to know a little bit and if you disagree with him like, “Ah, I don’t know if I agree with that,” whatever, I think that factors in anyway.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, definitely.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+So anyway, I’m curious. When you make a jump from a music world -- you’re obviously well-known in the independent music world and people buying music -- but you made the move to the tech world and writing, I was wondering how much your email was played into it because you mentioned you created email list first and why you thought of doing that instead of doing the standard blog thing.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+It was an after-thought. I had been posting some articles on my site for a while and I post something and it would have 12 comments or something. But then when I look at these emails from musicians from example saying, “Hey man, what’s going on? What’s new with you? Have you started your new company yet? I haven’t heard a thing from you.” And I realized from my ten years of CD Baby, I would send all of my clients an email every month or two with the new opportunities I have found or something I thought might help -- not articles, but usually more like very specific things like, “Hey there’s this movie that’s looking for music,” or “we just worked out a special deal with this company so all CD Baby members get a free sign-up instead of the usual $50.”
+</p><p>
+So I’ll be emailing my musicians with things like that constantly for 10 years, but then when I sold CD Baby, from their point of view, all of a sudden I went silent. So I started to get these emails from people saying, “Hey man, I haven’t heard from you. What’s going on?” I said, “If you look at my site, I had been posting things there.”
+</p><p>
+But you realize people have better things to do than to check my URL to see what’s new and not a lot of people are into RSS or Twitter or anything like that. So there’s a huge amount of people that really assume that you have nothing going on unless you email them and tell them you have something going on.
+</p><p>
+So I bit the bullet one day and I said, “Okay, this feels a little weird but here I go.” And I sent an email to everybody in my database saying, “If you want to hear what’s going on with me and have me email you when some things are added to my site, click here. If you only want to hear from me every few months, click here. Or if you never want to hear from it again, click here.” And I just set up a little thing on my site with those three options; everything, something or nothing were the three options. I forget what it is, something like, “25,000 people clicked saying they wanted to know everything I post. 50,000 said they wanted to hear now and then,” and luckily only about 4,000 said nothing, the rest didn’t click.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+How long after you posted on sivers.org did you start the email list itself?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+In a big picture almost in a way, I think it was only a couple months that I was posting stuff on my site but without emailing anyone to let them know so it’s just a few months later that I realized that. And part of it is, every community has its own culture so to give a little context -- CD Baby, because it was an online CD store, I mean later we had a digital distribution but I started the site at the end of 1997, mp3 has hardly existed yet except in a Fraunhofer lab somewhere.
+</p><p>
+And so I always kind of had the tech-laggard crowd; you know what I mean? Like, these people whose main career focus was selling and shipping plastic discs, while other musicians, as soon as mp3 came out, kind of proudly declared that they would never ever make a CD again and they use sites like mp3.com. CD Baby appealed more to the people that were folk musicians, gospel musicians and any kind of musicians that were still making a living selling physical CD. So they’ve often, by definition, slightly older and kind of not glued to their computers. So I think maybe email was a good choice for my community but might not work for others.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Did you start sivers.org right after you sold CD Baby? ‘Cause I think looking at the chronology that you describe in your website and couple of different places, you sold CD Baby around 2008.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And was it not long after that that you started posting regularly at sivers.org?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] It was a little before actually. There was a very awkward lag time where it was January 2008 where I had an agreed-upon price with the company that bought CD Baby, and it’s pretty much a done deal but then they said, “We’d need a few months of the bankers and the paper work to do their thing,” ‘cause they needed to raise funding to buy CD Baby. So there was this eight months between January and August when the sale was basically done but I just have to keep my mouth shut and wait for the official announcement which didn’t happen until August. So it was during that time that I realized that I have to step up and be a little more personally public, unless I want all my ex-clients to forget who I was. So I started this slowly during those eight months.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Hey Derek, you talked about the pressure of having the eighty-five employees and selling millions of music to independent people who are interested in buying the music, and then you sold CD Baby and moved away from that. I’m wondering if although that wasn’t necessarily the life you wanted, was it a little bit like going away from crack cocaine? Was there some kind of withdrawal symptoms from moving out of that scenario to bring, I guess, your own life back?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+No, no. I think, again, that little barometer metaphor I used, everybody has their own place where they’re happy. Some people make millions, and then billions, and then they keep going; I can’t imagine that. To me, I’m really at my happiest sitting alone reading, writing, programming, and learning. I got married about six months ago and after getting married, my wife said, “You know, I think you’re a lot less social than even you realized.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] So I’m really just kinda happiest in solitude which is funny ‘cause I think about that for future things because intellectually, there’s lots of business ideas that I want to put into practice and try in the businesses that I wanted to start. But I notice about myself that I really prefer to sit and work alone. So it’s gonna be interesting to kind of try to find that balance and do this kind of online-only company that maybe has no employees or definitely has no office.  And it’s gonna be interesting to set up my new companies knowing what I know about myself now because that’s why I was profusely unhappy my last few years at CD Baby is because of all the pressure of having eighty-five people’s lives who I was responsible for; I didn’t like that. I’m happy to let go of that crack pipe.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Running CD Baby I think around 2002, you kind of decide to start working remotely from the company. And it was six years -- I think it was 2008-2008 -- you were sort of just traveling around with your laptop and you weren’t really on site, but yet I guess the company grew considerably during that time and as you said, it got up to eighty-five employees. What was it like to run the company and just not to be on-site most of time?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I’m still fully responsible so even though I wasn’t there, my phone would ring every now and then, and I was still kind of the guy who was still finally responsible if everything is working well and everybody’s paid, that kind of stuff. It’s just that I was just remote, like Charlie’s Angels.
+</p><p>
+There’s a beautiful phrase -- there’s this awful book called Rich Dad Poor Dad by Robert Kiyosaki which is a terrible writer and it’s a terrible book; it almost seem generated by some kind of monkey random algorithm, but it’s almost a content-free book and it had a one brilliant bit in it that I just love where he’s talking about the difference between being an employee, being self-employed, and being a business owner. He said, “A lot of people go from being an employee to, say, ‘Hey I want freedom and I don’t have to report to the man,” so they become self-employed. They think they’re a business owner but they’re self-employed, which means they still have a job but now they are their own boss but that means the boss is always with them. Instead a business owner is when you can leave your company for a year, and come back and it’s doing better than when you left; that’s when you’re a true business owner. That’s true freedom because until then, if you stop working, you stop getting paid. A business owner is somebody who’s really just kind of invested in the business but not required to run it. I remember it was around 2001 when I read that and I went, “Ooh, yeah. That’s what I need.” [laughs]
+</p><p>
+So I really started putting decisions into practice to make sure I was never necessary to the day-to-day running of the company. That lasted for about four years; there was a time around mid-2006 where I got very set back in. A couple key-crucial people of the company messed up pretty bad and the operations of the company got really corrupted. I went back to Portland and actually then, for the next year and a half, lived at the office literally. My apartment was under construction at the time so I lived on the couch in the warehouse. That remote thing worked for about four years and then it was about a year of me living at the office, sleeping on the couch. And then that’s when I disappeared in 2007 and got ready to sell it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+One of the things that I see happening with a lot of companies is that what happens on the top is what happens lower down. The microcosm is the microcosm. So you’ll have a CEO in place and that CEO is maybe stingy and difficult, and the rest of the company kinda mirrors that. What I found strange about your story is that you’re essentially remote but you still managed to impart something to the rest of the company and make it all work; how did that happen?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, okay. You’re the first person who ever noticed that. It’s because there were these key years between 1998 when I hired my first employee in 2002, I was very deeply hands-on. Those people that I hired in those four years totally got it, like, those guys really had the DNA of the whole company memorized. First, there’s this guy John; he was the first guy I hired. It was just me and him for a whole year. We hired Ben, and then John and Ben knew everything about the company. And then Daniel, and then Corina, and then, you know… It’s like the first four-five, even first ten people really understood every aspect of the company and totally got it; and from that point on, they did all the hiring, I never did hiring after that.
+</p><p>
+All the employees just get the hiring themselves, so if we needed more help in the warehouse, we told the guys in the warehouse to refer someone that if they have friends, tell them we’re hiring. And everybody always has somebody looking for job so then they would bring in their friends and they would really kind of communicate the company culture down.
+</p><p>
+So, yeah, there were absolutely some very core philosophies that were uniquely my approach. But I said, “No everybody, this is our company culture.” For example, anytime you have the chance to do something formal or informal, then informal is always the answer. For example, the decision-making process for what to do with any kind of customer problem, is to just always do what’s best for the customer; don’t worry about the company. We’re doing fine. For example, if somebody needs an absolute full refund and they even said they didn’t get the first full refund, just refund them again, like, “Don’t worry about it, we’re doing fine.” Always choose the friendly thing. Always sit and talk on the phone with anybody that seems to need to talk, things like that.
+</p><p>
+So it’s like, I kind of taught John that in my first year, John taught Ben that, Ben taught other people that, and it just passes itself down so by 2002, they got it. Everybody that was working there totally had the company culture. They didn’t need me anymore but yeah, Justin, you nailed it; part of the problem was, by 2006, those kind of old-timers in the company, their voice had gotten a little dissolved, you know, like in game of telephone, where a message gets a little distorted with each retelling.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Yeah, the Chinese whispers.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+But 2007, the company culture had gotten really corrupt. So they found people doing horrible things and even hiring new employees, teaching them these horrible things and telling them, “This is the way we do things.” So I was like, “Oh my god, no-no-no.” And it had gotten so corrupt that, um… I don’t know, I’m not actually—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+That’s almost like if you see your kids doing something that you don’t approve of, you’re like, “Whoah-whoah-whoah, how did that happen?”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah!
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+My question is: what kind of people were you looking to hire? It sounds like you hired some really high-quality people your first group. But then I was diluted; I mean, were you looking for a certain type of person beyond, say, a specific skill set that they needed to do the job?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+No, it wasn’t even a skillset. I mean, think of how informal this is: it’s a record store, you know, if you’ve ever seen the movie High Fidelity, right?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+That’s what I was thinking. Yes, people are like Jack Black.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+And that little meek guy, I swear to you, two of my first employees are pretty much like those two guys. And that really is the company culture inside the shop, I was that guy Rob Gordon and then Jack Black, and especially that meek other guy; that’s really what the company is like. So honestly, hiring was no more than, “Hey, do you know anybody that’s available? Tell them to start working tomorrow,” and that was it. I wouldn’t even interview people, it’s just whoever was around.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It sounded like they turned out to be good employees, I mean were they trying to just be good people and they were able to learn along the way?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I think having the right culture set the tone for everything. For example, there’s this amazing woman, Stacy, who was working for about a hundred grand a year at Intel and quit her job to come work for thirty thousand a year for me just because she loved the company culture that much. She wanted to make this life change where it wasn’t about the money but about being happy and working with people you like and having that freedom so that if you need to, like, “Hey, my friend is sick, I won’t be in next week,” and it’s like, “No problem, take care of your friend.” I think once you set that tone, then you kind of bring out the best in people. When people are around other people who were doing the right thing for the right reasons, it brings out the best in them as well. And then when they communicate that to new people to come in, somebody would really have to be a pretty corrupt motherfucker that not fall into that; so we have some bad eggs in there and we fire them, and luckily Oregon is one of those states that I think the law is something like “at will.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+“At will,” yeah, “at will.”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+So it was really easy to fire people so if somebody wasn’t working out, it was just instant kind of a, “Na-na-na-na, get out,” [laughs] “you don’t fit here.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+The one thing is it’s very much about the business that you were in. Because let’s say you were starting a company, which I’m sure you wouldn’t, but let say you were starting a company like Mint.com or Ingeniero, like company that’s dealing with processing with financial statements or something like that, you wouldn’t be able to create that same kind of culture, right?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+You’re right. I mean, it’s a record store. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You know, let’s switch directions a little a bit. One thing I want to ask Derek about was how he balanced his music and entrepreneurship because obviously music has been a primary pursuit in his life and he seemed to be really focused on entrepreneurship at the same time. How did you balance those two pursuits? Because they can be all consuming for people, it seems like it’s hard to switch from one to the other; musician, the weight on building a business, the weight of a musician, I mean, how do you do that?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I don’t. I think from the age of fourteen until twenty-nine, really, every waking thought was music. So every time I had an idea, it was a musical idea. Every time I wanted to do an experiment, it was a musical experiment. We all have active brains that wanna do things and we all have our various outlets. So for some people, it’s photography; for some people it’s programming, whatever. So really, from the age of fourteen to twenty-nine, mine was just music; that was my soul outlet for all of my thoughts. Then at twenty-nine I started CD Baby which is just an accident, I mean just creating a little website to sell my CD but then some of my friends asked if they could use the thing I had built for me and so I said, “Sure, yeah I guess.”
+</p><p>
+I didn’t mean to start a company so once I realized I had accidentally started a company, once the twentieth person is calling me asking me to sell their CD, “Oh my god, this is ridiculous. I think I accidentally started something here.” I swear, something in my head clicked and I think it was just because I had hit a really frustrating point in my own musical career when I’d accidentally slept with my singer and that was unwise. [laughs] The band was kinda breaking up -- it was worth it though -- and I had been on the road, touring, for twelve years straight and I was just ready for change.
+</p><p>
+And so all of a sudden, when I realized I had started CD Baby, I just threw myself into it entirely and because I couldn’t afford to hire a programmer, I sat down to learn programming myself. I bought a twenty-dollar book on PHP and MySQL and just figured it out. And it was fascinating, I just loved it! I just loved this kind of change of pace and I love to not constantly in the van and lugging my amps onto a stage. I just loved sitting there thinking and creating. It seemed almost more purely creative than what I had been doing in my years of touring.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Mm-hm.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+So really, something in my head switched and that became my new creative outlet and is still. All my ideas now are often kind of tech-entrepreneurial ideas. I’ve sat down to try to write a song a few times but then I realized, “You know what, this just isn’t my unique contribution to the world anymore.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Something that happened to me as well because I used to be a musician and I really was like you. I really wanted to try and be a successful famous musician.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Mm-hm.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I had that similar experience of thinking about music and songwriting and how to do that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Justin, you toured for what, ten years or something?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+We basically put five years of kinda hardcore trying-to-get-it trying to make it work with my Arch Band money-penny.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Ah, okay.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+One thing that I noticed was that I’d always do programming as a sideline just because I had naturally done it. One thing that I noticed was how much easier it was to program and code and think of business and do all the business aspects of the band, but it was to write songs and sing.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Oh, yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And it just kinda made me think, what’s easy for me to do is what I should follow. I wondered whether something like that had happened to you. Did you find it was easier to do CD Baby and encode than it was doing music?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+No, honestly I can totally relate to what you’re saying except for that one about easy versus difficult. I think I’m always looking for what’s difficult and doing music had become too easy. It’s like I’m in this routine where I was gigging three hundred days a year, every single day is just getting inside the van off to the next gig, lug my stuff onstage and get up there like a little dancing monkey and do my thing, get back to the van and do it again, maybe write and record a new song in between all that mess; it just became this brainless routine.
+</p><p>
+Talking music for a minute, I’ve always admired the record producer. Think about Brian Eno and U2 as example, U2 goes into the studio with Brian Eno and it’s this world of creativity, especially if you think about Achtung Baby or something like that, were really innovative. And a lot of that is thanks to Brian Eno and his wonderful conceptual ideas and experimental approach to everything. And then when the records done, U2 kind of has to go get into a monkey suit and tour the world for two years, getting onstage doing the same thing every night. Brian just dives into the next album with whoever his next client is and gets to stay in that purely creative mode. So I think I always felt that that’s a career I would probably still be doing if CD Baby hadn’t started.
+</p><p>
+I think I really just like to stay in that full creative flow and I was never really that kind of heathenish party type that enjoyed just touring the world and getting onstage. To me, as soon as I started diving into CD Baby, it was like finally this half of my brain that had been asleep for many years is -- this really tough problem solving -- trying to figure out how to make my Linux server do this and that; I loved it! It was so nice to wake up that side of my brain again so I think I was looking for a bigger challenge.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I see.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+One thing that’s interesting about that comparison: writing code and building a business around the code, versus creating a music then building a career as a musician; is that if you’re writing code, sometimes a lot of the business stuff means you’re just kind of start sending out emails and making phone calls, you’re still sitting there at your desk.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Hah-hah!
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Not just to complain how hard it is to switch from writing code to doing the business stuff, it’s infinitely easier I imagine to like, “Okay, now we go on tour.” Like you said, doing creative stuff while you’re on tour is probably very difficult. I imagine you’re writing songs and stuff on the road, but I imagine it’s hard to balance those things.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+You just made a beautiful comparison, Jason, with the business aspect of things. Sitting on desk making phone calls is really, to me, the parallel of everything I said about having to go on tour.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+The monkey stage.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yes! That’s sitting on the desk making stupid phone calls and all that, doing the business network, going to conference and saying, “Oh, nice to meet you. Maybe we could talk about some kind of deal we can do later.” That feels like the boring, uncreative, unchallenging, going-on-tour side, which is why I rejected it. At CD Baby, even though we have eighty-five employees, I was the sole programmer. I just insisted on doing all that myself and when people ask why I don’t hire somebody to do it, I say, “That would be like the songwriter of a band hiring somebody else to do the songwriting” -- that’s the creative part, the creation of the program.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Yeah, like why would they get to have all the fun?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah!
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Like, I wanna have the fun!
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Programming is the creation. I almost feel like I’d walk into this giant warehouse and I look at all this and think, “All this stuff exist because of a program I wrote, that’s so cool!”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I wanna focus on the program; everything else is supporting that, not vice versa.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+There’s just so much leverage in a code. Like you said, you write some lines of code and you literally sit at a computer just typing some keys, thinking some interesting thoughts, you create something and all this stuff springs forth from that. And there’s an incredible amount of power in that, actually.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And you’re creating something out of nothing in a way that’s not possible in any other way of life, I guess except from writing.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Even music doesn’t offer the same level of creating something out of nothing.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah. Although just looking at that idea of the songwriting, sometimes you could look at the entire music industry and think, “Alright, all of these would be nothing without those hit songs.” This is all built on that song, it’s amazing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Speaking of creating something out of nothing, this is kind of a fun question to ask. I’ve talked about having to start a blog or something because I don’t have anything up and Justin and I joked about this because I said that I don’t wanna use WordPress and I’m just gonna make a straight HTML or whatever ‘cause I just want it really simple. I used sivers.org as an example, I said, “Derek Sivers has a very widely-read blog. He writes a lot of great stuff. He’s clearly not using WordPress or any blog engine. It’s not hurting him, he doesn’t have tag clouds and all these crazy b.s.”—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I bet you any money, it’s not built out of HTML the same way that you want yours.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Let Derek answer.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Okay. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs] Derek, answer the question. I’m not saying that it has to be pure HTML, I mean it could be one or two PHP scripts, but it could be something minimal. You don’t have to be this big, hulking, honking blog engine just to post some articles on the web. So Derek, with that, [laughs] what’s your infrastructure and engine for running sivers.org?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Okay, well believe it or not, I was using WordPress at first and in fact it looked exactly the same way it looks now. Think for years I had always done that -- what do those BB forums called… remember that—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+BB forums, it’s like the PHP forums or something.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah. Even when with the host picking my webhosting company when we decided we needed a forum software, I just went for the BB forum stuff that everybody used but the first I do is I just stripped out almost everything. All those stupid little buttons and smileys, follow this and number of posts, I just stripped all those out. Jason, it sounds like you’ve got this similar thing where you have that minimalist approach where you don’t want the crap that’s not necessary; I did the same thing when I set up sivers.org, I set it up as WordPress and I just stripped out everything.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Is it still WordPress now?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+It was up until about a year ago. It looked exactly the same, I didn’t change anything on the visual side, but I wanted to go multi-lingual. I had a translation thing set up where I was hiring translators to translate my articles and I wanted the blog to have multi-lingual -- I kind of had my way I want it to be where for example, there are three ways you could change language on the side if your browser is set to Chinese by default, then it would just show you the Chinese version first. If you had a cookie where you had already set a cookie where you threw a little form on my site saying what language you wanted, it would show you that language. You could still even add something to the end of the URL like “?Language=Fr” and it would be in French. And then last situation, it would default to English. So that’s the way I wanted to do it and I looked into WordPress’ multi-lingual options and it’s just like a bloated mess that some people had created some kind of plugin but I didn’t really like their solution and I knew it could be so simple. In my database of posts, all I had have to do is just add one little field that says, “Language” -- just a two-character field with a two-character language code and that’s it. So if somebody pulls up Sivers.org/real for example, the database would say, “Select from post where URI=real and lang=en or lang=de,” and it should just pull up and that’s all I wanted it to do. It seems so simple but I couldn’t find anybody else who would have done that. So here I was looking at spending a week to kind of forcing WordPress to do things the way I wanted it, now I just look at those twenty-five different database tables inside WordPress and said, “I don’t need any of these, I just need two. I just need posts and comments and that’s it. What is all this crap?” [laughs]
+</p><p>
+So I realized it would be much easier to open up a text file from Start and create posts.php, comments.php, just kinda set it up in almost Rails style and just set up a simple MVC and just create it from scratch.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+This has been an ongoing argument between me and Jason for quite a few episodes and the interesting thing is—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And you lose, by the way.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+No, you completely lose based on Derek’s original answer which is the simple fact that -- Jason thinks that ultimately, to get a blog up and running, it would be faster to create the entire thing out of HTML than it would be to install WordPress and make a post, and that’s been his argument the whole way long. He doesn’t wanna learn WordPress, he’s not interested in installing it and all that stuff.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I don’t wanna learn all that crap. Listen—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs] Derek started with WordPress and I could bet you, it was extremely easy to start with WordPress. Easier than creating a completely, you know—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Okay-okay-okay.  I know there are some people who listen to this argument who are like, “Oh my god, we’re listening to this again.” But let me say this: I built a complete functioning sophisticated blog engine that had tags, comments, posts and drafts, all the stuff in PHP; I know exactly what it takes. Actually, I don’t even need a lot of those stuff ‘cause I don’t care about it anymore, so I can even strip out a couple just to minimize the functionality. But the reality is, what do you need for a blog? Because if I’m doing something very simple, which Derek is doing, which I like; which is when you have some post, I might have some comments -- I don’t need things ordered by dates, I don’t need any of that stuff -- then the only component other than include-header, include-footer thing for a basic PHP file, is the comments which of course you can use to discuss or backup other things, in which case you need a Javascript, and you’re done. So—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Derek, why did you stop with WordPress rather than writing your own?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Actually the reason is that I just wanted to get it up, like I just wanted to slap something up quickly. I think I set up sivers.org while I was still at CD Baby and I just wanted to get something up there where I could just post. And honestly, I just kept hearing about people loving and using WordPress so I wanted to check it out. And it was fine, I used it for nine-ten months, it was okay.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+How long did it take to re-skin it to look like you wanted it where it was just so simple and you got rid of everything?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Skinning it, I think it only took me an afternoon of browsing around a bunch of WordPress things until I found one that was called something like Milk Minimalist or Milky Whiter, something like that. I just found the theme and I was like, “Ah, there we go.” It has nothing on it, I like that. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+And so I used that theme and went it and hacked into that and just made it the way I wanted it. It was still kind of a hybrid, I had some static pages and then I was still even inside WordPress doing some PHP coding. From my mailing list for example, I wanted people to be able to click from my email list and sign up to one of three different variations. So even then, I was doing some awkward things like name my cookies -- I was setting it to be the exact same name WordPress was setting it. If somebody told me their name and email address when signing up for my email list, it would still remember that with the cookie when they leave a comment to one of my posts, and vice versa. So I was doing some hacking things to work with WordPress but it was alright, it wasn’t that bad. The multi-lingual thing is the only place where I just said, “Okay, it can’t work with me anymore.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+What do you use for comments? Because I imagine you have to deal with comments spam, that could be real pain.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Dude! Akismet is what it’s called I think.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Akismet, right. The WordPress—
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Oh, it is amazing. So guys, I use a little code kind of thing  that’s just a single database table called Comments and when anybody types a comment, it quickly does a little web service thing over to Akismet and if it comes back marked as spam, I just send them to a page where it says, “Sorry, for some reason, your comment was spam. If you think this is wrong, please click Contact at the top of the page and email me directly.” As long as it doesn’t come back as spam from Akismet, it will just post directly to my page and that’s it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You also talk about your email list. You wrote about a blog or article about how you send your emails and you said you just set up a simple PHP script that basically read like a CSP file or something?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Or Excel -- you kept all your addresses in an Excel—
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Wait, hold on. Just to quickly interrupt, I’d made it that version for the sake of giving it a kind of like -- for dummy I suppose, but I just use a Postgres database for everything. I actually keep everything in a Postgres database so I just thought -- for the sake of explaining to others, I had so many people emailing me asking if they should spending fifty dollars a month for constant contact and I kept telling people, “No, it’s actually really easy. Just put your email address in Excel and you can access it like that, it’s just a ten-line script. That’s all there is to it.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Right. So here’s my question about that because I’ve done that in the past using PHP, mail function, and that works most cases, but there are cases where it gets picked up by spam filters. I read an article a few months back by Jeff Atwood that says there are four-five steps you need to take on your server so that it really increases the probability that your auto-sent emails aren’t marked as spam.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I thought the Sender Policy for him works stuff in that kind of thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I don’t remember, there’s like a lot of different thing -- you just need to configure the --  you got Certificate, you got Change Certificate, you got this and that. I think it helps the other email servers understand that this is actually the correct domain and there’s no spoofing going on or something like that. Otherwise, if you don’t do that, a percentage of your email would go to spam in which case you’ll be dealing with customer support about people saying, “Hey I signed up for an account and I never heard from you.” Have you looked into other servers like SendGrid or MailChimp or whatever?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I looked at those others but when I’m doing a lot of writing on my blog and, like I said, it’s like twenty-five thousand people that wanna get notified every time I write something and another fifty thousand that wanna get notified occasionally. Every time I start looking at those services that will send your email for you, it’s gonna cost me hundreds of dollars so I said, “Oh, screw it.” I remember an article called So You’d Like To Send Some Email from April 21st, and I just want a quick scan through here; for example, the reverse PTR record, here’s a fun little geeky thing: because I really wanted outgoing email to be sent as derek@sivers.org and I didn’t want it to be sent from www@server1.something, you know, I really want through and through, if you look at the mail headers that it’s derek@sivers.org so I actually ran my apache config file so it’s running user Derek in its own jailed instance just so every time I’m doing something through my site with the site sends out an email, it actually is through and through coming from derek@sivers.org on a server that is just sivers.org so things like that I think helped. I’m pretty serious about that stuff too, I wanna make sure that I get every bounce-back and clicked every link that comes back from those people using Spam Arrest or whatever.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Did you have to go through all those steps or was it straightforward to make sure there weren’t any bounce-backs?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+There are still a lot of bounce-backs. I still constantly get it every time I email something. There will be twenty or thirty people that either wants me to keep typing words into Spam Arrest or people who change their addresses. Sometimes, if it’s really worth it, I’ll pull up and see if I got URL file for them, click through to their site, find the Contact Me link and contact them at their new email address.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+How many addresses are on your email list now?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Oh, wow.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Twenty or thirty is a lot if you have three hundred but if you have fifty thousand—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It sounds like he has a couple of thousand.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, it’s a lot. I think I have two hundred thousand people in my database that have asked me to keep in touch.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+So about one percent bounce rate.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, it depends. Because those are people that have recently and actively come in to my site and said, “Yes, keep me in the loop.” So it’s different than any of, for example, when I first time emailed my ex-CD Baby employees that I haven’t spoken to in two years, then practically half of them were all dead addresses, so it depends.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I like the way Derek thinks because I guess it’s similar to me which is that he’s just trying to have fun and wants to understand how things work and keep things simple, and that’s what I like. If it’s not fun, I don’t wanna do it. I don’t care if it’s theoretically easy, I’m just not gonna do it.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+It sounds like you’ve got that same mindset where it’s like, “I would almost rather rewrite a blog from scratch just for the fun of doing it instead of just having one that works.” It’s two different approaches to things; there are some things that we just wanna have somebody to take care it and there are things we wanna dive into. What’s funny is knowing where you draw the lines. I’m selling my house right now back in California and I’m not, and I just asked a friend to do it, “Please sell my house and tell me when it’s done.” Other people would focus on that and get deeply involved into selling their house, that’s something I don’t care about because I’m busy hacking up some code that other people would rather hire somebody to do but that’s what I enjoy doing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Exactly, you just pick what you wanna do. For example, we use WordPress for our TechZing and we had the ugliest theme imaginable. Finally, Justin said, “Enough is enough, I’ll find a better theme,” and so he spent an hour or two with getting a theme that’s cleaner and simpler. So I said, “It’s great but the pages on the right should be part of the header,” and he’s like, “Aw man, that’s hard.”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I’m like, “Are you kidding me? That’s really hard?” I mean that’s exactly why I don’t wanna use WordPress ‘cause of something so stupid. I’m never using that, ever.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Okay, you win. We’re not allowed to talk about this anymore. Derek, I’m looking at my browser http://sivers.org/muckwork. Now that page is very interesting to me, if you could explain to me what’s going on there, that would be really, really cool.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Remember at the beginning of this phone call, you asked why I started becoming more public all of a sudden, I said, “The main reason was I wanted to share everything I learned just in case I’m hit by a bus tomorrow, whatever, it feels like it’s almost like my duty to share what I’ve learned.” So same thing when I thinking about hiring programmers for the first time, I thought maybe it would be a good experience to work with some outside programmers instead of trying to do everything with myself. I started to describe something I wanted done and I realized that I knew all the deep details -- in fact, I’m kind of thinking database schemas so I soon as I have a business idea, one of the first things I do is I open up SQL file by hand and I just start typing, you know, “CREATE TABLE persons_id,” and I just think in schemas. It helps me organize my thoughts and thinking what kind of data I need to keep. Each of these programs, I was thinking of outsourcing. I already have the database built and in fact, if you’re following the NPC patterns then I already know all the functions, models, and controllers. In fact, just by having this idea, I already know most of the details. I just haven’t typed it all out into a working code so I thought, “Let me just write down what I know already.”
+</p><p>
+There’s the common theme: if it’s something I know, let me just share it and write it down instead of keeping it in my head or in a little scratchy unorganized text files saved on my laptop, let me put in to something organized. The second half was realizing, “As long as I’ve organized it and shared my thought clearly on this, why not just make it public?” and that was an interesting that I haven’t really written about it but that decision not to be secretive about my ideas ‘cause you really had to think through rationally like, “Okay, what could really happen? I’m gonna post my ideas and somebody’s gonna steal it and make a company based on my ideas, runaway and it’s gonna be a huge success. You know what, good for them.” [laughs] With most of these thoughts, I care more that somebody do it even if that somebody isn’t me. I would like for this MuckWork to exist. I would like for this KarmaList to exist. If nobody else makes it, I’ll make it; if somebody beats me to it, good, you know, one less thing.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+So when your sivers.org/projects that you’ve got different sections, you’ve got schema, you’ve got REST API and then you got the database schema, can you explain the schema section to us? What that’s about and how it’s in paragraphs and why you got stuff bold?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Ah, sure. Okay, it actually starts at the very bottom of the page where there’s a very raw database schema so that’s really what came first, that’s kind of how I think. And then I put into Postgres, I play with it, I write some little test, I’m like, “Yeah, this is the database that would keep this business idea organized.” This business I have in mind would best run with this kind of database as described. So instead of just handing somebody a raw SQL file ‘cause not everybody think like that, let me in plain English describe what’s going on in that schema below and have a context for it. It’s often a program that asks a client what to do like, “Tell me what you’re looking at here; how does your company work?” and a client comes in and they send me the project. I guess it’s also getting used to the lingo, like, these are the words I’m using for things.
+</p><p>
+So a client comes in and they send me a project that needs to be done but first they have to make a payment so their account have has a positive balance so we can do the work. Now a manager is the person that takes a project and breaks it into to-do list which I will call Tasks. The bold printed things I described are the things that match up to the database names below but then that means their often going to be turned into models if you use the MVC style -- those are gonna be models soon no matter whether you do it on PHP. It’s just the way of organizing my thoughts in a way that I can show it to somebody, and in a minute, they can just read that and go, “Okay, I understand what you’re doing here.”
+</p><p>
+Then I created this section called Site because the public facing site is different than what’s going on behind the scene. So from the Site point of view, “How did it work when you come in to MuckWork.com? How’s it going to work?” It’s going to go like this: somebody walks into the front site, they do this, they click that and this is what happens. And then same thing with below that, there’s the REST API where I kind of knew the URLs and the REST functionality. I guess that’s it, sharing what was already in my head and trying to do it in an organized way and show it to somebody else.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+The reason why I brought it up is that I really like how it encapsulates an entire business both technically and also the kind of business goals as well in a really, really simple way.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+That’s why it’s nice where you have your own website where you can just put up stuff on the web. I noticed Derek has a section called Books where he encapsulates the summary of the books that he has read plus like a book report. It’s kind of a way to get your ideas out and talk about the importance of sharing. I also wonder if just by making the effort to take in a little bit of extra time to put something up, to create a webpage, and put an idea of something up there; what else that has done for you?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Oh, yeah. Well, it’s both. The latter thing you just said about just having it out there so that it’s nice to die that if I were to die tomorrow, somebody could read my brilliant ideas and go and make them happen posthumously.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Few people have written about this. I think part of that inspiration came from Paul Graham, the Y Combinator guy, he writes these wonderful essays. I think somewhere where he was writing about writing, he said the word essay came from an old French word that meant to explore I think. The whole idea is that by writing, you explore an idea and sometimes the way to know what you think about something is to write about it. By forcing yourself to organize your thoughts for writing, it just helps you organize your thoughts. Same thing with this sivers.org/projects is that I realized I had a whole bunch of scrambled ideas about the new projects I wanted to do and it’s forcing you to organize and post it. It also helps you make it happen; now that it’s nearly organized, you can go, “Oh, wow. Well, I’m halfway done already that I just need to type it out.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+That’s an essay of programs that I really liked, it was something like How I Write or Why I Write. I think it talks about the word essay which is French that means “to try.” One thing he says in that article is that we go through school and they taught us how to write where you’re supposed to know and write down your five paragraphs, intro or your body paragraphs and conclusion; it’s this predetermined, almost like a waterfall method, of writing in essay and he described his own process like, “Look, I have currently a load of idea and I’m experimenting. I’m trying to figure out what I think,” and unfortunately, that’s not how we are taught to write. People look at essays almost like with dread, whereas his is sort of an experiment that it’s like, “I’m trying to figure out what I’m thinking by writing it down.” I’d be curious what you think about that and what you’re writing process is as well. Also just to say that what you’re trying to do here is that you’re trying to figure things out for yourself by putting them on the web.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Sometimes with technical things, oftentimes it is already in your head. If you think about it, it’s just you haven’t really organized it yet but all the answers are in your head. Sometimes you hit a little point in describing where you realize, “Oh, wow. Now that I look at that on the paper, that isn’t how I thought that would work.” But essay-wise -- like the actual blog-article type things -- sometimes, honestly, the things that I post on my site are just kind of the things I share people in cocktail parties or sometimes somebody tells me a story, sometimes we start with something that’s something that’s really happened and get a moral lesson out of it. Other times, you have an idea that you wanna share and you think of a story that could help share that idea.
+</p><p>
+There are two things that are the biggest lessons I learned is that: one, it really helps to have a story to share an idea, if you give a raw idea and say, “Here’s a concept that I think people should believe or think,” it just doesn’t communicate as well as when you have some kind of story attached to it. The biggest lesson that I’ve learned over the past year is that the length of articles is short enough so that people can read it in less than two minutes. Otherwise, every time I do something longer than that, people bookmark it and they go, “Oh, yeah. I’ll come back to that.” It doesn’t get any comments and the idea doesn’t spread as far because it was too long for people to read when they’re supposed to be doing something else. [laughs]
+</p><p>
+I think a lot of people read a lot of articles online while they’re at work or supposed to be doing something else or just stretching their legs and just want a two-minute distraction, but they can’t really take a twenty-minute distraction. So I swear, as soon as I started my articles that I call One Idea at a Time -- if you have a bigger thought and you find that there are three parts to this idea, spread it apart and make three articles -- just have one idea at a time in something that can be read in under two minutes and, man, that’s just the single most successful change I made to my side over the past years. As soon as I started doing that, they spread so much wider and faster.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It’s almost like a happy medium between tweet and an essay. Tweet can sometimes just be a nugget of an idea whereas essays have four-five pages, you print it out and go, “Good grief, it took me an hour to read,” sometimes you just kind of bookmark it and read it later. I think when people tweet, that makes them less interested in reading in a long form.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, it’s sometimes, “Just tell me what it is.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs] In terms of writing, I think it would be easier to post regularly if all you needed to write down is a couple of paragraphs. Is it easier for you to get stuff up on a regular basis without this feeling of, “Oh god, it’s gonna take me four hours of work and then edit to get this behemoth online.”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+It’s a trick question, man. You know there’s this old Mark Twain quote about something like, “Forgive the length of this letter, I didn’t have time to shorten it.” Sometimes it takes four hours to write four paragraphs ‘cause you can sit there and blab and write much longer; if you really wanna edit it down to a powerful length and spread, it will take a lot of time to make it.
+</p><p>
+The other reason I think it’s a trick question is that there is a downside to this email thing that we talked about a while back. Every time I post something on my site, I email automatically as soon as I post it. Twenty-five thousand people get emailed saying, “Here is something that you should read or you’ve said that you’ve wanted to read,” and, man, that is really almost too much pressure for me. [laughs] Something you’re gonna stand behind so much that as soon as you’ve post it, twenty-five thousand people are gonna get emailed saying, “You should read this,” is almost too much pressure for me, it’s something I almost regret about this email list. I think I tend to use Twitter for light-hearted things but it means that everything I post on my site, I really have to feel that that’s worth bothering twenty-five thousand people over.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+One thing I noticed there going through Derek’s blog is that there’s an awful lot of posts and in fact kind of shows you that it’s a little bit of a numbers game in the sense of when you think about Derek’s post that kind of really sky-rocketed, it’s not that every post that Derek writes skyrockets and gets front page of Reddit and Hackerne.ws, it’s kind of the selected few. This is something we’ve talked about in the past is the numbers game and they seem to have a lot -- so I was wondering what you think about that. Also, how did you cultivate the habit of writing that much?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I read a brilliant thing once but I don’t remember what book this is from but it changed the way I think about quantity. It’s a true story about a teacher at an art school, I think it’s a pottery class, decided to experiment with his students. I think he had, let’s say, forty students. He said, “You twenty on this half will be judged -- I want you to spend the entire month working on one piece, make this one piece as best as you can make it, perfect it. You twenty are going to be judged based on quantity and literally just going to weigh the amount of pottery you create the next month. Whoever created the most pottery next month by weight will get a high grade,” [laughs] which sounds ridiculous, right? But what they found out at the end of the month is that the students who created on quantity made some of the best pottery because they just kept doing it, and kept doing it, and kept doing it, without this constant pressure to make it perfect. They just did it for fun, they got experimental, “Let’s do this. Let’s make it upside down. Here’s just a blob, here’s a thin thing.” They even had outside judges come in and look at selected pieces and try to figure out whether this was one that had been created with quality in mind or quantity in mind and then in the end, even the outside judges just couldn’t tell the difference and then found out that people doing it by quantity had created some of the best stuff.
+</p><p>
+To me, that was a really powerful lesson so I aimed to write an article every single day and for a while, I was holding myself to that. If you look at the date stamps on my posts -- I took the last two months and did nothing, my wife and I were traveling around the world and I just wasn’t in the writing mood but I’ve actually been saving up some ideas and I’m gonna start posting soon -- but ideally, if you look at somebody like Seth Godin, he writes something really short every day. His post can sometimes just be five sentences but it would be an interesting tidbit of an idea. When I met with Seth Godin, my first question for him is, “How do you it? How can you post an article every day?” and he said, “Easy! I just have to force myself to not post ten articles a day!”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+So from his point of view, he just wishes that he could all day just share every thought he’s had, everything interesting he’s come across, every bit of advice that’s somebody’s asked him, he just wants to post it all, but he forces himself to only put one a day up there. It’s a very different mindset but I think it just means that whatever you’re doing in life, just put aside a little quite time with the door closed to make it a priority to sit and share your thoughts.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It’s as much as Justin and I have argued about what I should do about my blog; I have yet to write a single—
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs] Brilliant.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It’s theoretical, I mean it’s just ridiculous. Part of the reason is that I think, “What am I gonna write?” I keep thinking of these big long things I need to write but I think I’m gonna look at your motto which makes more sense which is to keep it short which you do, you can fit into your day.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, one idea at a time. Post only one idea at a time. If you find that it’s getting anything beyond one idea then break it up into a separate article.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+And I like the idea of once a day because it forces you to keep it short, right?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+So let’s say, “Well, what am I gonna do is my schedule’s gonna be that I’m gonna make one on Friday, I’m gonna do one on Tuesday,” right? And then you could think, “Well, I could probably make it longer and more thoughtful and spend more time on it,” but then of course life intrudes and you can’t get it out. So if you’re doing it once a day like how you do it then I think you can at least say, “Well, if I do it every day, I can only spend half hour on this thing or whatever.”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+What I think also helps is that you have to feel that it’s important. At first I really thought it was important because it were things that I had been telling friends and I had never put them into writing. My first twenty or forty blog posts were just things that I had been talking about for years and never actually had written down, even some deep personal things; I had this fascinating story of what happened the day my grandfather died. Whenever I told some friends about it, they would love the story but I realized I’d never written it down -- I’d never even told my mom. So I finally just put aside an hour or two to write it down and that meant a lot to people.
+</p><p>
+What happened after a few months of doing this, I found out, after doing a little vanity search on Twitter, that all these little things I posted were getting so spread around the world and people were loving them. And again, I have no business reason for doing this, I haven’t started my new company and I mean, maybe it won’t make any business difference in the end, but it felt better. So suddenly, I realized that I guess this is an important thing for me to do and it’s worth even doing even a couple hours a day of my time. Just waking up early and treating it seriously, just like you decided you really wanted to get better at Italian or you wanna get better at cello and it mattered to you, you’d put aside time to do it.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I think that’s probably something that’s part of the human psyche which is to share. We grew up in small tribes around campfires and I imagine there’s probably a lot of sharing and I think in our lives, maybe the way we’ve evolved, we do less of the sharing and the web is giving, at least, some of us the opportunity to do it in a little different way. It sounds like what you’re doing is you’re sharing but you’re also sharing not just ideas but you’re also telling stories, which is how humans have imparted knowledge over the years.  It’s probably through less couple of years that we evolved towards a more formal form to leave stories behind, but I like the story format much better because it’s much more digestible.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, it spreads faster, people can relate to it more if you give it a face and a name and something that can relate to instead of just giving a high level concept.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I was wondering if we can hear a couple of your stories. I mean you’ve written on it and talked about it a little bit. Would you be up for telling us few of your stories?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Sure! Can you prompt me instead of leaving—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Yeah-yeah-yeah, go.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You’ve written a thousand, let’s try to whittle it down to, you know, one or two. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs] There’s a couple that I really liked that I would love to hear. One is the speed limit and that’s one of my favorites, there’s a bunch to pick from. Would you mind telling us that story?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, that was huge. That was one of the biggest turning points in my life.  When I was in high school, I was kind of a fuck-up. I just want to be a guitarist and that’s all I care about the world, I just want to be a musician. I got straight Ds through high school because I just didn’t care and I spent all my time just playing music.
+</p><p>
+I decided I wanted to go to Berkley College of Music and I just wanted to be a full time musician then just a couple months before, I was set to go. I saw an ad in the local newspaper classified section saying there’s a music type setting. I said, “If I’m gonna be off at music school, they’re gonna be making us handwrite all these treble sixteenth note with little bars that connect dots and lines.” That’s gonna be a pain in the ass, there’s gotta be some kind of a music typewriter so I don’t have to do all that.
+</p><p>
+I called someone and asked for a music typewriter and he said, “Well, why do you wanna know?” I said, “I’m going to Berklee College of Music”—keep in mind that I’m seventeen years old and I have the guitar on my lap ‘cause it would have fallen—“I’m going to Berklee College of Music and I don’t wanna have to write all these stuff.” And the guy is great, he’s black with a deep voice and have a demeanor like Denzel Washington when he’s being kind of super cool so just imagine that kind of voice and he went, “Ah, Berklee College of Music huh? Why do you wanna go to Berklee College of Music for?” and I said, “I wanna be a great songwriter,” and he goes, “You know twenty-five thousand dollars in four years is a lot of money and time to learn how to write a verse and chorus.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] I said, “You know, that’s what I wanna do.” He said, “Well, I used to teach at Berklee school for few years ago. I attended and then I taught there. Why don’t you come by my studio at 9a.m. tomorrow, let me just show you a few things I think you should know before you go,” and I said, “Okay, great!” I got his address and that was that. I showed up at his studio at 9a.m. and he told the story. We’re still friends to this day and fifteen years later, I heard him tell the story saying that he never expected me to show up. Apparently, kids would come to him all the time saying they wanted to be famous and be successful and he would always say, “Show up at my studio at 9a.m. sharp,” and nobody ever would and I’m the only one who showed up and it impressed him.
+</p><p>
+Here’s what’s fascinating -- even if you’re not a musician, you can relate to this technique, programming, whatever, kung-fu [laughs] -- is that kind of raising the bar of expectations and learning speed. He sat me down to piano and he said, “Okay, we’re going to learn music theory because it’s one of the first things you need to know at Berklee’s. You need to understand jazz harmony.” Also, the pace just increased, he said, “Okay, what’s a major scale?” I said, “What do you mean?” and he said, “Just play the major scale.” I went, “Okay,” then I played, dun-dun-dununun. He asked, “You know what a triad is?” and I said, “Yeah, it’s a 1-3-5,” so he said, “Okay, if you were to build a triad off the diatonic, the first note of the scale, how does it go?” I said, “Well, C, E, G,” he said, “Okay, that’s the 1 chord. If you were to build a triad off the third note of the scale, how does it go?” I said, “E, G, B,” he said, “Right, guess what that’s called?” I said, “The 3?” he said, “Right. What kind of chord is 3?” I said, “What do you mean?” he said, “Major? Minor? What is it?” I said minor and he said, “Right. That’s 3 minor, so now let’s get going. What is the sixth?” I said, “Uh, it’s A,” he said, “What’s the triad built off of it?” “A, C, E,” “What kind of chord is it?” “Minor,” “Okay, now if I you would have a seventh on top of that, what do you think it would be?” “1-3-5-7? It would be the next triad up,” he said, “Okay, that’s the seventh chord. Now if you go to the B, what is it?” I said, “It’s like a flat 3, I don’t’ know what it is,” he said, “That’s a flat 5. Okay, give me the 4 chord in D major,” I went, “Uhh, G,” “Okay, good.” And this is the pace for about three hours, he’s playing the Charlie Parker thing, he’s saying, “Okay, now dissonant wants to resolve, where do you get a tri-tone if you build a seventh chord off it,” “It’s on 5,” “Where else can you get a tri-tone?” “I don’t know,” “Come on, think. Where else can you get a tri-tone?” “Ugh!”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+So we went at that pace for few hours and what I found is—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Wow, would your head explode at that point?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah! But it was amazing ‘cause I was up for it, you know, I was seventeen and I wanted to learn this stuff. So he sent me home with this homework and he said, “Okay, analyze five different songs, write up the chord labels for five different songs, analyze the structures of these five songs in this book and come back to me Wednesday at 9a.m.” So what happened is that in only three of those lessons, I found out later when I went to Berklee School of Music, he taught me four semesters of Berklee College of Music Harmony in only three lessons. In the next two lessons, he taught me two years of big band arranging classes in two lessons.
+</p><p>
+And it was just this idea that the world is kind of structured in the pace of the norm. If you stick with the pace that the world hands you, as he said that the standard pace is for chumps and you could do better than that, so never accept standard pace that the world gives you.
+</p><p>
+He said, “I think you could graduate Berklee College of Music program in two years.” There’s no need to go with the standard pace, and I did. On my first day of Berklee where I took the entrance exam, I tested out of seven semesters of stuff of requirements that he had taught me, and then he just kind of got me into that mindset. Ever since, I approached life thinking that the standard stuff that people tell you is the way things should be done, I see that as, “The standard pace is for chumps.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I see.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+They always say, “If you’re a break person at all, you can always do better than that, you can always go faster than that. If you focus, you can learn faster than everybody says it takes to learn things.” It’s just that single encounter with Kimo Williams in Chicago and it totally changed my life.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+It’s very interesting ‘cause it’s very opposite of the laid-back demeanor that you have.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] Well, yeah. There are things that I can be intense about.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You’re intense about things you have passion for, right? You can be laid-back and passionate at the same time and it doesn’t mean you’re lazy, right? [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, but there are people that are, like, neurotic, you know?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+It seems like there are some people who seem laid-back but they freak the fuck out if something’s out of place in their kitchen, you know?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+One reason that story resonated with me is that I had a teacher in high school who I was directed to and I was talking to him about programming and I was told, “Yeah, you need to learn computer language” and he said, “But you know what, you should teach yourself Calculus.”
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Wow.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I was lucky to have a mentor who saw my enthusiasm and was willing to direct it if I was putting in the energy.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, but isn’t it cool that the internet in general -- I’m forty now, I love the fact that a lot of my life was pre-internet, I love that! Because you can appreciate more when things were around without it and how cool is it that everybody can now learn at their own pace. Everybody could dive in and learn something. It used to be like going down to the public library and try to find the books about the things you wanna learn about, now it’s just amazing and that there’s no limit to get the knowledge you need.
+</p><p>
+I guess my only fear is that it’s easier now than ever to get knowledge on something that I fear that it might be harder for people to focus. Like practicing an instrument, the way you get better is to turn off your computer and getting your fingers on the fret board and doing your scales and arpeggios and things like that. I wonder if we’re gonna see a longer shift, where the practices for techniques that require focus are going to dwindle a bit.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Do you still play with bands and professionals?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+No, not at all. I wasn’t that direct when you asked that earlier, but yeah, when I started CD Baby, something just switched in my head and honestly, I kind of dismantled my recording studio and haven’t even missed it since. Something switched and this is my creative outlet now.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I do know that feeling. [laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I asked you that Justin where you used to play music and you don’t seem to be interested in getting back.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I think the thing about it is, I don’t know if this is true for Derek, but for me, it was so concentrated and focused of five-year hardcore musicianship but it’s like you really get it out of your system, you know?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Basically putting your soul in front of people every night, it takes a special person to do that kind of thing for a long time.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I think, don’t we all kind of have tendencies to focus on one thing at a time? I was fascinated with something else; it was something that you dream about at night. Yeah, so you and I are probably dreaming of musical ideas every night. I would dream about bass lines and drum parts, and daydream lyrics and melody ideas. These days, I daydream and this kind of stuff you see on my site that I’m writing about -- what’s fascinating is that I started diving in deep to learning Mandarin and in a couple of weeks, my wife and I are going to China in two months to study Mandarin full time and I’m so into it that it seems I can do it for hours a day. I’m just fascinated with the language, it’s such a cool language and I just absolutely love it. It’s fun for me to dive in to that rabbit hole, it’s a blast.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+How is it like learning language at forty? You always hear that in our age, it’s difficult to learn a new language.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+For one, I’ll feel like I’ll have more authority to speak about it if I actually become fluent in the language. [laughs] Until then, it’s something that I enjoy playing with but everybody who says that stuff may be right and I may suck and I may never learn the language and that I might find it difficult, but as of now; my hunch is that it’s kind of like the norm, you know, “The standard pace is for chumps” kind of an idea,  where most people who have normal lives who have lots of responsibilities and at the age of forty, their brain is scattered many directions and they have kids, and they have jobs, then yeah, maybe it’s harder to learn a language than when you were seven or if you didn’t have much responsibilities in your whole life.
+</p><p>
+So it could be something as simple as that, I don’t believe that argument where people say our brains just can’t handle it. In some ways, I find it easier to learn language now than I would at seven because it kind of made some rational links with it too because I already understand what grammar is or how English is put together from a higher level point of view, it actually helps become a shortcut to learning Chinese and understanding, “Oh, in the Chinese point of view, they’re sentence structure compared to English is this and that,” you know what I mean?
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+The analogy I’d like to bring up is that when you hear about Body Mass Index whether we’re obese or not which involves how tall you are and your weight, but basically, well, statistically, it’s accurate. But if you look at a bodybuilder or a football player, they’re going to have high BMI but most of the time, they would have low body fat percentage.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, you’re right. Dedication: how important is this to you? Like you talked about writing articles and if you’re getting it done; how important is it to you? If it’s crucial, you’ll do it. Well, shit, it goes with all learning. Learning computer programming, I didn’t learn it until I had to. If I had taken a class in school about programming, I probably would have just done it but not because it was necessary for my life. Man, necessity is such a great teacher; when CD Baby was growing, I was doing every incoming order was just doing nothing but sending me email and that I would cut and paste all in the information in the form to print out every order and save it in my little file maker database in my computer so I had all the motivation in the world, I just need to know how to automate these process and I had to learn programming immediately. Necessity is the best teacher. It’s interesting going to China for two months to learn and just be there in the environment where you have to learn.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Hey Jason, we’ve reached our thirty, you should think about wrapping up soon.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Okay, I just have some quick questions. Derek, you spent a lot of time being nomadic when you had the CD Baby going remote and you spent a lot of time traveling, I’d be curious what you think about living the nomadic style. You’ve written how you tried to sell most of your possessions and I think you even gave a lot of your wealth from selling CD Baby, is that correct?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] Yup, it’s part of that minimalist thing. It’s realizing what you don’t need. I think a lot of people kind of blindly driven to acquire stuff. They kind of have this feeling that more stuff is equals to more happiness. “Ooh, new phone, I need it.”
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I personally felt that gadgets were not making me happy but then I think it really helped when I wrote a couple of books, most notably Stumbling on Unhappiness by a Harvard psychology professor that’s been studying happiness for years and found out that people are very bad at predicting what would make them happy for the same reason that we’re bad at remembering what made us happy years ago because it kinda just fade into the distance; that’s the same reason why we’re bad at predicting what will make us happy in the future.
+</p><p>
+We think that, for example, having a bigger home would make us happy but to get a bigger home, you usually have to go out to a more rural area that’s farther away from your work so that means you have an hour commute, “But hey, I don’t mind a longer commute, it’s only an hour. I much rather have a bigger home.” But then you find out when you talk to people commuting that bigger home has not made them happier but having a longer commute has absolutely made them unhappy, and this is across thousands of people interviewed.
+</p><p>
+Using other people’s experience, you can find out that you will be happier living closer to where you work and having a smaller home, or maybe it’s also the BMI thing where at least it almost applies to almost everybody.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Right.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Personally I’m at my happiest when everything I have was just in my little backpack. I was self-sufficient and I had my little backpack with me in India, Ireland, or Brazil, and there I was with everything I needed in my little backpack and it just made me so happy living like that. It was so nice to not have a bunch of stuff that I had to take care of and I found out that that’s my happiest so I started organizing my life around that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Listening to Derek’s stories, he’s nomadic, he’s given away possession—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+He’s moving towards ascension.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+He’s like a modern version of David—
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+He’s the kung-fu guy.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs]
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Yeah, so my question for you is: what martial art do you train in and whose ass have you had kicked lately?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+You know, I’ll tell you in another hour and a half. We’ll see if how many people actually listened this far. A little secret I haven’t told anyone about outside family is this. You do know I got married six months ago, I traveled the world, but also to pick a country to call a new home. We’re assessing out all these different countries like, “Is this the country we’d really love to stay and have kids and citizenship and all that.” I thought a bunch of places and when we got to Singapore, we both just went, “Hell yeah, this is awesome.” We both just love Singapore and so by the end of the year, we’ll buy a house and be less nomadic for a while.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You gave away a good portion of your network and your wealth. It’s one to say to do that, it’s one to talk about that when you’re older but you’re young and giving away your fortune at this point is a dramatic and generous thing to do. I’m just curious what started that thought process in particular?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+The same thing I said in books like Stumbling on Happiness and that one specifically Paradox of Choice by Barry Schwartz -- same thing, a psychology professor who’s done a lot of studies what makes us happy and unhappy. He found that having too much choice makes us unhappy. Sometimes by limiting our options and deciding in advance, especially based on the experience of others, would make as happier. I had these eight months of anguish when I decided to sell CD Baby and agreed on the price $22 million. It’s eight months before the sale is done so I kind of have this eight months to kind of say, “Oh shit, $22 million? What the hell do you even do with $22 million?” You couldn’t even pay me to drive a Ferrari; I don’t want to drive an expensive car. You couldn’t pay me to live in a seven-bedroom house. I don’t even want anything.
+</p><p>
+I have my laptop. I love my laptop. I have a couple of things I need, I have a Kindle, I have a good phone, “Alright! I’m good!” And then I realized this kind of intentional limitation -- so to be fair, I didn’t give all my money. I set it up into a structure called The Charitable Remainder Unit Trust which the key point is that it pays me out five percent of its value each year for life. So I did give it all away to this charitable trust but the trust gets to invest it into passive mutual funds and things like that. I can’t invest it into any active investments or business of anybody I know or anything like that. So it would slowly grow passively in mutual funds and then pay me out five percent a year which is honestly still more than enough. Five percent is the lowest the law lets you set it to, I preferred one percent but five percent is fun, so that’s still enough. It’s really more like I didn’t want access to $22 million dollars; I fear that I might do something stupid. [laughs] I might someday get in a bad mood and buy a mansion or something, I didn’t’ want the ability to do that. Instead I realized that I would be happier if I knew that I was set for life, steady stream of income, so I can just focus on other things.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+You don’t need to spend a million dollars to make yourself happy. Spending huge amounts of money might even make you unhappy.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Yeah, I feel bad for people who pounce on every phone that Apple would release, “Oh my god, new thing, I need it!” You sense this kind of unhappiness, the sense of their incomplete without that thing, like a sad belief that they’re going to be happier with this new thing.
+</p><p>
+It can even go towards experiences. I was thinking of going to India at one point just so I would know it better, I was thinking of moving there for a while. I was talking to a friend of mine that’s pretty wise, her name is Tina Su and she’s quite smart, I asked, “I can think of all these reasons why I should go to India, can you think of any reasons why I shouldn’t?” she went, “Hmm, yeah. Don’t go if you think it’s going to make you happy.” I was like, “Ooh, that’s brilliant.”  Anytime you think something is going to make you happy, [laughs] beware. You can’t rely on external things to make you happy. If you think that a new phone is going to make you happy, beware.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Would you be as satisfied as you are now if you hadn’t built CD Baby and had the success of CD Baby, would you still be in exactly the same place?
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] I’m a happy person by nature, but I’ll tell you a really crass punch line. There’s this young entrepreneur who kinda looks up to me. We’re kind of friends but she also really kinda blatantly tells me, “I wish I had your life.” At one point, I had gone through a hard time and a really bad break-up and I just stayed cheerful throughout and she said, “God, how do you do it? How do you stay positive and cheerful?” I thought for a second and said, “Well, first you get a million dollars.” [laughs] Come on, let’s be honest. It’s awesome. I love the fact that it does change your life when you don’t have to stress yourself about money.  I don’t want to be an idiot who would buy stupid things like mansion or Ferraris, but up to a certain point, it absolutely changes the quality of your life when you do not have to stress out and worry about money.  Everybody has their default coin like some people are just happier people by nature. Personality-wise, I’ve always been this way, ambitious go-getter, always excitable, always very happy. That would have been the same but, damn; it’s certainly nice not to stress yourself about money.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+There’s actually happiness threshold around a million dollars. When people hit around a million dollars, there is a constantly higher level of happiness. The second is that people have a natural sort of happiness baseline, so they might win a lottery, get married, sold a company, whatever it is, and they might be happy for a while but they ultimately return to that baseline level. The baseline could be higher based on certain circumstances like how thin girls are or friends and things like that.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+I heard it was around thirty-five thousand dollars. If you’ve reached a basic level, in most part places on earth, you get you all the basic needs. You have a nice roof, you’re all set, you’re not in panic mode. I heard that’s where the happiness kind of levels out.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I’ve read that one, that popped out on Hacker News a few weeks ago.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+I think the discrepancy here is: it’s thirty-five dollars for men and a million dollars for women.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+[laughs] Fair enough Justin, I like that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Derek, it’s been a pleasure to have you on.
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Let’s do this again next year. I will spend a couple months in China, I’ll be living in Singapore and I will have written a bunch of new stuff and I really enjoyed your questions so maybe we’ll have new fun stuff we’ll talk about next year.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Thanks Derek, it’s great to have you on the show.
+</p>
+</blockquote>
+<blockquote>
+<cite>Justin:</cite>
+<p>
+Derek, it’s been a pleasure. Best of luck in Singapore!
+</p>
+</blockquote>
+<blockquote>
+<cite><strong>Derek:</strong></cite>
+<p>
+Thanks Justin, thanks Jason.
+</p>
+</blockquote>
+
+<footer>
+© 2010 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

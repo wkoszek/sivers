@@ -1,0 +1,44 @@
+@import 'pure/base.scss';
+@import 'pure/grids.scss';
+@import 'pure/grids-responsive.scss';
+@import 'pure/forms.scss';
+@import 'pure/menus.scss';
+
+nav#navigation {
+	@extend .pure-menu-horizontal;
+	background-color: #000;
+	a {
+		color: #fff;
+		margin-right: 2em;
+	}
+	ul {
+		@extend .pure-menu-list;
+		margin: 0;
+	}
+	li {
+		@extend .pure-menu-item;
+	}
+}
+#content {
+	@extend .pure-g;
+	width: 98%;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 13px;
+}
+section {
+	@extend .pure-u-1;
+}
+form {
+	@extend .pure-form;
+	@extend .pure-form-stacked;
+}
+label {
+	padding-top: 1em;
+}
+.alert {
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: lime;
+	border: 2px solid #000;
+}

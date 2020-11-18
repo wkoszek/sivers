@@ -1,0 +1,32 @@
+<table>
+	<tr><td>country</td>
+	<% @grid['woodegg'].keys.each do |x| %>
+		<th><%= x %></th>
+	<% end %>
+	</tr>
+<% @grid.each do |k, vs| %>
+	<% code = (k == 'woodegg') ? 'ANY' : k.gsub('woodegg-', '').upcase %>
+	<tr>
+		<td><%= Countries.from_userstat(k) %></td>
+		<% vs.each do |k,count| %>
+			<% if count.nil? %>
+				<td> </td>
+			<% else %>
+				<td><a href="/stats/<%= code %>/<%= k %>"><%= count %></a></td>
+			<% end %>
+		<% end %>
+	</tr>
+<% end %>
+</table>
+
+<h2>Newest:</h2>
+<table>
+<% @newest.each do |x| %>
+	<tr>
+		<td><%= x[:created_at] %></td>
+		<td><a href="<%= @person_url_d % x[:person_id] %>"><%=h x[:name] %></a></td>
+		<td><%= Countries.from_userstat(x[:statkey]) %></td>
+		<td><%= x[:statvalue] %></td>
+	</tr>
+<% end %>
+</table>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: Seth Godin</title>
+<meta name="description" content="Derek Sivers: on spreading music and selling intimacy">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: Seth Godin">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2010-01-seth-godin">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="on spreading music and selling intimacy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: Seth Godin">
+<meta name="twitter:description" content="on spreading music and selling intimacy">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → Seth Godin</h1>
+	<h4>on spreading music and selling intimacy</h4>
+	<p class="postdate">Date: 2010-01</p>
+</header>
+<hr>
+
+<p>
+Reading <a href="http://www.sethgodin.com/">Seth Godin</a>’s new book called <a href="http://www.squidoo.com/the-Linchpin-Posts">Linchpin</a>, I had some lingering questions on behalf of all the musicians I know.
+So I asked him.  Here are my questions and his answers:
+</p>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You say, “the winners are the artists who give gifts”, but many artists I know are feeling like the losers.   How would you explain your philosophy of the linchpin economy to a musician who’s making great music, giving it away online, but getting only apathy in return?
+</p>
+</blockquote>
+<blockquote>
+<cite>Seth:</cite>
+<p>
+Feeling like a loser is part of being an artist, but I want to challenge the notion of “great music.” Sure, some music that’s great is great for the ages and it’s okay that’s it’s not being heard, but so much of what people call great art (whether it’s a book or a song or a way of doing customer service) isn’t actually great, it’s merely “very good.” Very good music is unheard every day, because <strong>very good music is not in short supply. There’s a huge surplus of it.</strong>
+</p><p>
+I’m not equating “great” with “commercial.” I have no doubt that there’s great art that doesn’t sell. But most musicians you and I know are TRYING to be commercial, if commercial means successful, heard, lots of stuff sold, lots of people at the concerts. And in the rush to be successful, sometimes great gets pushed out the window. I’ve sampled hundreds of songs on CDBaby and I can say that almost all of it is very good. And virtually none of it is great, if we define great to mean music I need to buy, to give away, to talk about to everyone I know. Almost none of it changed my life, and that’s what great music does.
+</p><p>
+<strong>Great means unsettling. Great means open to criticism. Great means booed off stage. And great music, like a great idea, spreads</strong>. Ideas that spread, win, and so the goal today is not to make great music for 1970 or 1990, but great music for today, for a market that’s super picky and selfish and has ADD. Great is in the ear of the listener, of course, and the definition is simple: if it spreads, then for this market, it’s great.
+</p><p>
+By definition, Great cannot create widespread apathy.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+People often use price as an indicator of quality.  Even connoisseurs rate wine higher if told the price is higher.  So many artists are averse to sharing their work online for free, because it might be seen as valueless.  Since I’ve heard you argue both sides of this, how do you reconcile it in the case of an artist choosing how to share their work?
+</p>
+<blockquote>
+<cite>Seth:</cite>
+<p>
+This is a conundrum, and probably worth thinking about a bit. Paintings, for example, have been free to experience as long as there have been art galleries. The difference today with music is that there’s a mammoth change going on - and it’s about control. Music has always been free on the radio (in fact, record companies PAID to get it on the radio). Now, though, every song is on the “radio” all the time, because the radio is Pandora and Limewire and the rest.
+</p><p>
+So, if the radio is already there, and music is free-er than ever, it’s not clear that music is valueless. There’s more music being listened to (not just played, but being listened to) than ever before in history, and that listening is proof that people value it. At least they value it enough to spend their time.
+</p><p>
+Get over the idea that your success is equated with selling the right to listen, or selling control over when people listen. Relinquish the opportunity to make money by controlling who can listen and when. That’s gone. It’s over. It would be like a bakery selling the right to sniff the fresh bread or a wine maker selling the right to look at the cool label. It’s now a public good, something you see as you walk by.
+</p><p>
+What you can sell, <strong>what you better be able to sell, is intimacy</strong>. It’s interactions in public. Souvenirs. Limited things of value. Experiences. Memories. People will pay for those things, IF: your art is actually great and if you make it possible for them to buy them.
+</p><p>
+If it’s great, let it go. You’ll do fine. If it’s not great, figure out what great is and do that.
+</p><p>
+A tall order, but a huge opportunity.
+</blockquote>
+<hr>
+<p>
+Hugh MacLeod has <a href="http://gapingvoid.com/2010/01/21/linchpin-ten-questions-for-seth-godin/">many more interesting questions-and-answers about Linchpin, here</a>.
+</p>
+
+<footer>
+© 2010 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

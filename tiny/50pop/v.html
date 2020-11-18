@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OpenBSD 6.0 on Vultr</title>
+  <meta name="description" content="Installing OpenBSD 6.0 on Vultr">
+  <meta name="author" content="Derek Sivers">
+  <style type="text/css">
+body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 60em; line-height: 30px; }
+h1, h2 { font-family: sans-serif; color: #900; }
+li { margin: 2em 0; }
+code { font-family: monospace; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<h1>Installing OpenBSD 6.0 on Vultr</h1>
+
+<ol>
+<li>Sign up or log in at <a href="https://my.vultr.com/">vultr.com</a>. Click <strong>ISO</strong> from the top menu, then <strong>[Add ISO]</strong></li>
+<li>Paste in <strong>http://ftp3.usa.openbsd.org/pub/OpenBSD/6.0/amd64/install60.iso</strong> (or <a href="http://www.openbsd.org/ftp.html">closer mirror</a>) and click <strong>[Upload]</strong></li>
+<li>Wait a minute for it to finish uploading, until Status says Available.</li>
+<li>Click <strong>Instances</strong> in the top menu, then <strong>deploy one</strong>.  Any server location.</li>
+<li>Under <strong>Server Type</strong>, choose <strong>Custom ISO</strong>, and click your [install60.iso] box so it's blue.</li>
+<li>Any server size OK.  No additional features.  Any hostname and label.  Then <strong>[Deploy Now]</strong> button at bottom.  It takes a couple minutes. Go take a break.</li>
+<li>When Status says Running, click the name of your server to get into <strong>Server Details</strong></li>
+<li>In the top-right corner of the screen, click the icon that looks like a monitor to <strong>View Console</strong>.</li>
+</ol>
+
+<p>That should pop up a new window with a black screen OpenBSD installation program.  <strong>But if not</strong>, go back and do these two additional steps:</p>
+
+<ol>
+<li>Click <strong>Settings</strong> on the top menu, then <strong>Custom ISO</strong> on the left. It probably says “Current ISO: Mounting error: Unexpected exit code: 255”.</li>
+<li>Click <strong>[Attach ISO and Reboot]</strong></li>
+</ol>
+
+<p>Then go to the <a href="http://www.openbsd.org/faq/faq4.html#install">installation guide</a>.</p>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Help Wanted | Wood Egg</title>
+<meta name="description" content="Entrepreneur's Guides to Asia: Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="keywords" content="Entrepeneur, Guide, Book, Asia, Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Malaysia, Mongolia, Myanmar, Philippines, Singapore, Sri Lanka, Taiwan, Thailand, Vietnam"/>
+<meta name="author" content="Wood Egg LLC"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="stylesheet" href="/css/2014.css" type="text/css" media="screen" />
+<script src="/components/modernizr/modernizr.js"></script>
+</head>
+<body id="help">
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name"><h1><a href="/" title="Wood Egg Entrepreneur’s Guides to Asia" class="coname">Wood Egg</a></h1></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>MENU</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li><a href="https://woodegg.com/a/signup">Register Your Book</a></li>
+      <li><a href="/contact" title="Contact Wood Egg">Contact</a></li>
+    </ul>
+  </section>
+</nav>
+
+<section id="pagehead">
+  <h1>Help Wanted</h1>
+</section>
+
+<section id="subhead">
+  <h2>hiring every year</h2>
+</section>
+
+<section id="content">
+<p>
+UPDATE: Go to <a href="/about#help">this 2014 about/help page</a> for the details on how to get involved.
+</p><p>
+Thanks!
+</p>
+<div>
+	<img alt="Derek Sivers" width="200" height="200" src="/images/DerekSivers-200x200.jpg" />
+	<h3 class="name">Derek Sivers</h3>
+	<div><span class="title">Founder and Producer</span></div>
+	<div><a href="mailto:derek@sivers.org"><span class="email">derek@sivers.org</span></a></div>
+</div>
+
+
+</section>
+
+
+<script src="/components/jquery/jquery.js"></script>
+<script src="/components/foundation/js/vendor/fastclick.js"></script>
+<script src="/components/foundation/js/foundation.min.js"></script>
+<script src="/components/foundation/js/foundation.topbar.js"></script>
+<script> $(document).foundation(); </script>
+</body>
+</html>
+

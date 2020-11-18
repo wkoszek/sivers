@@ -1,0 +1,5 @@
+<blockquote cite="/t/<%= @thought1[:id] %>">
+	<q><%= h(@thought1[:thought]).gsub("\n", '<br>') %></q>
+	<cite><a href="/t/<%= @thought1[:id] %>"><%=h @thought1[:author] %></a></cite>
+</blockquote>
+

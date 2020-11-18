@@ -1,0 +1,18 @@
+<section id="where">
+<h1><%=h @pagetitle %></h1>
+
+<table>
+<% @countries.each do |c| %>
+	<tr><td><%=h @cc[c[:country].to_sym] %></td><td>
+	<% if c[:count] > 10000 %>
+		<a href="/states/<%= c[:country] %>"><%= c[:count] %></a>
+	<% elsif c[:count] < 50 %>
+		<a href="/where/<%= c[:country] %>"><%= c[:count] %></a>
+	<% else %>
+		<a href="/cities/<%= c[:country] %>"><%= c[:count] %></a>
+	<% end %>
+	</td></tr>
+<% end %>
+</table>
+
+</section>

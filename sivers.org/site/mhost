@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Musician’s own website as definitive source of all info | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Musicians spend too much time entering their data on multiple websites.Filling out forms.Uploading MP3s.Uploading photos.Entering dates and venues into concert calendars.Pasting lyrics and bio.All those stupid profiles scattered around the web, which of course will soon be outdated unless they’re constantly updated.">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/hellyeah">
+<link rel="next" href="https://sivers.org/hatenot">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Musician’s own website as definitive source of all info | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/mhost">
+<meta property="og:image" content="https://sivers.org/images/peacock.jpg">
+<meta property="og:description" content="Musicians spend too much time entering their data on multiple websites.Filling out forms.Uploading MP3s.Uploading photos.Entering dates and venues into concert calendars.Pasting lyrics and bio.All those stupid profiles scattered around the web, which of course will soon be outdated unless they’re constantly updated.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Musician’s own website as definitive source of all info | Derek Sivers">
+<meta name="twitter:description" content="Musicians spend too much time entering their data on multiple websites.Filling out forms.Uploading MP3s.Uploading photos.Entering dates and venues into concert calendars.Pasting lyrics and bio.All those stupid profiles scattered around the web, which of course will soon be outdated unless they’re constantly updated.">
+<meta name="twitter:image" content="https://sivers.org/images/peacock.jpg">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="/blog" rel="tag">Articles</a>:</div>
+<h1>Musician’s own website as definitive source of all info</h1>
+<p class="postdate">2009-08-28</p>
+</header>
+
+<p>
+	Musicians spend too much time entering their data on multiple websites.
+	Filling out forms.
+	Uploading MP3s.
+	Uploading photos.
+	Entering dates and venues into concert calendars.
+	Pasting lyrics and bio.
+	All those stupid profiles scattered around the web, which of course will soon be outdated unless they’re constantly updated.
+</p><p>
+	Some outside sites say, “We’ll manage all your data!” - but I don’t want to go to yet-another-website to enter all of my data, and trust them not to go out of business.
+	In fact, I don’t want to enter my info anywhere but my own website!
+</p><p>
+	So, I think the musician’s own “.com” homepage website should be the one-and-only place the musician ever has to enter their info.
+	It should be the sole definitive source for their music, photos, bio, lyrics, calendar, blog, and especially their fan/friend/email list.
+</p><p>
+<strong>
+	Then it’s the web hosting company’s job to spread that info other sites.
+</strong>
+</p>
+
+<h3>
+	How it works for the musician:
+</h3>
+<ol><li>
+	Log in to your own website.
+</li><li>
+	Recorded a new song?
+	Upload the master-quality audio file
+</li><li>
+	While it’s uploading, enter the song info: name, copyright, credits, lyrics, sample-start-time, etc.
+</li><li>
+	Booked a new show?
+	Enter the date and venue info.
+</li><li>
+	Have a new photo or bio?
+	Enter it just once in your site.
+</li><li>
+	That’s it.
+<strong>
+	You’ll never need to enter that info or upload that song ever again.
+</strong>
+</li></ol>
+<p>
+	You own all your data, and your web-host makes it easy to get a backup any time, like mailing you a USB drive.
+</p>
+
+<h3>
+	Then your web-host can do the boring copying:
+</h3>
+<p>
+	Your web-hosting company gives you some simple options.
+</p><p><pre>
+Do you want us to send this to...
+[x] Facebook
+[x] iTunes
+[x] Amazon
+[x] Instagram
+[ ] Napster
+[ ] Pandora
+[ ] Spotify
+[ ] ReverbNation
+</pre></p>
+<p>
+	You’d give them your account details for the places where you already have an account, or at the others, they could create an account for you.
+</p><p>
+	Best of all: <strong>all of this extra service is included for free</strong> in your basic webhosting package, as thanks to you for choosing to host your website there.
+	Assuming the standard web-hosting rate of $10-$20/month.
+	They don’t need to take a percentage of sales or anything.
+	The $10-$20/month webhosting fee has plenty of profit margin to cover everything.
+</p>
+<h3>
+	How it works on the back-end:
+</h3>
+<p>
+	For some websites, the distribution can be automated.
+	The web host sends a server-to-server message to the remote company’s servers, adding the necessary info and files.
+	This is how digital distribution of music already works.
+</p><p>
+	For other sites, there can be some quick simple human labor.
+	An employee quickly logs into that site as you, with your permission, and uploads the song, info, photos or calendar, using the super-fast internet connection.
+</p><p>
+	The trickiest part would be copying the friend/fan list from multiple sites back into your one definitive master database of fans/friends.
+</p><p>
+	Because the company does it for dozens of clients per day, they can do it incredibly fast and cheap, so they don’t need to charge extra for this hands-on service.
+</p><p>
+	But where it gets really exciting is for the company to set up <strong>an open API where any outside companies can <em>pull</em> information directly from the source!</strong>
+</p><p>
+	That way, any new music websites could launch with instant access to thousands of musicians, with the most up-to-date info, and not need to host any of the audio, images, or text on their site.
+	Everything be pulled real-time from your site using the API.
+</p><p>
+<strong>
+	So if you changed a photo, removed a song, renamed a song, or even changed the name of the band, it would all be changed instantly on ALL sites, worldwide.
+</strong>
+</p>
+<h3>
+	Who’s doing it?
+</h3>
+<p>
+	<a href="http://www.artistdata.com/">ArtistData</a> is awesome, and the closest I’ve seen to this idea, but they don’t host websites.
+	I heard of them after I came up with this idea two years ago.
+</p><p>
+	I was still at <a href="http://hostbaby.com/">HostBaby</a> then, and everything I described above was my plan for “HostBaby 3.0”.
+	Maybe they’ll still do it.
+	Since I left the company and signed a non-compete agreement, I’m not allowed to.
+	But I hope someone does.
+</p>
+<img src="/images/peacock.jpg" alt="http://www.flickr.com/photos/mmqb01/468351110/" />
+
+<footer>
+© 2009 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/hellyeah" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/hatenot" accesskey="n" rel="next">next</a> »
+)
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

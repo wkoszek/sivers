@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Derek Sivers INTERVIEW: Built to Sell</title>
+<meta name="description" content="Derek Sivers: Talking with John Warrillow about how I started and sold CD Baby">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:sans-serif;font-size:17px;line-height:24px;color:#000}h1,h2,h3,h4,article p,article li{font-family:Georgia, serif}article p,article li{font-size:20px;line-height:30px}a{text-decoration:none;color:#20b}a:visited{color:#606}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,small,.small,p.postdate,footer,input[type="submit"],label,dl#tweetlist dt{line-height:1em}small,.small{font-size:0.8em;font-weight:normal}.spacer{clear:both}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select,textarea{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0}section#masthead h1 a{text-decoration:none;color:#800}section#masthead h1 a img{margin-right:5px}section#masthead small{display:block;line-height:1em}div#content h1{font-size:2em}div#content h1,div#content h2,div#content h3,div#content cite{color:#800}div#content li,div#content dd{margin-bottom:1em}div#content pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}div#content code{font-size:0.8em}div#content article img{max-width:100%;height:auto;display:block}section{margin-bottom:4em}section#masthead{margin-bottom:1em}body#home div#content h2 small{font-size:70%;font-weight:normal;margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1 a{text-decoration:none}body#oneblog div#content article header p{margin-top:-1em}body#oneblog div#content article h2,body#oneblog div#content article h3{margin-top:2em}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#booklist figure img,body#onebook figure img{float:left;margin-right:2em}body#booklist figure{margin:0 0 8em 0}body#onebook figure{margin:0}body#interview blockquote{margin:0}body#home dt,body#code dt,body#music dt{font-weight:bold}dl#tweetlist dt{font-weight:normal}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}p.postdate,footer,dl#tweetlist dt{font-size:80%;color:#666}
+</style>
+<meta property="og:title" content="Derek Sivers INTERVIEW: Built to Sell">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/2015-10-built2sell">
+<meta property="og:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+<meta property="og:description" content="Talking with John Warrillow about how I started and sold CD Baby">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Derek Sivers INTERVIEW: Built to Sell">
+<meta name="twitter:description" content="Talking with John Warrillow about how I started and sold CD Baby">
+<meta name="twitter:image" content="https://sivers.org/images/DerekSivers-20141119-400.jpg">
+</head>
+<body id="interview">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers"><img src="/images/DerekSivers-50x50.jpg">Derek Sivers</a></h1>
+<small>Programmer, writer, avid student of life. I make useful things, and share what I learn.</small>
+</section>
+<div id="content">
+
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → Built to Sell</h1>
+	<h4>Talking with John Warrillow about how I started and sold CD Baby</h4>
+	<p class="postdate">Date: 2015-10</p>
+	<h2>Download: <a href="https://sivers.org/file/2015-10-DerekSivers-BuiltToSell.mp3">audio (mp3)</a></h2>
+	<p>Link: <a href="http://www.builttosell.com/derek-sivers/">http://www.builttosell.com/derek-sivers/</a></p>
+</header>
+<hr>
+
+<blockquote>
+<cite>John:</cite>
+<p>
+You know in a lot of ways, my interview with Derek Sivers was really revealing. As I think about the interview now, and reflect on it, I see him as the ultimate outsider. Today he lives in a small community in New Zealand, thousands of miles away from the big media centers of the world, but interestingly, that's exactly the universe he used to play in. He sold CD Baby, his company, for $22 million. And the backstory of the company is interesting. You're about to learn that he started out in business as sort of the ultimate outsider in the music industry. He couldn't get a standard or traditional record label deal, so he went and started distributing his CDs directly to listeners of his music. And eventually other friends of his, other musicians asked him to distribute to their music. And that was the journey he went through that ultimately built one of the largest catalogs independent music in the world, Eventually got that catalog sold into iTunes and Amazon and those were key milestones in building this company into a $22 million business. But it's really what he did after the sale and what he did with the proceeds of the sale that make Derek such an enigma. I'll let him tell you the rest of the story.
+</p><p>
+So Derek, tell me a little bit about this business, CD Baby.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure. Well, in what way? Do you want to first know what it is?
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Yeah, give us a sense of what the company did.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+OK. But first to give a little context, I was just a musician selling my own CD. This is back in 1997, when there was no PayPal. PayPal didn't exist yet and Amazon.com was just an online bookstore. And it was a different world in 1997, so if you were a musician like me trying to sell your CD to the world there was literally not a single business anywhere on the Internet that would sell your CD.
+</p><p>
+At the time they were a couple big online record stores, there was one called CDNow.com and musicboulevard.com that they were just a front end to the major labels distribution system. So if you were an independent guy trying to sell your album you couldn't get into those stores.
+</p><p>
+So CD Baby was not meant to be a business, it was really just my band's website where I built a online shopping cart to sell my CD. Which back then it was a big deal, it was hard to do, you couldn't just put a PayPal button there. It was three months of hard work, and you had to learn CGI-bin Perl programming in order to build a "buy now" button on your website. So it's about three months of hard work and about 1000 dollars in setup fees to get a merchant account with my local bank. And I had to incorporate and set up a separate bank account. And after all that work, I had a "buy now" button on my website.
+</p><p>
+Then some of my musician friends in New York City said "whoa dude, can you sell my CD through that thing?", and I said "yeah sure!" I was just doing it as a favor to friends. But then I started getting calls from strangers, from friends of friends, saying "hey man, my friend Dave said you could sell my CD", I said "yeah, if you're a friend of Dave's no problem, I'll hook you up." And again, I was still just doing it as a favor, and it was still on my band's website.
+</p><p>
+Because yeah, just to emphasize, in 1997, if you were a musician trying to sell your CD on the Internet, the only way to do it was a guy named Derek, in New York, that could do it for you. That was it. Those were your options. So as you can tell, it quickly took off and became the largest seller of independent music on the web, with over 200,000 musicians and, yeah that was it. So I ran it for ten years.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Fantastic! And were you at the end still shipping physical CDs or had it gone digital distribution like in iTunes? 
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No, iTunes didn't even exist until six years into the company's history. So no, CD Baby still to this day does physical shipping of CDs, and then the digital distribution aspect was added when the iTunes Music Store launched in 2003.
+</p><p>
+Apple called me into their office and said: we'd like you to come into One Infinite Loop in Cupertino and meet with us. I came in thinking I was gonna be meeting with some marketing dude, or somebody in bizdev, and instead Steve Jobs himself walked out, in full presentation mode, saying he wants to get every piece of music ever recorded in selling in the iTunes Music Store and wants to get our catalog up and selling there. For a while when iTunes was bragging that they had 4 million songs available in the iTunes Music Store, well 2 million of those were from me.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Fantastic! So you did a deal with Jobs?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. Well, with Apple, yeah. That was not fun.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+What was he like as a person?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Oh horrible. There is a story in my book: A couple years ago I wrote a book called Anything You Want, that's like a quick little one hour, eighty-eight page book that Seth Godin asked me to write, where I sum up everything I learned in 10 years of starting, building and selling CD Baby. I kind of compressed all of those lessons into one hour, and made it a little book called Anything You Want. And there is a chapter in their called: the day Steve Jobs dissed me in a keynote. So yeah, it was horrible dealing with him, and in fact at one of his famous keynote speeches personally dissed me from the stage. That was a low point.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+What did he say?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You want the whole story?
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Sure.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+So, I told you that when we first went into Apple's office they said they want every piece of music ever recorded up and selling in the iTunes Music Store. I thought "great! That's amazing!" This is like a revolution for independent musicians which, I don't know if you know, independent musicians have never had a break. It's always been really hard. It's like the major label artists get all the opportunities, and if you are not signed to a label you are treated like dog food, right? And the fact that Apple, with its iTunes platform, they want every piece of music ever recorded, this was huge! It's like finally, for the first time in history indies are going to have a level playing field with majors. They'll be right there presented with, whatever, Madonna, Miles Davis and Milt Frinkenstein will all have equal placement on the iTunes Music Store. So I thought this was huge!
+</p><p>
+So we said great, we signed that contract, sent it to them and they just didn't return the signed contract. And every time I asked them, nothing. Like just stonewalled, like "hello? Anybody there? Can we begin? Hello?" Nobody replied.
+</p><p>
+So Apple did this thing where in order to upload music to the iTunes Music Store we had to use their special Apple software and it have to be on a Mac, and we have to upload music using… it had to be ripped from the original CD and we had to retype all of the song titles and bio using their software. It was going to be a lot of work for album, because I had like 200,000 albums. So it was going to take us 40 dollars per CD, like in labor charges to do all that work they needed us to do. So I passed on that expense to the musicians saying: if you want us to get your CD up and selling in the iTunes Music Store were going to have to pull it from the shelves and do all this work, and upload it and retype everything and re-upload it on Mac software, so I'm going to have to charge you 40 dollars to do this, to meet Apple's standards. So if you want to be up and selling on the iTunes Music Store, just pay $40 here and I'll take care of the rest. So 5000 musicians did that. So 200,000 bucks, prepaid in advance which helped me buy all the Apple equipment and hire the people ready to upload to Apple, but Apple still wasn't replying to us.
+</p><p>
+So I had loudly announced this thing the day after Steve Jobs said they wanted every piece of music ever recorded. I loudly announced it to my clientele, everybody paid their 40 bucks and I sat there waiting for Apple to return their contract. And they didn't.
+</p><p>
+On the other hand, the good thing was, because I announced this, Yahoo Music and Rhapsody and Napster and Amazon and all these other services came to us asking for the entire CD Baby catalog, so that was cool. So all of these musicians were up and selling in all of these other stores, everybody but Apple.
+</p><p>
+And I guess Apple was starting to catch some flak for this. Like Napster has an online catalog of 4 million songs, why does Apple only have 1 million? So I guess Steve Jobs was starting to catch some flak for this, like why does Apple not have the big catalog. So he went and did one of his giant WWDC something keynote speeches and he got up on stage and he said "you know, people have been asking why Apple doesn't have that many songs as the other guys. That's because we feel that the major labels provide a valuable service. They filter the best of the best and only provide you with the best music. Do you know there is a service out there where for 40 dollars just anyone can upload their music to these other services? Well, we don't want that stuff here. No, we feel that the record labels to a valuable job by editing, and not just letting anybody in."
+</p><p>
+My jaw dropped. You said you wanted every piece of music ever recorded! And so I was angry for the day. And then I went back to all my clients and I said "I'm sorry, Steve Jobs has changed his mind and does not want your music." So I refunded everybody's $40, I lost 200,000 bucks that day, because I had already spent it on the Apple equipment necessary to do their thing. I refunded everybody's 40 bucks and said "I'm sorry everybody, I will never again promise something that is out of my control. I thought that I had a promise from Apple that I could send them your music, but they changed their mind, so here is your $40 back."
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Did you ever consummate the deal with Apple?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+The very next day, I got the signed contract back from Apple, saying "okay, here is our FTP password, please start sending us the music."
+</p><p>
+Fucking assholes. To this day, I don’t own any Apple products. No iPhone, no Macs. Fuck them.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+There you go. So talk to us about the sale of CD Baby. Obviously it had had a successful run. How big was a company when you went to sell, in terms of revenue or some proxy for size?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Sure. Actually I don't think of these numbers, but in preparation for this call I thought you might want to know, so I pulled up the numbers as they were the day I sold the company.
+</p><p>
+Gross revenue: $139 million.
+</p><p>
+The amount of money I had paid out directly to the musicians was $83 million.
+</p><p>
+I also had a little web hosting company on the side that we never really talked about, but it was bundled together with CD Baby as part of the sale. It was called the Host Baby. And Host Baby had brought in $7.5 million in revenue.
+</p><p>
+And total music sold to customers was $73 million dollars.
+</p><p>
+So that's what the numbers looked like the day I sold the company.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+And talk to us about the process of selling. What was the triggering event that makes you want to sell first of all?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay, so I got to explain to your audience that the whole situation was a little unique. That's why it took a little time at the beginning of this call to give the full context that I was really just a musician selling my own CD.
+</p><p>
+The point was that I never meant to start a business, like I wasn't trying to start a business. I didn't need the money, I was making my full-time living as a professional musician. Gigging, producing people's records, playing on people's records, going on tour. So I was actually living the dream, like this is all I had ever wanted since I was 14 years old, was to be professional musician. And I was doing it, I was living the dream. I even bought a house with the money I make touring. So the last thing I wanted was for something to get in between me and my career as a musician, right?
+</p><p>
+So when CD Baby started growing, I was actually really reluctant. I didn't want it to grow, I didn't want it to take off, so I never had any investors because I didn't want any investment because I didn't want to business to grow. So it's really just grew despite my efforts to keep it small. So because I wasn't doing it for the money, and again it's really important that I had no investors, there was nobody waiting for some big return from me, I have never ever ever planned on selling the company.
+</p><p>
+You remember the first dot-com boom, how they were just like IPOs everywhere and so much money being thrown at anything that had a .com at the end. So I turned down infinite numbers of offers to buy the company, because they started coming in almost as soon as I started the company. Like, as soon as it started going well I would get like a few offers a week from people wanting to buy the company. And I just said no. Out of the question, it's not for sale. And I ended up just telling my customer service team to just don't even send those emails or calls to me. The answer is no. If you get somebody on the phone that's asking about acquisitions or investments, just tell them no. No thank you, we don't need investors, we're not looking to sell, goodbye.
+</p><p>
+So that was the answer for 10 years. And I thoroughly meant it. In fact, even NPR, National Public Radio, did an interview with me where they asked that question on the air, like "will you ever sell the company?" I said no, absolutely not, I plan on doing this until I die. This is just my hobby. And I really meant it. So yeah, after 10 years hit the point where... well you will probably want to know that triggering events that made me decide to sell in the first place, right?
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+You bet.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay. So number one was that the internal company culture had gotten unbearable. A few rotten eggs kind of spoiled the barrel and whereas it used to be one big happy family for the first eight years, the last two years just turned a really nasty. Everybody was just at each other's throats and at my throat and it felt a little bit like a mutiny, you know, making the captain walk the plank. Like everybody decided to funnel all of their anger into me and to make everything my fault. And wanted to try to kick me out of the company, even though it was my company 100%. There was no board of directors, there were no shareholders, it was just me. But yet they were kind of like trying to kick me out of the company. And that's how bad the company culture became.
+</p><p>
+And long before I ever thought of selling I was thinking of the few options: for one, just maybe just shutting down the company, just saying "okay, it has been a fun run, goodbye. Everybody's fired. All CDs sent back to the customers. Take care everybody, it's been a fun time but I'm not enjoying this anymore so goodbye." So that was actually the first thing I thought of, was just shutting down.
+</p><p>
+But then somebody reminded me, like well if you're going to shut it down, you could sell it. I went "oh yeah, I forgot about that."
+</p><p>
+And then I had this other option which was like: you know, I really love the business and I love the customers and I love the clients. It's just the employees and I that are just having an awful time. And yes, I could go hire some psychologists and go spend a lot of time trying to repair all those relationships, or I could just pick up and move the company to a different parts of the country and hire a whole new staff somewhere else. And I considered that for a bit, then I just decided "ugh, sounds like a lot of work, I've been doing this for 10 years I think I'm kind of over."
+</p><p>
+So really that was the final straw, is realizing that, kind of like an artist, I felt like I had put the final brushstroke on my painting or written the last sentence of my novel. It felt like everything I had ever set out to do with this business was done already. And I didn't have that much more to add, like I didn't have much of the vision for the future. I had just rewritten all of the software behind it, everything was running wonderfully, it was a very profitable year, everything was going on some and I felt like: yeah, that is the conclusion of my work with CD Baby.
+</p><p>
+So it was right around that time that, as usual, I got like three offers in one week to buy the company, as I always had, and I just told them all no. But that's weekend I thought about it. I said "you know? Actually, considering everything maybe I should start to entertain those offers." I spent some time in my diary and thought about it, whereas before the idea of leaving my company about giving it up was unbearable. I was like no, this is my baby, this is my thing, this is my creation. But suddenly it felt like yeah, that might be a really nice, to not be derek@cdbaby.com anymore.
+</p><p>
+So yeah, I called back those three offers and I said maybe. Let's talk. And opened up my books and let them all have at it. And I also contacted Amazon, because I always thought that Amazon would be the most appropriate daddy for my baby, if you know what I mean. So because I was entertaining three other offers I called Amazon and talk to Acquisitions and said "hey, just so you know I'm talking to three other companies about selling CD Baby, so just thought you guys should have a shot too." And so yeah, Amazon became the fourth company that was in the running and making offers. And in the end, Amazon was actually willing to offer more money, but I chose a company called Disc Makers that I felt they knew my clientele really well, like we had already been working alongside them for years, they were a CD manufacturing company that already worked with my existing clients and so I sold to them.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+And when you had those four conversations going, did you have representations, did you have an M&A person representing you in those conversations? Or were you dealing directly with the acquirers?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I was dealing directly. I think I gave them access to my CPA, or I kind of like told my accountant: hey, they might need to ask you some questions that I don't know the answer to. So no, it was just me, directly.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+And what was that negotiation process like? I mean, did you play one offer off the other, did you draw it out trying to drive up the price? Or was it fairly surgical?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Let's see. Well first off, and what I highly recommend to anybody, is knowing what your deal breakers are in advance. Because it's not just all about the money.
+</p><p>
+So for example: I called a friend of mine will had sold his company to Disc Makers a few years beforehand and I said "hey, how did it feel?" His was a similar situation, it was very much like his baby, his project. It was very tied together with his personality, same as mine was. I said "how did that feel, like selling your company?" And he said "it was good, it's kind of bittersweet, mixed blessings, something like that. He said it's weird having a boss. I said "what do you mean?" He said "I work for them now. Like, I have a boss." That says no to things that I want to do. Like ew, yeah, you know I would never do that.
+</p><p>
+So number one deal breaker: no, the minute this wire transfer is done I'm gone. I will not be working for you. No consultation, I'm just gone the minutes the sale is done. So that was a dealbreaker.
+</p><p>
+The other one was that I had some other business ideas that I wanted to do to serve my same clientele, and because the business was so tied up with me personally these were very much my clients. So I said I need full access to my database after the sale, like I'm going to continue talking to these musicians and providing other services to them. So we made a very narrow noncompete and an agreement that I was allowed to continue talking to these clients. If somebody had said "no the day the sale is done you're no longer allowed to communicate with these people", well then I wouldn't have sold for any price. No money would make that okay. You know, these were my friends.
+</p><p>
+So things like that. I had a few deal breakers that I knew like that. Those were the main ones: the narrow noncompete and the I'm-not-working-for-you.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Derek, let me just ask you a question: on the narrow noncompete, I'm assuming you were forbidden from starting up another directly competitive CD company. Maybe just describe so people get a sense of what they can possibly negotiate for in their exit. For you, where did the noncompete start and stop?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You named it, that was about the gist of it. It's like: I will not be starting another music distribution company or web hosting company. And even then we set a 10 year limit on it. But other than that, I made a point of spelling out the other ideas I had in mind, like I will be doing music promotion services, I will be doing consulting, I'll be doing anything else, just not the very specific things that CD Baby and Host Baby were doing.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Got it. And then, as it relates to "I'm not working for you after the sale", the skeptic in me says okay, that sounds great Derek, but there must have been some transition period that you agreed to, because the moment the wire transfer goes through, the buyer needs to know how to open the doors in the morning. And they need to know the passwords for… You know, there are some basic things. So I get that you weren't working for the buyer, but how did you manage that transition so that the new owner could sort of operate the business the day that you accept that the wire transfer?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Well in my case, I had already removed myself from the business beforehand. That's kind of a separate subject. But I haven't actually been to the office in a year and a half at the time that I sold. When I say that my employees and I were not getting along, it was that extreme. In about a year and a half before I sold is when I kind of said "well, fuck you guys, never speaking to you again." And a year later sold the business, so no, I never did speak to them again. I hadn't been to the office in a long time. It was a self running machine without me. And yeah, as of the day of the sale, I think it was August 8, 2008, I really never spoke with anyone there ever again since that day. So now, I gave the new owners of the password to the database and kind of sent a little email internally to the company, to my employees saying "hey, Disk Makers is the new owner, wish you guys the best. Bye!" And that was it.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+How does that feel eight years on? Do you feel any sort of regret or personal responsibility that those relationships that died along with, you know, with that part of your life, if you will? As you reflect back on it now, eight years later.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You mean like the relationships with the employees? No, it was more like: no matter what sweet past we had, things have gotten so corrupt that it would just kind of almost like, you know when you have a breakup with a girlfriend, boyfriend, type thing, when things get really bad at the end you're just happy to walk away and just let it go. Maybe we can go to work in counseling for a long time to try to repair this relationship, or we can just shrug it off and say "oh well" and move on with our lives, you know? So yeah, I chose the latter.
+</p><p>
+I really did try for a couple years to make those relationships work inside the company. But man, I was glad, so glad to just walk away that day of the sale. Just like "you guys are not my problem many more, and good luck with that!"
+</p><p>
+It makes me sound like a nasty bastard, but you know, talk to anybody after the date they break up with a girlfriend or boyfriend, that's how you feel, right? It was that personal for me. These employees were people that had slept on my couch and stayed with me for sometimes a month at a time. A few of them had moved to Portland, Oregon to work for me and they were my roommate for a month. And I knew these people really well. And the fact that all those relationships went sour was devastating. It was horrible.
+</p><p>
+Still to this day, if you had to ask me was the worst day of your life so far, I would point to July 10, 2007, when my employees had a meeting without me. And I think they were unaware that somebody was recording it, or they had forgotten, we always recorded all of our weekly meetings, like made an audio recording for people that couldn't be there. But on July 10, 2007, when I heard that MP3 the next day, just listening to all these people that I loved kind of railing against me… Yeah, I kind of had to emotionally detach after that devastation, you know?
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+What was the nature of their frustration with you or their breakdown? Was it over money or the way you wanted to run the company? Talk a little bit about how it broke down.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Actually, this just is it was about nothing and it didn't even really matter. Just a couple years ago, I got a really nice email from one of the guys that was part of that vocal gang against me. And he's now living in Idaho and he's a guitar teacher, but most importantly, I think actually he's opened a guitar studio that provides lessons to students and grew beyond what he could handle and suddenly he had to hire a couple people to work for him. So for the first time ever, the guy that was an employee is now an employer
+</p><p>
+He sent me an email out of the blue like "hey, my name is Dan, I don't know if you remember me, I used to work for you back at CD Baby. Man, I owe you a huge apology, I never realized how hard it is to have employees… And it's really hard! We really treated you unfairly. I don't even remember what it was about. I don't even think it was about anything. I think we just decided that you were the source of all our problems and that you were just evil, and we decided that in advance, that you are evil and therefore everything you did was wrong and everything we weren't happy about was your fault. I just owe you the biggest apology man, I am so so sorry for the way I treated you and we treated you. That was a really horrible, I'm really sorry! And I didn't see it until now."
+</p><p>
+So yeah, that was a really sweet, kind of cathartic email to get. But yeah, it was about nothing.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Interesting. So what did you end up selling the company for?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+You know what's funny? I was never going to admit this, because I figured it was nobody's business, and then years ago, I think it was the guy from Mixergy asked me really directly. And I have a hard time not answering questions that are asked directly of me. It was $22 million. And to answer your question earlier about did I play the bidders off of each other, I did a little bit, but it was less about the money to me and more about those terms that were important to me. So if at any point one of the companies that was bidding said "hmm, I don't know about this thing, we are going to have to reopen this idea of you accessing your customer database after the sale", I was like "no, we're done here. No more discussion. I'll just go with the other guys, take care, goodbye!" And they'd say "okay okay okay hold on, wait, wait, wait, okay we'll be talking." It wasn't about driving up the price as it was about getting my terms.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+How much more with Amazon going to pay?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+A few million more.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+And the $22M, can you just talk about what multiple of a profit that represented, do you have a sense of that?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Roughly, CD Baby was making about $4 million a year net profit, at the time that I sold.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Not net profit before tax?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Good question. Yes, I think so. So they came up with that $22 million, and I basically said okay. It was actually a little more than I was expecting, and that's fine. So, we're good. And so yeah, again, it wasn't really about the money. Because you may have heard or seen that I ended up just giving all the money away anyway. So I didn't really want the money, I didn't need the money, somebody could have offered $50 million, it would've just been all the same to me, I didn't care.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Tell us about that. So you decided to give away this money. Who to, and what was your thinking and tell us about that.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Okay. So I had a lot of time to get philosophical. In between this handshake agreement we had of a $22 million price, an agreement on the terms, there was about eight months where the purchasing company had to do a lot of due diligence and they had to go raise financing from their side, so they had to go to their VCs and get money from them to do this deal. It was just eight months of waiting around and answering their questions. So I had eight months to get philosophical and think about what the hell am I going to do with $22 million.
+</p><p>
+Because again, I was the sole owner with no investors, and I was already making $4 million a year at that point. So I had already paid off all my debts, paid off my mortgage, bought the Mini Cooper car I wanted and there was nothing else I wanted to buy. And I had a few million dollars in the bank, in cash you know? I had no other needs in life.
+</p><p>
+So I mentioned to my lawyer, who had a tax law background, I had mentioned this to him. He was the guy that was helping me with this deal. He said something about the $22 versus the $25 million. I said it doesn't matter, I'm just going to give it all away anyway. And he said "what do you mean?" I said "look, what kind of fool would I have to be to spend $22 million in my lifetime? Like, what am I going to get into Ferraris or develop a fine taste for Icelandic horses or something like that? No! I'm just not that kind of guy. I am never going to spend $22 million in my lifetime. And I think that's even too much money to leave to my kid." In fact I didn't have a kid that the time, and I wasn't planning on having a kid at the time. But I just felt like I'm going to give pretty much all of it away. I mean, I'll use some of it for a living wage, and maybe someday I will buy a house. I didn't even have a house at that point.
+</p><p>
+So he said "are you serious about that? Are you really going to give it all away?" I said yeah. In fact I really like the idea of giving it away to music education because it kind of completes the circle of life, right? Like, all of this money came from musicians and music fans, it should go back to music education to help develop the next generation of musicians. It kind of brings a tear to my eye, that's really sweet, that gives a lot of meaning to what I have done here.
+</p><p>
+He said "okay, are you really really serious about this? Like you're really going to give it away?" I said yeah. He said "okay, because if you're serious, and this is irreversible, there is a really smart way for you to set this up." And I said "what do you mean?" He said "okay, imagine this..." 
+</p><p>
+The main reason I'm doing this interview is because I hope that your listeners consider this idea that he proposed to me, and that I did, and that I hope your listeners might do someday. If you're considering giving the money away anyway, you could just take the total amount, in my case $22 million, and you'll get taxed on it, say, $7 million of that will go to taxes, leaving you with $15 million. And then he'll give away $15 million to charity, right? But there is a different way to structure it, that if you give your company away into a charitable trust in advance, before you sell it, then your company, at the time of sale, is no longer owned by you, it's now owned by this charitable trust. And so when the purchasing company buys it, so in my case for $22 million, that entire $22 million never touches your hands, it just goes directly into the charitable trust, and therefore the entire transaction is not taxed, because it's all going to charity. And therefore, the entire $22 million, not $15 million, goes to charity.
+</p><p>
+So, I thought about it, and it's irreversible once you set it up. So we created a charitable remainder unitrust that was created to benefit music education, I gifted the ownership of the company into the charitable trust, and then the purchasing company bought it from the charitable trust. So that $22 million never touched my hands.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+So who are the trustees of the trust?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+My sister.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Are you a trustee?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+No. I was at first, but then we just decided it was better to have one layer off. But to be clear, it's not a foundation. So it's not like an ongoing operating thing that is reviewing bids and making grants. It's really more like a will. It just means that while I'm alive, the money in the trust just builds and builds and builds. It's just invested in mutual funds or whatever. And it just gets to compound and grow and so maybe by the time I die it'll be like $200 million in the trust, right? And then the day I die is when it gets paid out to the named beneficiaries, the charities. So it just gets to just sit and grow while I'm alive.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Why not give it to the charities now and let them use it for their benefit today?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+For two reasons. I like the idea of letting it compound and grow. But I also like the security of... if you lookup in US tax law, it's called a charitable remainder unitrust. And what it does is it actually pays out the settlor, meaning me, 5% of its value per year for life. So it's usually set up by old people that have amassed a fortune, they're in their sunset years and they know they don't need the entire fortune anymore. But they would like a little ongoing income to pay for their retirement home or whatever. So that's basically what I set up for myself at age 38, I am getting an annual payout.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+To the tune of a million bucks.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah. And that pays all of my cost of living. So it wasn't like a completely altruistic move. It doesn't say I don't want any of this money, it was saying like, pretty much all of it is going to charity. So that's why I set it up like that.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Fantastic. And so for folks who are interested in this strategy, it's called a specific kind of trust, can you just say it again for folks?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, charitable remainder unitrust. And I highly recommend it. In fact, every now and then somebody asks if you had to do it all over again, what would you do? I would have put the company into a trust type ownership situation long beforehand. But again, that's just me. I had no investors or anything. It's a nice thing to set up early, so that as your company grows, say for example if the company would've been owned by a charitable trust years earlier then I think more of its profits would have been untaxed, because the charity would have already owned it, you know?
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+What a fascinating strategy and what a huge gift that will be one day. Just giving to use and just giving the compound interest that hopefully will take place over time.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+It's also, I know this isn't for everybody but you've got to be honest with yourself. As far as like not what do most people do or what the norm, but what do you personally really want. So I have a problem with excess, you know? Like for example, in my apartment I only own two plates, I don't really have company over, I have me and I have my kid. But I never felt the need to own more than two plates. So I only own two plates. I only own one pair of pants, because I can't wear more than one at a time. I have a pair of shorts, so that if those pair of pants are in the wash I wear my shorts. So that's just the kind of person I am, I don't like to have more than I need. So this is suited me. But you know, I spent a lot of time in Asia, and I've met a lot of people who love giant opulence, and they love to have the giant seven bedroom home with three cars. And for them this probably isn't the best way to go.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Where do you live now Derek?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Renting a little apartment in Wellington, New Zealand.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+And how did you pick New Zealand? A guy from New York. How did that happen?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+I had a kid. I was living in Singapore and had a kid. And felt that I didn't want my kid to grow up and densely urban Singapore. I felt that kids need nature and grow up in the great outdoors, playing with sticks in the mud and throwing rocks in the water and forests and beaches and all that. And I just thought New Zealand's would be my dream come true scenario for a kid to grow up in. So yeah, I did my months of paperwork.
+</p><p>
+You talk about the annual payout I get from the trust, this is where it comes in handy, when you want to move to a country, almost any country will welcome you if you can invest into their country. So yeah, I did a little investment into New Zealand and became a legal resident. And I plan on staying quite a few years, at least for my kid to grow up here.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+That's fantastic. Derek, where can people reach you if they want. Do you accept emails? Or what's the best way to get in touch with you?
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Yeah, actually the other reason, or the main reason, I do interviews like this, as you can tell I'm not plugging anything. I have no other benefits from doing this interview other than hearing from cool people. So I find that some of the coolest people I've met are people who make it all the way to the end of an interview like this and feel the need to <a href="/contact">contact me</a>. That's my website too: sivers.org. Again, it's noncommercial, you'll see. It's a plain Jane website with no ads. Everything I do is out in the open for free, so help yourself.
+</p>
+</blockquote>
+<blockquote>
+<cite>John:</cite>
+<p>
+Derek Sivers, thanks for joining us.
+</p>
+</blockquote>
+<blockquote>
+<cite>Derek:</cite>
+<p>
+Great! Thanks!
+</p>
+</blockquote>
+
+
+<footer>
+© 2015 <a href="http://sivers.org/">Derek Sivers</a>
+</footer>
+</article>
+
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<section id="atkeys">
+	<h2>attribute keys:</h2>
+	<form action="/attribute" method="post">
+		<input type="text" name="attribute">
+		<input type="submit" value="add">
+	</form>
+<table>
+<% @atkeys.each do |x| %>
+	<tr><td>
+	<a href="/people/attributes?attribute=<%= x[:atkey] %>&plusminus=f">-</a> |
+	<a href="/people/attributes?attribute=<%= x[:atkey] %>&plusminus=t">+</a>
+	<form action="/attribute/<%= x[:atkey] %>/delete" method="post"><input type="submit" value="x"></form>
+	<strong><%= x[:atkey] %></strong>
+	</td><td>
+	<form action="/attribute/<%= x[:atkey] %>/update" method="post">
+	<input type="text" name="description" value="<%=h x[:description] %>">
+	<input type="submit" value="update description"></form>
+	</td></tr>
+<% end %>
+</table>
+</section>
+
+<section id="inkeys">
+	<h2>interest keys:</h2>
+	<form action="/interest" method="post" name="interestform">
+		<input type="text" name="interest">
+		<input type="submit" value="add">
+	</form>
+<table>
+<% @inkeys.each do |x| %>
+	<tr><td>
+	<a href="/people/interests?interest=<%= x[:inkey] %>&expert=f">-</a> |
+	<a href="/people/interests?interest=<%= x[:inkey] %>&expert=~">~</a> |
+	<a href="/people/interests?interest=<%= x[:inkey] %>&expert=t">+</a>
+	<form action="/interest/<%= x[:inkey] %>/delete" method="post"><input type="submit" value="x"></form>
+	<strong><%= x[:inkey] %></strong>
+	</td><td>
+	<form action="/interest/<%= x[:inkey] %>/update" method="post">
+	<input type="text" name="description" value="<%=h x[:description] %>">
+	<input type="submit" value="update description"></form>
+	</td></tr>
+<% end %>
+</table>
+</section>
+
+<script>
+document.interestform.interest.focus();
+</script>
+
